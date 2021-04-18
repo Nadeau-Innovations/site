@@ -47,21 +47,12 @@ update-wowchemy:
 
 .PHONY: post
 post:
-	pipenv run python scripts/hugo_new.py new post
+	python3 hugo_new.py post
 
-
-.PHONY: convert-notebooks
-convert-notebooks:
-	pipenv run python scripts/convert_notebooks.py
-
-.PHONY: talk
-talk:
-	pipenv run python scripts/hugo_new.py new talk
+.PHONY: event
+event:
+	python3 hugo_new.py event
 
 .PHONY: project
 project:
-	pipenv run python scripts/hugo_new.py new project
-
-.PHONY: featured-image
-featured-image:
-	pipenv run python scripts/featured_image.py create_image
+	python3 hugo_new.py project
