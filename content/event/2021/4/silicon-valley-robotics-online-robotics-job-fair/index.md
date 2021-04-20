@@ -24,7 +24,7 @@ all_day: true
 publishDate: 2021-04-18T13:08:09-04:00
 
 authors: []
-tags: [robotics]
+tags: [robotics,hiring,jobs,machinelearning,datascience,ai,java]
 
 # Is this a featured event? (true/falsecs)
 featured: false
@@ -46,7 +46,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides:
+url_slides: 2021-04-21_svr-online-robotics-job-fair.pdf
 
 url_code:
 url_pdf:
