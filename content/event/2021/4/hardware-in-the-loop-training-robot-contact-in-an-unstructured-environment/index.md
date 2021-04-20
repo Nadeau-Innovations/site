@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2021-04-18T12:27:58-04:00
 
 authors: []
-tags: [robotics]
+tags: [robotics,grpc,scipy,machinelearning,python,datascience,ai,scikitlearn,java,kuka,cobot]
 
 # Is this a featured event? (true/false)
 featured: false
