@@ -46,7 +46,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides:
+url_slides: 2021-04-07_svr-bots-beverages.pdf
 
 url_code:
 url_pdf:
