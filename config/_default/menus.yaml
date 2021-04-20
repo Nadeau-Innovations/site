@@ -10,24 +10,18 @@ main:
   - name: Posts
     url: '#posts'
     weight: 20
-  - name: Projects
-    url: '#projects'
-    weight: 30
   - name: Talks
     url: '#talks'
-    weight: 40
+    weight: 30
   - name: Publications
     url: '#publications'
+    weight: 40
+  - name: Projects
+    url: 'home-projects/'
     weight: 50
   - name: Contact
-    url: '#contact'
+    url: 'home-contact/'
     weight: 60
   - name: CV
     url: 'https://nnadeau.github.io/cv/'
     weight: 70
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
