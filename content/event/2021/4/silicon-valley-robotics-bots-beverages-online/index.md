@@ -4,7 +4,7 @@
 title: "Silicon Valley Robotics: Bots Beverages Online"
 event: "Silicon Valley Robotics: Bots Beverages Online"
 event_url: https://www.meetup.com/Silicon-Valley-Robotics/events/swbpgsyccgbkb/
-location: https://www.meetup.com/Silicon-Valley-Robotics/events/swbpgsyccgbkb/
+location: Online
 address:
   street:
   city:

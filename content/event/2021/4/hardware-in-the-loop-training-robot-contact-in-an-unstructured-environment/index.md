@@ -4,7 +4,7 @@
 title: "Hardware in the Loop: Training Robot Contact in an Unstructured Environment"
 event: Montréal-Python 85 – Koala Poli
 event_url: https://www.meetup.com/Montreal-Python/events/277009455
-location: https://www.meetup.com/Montreal-Python/events/277009455
+location: Online
 address:
   street:
   city:

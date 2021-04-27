@@ -4,7 +4,7 @@
 title: "Society, Robots, and Us: Hiring for Inclusive Robotics"
 event: "Silicon Valley Robotics - Society, Robots, and Us: Hiring for Inclusive Robotics"
 event_url: https://www.eventbrite.com/e/society-robots-and-us-hiring-for-inclusive-robotics-tickets-139729800595
-location: https://www.eventbrite.com/e/society-robots-and-us-hiring-for-inclusive-robotics-tickets-139729800595
+location: Online
 address:
   street:
   city:

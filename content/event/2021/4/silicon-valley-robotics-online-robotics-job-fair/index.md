@@ -4,7 +4,7 @@
 title: "Silicon Valley Robotics: Online Robotics Job Fair"
 event: "Silicon Valley Robotics: Online Robotics Job Fair"
 event_url: https://www.meetup.com/Silicon-Valley-Robotics/events/vflcwryccgbcc/
-location: https://www.meetup.com/Silicon-Valley-Robotics/events/vflcwryccgbcc/
+location: Online
 address:
   street:
   city:
