@@ -33,6 +33,9 @@ I don't believe that.
 
 While I'm not a fan of all the hype and buzz around "Agile," I do believe in the core principles.
 
+Agile is about following a set of development values, not adding more overheard or overzealous processes.
+We want work to be transparent, efficient, and continuously improved.
+
 ## Waterfall
 
 Traditionally, hardware engineering follows a [waterfall methodology](https://en.wikipedia.org/wiki/Waterfall_model).
