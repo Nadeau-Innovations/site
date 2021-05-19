@@ -5,7 +5,7 @@ title: "10 Things I Wish They Taught in Engineering School"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: [agile,engineering,hardware,robotics,python,ai,datascience,hiring,jobs]
 categories: []
 date: 2021-05-16T11:11:33-04:00
 lastmod: 2021-05-16T11:11:33-04:00
