@@ -47,10 +47,9 @@ image:
 
 # Optional filename of your slides within your event's folder or a URL.
 url_slides:
-
 url_code:
 url_pdf:
-url_video:
+url_video: "https://www.youtube.com/watch?v=rfZHSJC9IKg"
 
 # Markdown Slides (optional).
 #   Associate this event with Markdown slides.
@@ -84,3 +83,5 @@ Guest speakers:
 - Nicholas Nadeau, Halodi Robotics
 - Hallie Siegel, U of Toronto Robotics
 - Ken Goldberg, artist and roboticist
+
+{{< youtube rfZHSJC9IKg >}}
