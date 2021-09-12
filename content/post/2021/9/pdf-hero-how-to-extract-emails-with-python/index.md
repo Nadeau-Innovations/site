@@ -83,11 +83,11 @@ The high-level steps to approach this problem are:
 **Transform**
 
 - Structure the data
+- Merge the data into a table
 - Clean the data
 
 **Load**
 
-- Merge the data into a table
 - Export to CSV
 
 ## Investigate
@@ -117,7 +117,7 @@ So as a whole, the above command finds all the PDF paths (one path per line) and
 I found that there were nearly six thousand PDFs to parse.
 This wasn't going to be a quick script.
 
-## The Script
+## Let's Code
 
 Now we can start making the Python script.
 The following sections will dive into the details and thought process behind the script.
@@ -125,6 +125,9 @@ Each of the code snippets focus on a single piece of logic.
 
 For this project, I used some global "configuration" variables at the top of my script (they'll be uppercase).
 Typically, for larger projects I'd use the awesome [`Dynaconf`](https://www.dynaconf.com/) package for configuration management, but for simplicity, a few globals is all this script really needed.
+
+As a side note, if I were to build this for something more maintainable and permanent, then I'd probably have used the [Luigi](https://github.com/spotify/luigi) or even [Apache Airflow](https://airflow.apache.org/).
+These frameworks are much more robust and would allow for batch processing of data on a continuous basis.
 
 ### Logging
 
@@ -157,9 +160,13 @@ So instead of using `print()`, we'll use `LOGGER.info()` for the most part.
 
 ### Extract
 
+The **extract** stage of the process is the most complicated.
+Not only do we need to find the PDFs, we also need to develop different approaches to finding emails within each PDF.
+
+#### Searching for PDFs
+
 The first step is to find all the PDFs.
 For this I'll be using one of my favourite built-in modules: [`pathlib`](https://docs.python.org/3/library/pathlib.html).
-
 
 ```python
 from pathlib import Path
@@ -176,6 +183,8 @@ For efficiency, `rglob()` returns a generator (not a list), so the paths haven't
 This prevents this step from being a major blocker due to the shear number of PDF files.
 
 Also note that I used a [raw string (i.e., raw literal)](https://docs.python.org/3/reference/lexical_analysis.html?highlight=raw%20string#string-and-bytes-literals) since [Windows UNC network paths use double backslashes](https://stackoverflow.com/a/59720546).
+
+#### Looking Inside PDFs
 
 Now that we have access to all the PDF paths, it's time to create the logic behind parsing the PDFs.
 The straightforward-but-inefficient way would be to simple iterate through a `for loop`, e.g.:
@@ -194,7 +203,7 @@ Instead, we'll use the built-in `multiprocessing` library to spawn multiple Pyth
 from multiprocessing import Pool
 
 with Pool() as p:
-  extracted_data = p.map(parse_pdf, pdf_paths)
+    extracted_data = p.map(parse_pdf, pdf_paths)
 ```
 
 Here we leverage the simplicity of the `map()` function in the context of a process `Pool`.
@@ -208,29 +217,30 @@ Now we define `parse_pdf()`:
 ```python
 import PyPDF2
 
+
 def parse_pdf(path: Path) -> dict:
-  LOGGER.info(f"Parsing {path.relative_to(ROOT_DIR)}")
+    LOGGER.info(f"Parsing {path.relative_to(ROOT_DIR)}")
 
-  # prepare data to be returned
-  data = {
-      "person": path.parent.name,
-      "category": str(path.relative_to(ROOT_DIR).parts[0]),
-      "file": path.name,
-      "path": str(path.relative_to(ROOT_DIR)),
-  }
+    # prepare data to be returned
+    data = {
+        "person": path.parent.name,
+        "category": str(path.relative_to(ROOT_DIR).parts[0]),
+        "file": path.name,
+        "path": str(path.relative_to(ROOT_DIR)),
+    }
 
-  # get email separately due to possible errors
-  try:
-      data["email"] = extract_email(path)
-  except PyPDF2.utils.PdfReadError as e:
-      # typically due to PDF being encrypted/locked
-      logger.error(f"Failed to open {path.name}: {e}")
-  except Exception as e:
-      # don't want misc errors crashing the entire script
-      # better to have a few blank emails
-      logger.error(f"Failed to parse {path.name}: {e}")
+    # get email separately due to possible errors
+    try:
+        data["email"] = extract_email(path)
+    except PyPDF2.utils.PdfReadError as e:
+        # typically due to PDF being encrypted/locked
+        logger.error(f"Failed to open {path.name}: {e}")
+    except Exception as e:
+        # don't want misc errors crashing the entire script
+        # better to have a few blank emails
+        logger.error(f"Failed to parse {path.name}: {e}")
 
-  return data
+    return data
 ```
 
 This is where things start to get interesting.
@@ -245,64 +255,69 @@ Note that the email mining step is wrapped in a try-catch block.
 It is important to catch any PDF parsing errors, else the whole script will crash and everything will need to be rerun.
 A more complex approach would have been to cache the results, avoiding the need to rerun successful parsings.
 
+#### Mining Emails
+
+We're into the details now.
+
 ```python
 from typing import Optional
 import re
 
-def validate_email_string(text:str) -> Optional[str]:
-  # humans don't always follow instructions
-  # this can cause problems with text and fields
-  # be super strict when getting emails
-  email_regex = re.compile(r"[a-z]+.\w+@specific.domain.com")
-  results = re.findall(email_regex, text)
 
-  if results:
-    return results[0]
+def validate_email_string(text: str) -> Optional[str]:
+    # humans don't always follow instructions
+    # this can cause problems with text and fields
+    # be super strict when getting emails
+    email_regex = re.compile(r"[a-z]+.\w+@specific.domain.com")
+    results = re.findall(email_regex, text)
+
+    if results:
+        return results[0]
 
 
 def get_email_from_form(reader: PyPDF2.PdfFileReader) -> Optional[str]:
-  # some PDFs had the emails in form fields
-  try:
-    fields = reader.getFormTextFields()
-    for field_key, field_text in fields.items():
-        if "email" in field_key.lower():
-          email = validate_email_string(field_text)
-          if email:
-            return email
-  except TypeError:
-    # no fields were found
-    pass
+    # some PDFs had the emails in form fields
+    try:
+        fields = reader.getFormTextFields()
+        for field_key, field_text in fields.items():
+            if "email" in field_key.lower():
+                email = validate_email_string(field_text)
+                if email:
+                    return email
+    except TypeError:
+        # no fields were found
+        pass
+
 
 def get_email_from_pages(reader: PyPDF2.PdfFileReader) -> Optional[str]:
-  # some PDFs had the email elsewhere in the document
-  # need to iterate through the pages
-  for page in reader.pages:
-    text = page.extractText()
-    email = validate_email_string(text)
+    # some PDFs had the email elsewhere in the document
+    # need to iterate through the pages
+    for page in reader.pages:
+        text = page.extractText()
+        email = validate_email_string(text)
 
-    if email:
-      return email
+        if email:
+            return email
 
 
 def extract_email(path: Path) -> Optional[str]:
-  # PDFs are binary
-  # need to use the "read binary" (`rb`) flag
-  with open(path, "rb") as pdf:
-    reader = PyPDF2.PdfFileReader(pdf, strict=False)
+    # PDFs are binary
+    # need to use the "read binary" (`rb`) flag
+    with open(path, "rb") as pdf:
+        reader = PyPDF2.PdfFileReader(pdf, strict=False)
 
-    # check if email is in form fields
-    email = get_email_from_form(reader)
+        # check if email is in form fields
+        email = get_email_from_form(reader)
 
-    # if not in form fields, check text
-    if not email:
-      email = get_email_from_pages(reader)
+        # if not in form fields, check text
+        if not email:
+            email = get_email_from_pages(reader)
 
-    if email:
-      logger.info(f"Email found in {path.relative_to(ROOT_DIR)}: {email}")
-      return email
+        if email:
+            logger.info(f"Email found in {path.relative_to(ROOT_DIR)}: {email}")
+            return email
 ```
 
-We're into the details now.
 Starting from the bottom of the code block, we have `extract_email()`, the primary logic for email extraction.
 This function simply opens a PDF with `PyPDF2` and attempts to find the email in either form fields (preferred) or the whole text.
 
@@ -322,3 +337,31 @@ Fortunately, it was known that all the emails we'd be looking for followed a spe
 
 So we will use the built-in regular expression matching (`re`, aka regex) library to find *exactly* the email string we want.
 Fortunately, we have online tools (e.g., [Regexr](https://regexr.com/)) that can help us figure out what regex pattern to use.
+
+### Transform
+
+Given the previous sections, we have everything we need to find PDFs, search through each one, and extract exact emails.
+Worst case scenario, the PDF doesn't yield an email, so the process will just continue and have a blank email value.
+In all my testing, less than 1% of the thousands of PDFs failed to find something.
+
+The **transform** stage of this adventure starts with the resulting `extracted_data` container.
+This object contains all the resulting structures/dictionaries of data representing a record of each PDF.
+
+At this point, we'll use one of the most important tools in data science: `pandas`.
+
+```python
+import pandas as pd
+
+df = pd.DataFrame(extracted_data)
+```
+
+That's really it.
+`pandas` simply transforms our list of dictionaries into a DataFrame object that's ready for manipulation.
+
+### Load
+
+As a final step, my partner wanted a spreadsheet for Excel, so we'll simply export the DataFrame to CSV and call it a day.
+
+```python
+df.to_csv("my-output-file.csv")
+```
