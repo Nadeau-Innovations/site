@@ -33,7 +33,7 @@ Reluctantly, I agreed.
 
 For context, my partner works for McGill University and her department doesn't have a proper database or Database Management System (DBMS) for managing their documents.
 They use a classic "filesystem database", i.e., store everything in a network drive organized by nested subfolders.
-Ideally, fetching emails should have been a simple SQL query, but instead, everything was locked away in PDFs scattered across folders.
+Ideally, fetching the data should have been a simple SQL query, but instead, everything was locked away in PDFs scattered across folders.
 
 For obvious reasons, I can't share any potentially sensitive information.
 However, my development approach and thinking process is generic enough to be helpful across many applications and contexts.
