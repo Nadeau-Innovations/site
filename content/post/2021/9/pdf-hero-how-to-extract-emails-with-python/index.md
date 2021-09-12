@@ -126,7 +126,7 @@ Each of the code snippets focus on a single piece of logic.
 For this project, I used some global "configuration" variables at the top of my script (they'll be uppercase).
 Typically, for larger projects I'd use the awesome [`Dynaconf`](https://www.dynaconf.com/) package for configuration management, but for simplicity, a few globals is all this script really needed.
 
-As a side note, if I were to build this for something more maintainable and permanent, then I'd probably have used the [Luigi](https://github.com/spotify/luigi) or even [Apache Airflow](https://airflow.apache.org/).
+As a side note, if I were to build this for something more maintainable and permanent, then I'd probably have used [Luigi](https://github.com/spotify/luigi) or even [Apache Airflow](https://airflow.apache.org/).
 These frameworks are much more robust and would allow for batch processing of data on a continuous basis.
 
 ### Logging
@@ -195,7 +195,7 @@ for path in pdf_paths:
 ```
 
 But this single process would be slow due to the number of files.
-We're also not taking advantage of the multiple core of our CPU.
+We're also not taking advantage of the multiple cores of our CPU.
 
 Instead, we'll use the built-in `multiprocessing` library to spawn multiple Python processes that will each handle a chunk of the PDFs:
 
