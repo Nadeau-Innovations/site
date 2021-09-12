@@ -310,8 +310,15 @@ One of the advantages of `PyPDF2` is seen in `get_email_from_form()`: we can eas
 Simply iterating through the dictionary of fields lets us check for keys and values that match our needs.
 Otherwise, `get_email_from_pages()` is the less-preferred brute force approach: parse ALL the text for an email.
 
-Both approaches rely on `validate_email_string()` which is used to validate and extract exactly the email we want.
-Humans are bad.
+Both approaches rely on `validate_email_string()` which is used to validate and extract exactly the email we want, because humans are bad.
 They will make mistakes when inputting text.
 They will add unneeded punctuation, whitespace, extra emails, or all sorts of other problems when given the freedom to fill in fields.
-Fortunately, it was known that all the emails we'd be looking for followed a specific format, `<first name>.<last name>[number]@specific.domain.com`, so we will use the built-in regular expression matching (`re`, aka regex) library to find *exactly* the email string we want.
+
+Fortunately, it was known that all the emails we'd be looking for followed a specific format:
+
+```
+<first name>.<last name>[optional number]@specific.domain.com
+```
+
+So we will use the built-in regular expression matching (`re`, aka regex) library to find *exactly* the email string we want.
+Fortunately, we have online tools (e.g., [Regexr](https://regexr.com/)) that can help us figure out what regex pattern to use.
