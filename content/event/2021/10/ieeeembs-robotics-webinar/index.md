@@ -50,7 +50,7 @@ url_slides: "2021-10-02_vit-ieee.pdf"
 
 url_code:
 url_pdf:
-url_video:
+url_video: https://youtu.be/bpuirrU7Ovo
 
 # Markdown Slides (optional).
 #   Associate this event with Markdown slides.
@@ -66,6 +66,8 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+{{< youtube bpuirrU7Ovo >}}
 
 ## IEEE EMBS, VIT Vellore
 
