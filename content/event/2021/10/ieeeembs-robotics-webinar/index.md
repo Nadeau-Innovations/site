@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "IEEE-EMBS Robotics Webinar"
-event:
+event: "IEEE-EMBS Robotics Webinar"
 event_url: https://ieeeembsvit.netlify.app/
 location:
 address:
