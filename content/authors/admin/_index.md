@@ -6,7 +6,7 @@ title: Nicholas Nadeau, Ph.D., P.Eng.
 superuser: true
 
 # Role/position/tagline
-role: Project Director
+role: CTO
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: https://www.halodi.com
 
 # Short bio (displayed in user profile at end of posts)
-bio: Nicholas Nadeau is the project director at [Halodi Robotics](https://www.halodi.com/), leading their mission of bringing safe and capable humanoid robots to everyone.
+bio: Nicholas Nadeau is the CTO at [Halodi Robotics](https://www.halodi.com/), leading their mission of bringing safe and capable humanoid robots to everyone.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
