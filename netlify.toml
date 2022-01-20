@@ -1,6 +1,7 @@
 [build]
 publish = "public"
 command = "make build"
+ignoreErrors = ["error-remote-getjson"]
 
 [build.environment]
 HUGO_VERSION = "0.82.0"
