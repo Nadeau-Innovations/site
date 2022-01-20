@@ -120,9 +120,7 @@ So with this, we can pivot our hiring process to focus on values rather than bia
 This also leads us to be objective with our evaluations.
 
 We're also building a hub-and-spoke model to reach people and make them successful no matter where they're located.
-This hybrid model can help account for family situations, where relocation may be an issue, or at-home remote work may be necessary for child-care
-
-{{< twitter 1431365069896654849 >}}
+This hybrid model can help account for family situations, where relocation may be an issue, or at-home remote work may be necessary for child-care.
 
 So that's hiring in a nutshell for me, and why I like to work with experts in recruitment and hiring to help set us up with a solid foundation and do good for our people.
 We want the company culture and experience to be represented from the very beginning.
