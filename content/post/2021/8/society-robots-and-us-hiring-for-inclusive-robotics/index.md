@@ -108,8 +108,6 @@ Are they looking for prestige?
 Do they only want a $300k salary and work at a FANG company in silicon valley, or do they want to build the next great product with great people no matter where?
 Hire for value fit instead of a culture fit, especially a fit of the current workforce.
 
-{{< twitter 1427065334737952775 >}}
-
 At Halodi, through internal interviews with our team, we discovered that our people and the Halodi values focus on:
 
 - Innovation (i.e., I want to work on cutting edge technology and make the world a better place)
