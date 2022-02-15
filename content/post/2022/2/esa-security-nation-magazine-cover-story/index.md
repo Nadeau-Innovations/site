@@ -38,4 +38,4 @@ More robotic capabilities and cost-effective technology make 2022 the right time
 
 > Because robots don't take home paychecks or require health insurance, robots like Gemini can significantly reduce security cost while increasing security capability.
 
-Read the full article at [ESA Security Nation](https://esaweb.org/resources/securitynation/).
+Read the full article in [ESA Security Nation magazine](https://esaweb.org/resources/securitynation/) or [directly on the ESA site](https://esaweb.org/slowly-bot-surely/).
