@@ -12,14 +12,14 @@ authors:
 - Nicholas A. Nadeau
 tags: ["additive manufacturing", "3d printing", "filament", "mechanical", "test methods","coupons", "", "layer", "method", "properties", "shear", "strength", ""]
 categories: []
-date: '2020-11-17'
+date: '2022-02-26'
 lastmod: 2020-10-14T11:51:17-04:00
 featured: false
 draft: false
 
 url_code: ''
-url_pdf: 'https://amcoe.org/icam-2020'
-url_slides: 'https://amcoe.org/icam-2020'
+url_pdf: 'https://www.astm.org/stp163720200107.html'
+url_slides: 'https://www.astm.org/stp163720200107.html'
 url_video: 'https://player.vimeo.com/video/473810622'
 
 # Featured image
@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-11-08'
+publishDate: '2022-02-26'
 publication_types:
 - '1'
 abstract: 'The international community is exploring many potential end-uses for polymer additive manufacturing. However, significant issues must be addressed before broad application can occur, in particular understanding the relationships between materials, processes, and final part properties. Key to these issues is having reliable test methods to measure properties of interest.
