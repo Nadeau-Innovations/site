@@ -1,4 +1,5 @@
 .DEFAULT_GOAL := build
+BIB_SOURCES := $(shell find content -iname "*.bib")
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # hugo commands
@@ -25,9 +26,13 @@ serve-future:
 # publications
 
 .PHONY: format-publications
-format-publications:
+format-publications: $(BIB_SOURCES)
+	# need to have "bibtool" installed
 	# apt install bibtool
-	bibtool -s publications.bib -o publications.bib
+	for BIB in $(BIB_SOURCES); do \
+		echo $$BIB && \
+		bibtool -s $$BIB -o $$BIB; \
+	done
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # theme
