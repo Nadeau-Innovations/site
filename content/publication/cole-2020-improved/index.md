@@ -49,5 +49,6 @@ The authors note that in assessing the effect of process on properties, choice o
 publication: '*ASTM International Conference on Additive Manufacturing*'
 ---
 
+{{< vimeo 473810622 >}}
 
 Presented by [Richard G. Cole](https://www.linkedin.com/in/rick-cole-59354b22/) ([National Research Council Canada](https://nrc.canada.ca/en)), in collaboration with [Kazem Fayazbakhsh](https://www.ryerson.ca/aerospace/people/faculty/kazem-fayazbakhsh/) ([Ryerson University](https://www.ryerson.ca/)), [Abraham Avalos](https://www.linkedin.com/in/abraham-avalos-94315951/) ([AON3D](https://www.aon3d.com/)), and [Nicholas Nadeau]({{< ref "/" >}}) ([AON3D](https://www.aon3d.com/)), as part of the `Polymers and Polymer Matrix Composites in Additive Manufacturing` session at the [ASTM International Conference on Additive Manufacturing (ASTM ICAM 2020)](https://amcoe.org/icam-2020).
