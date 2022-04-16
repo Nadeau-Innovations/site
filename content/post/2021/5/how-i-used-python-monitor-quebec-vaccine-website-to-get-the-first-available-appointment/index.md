@@ -37,7 +37,7 @@ There's also [a summary page](https://portal3.clicsante.ca/covid-vaccination-ouv
 
 Santé Québec also has a great [Twitter account](https://twitter.com/sante_qc) that has been keeping us informed of daily statistics, major announcements, and the rollout plan.
 
-{{< tweet 1390416088358342665 >}}
+{{< tweet user="sante_qc" id="1390416088358342665" >}}
 
 ## The Opportunity
 
@@ -187,11 +187,11 @@ if __name__ == "__main__":
 
 At 3:43PM on May 9th, Santé Québec tweeted:
 
-{{< tweet 1391478838429954049 >}}
+{{< tweet user="sante_qc" id="1391478838429954049" >}}
 
 I wasn't the only one who was prepared:
 
-{{< tweet 1391480332222935041 >}}
+{{< tweet user="Whiskey2ooo" id="1391480332222935041" >}}
 
 My script was running, I was ready.
 

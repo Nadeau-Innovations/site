@@ -43,7 +43,7 @@ I'm fortunate enough to have a partner who works in the Office for Students with
 She has opened my eyes to the bigger picture in many ways.
 It is also very relevant to the [current growth phase of Halodi Robotics](https://halodi.com/news/halodi-robotics-secures-10m-in-funding-to-bring-humanoid-robots-into-real-world-applications-in-a-series-a-round-led-by-valinor-and-adt) as we transition to "scale-up mode."
 
-{{< twitter 1395669592668835842 >}}
+{{< tweet user="HalodiRobotics" id="1395669592668835842" >}}
 
 I'll be taking a two-sided approach to this topic, talking about the challenges as a hiring manager and some of the things I'm trying to do to help the situation.
 
@@ -130,7 +130,7 @@ It's why I love [conferences]({{< ref "event/2018/10/iros-2018" >}}), [webinars]
 If we're not part of the ecosystem and community, we're not engaging with reality and instead live in a silo.
 This is where diversity starts to become inclusive.
 
-{{< twitter 1339154534166355968 >}}
+{{< tweet user="HalodiRobotics" id="1339154534166355968" >}}
 
 It's through these opportunities and engagement that companies can find new and more diverse talent pools.
 These hidden gems that we didn't know existed because we didn't bother to look.
@@ -147,7 +147,7 @@ Now, his American wife is also now our VP of Supply Chain.
 And [it's stories like this that we have to share more publicly](https://medium.com/halodi-news/sign-me-up-learn-why-joel-filho-jumped-at-the-chance-to-relocate-to-halodis-norway-headquarters-b182111d7827), [give insight into the realities of tech and robotics, demystify the industry](https://medium.com/halodi-news/playing-with-robots-on-the-job-a-halodi-workplace-perk-b45229879fb0), and make our processes and culture more transparent.
 Our employer brand as an inclusive place of work is more than just a mission statement on our website; it's about the people, the lives they've built, and the stories that led them to want to work with us.
 
-{{< twitter 1430562846350397443 >}}
+{{< tweet user="EngNadeau" id="1430562846350397443" >}}
 
 ### Better Mentorship and Growth Opportunities
 
@@ -156,7 +156,7 @@ For instance, [we recently published a story about Cayce, our current VP of Supp
 She rose through the ranks from temp to project manager to VP.
 Now how do we make this a regular part of our culture?
 
-{{< twitter 1419745078478884866 >}}
+{{< tweet user="HalodiRobotics" id="1419745078478884866" >}}
 
 As I hinted before, there's a supply and demand problem with finding diversity, to begin with.
 But we also need to make room for it.
