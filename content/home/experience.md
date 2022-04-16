@@ -29,6 +29,28 @@ date_format = "2006"
   """
 
 [[experience]]
+  title = "Mentor"
+  company = "NextAI"
+  company_url = "https://www.nextcanada.com/next-ai/"
+  location = "Montréal"
+  date_start = "2022-04-01"
+  date_end = ""
+  description = """
+  <img style="width:256px" src="logos/logo-nextai.png" alt="NextAI Logo"/>
+  """
+
+[[experience]]
+  title = "Mentor"
+  company = "Creative Destruction Lab"
+  company_url = "https://creativedestructionlab.com/"
+  location = "Montréal"
+  date_start = "2022-01-01"
+  date_end = ""
+  description = """
+  <img style="width:256px" src="logos/logo-creative-destruction-lab.png" alt="Creative Destruction Lab Logo"/>
+  """
+
+[[experience]]
   title = "Advisor"
   company = "BRIDGR"
   company_url = "https://bridgr.co"
