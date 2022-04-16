@@ -24,11 +24,6 @@ serve-future:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # publications
 
-.PHONY: publications
-publications: format-publications
-	# https://pypi.org/project/academic/
-	academic import --bibtex publications.bib --normalize
-
 .PHONY: format-publications
 format-publications:
 	# apt install bibtool
