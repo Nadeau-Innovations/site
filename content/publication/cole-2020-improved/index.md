@@ -16,6 +16,7 @@ date: '2022-02-26'
 lastmod: 2020-10-14T11:51:17-04:00
 featured: false
 draft: false
+doi: "10.1520/STP163720200107"
 
 url_code: ''
 url_pdf: 'https://www.astm.org/stp163720200107.html'
