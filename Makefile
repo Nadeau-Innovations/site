@@ -56,3 +56,7 @@ event:
 .PHONY: project
 project:
 	python3 hugo_new.py project
+
+.PHONY: publication
+publication:
+	python3 hugo_new.py publication
