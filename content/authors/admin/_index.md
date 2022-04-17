@@ -23,7 +23,7 @@ bio: Nicholas Nadeau is the CTO at [Halodi Robotics](https://www.halodi.com/), l
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: 'contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/EngNadeau
