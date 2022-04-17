@@ -1,5 +1,4 @@
 ---
-# TODO: fix URL slug `home-contact` -> `contract`
 widget: contact
 headless: true  # This file represents a page section.
 
