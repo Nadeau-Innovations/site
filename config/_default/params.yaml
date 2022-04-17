@@ -5,161 +5,107 @@
 
 # Appearance
 
-theme: minimal
-day_night: false
-font: ''
-font_size: L
+appearance:
+  theme_day: minimal
+  # theme_night: minimal
+  font: minimal
+  font_size: L
 
 # SEO
 
-site_type: Person
-local_business_type: ''
-org_name: ''
-description: 'Nicholas Nadeau is the CTO of Halodi Robotics, leading their engineering and worldwide expansion with the mission of bringing safe and capable humanoid robots to everyone.'
-twitter: 'EngNadeau'
-
-# Contact (edit or remove options as required)
-
-email:
-phone:
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-  country_code:
-coordinates:
-  latitude:
-  longitude:
-directions:
-office_hours:
-appointment_url:
-contact_links:
-  # - icon: twitter
-  #   icon_pack: fab
-  #   name: '@EngNadeau'
-  #   link: 'https://twitter.com/EngNadeau'
-  # - icon: linkedin
-  #   icon_pack: fab
-  #   name: 'EngNadeau'
-  #   link: 'https://www.linkedin.com/in/engnadeau/'
-  # - icon: github
-  #   icon_pack: fab
-  #   name: '@nnadeau'
-  #   link: 'https://github.com/nnadeau'
-  # - icon: skype
-  #   icon_pack: fab
-  #   name: Skype Me
-  #   link: 'skype:echo123?call'
-  # - icon: keybase
-  #   icon_pack: fab
-  #   name: Chat on Keybase
-  #   link: 'https://keybase.io/'
-  # - icon: comments
-  #   icon_pack: fas
-  #   name: Discuss on Forum
-  #   link: 'https://discourse.gohugo.io'
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    # NN: max ~160 characters description for SEO
+    description: >
+      Nicholas Nadeau is the CTO of Halodi Robotics, leading their engineering and worldwide expansion to bring safe and capable humanoid robots to everyone.
+    twitter: 'EngNadeau'
+  analytics:
+    google_analytics: 'UA-60125866-2'
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Site header
 
-main_menu:
-  enable: true
-  align: l
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
-  highlight_active_link: true
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: false
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} Nicholas Nadeau. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
 
 # Site features
 
-highlight: true
-highlight_languages:
-  - r
-  - python
-math: false
-diagram: false
-privacy_pack: false
-edit_page:
-  repo_url: ''
-  content_dir: ''
-  repo_branch: main
-  editable:
-    page: false
-    post: false
-    book: false
-show_related:
-  book: true
-  page: false
-  post: true
-  project: true
-  publication: true
-  event: true
-reading_time: true
-section_pager: false
-docs_section_pager: true
-sharing: true
-copyright_license:
-  enable: false
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
-abstract_length: 135
-plugins_js: []
-avatar:
-  gravatar: false
-  shape: circle
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: 2
-  publication_view: 2
-  talk_view: 2
-breadcrumb:
-  page_types:
-    book: true
-comments:
-  provider: ''
-  commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - r
+      - latex
+      - python
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/nnadeau/personal-site'
+    content_dir: content
+    branch: master
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapbox'
     api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: ''
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: 'UA-60125866-2'
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: master
-  local_backend: false
-icon:
-  pack:
-    # ai: true
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: master
+    local_backend: false
+  isotope:
+    # Enable if you use the Portfolio widget or Publication filter
+    enable: true
+  academicons:
+    enable: true

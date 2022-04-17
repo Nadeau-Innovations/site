@@ -80,7 +80,7 @@ Additive manufacturing with its ability to instantly adapt to delivering parts i
 
 Engage with Dyndrite and Developer Council members as we host the first ever DDC2020 - a global virtual event connecting enterprise AM users, buyers, and members of the press, with 3D printer manufacturers and software vendors delivering tomorrow’s digital manufacturing solutions.
 
-{{< tweet 1250818776670646274 >}}
+{{< tweet user="Dyndrite" id="1250818776670646274" >}}
 
 ## Recording
 
