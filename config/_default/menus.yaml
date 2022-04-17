@@ -17,10 +17,10 @@ main:
     url: '#publications'
     weight: 40
   - name: Projects
-    url: 'home-projects/'
+    url: 'projects/'
     weight: 50
   - name: Contact
-    url: 'home-contact/'
+    url: 'contact/'
     weight: 60
   - name: CV
     url: 'https://nnadeau.github.io/cv/'
