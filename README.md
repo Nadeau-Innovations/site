@@ -40,13 +40,49 @@ make format-publications
 
 ### Tips
 
-- YouTube/Vimeo shortcode: `{{< youtube abcxyz >}}` / `{{< vimeo 123456 >}}`
-- Twitter tweet shortcode: `{{< tweet user="xxx" id="yyy" >}}`
-- Use `<!--more-->` in posts to limit summary
-- Logos for experience widget are located in [`static/logos`](./static/logos)
-- Figures can now be created by using the standard, portable Markdown syntax: ![screen reader text](image.jpg "caption") where the image is in the page folder, the media library, or is a remote URI.
-- Custom footer in site folder at layouts/partials/hooks/footer.html
-- [CSV Table shortcode](https://wowchemy.com/docs/content/writing-markdown-latex/#csv-table): `{{< table path="results.csv" header="true" caption="Table 1: My results" >}}`
-- Template theme docs:
-  - [Page features](https://wowchemy.com/docs/content/page-features/)
-  - [Page elements](https://wowchemy.com/docs/content/writing-markdown-latex/)
+#### YouTube/Vimeo
+
+```markdown
+{{< youtube abcxyz >}}
+
+{{< vimeo 123456 >}}
+```
+
+#### Twitter Tweet
+
+```markdown
+{{< tweet user="xxx" id="yyy" >}}
+```
+
+#### Limit Summary
+
+```markdown
+<!--more-->
+```
+
+#### Logos
+
+Logos for experience widget are located in [`static/logos`](./static/logos)
+
+#### Figures and Captions
+
+Figures can now be created by using the standard, portable Markdown syntax: ![screen reader text](image.jpg "caption") where the image is in the page folder, the media library, or is a remote URI.
+
+#### Custom Footer
+
+Custom footer in site folder at layouts/partials/hooks/footer.html
+
+#### CSV Table
+
+[CSV Table shortcode](https://wowchemy.com/docs/content/writing-markdown-latex/#csv-table): `{{< table path="results.csv" header="true" caption="Table 1: My results" >}}`
+
+#### Template Theme Documentation
+
+- [Page features](https://wowchemy.com/docs/content/page-features/)
+- [Page elements](https://wowchemy.com/docs/content/writing-markdown-latex/)
+
+#### Linking Internal Pages
+
+```markdown
+{{< ref "publication/nadeau-2018-evolutionary" >}}
+```
