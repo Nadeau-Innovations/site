@@ -55,7 +55,7 @@ To get your workspace ID:
 
 The following code snippet is an example Python script that pushes event data to Clockify.
 The functions and CLI can either add a single event at a time or upload a CSV of many events.
-The code may also be found in my [snippets repo](https://github.com/nnadeau/snippets).
+The code may also be found in my [snippets repo](https://github.com/engnadeau/snippets).
 
 The previously obtained API token and workspace ID can either be set as environment variables or set using command line arguments.
 

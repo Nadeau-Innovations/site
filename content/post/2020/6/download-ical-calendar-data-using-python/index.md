@@ -47,7 +47,7 @@ If you're using Google Calendar, you can find your ICS URL here:
 ## Python Code
 
 The following code snippet is an example Python script that connects to your calendar's ICS URL, downloads all the events, and dumps them to a CSV file.
-The code may also be found in my [snippets repo](https://github.com/nnadeau/snippets).
+The code may also be found in my [snippets repo](https://github.com/engnadeau/snippets).
 
 The previously obtained ICS URL can either be set as an environment variable (e.g., `export CAL_ICS_URL=<URL>`) or set using the `--url` argument in the CLI.
 

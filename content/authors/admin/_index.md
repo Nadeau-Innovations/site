@@ -35,7 +35,7 @@ social:
   link: https://scholar.google.ca/citations?user=Soo4zroAAAAJ&hl
 - icon: github
   icon_pack: fab
-  link: https://github.com/nnadeau
+  link: https://github.com/engnadeau
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/engnadeau
