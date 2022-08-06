@@ -48,7 +48,7 @@ This talk was presented at [Montréal-Python 67: Ultramodern Vintage - PyCon Can
 
 Modern robotic applications often rely on offline programming to reduce process downtime. In a virtual environment, robot application specialists may program, visualize, and test their robotic application before uploading it to the real production environment, saving time and costs. However, to achieve a high level of fidelity between virtual and production environments, the robot system must be accurate.
 
-Unfortunately, even though most industrial robots are inherently precise (i.e., repeatable), they are not necessarily very accurate. One cost-effective approach to obtaining a more accurate robot is through calibration, where the actual kinematic and non-kinematic parameters of the robot model are identified and improved upon when compared to the nominal model. This talk introduces [`pybotics`](https://github.com/nnadeau/pybotics), an open-source Python toolbox for robot kinematics and calibration. The talk will feature the following topics:
+Unfortunately, even though most industrial robots are inherently precise (i.e., repeatable), they are not necessarily very accurate. One cost-effective approach to obtaining a more accurate robot is through calibration, where the actual kinematic and non-kinematic parameters of the robot model are identified and improved upon when compared to the nominal model. This talk introduces [`pybotics`](https://github.com/engnadeau/pybotics), an open-source Python toolbox for robot kinematics and calibration. The talk will feature the following topics:
 
 - An introduction to modern industrial robotics
 - Spatial descriptions and transformations

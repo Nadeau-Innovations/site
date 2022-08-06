@@ -73,7 +73,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/nnadeau/personal-site'
+    url: 'https://github.com/engnadeau/personal-site'
     content_dir: content
     branch: master
   avatar:

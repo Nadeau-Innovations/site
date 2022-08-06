@@ -60,4 +60,4 @@ Broken down, we have:
 - `netlify deploy --json`: deploys the current directory to a preview URL, does not pretty-print any output, and outputs the deployment data as JSON
 - `jq -r ".deploy_url"`: processes the incoming JSON string, extracts the value of the `deploy_url` key, and outputs raw strings
 
-This website's repository [contains a `Makefile`](https://github.com/nnadeau/nicholasnadeau-me/blob/master/Makefile) that uses the above process in a production setting.
+This website's repository [contains a `Makefile`](https://github.com/engnadeau/nicholasnadeau-me/blob/master/Makefile) that uses the above process in a production setting.

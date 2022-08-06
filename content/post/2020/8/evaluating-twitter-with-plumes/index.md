@@ -22,7 +22,7 @@ In engineering terms, my signal-to-noise ratio was way too low.
 
 This led me to think about my social media hygene and how I don't tend to prune my tweets, people I follow, or topics of interest.
 
-So, over a few days off, I made a tool: [`plumes`](https://github.com/nnadeau/plumes).
+So, over a few days off, I made a tool: [`plumes`](https://github.com/engnadeau/plumes).
 
 I designed `plumes` to be a simple Twitter CLI for day-to-day social media hygiene, allowing me to perform basic pruning operations.
 My end goal was to make a cron job that would perform typical operations at a scheduled interval.
@@ -478,7 +478,7 @@ df[["retweet_count", "favorite_count"]].describe()
 
 
 
-Hmmmm, I don't remember ever going viral and getting 200k+ retweets. 
+Hmmmm, I don't remember ever going viral and getting 200k+ retweets.
 
 Per the [Twitter API docs](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/overview/tweet-object), the `retweet_count` key of a Tweet object counts the source tweet's retweets, not just my personal retweets.
 
@@ -609,9 +609,9 @@ fig.tight_layout()
 ```
 
 
-    
+
 ![png](index_files/index_10_0.png)
-    
+
 
 
 It appears that I tend to be cyclical with my tweets.
@@ -645,9 +645,9 @@ fig.tight_layout()
 ```
 
 
-    
+
 ![png](index_files/index_12_0.png)
-    
+
 
 
 As expected, the number of interactions generally follows my tweeting frequency.
@@ -1351,11 +1351,11 @@ Oh... hello Obama.
 
 But this also brings up another issue: who should I actually follow?
 
-As much as I like Obama and Bill Gates, I don't actually interact with them. 
-This is especially true for CNN and YouTube. 
+As much as I like Obama and Bill Gates, I don't actually interact with them.
+This is especially true for CNN and YouTube.
 
 If there is something truly worthwhile being tweeted by these people (or orgs), I'll probably hear about it from my thousand other social media sources.
-What I want from Twitter is more personal content from people that provide intelligent ideas and good discussion topics. 
+What I want from Twitter is more personal content from people that provide intelligent ideas and good discussion topics.
 
 Let's start by exploring a user's followers vs. friends and their Twitter Follower-to-Friend (TFF ratio).
 
@@ -1375,9 +1375,9 @@ fig.tight_layout()
 ```
 
 
-    
+
 ![png](index_files/index_22_0.png)
-    
+
 
 
 Right away, we can see that the majority of outliers fall below a TFF ratio of 1.
@@ -1815,9 +1815,9 @@ fig.tight_layout()
 ```
 
 
-    
+
 ![png](index_files/index_27_0.png)
-    
+
 
 
 The vast majority of people I interact with are within the core grouping of less than 2k friends and 50k followers (i.e., a TFF ratio of 25).

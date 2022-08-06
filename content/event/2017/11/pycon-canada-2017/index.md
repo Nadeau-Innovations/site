@@ -33,9 +33,9 @@ tags:
 - mechanical
 time_start: "2017-11-19T11:00:00-05:00"
 title: 'Domo arigato, Mr. Roboto: Calibrating Robots with Python'
-url_code: https://github.com/nnadeau/pybotics/
-url_pdf: https://github.com/nnadeau/pycon-canada-2017
-url_slides: https://github.com/nnadeau/pycon-canada-2017
+url_code: https://github.com/engnadeau/pybotics/
+url_pdf: https://github.com/engnadeau/pycon-canada-2017
+url_slides: https://github.com/engnadeau/pycon-canada-2017
 url_video: ""
 aliases:
 - /talk/pycon-canada-2017

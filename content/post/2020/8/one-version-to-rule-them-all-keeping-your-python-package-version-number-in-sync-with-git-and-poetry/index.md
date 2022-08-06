@@ -75,7 +75,7 @@ To avoid human errors, we can link our `poetry` version to our git tags.
 
 With this setup, `poetry` will fetch and use the latest git tag as its version.
 
-As an application example and shown below, the [GitHub Action](https://github.com/nnadeau/pybotics/blob/efd3428ca46beb788b6c7120331b50e65d5dc9a1/.github/workflows/publish.yml) that's used to build and publish [`pybotics`](https://github.com/nnadeau/pybotics) to [PyPI](https://pypi.org/) uses the above process to keep things simple.
+As an application example and shown below, the [GitHub Action](https://github.com/engnadeau/pybotics/blob/efd3428ca46beb788b6c7120331b50e65d5dc9a1/.github/workflows/publish.yml) that's used to build and publish [`pybotics`](https://github.com/engnadeau/pybotics) to [PyPI](https://pypi.org/) uses the above process to keep things simple.
 
 
 ```yml
