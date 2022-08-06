@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Let’s Prioritize Safe Movement for Humanoid Robots, Not Facial Expressions"
+title: "Let’s Prioritize Safety for Humanoid Robots, Not Facial Expressions"
 subtitle: ""
 summary: ""
 authors: []
@@ -39,6 +39,8 @@ deficit for commercial security, retail operations, warehouse logistics,
 and healthcare staffing is to augment the workforce with robots to
 extend available human resources.
 
+{{< youtube YYwpBg71qaw >}}
+
 Media coverage of robots batting eyelashes and turning backflips has led
 to hyperventilating headlines about robot overlord domination. But
 robots don’t have to replace humans; they can be collaborative
@@ -50,7 +52,7 @@ humans free to focus on more substantive tasks.” Scarce personnel can
 prioritize complex tasks and creative functions that are ultimately more
 rewarding.
 
-## To serve humankind
+## To Serve Humankind
 
 The pandemic has proven to be the biggest single driver for change in
 the industry, according to the [International
@@ -77,13 +79,15 @@ wheelchair, or pushing a trolley.
 
 The challenge is to make them do this safely.
 
-## Taking human shape
+## Taking Human Shape
 
 Service and helper robots must be capable of learning multiple tasks to
 assist human beings. Their physical Human-Robot Interaction (HRI)
 extends far beyond fixed repetitive industrial tasks undertaken by
 stationary robots. As such, they need to be able to interact with the
 human world as humans do.
+
+{{< youtube D0vpgZKNEy0 >}}
 
 We must bring service robots out of the factory and integrate them into
 the human world. Humans are sometimes an afterthought when designing new
@@ -97,7 +101,7 @@ optimal design for a robot, and shaping a robot like a human allows it
 to interact in the human environment as a human does. An R2D2-type robot
 can’t manipulate doorknobs or reach a high shelf.
 
-## If it looks like a human
+## If It Looks Like A Human
 
 However, a humanoid robot creates expectations, sometimes
 subconsciously, of human-like behaviour. That means they must not only
@@ -131,7 +135,7 @@ longer able to detect real faces from fakes. In that case, companies
 developing anthropomorphic robots have an even greater duty to ensure
 they “do no harm” regarding robot movement and behaviour.
 
-## If it moves like a human
+## If It Moves Like A Human
 
 Until recently, most robots have been far too powerful — and therefore
 dangerous — to assist humans outside of an assembly line. Because they
@@ -143,6 +147,8 @@ humans]({{< ref "publication/nadeau-2018-evolutionary" >}})
 who create situations that robot programmers did not predict. Yet most
 robots today are built based on the core principles of how robots behave
 in a factory.
+
+{{< youtube Mt-1smlom_M >}}
 
 Understanding nonverbal communication is a challenge. Robots can shout
 at people to move out of their way, but how do you get them to recognize
@@ -158,7 +164,7 @@ It’s not a question of *whether* problems will occur; it’s *when* they
 will occur. How can we ensure that when robots collide with humans — as
 they will — it’s as safe as possible?
 
-## Traditional hardware and software
+## Traditional Hardware And Software
 
 Most robots aren’t safe around humans because they’re built like
 machines, not humans. They move too fast and sound too loud. Traditional
@@ -184,7 +190,7 @@ essential service, they need to be able to interact with — and learn
 from — the same world as humans. The solution is to build robots to move
 more like people and learn from them.
 
-## Replicating humans on the inside
+## Replicating Humans On The Inside
 
 Robot developers must approach these hardware and software problems from
 a new perspective. Rather than simply make robots that take the human
@@ -211,7 +217,7 @@ Together, these technological innovations can reimagine what a service
 robot does, where it operates, and how much it costs — everything
 businesses have been demanding.
 
-## Safety first
+## Safety First
 
 Developing a capable, affordable, safe humanoid robot is not as simple
 as Elon Musk’s [offhand
@@ -221,5 +227,6 @@ holistic approach and evaluate everything from the motor design to the
 total body weight. The choices made in the initial steps of designing
 the robot may have repercussions at the end application in an entirely
 unforeseen way. Everything becomes part of the optimization problem of
-making a better, safer robot from end to end. Robot grimaces can come
-later.
+making a better, safer robot from end to end.
+
+Robot facial expressions for viral videos can come later.
