@@ -1,18 +1,8 @@
-<br />
-<p align="center">
-<a href="https://github.com/nnadeau/nicholasnadeau-me">
-<img src="https://raw.githubusercontent.com/nnadeau/nicholasnadeau-me/master/assets/images/logo.png" alt="Logo" width="80" height="80">
-</a>
-
-<h3 align="center">Nicholas Nadeau</h3>
-
-<p align="center">
-Personal website, portfolio, and blog built using the Jamstack
-</p>
-</p>
-
+# Nicholas' Personal Site
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/96cf62a7-5c7d-4610-b84f-de0afc34773c/deploy-status)](https://app.netlify.com/sites/competent-panini-00973b/deploys)
+
+Personal website, portfolio, and blog built using the Jamstack.
 
 ## Development
 
@@ -24,9 +14,12 @@ Personal website, portfolio, and blog built using the Jamstack
 dpkg -i hugo_extended_0.97.1_Linux-64bit.deb
 ```
 
-- See the [`Makefile`](./Makefile) for entrypoints
+- See the [`Makefile`](./Makefile) for entrypoints, e.g.:
 
 ```bash
+# add post
+make post
+
 # add publication
 make publication
 
