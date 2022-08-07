@@ -25,6 +25,8 @@ marketing:
   analytics:
     google_analytics: 'UA-60125866-2'
     baidu_tongji: ''
+  # NN: currently verified using namecheap Domain name provider
+  # https://search.google.com/u/1/search-console/ownership?resource_id=sc-domain%3Anicholasnadeau.com
   verification:
     google: ''
     baidu: ''
