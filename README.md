@@ -1,10 +1,17 @@
 # Nicholas' Personal Site
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/96cf62a7-5c7d-4610-b84f-de0afc34773c/deploy-status)](https://app.netlify.com/sites/competent-panini-00973b/deploys)
-
 Personal website, portfolio, and blog built using the Jamstack.
 
+Item | Badges
+---|---
+Social | ![Twitter Follow](https://img.shields.io/twitter/follow/engnadeau?style=social)
+Build | [![Netlify Status](https://api.netlify.com/api/v1/badges/96cf62a7-5c7d-4610-b84f-de0afc34773c/deploy-status)](https://app.netlify.com/sites/competent-panini-00973b/deploys)
+Activity | ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/engnadeau/personal-site)
+Deploy | ![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.nicholasnadeau.com%2F) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m787891867-18e3b35ff925f2041cbcdc24) ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787891867-18e3b35ff925f2041cbcdc24) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fnicholasnadeau.com)
+
 ## Development
+
+### Hugo Installation
 
 - [Install `Hugo`](https://gohugo.io/getting-started/installing/#binary-cross-platform)
   - Binary installation is easiest
@@ -13,6 +20,8 @@ Personal website, portfolio, and blog built using the Jamstack.
 # e.g., download binary from https://github.com/gohugoio/hugo/releases
 dpkg -i hugo_extended_0.97.1_Linux-64bit.deb
 ```
+
+### Creating Content
 
 - See the [`Makefile`](./Makefile) for entrypoints, e.g.:
 
@@ -74,7 +83,11 @@ Logos for experience widget are located in [`static/logos`](./static/logos)
 
 #### Figures and Captions
 
-Figures can now be created by using the standard, portable Markdown syntax: ![screen reader text](image.jpg "caption") where the image is in the page folder, the media library, or is a remote URI.
+- Figures can be created with captions for screen readers and accessibility
+
+```markdown
+![screen reader text](image.jpg "caption")
+```
 
 #### Custom Footer
 
@@ -94,3 +107,7 @@ Custom footer in site folder at layouts/partials/hooks/footer.html
 ```markdown
 {{< ref "publication/nadeau-2018-evolutionary" >}}
 ```
+
+## Deployment
+
+- The site is deployed using [Netlify](https://app.netlify.com/sites/competent-panini-00973b/overview)
