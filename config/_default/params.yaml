@@ -103,3 +103,10 @@ extensions:
     enable: true
   academicons:
     enable: true
+
+# Security
+# https://wowchemy.com/docs/hugo-tutorials/security/
+security:
+  csp:
+    policy: ''
+    report_only: false
