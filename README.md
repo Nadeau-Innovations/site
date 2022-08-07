@@ -27,9 +27,11 @@ make publication
 make format-publications
 ```
 
-### Updating
+### Updating Theme
 
+- Currently pinned to `main` branch to always get latest stable
 - See the [Wowchemy docs](https://wowchemy.com/docs/hugo-tutorials/update/) for details
+  - Update the pinned versions in [go.mod](go.mod) with [the desired theme release](https://github.com/wowchemy/wowchemy-hugo-themes/tags)
 
 ### Tips
 
