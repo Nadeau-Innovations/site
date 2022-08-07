@@ -1,6 +1,12 @@
 # Nicholas' Personal Site
 
-Personal website, portfolio, and blog built using the Jamstack.
+Personal website, portfolio, and blog built using the Jamstack:
+
+- [Netlify](https://www.netlify.com/) CI/CD, CDN, and hosting
+- [Hugo](https://gohugo.io/) static site framework
+- [Markdown](https://github.github.com/gfm/) content
+- [Namecheap](https://www.namecheap.com/) domain name provider
+- [Wowchemy](https://wowchemy.com/) Hugo theme
 
 Item | Badges
 ---|---
