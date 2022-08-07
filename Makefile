@@ -5,22 +5,26 @@ BIB_SOURCES := $(shell find content -iname "*.bib")
 # hugo commands
 
 .PHONY: build
-build:
+build: hugo-info
 	hugo --gc --minify
 
 .PHONY: clean
-clean:
+clean: hugo-info
 	rm -rf public
+	hudo mod clean
+	hugo mod tidy
 
 .PHONY: serve
-serve:
-	hugo version
+serve: hugo-info
 	hugo serve --gc --minify
 
 .PHONY: serve-future
-serve-future:
-	hugo version
+serve-future: hugo-info
 	hugo serve --gc --minify --buildFuture
+
+.PHONY: hugo-info
+hugo-info:
+	hugo env
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # publications

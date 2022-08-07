@@ -4,7 +4,7 @@
 
 [[buttons]]
   id = "twitter"
-  url = "https://twitter.com/intent/tweet?url={url}&text={title}"
+  url = "https://twitter.com/intent/tweet?url={url}&text={title}&via=EngNadeau"
   title = "Twitter"
   icon_pack = "fab"
   icon = "twitter"
@@ -41,4 +41,3 @@
   icon_pack = "fab"
   icon = "reddit-alien"
   enable = true
-

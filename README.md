@@ -27,9 +27,24 @@ make publication
 make format-publications
 ```
 
-### Updating
+### Updating Theme
 
+- Use only [released versions](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
 - See the [Wowchemy docs](https://wowchemy.com/docs/hugo-tutorials/update/) for details
+- TLDR, update the pinned versions in [go.mod](go.mod) with:
+
+```go
+module my-website
+
+go 1.15
+
+require (
+  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify main
+  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 main
+)
+```
+
+- The build process will then change `main` to a specific pinned version (tag + hash)
 
 ### Tips
 

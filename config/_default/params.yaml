@@ -4,15 +4,12 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
 appearance:
   theme_day: minimal
-  # theme_night: minimal
   font: minimal
   font_size: L
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
@@ -25,12 +22,13 @@ marketing:
   analytics:
     google_analytics: 'UA-60125866-2'
     baidu_tongji: ''
+  # NN: currently verified using namecheap Domain name provider
+  # https://search.google.com/u/1/search-console/ownership?resource_id=sc-domain%3Anicholasnadeau.com
   verification:
     google: ''
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
@@ -42,7 +40,6 @@ header:
     highlight_active_link: true
 
 # Site footer
-
 footer:
   copyright:
     notice: '© {year} Nicholas Nadeau. This work is licensed under {license}'
@@ -53,14 +50,12 @@ footer:
       allow_commercial: false
 
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
 # Site features
-
 features:
   syntax_highlighter:
     enable: true
@@ -99,7 +94,6 @@ features:
     zoom: 15
 
 # Extensions
-
 extensions:
   cms:
     branch: master
