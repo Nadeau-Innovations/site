@@ -29,9 +29,22 @@ make format-publications
 
 ### Updating Theme
 
-- Currently pinned to `main` branch to always get latest stable
+- Use only [released versions](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
 - See the [Wowchemy docs](https://wowchemy.com/docs/hugo-tutorials/update/) for details
-  - Update the pinned versions in [go.mod](go.mod) with [the desired theme release](https://github.com/wowchemy/wowchemy-hugo-themes/tags)
+- TLDR, update the pinned versions in [go.mod](go.mod) with:
+
+```go
+module my-website
+
+go 1.15
+
+require (
+  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify main
+  github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 main
+)
+```
+
+- The build process will then change `main` to a specific pinned version (tag + hash)
 
 ### Tips
 
