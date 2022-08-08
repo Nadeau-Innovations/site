@@ -1,13 +1,19 @@
 # Nicholas' Personal Site
 
-Personal website, portfolio, and blog built using the Jamstack.
+Personal website, portfolio, and blog built using the Jamstack:
+
+- [Netlify](https://www.netlify.com/) CI/CD, CDN, and hosting
+- [Hugo](https://gohugo.io/) static site framework
+- [Markdown](https://github.github.com/gfm/) content
+- [Namecheap](https://www.namecheap.com/) domain name provider
+- [Wowchemy](https://wowchemy.com/) Hugo theme
 
 Item | Badges
 ---|---
-Social | ![Twitter Follow](https://img.shields.io/twitter/follow/engnadeau?style=social)
+Social | [![Twitter Follow](https://img.shields.io/twitter/follow/engnadeau?style=social)](https://twitter.com/EngNadeau)
 Build | [![Netlify Status](https://api.netlify.com/api/v1/badges/96cf62a7-5c7d-4610-b84f-de0afc34773c/deploy-status)](https://app.netlify.com/sites/competent-panini-00973b/deploys)
-Activity | ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/engnadeau/personal-site)
-Deploy | ![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.nicholasnadeau.com%2F) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m787891867-18e3b35ff925f2041cbcdc24) ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787891867-18e3b35ff925f2041cbcdc24) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fnicholasnadeau.com)
+Activity | [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/engnadeau/personal-site)](https://github.com/engnadeau/personal-site/commits/master)
+Deploy | [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.nicholasnadeau.com%2F)](https://www.nicholasnadeau.com/) [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m787891867-18e3b35ff925f2041cbcdc24)](https://stats.uptimerobot.com/yw7ppI7ORl/787891867) [![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787891867-18e3b35ff925f2041cbcdc24)](https://stats.uptimerobot.com/yw7ppI7ORl/787891867) [![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fnicholasnadeau.com)](https://securityheaders.com/?q=nicholasnadeau.com&followRedirects=on)
 
 ## Development
 
