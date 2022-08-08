@@ -106,7 +106,8 @@ extensions:
 
 # Security
 # https://wowchemy.com/docs/hugo-tutorials/security/
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#example_1
 security:
   csp:
-    policy: ''
+    policy: default-src 'self'
     report_only: false
