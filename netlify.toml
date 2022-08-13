@@ -38,3 +38,7 @@ package = "@netlify/plugin-sitemap"
 [[plugins]]
 # https://github.com/netlify-labs/netlify-plugin-a11y
 package = "@netlify/plugin-a11y"
+
+[[plugins]]
+# https://github.com/munter/netlify-plugin-checklinks
+package = "netlify-plugin-checklinks"
