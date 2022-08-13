@@ -86,7 +86,7 @@ features:
     algolia:
       app_id: 'VT8JY4BVVD'
       api_key: '4ecbdb16a22ed2c5f9df8df1d330c626'
-      index_name: '96cf62a7-5c7d-4610-b84f-de0afc34773c'
+      index_name: 'netlify_96cf62a7-5c7d-4610-b84f-de0afc34773c_master_all.tmp'
       show_logo: false
   map:
     provider: 'mapbox'
