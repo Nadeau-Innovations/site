@@ -42,3 +42,7 @@ package = "@netlify/plugin-a11y"
 [[plugins]]
 # https://github.com/munter/netlify-plugin-checklinks
 package = "netlify-plugin-checklinks"
+
+[[plugins]]
+# https://www.algolia.com/doc/tools/crawler/netlify-plugin/plugin/
+package = "@algolia/netlify-plugin-crawler"
