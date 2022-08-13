@@ -38,3 +38,6 @@ package = "@netlify/plugin-sitemap"
 [[plugins]]
 # https://www.algolia.com/doc/tools/crawler/netlify-plugin/plugin/
 package = "@algolia/netlify-plugin-crawler"
+
+[plugins.inputs]
+customDomain = "nicholasnadeau.com"
