@@ -117,3 +117,4 @@ Custom footer in site folder at layouts/partials/hooks/footer.html
 ## Deployment
 
 - The site is deployed using [Netlify](https://app.netlify.com/sites/competent-panini-00973b/overview)
+- [Build images](https://docs.netlify.com/configure-builds/overview/#build-image-selection) are defined in the [Netlify web UI](https://app.netlify.com/sites/competent-panini-00973b/settings/deploys#build-image-selection)
