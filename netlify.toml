@@ -26,3 +26,7 @@ compress = true
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[[plugins]]
+# https://github.com/netlify/netlify-plugin-lighthouse
+package = "@netlify/plugin-lighthouse"
