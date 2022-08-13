@@ -23,5 +23,5 @@ main:
     url: 'contact/'
     weight: 60
   - name: CV
-    url: 'https://engnadeau.github.io/cv/'
+    url: 'https://engnadeau.github.io/cv/nicholas-nadeau_cv.pdf'
     weight: 70
