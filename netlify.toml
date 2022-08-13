@@ -34,3 +34,7 @@ package = "@netlify/plugin-lighthouse"
 [[plugins]]
 # https://github.com/netlify-labs/netlify-plugin-sitemap
 package = "@netlify/plugin-sitemap"
+
+[[plugins]]
+# https://github.com/netlify-labs/netlify-plugin-a11y
+package = "@netlify/plugin-a11y"
