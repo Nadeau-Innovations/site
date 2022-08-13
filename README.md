@@ -7,6 +7,7 @@ Personal website, portfolio, and blog built using the Jamstack:
 - [Markdown](https://github.github.com/gfm/) content
 - [Namecheap](https://www.namecheap.com/) domain name provider
 - [Wowchemy](https://wowchemy.com/) Hugo theme
+- [Algolia](https://www.algolia.com/apps/7NL305GEX8?section=overview) search
 
 Item | Badges
 ---|---
@@ -117,3 +118,4 @@ Custom footer in site folder at layouts/partials/hooks/footer.html
 ## Deployment
 
 - The site is deployed using [Netlify](https://app.netlify.com/sites/competent-panini-00973b/overview)
+- [Build images](https://docs.netlify.com/configure-builds/overview/#build-image-selection) are defined in the [Netlify web UI](https://app.netlify.com/sites/competent-panini-00973b/settings/deploys#build-image-selection)

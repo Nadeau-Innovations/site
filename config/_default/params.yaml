@@ -82,11 +82,11 @@ features:
     commento:
       url: ''
   search:
-    provider: wowchemy
+    provider: algolia
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: 'VT8JY4BVVD'
+      api_key: '4ecbdb16a22ed2c5f9df8df1d330c626'
+      index_name: '96cf62a7-5c7d-4610-b84f-de0afc34773c'
       show_logo: false
   map:
     provider: 'mapbox'
