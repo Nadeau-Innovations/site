@@ -32,7 +32,7 @@ The biggest operational challenge for companies today: finding qualified help at
 The U.S. started 2022 with a 3.8% [unemployment rate](https://twitter.com/potus/status/1499895262864621573?s=21) and 11 million [job openings](https://www.bls.gov/jlt/), the widest gap in jobs-to-available-employees in decades.
 
 <!-- NN labour shortage tweet -->
-{{< twitter 1526295088380248064 >}}
+{{< tweet user="EngNadeau" id="1526295088380248064" >}}
 
 ---
 
@@ -58,10 +58,10 @@ Survey respondents in a 2020 [World Economic Forum (WEF) report](https://www.wef
 Scarce personnel can prioritize complex tasks and creative functions that are ultimately more rewarding.
 
 <!-- Norway healthcare helper -->
-{{< twitter 1531233402434859009 >}}
+{{< tweet user="EngNadeau" id="1531233402434859009" >}}
 
 <!-- Benefits of robots in guarding -->
-{{< twitter 1531972539664179204 >}}
+{{< tweet user="EngNadeau" id="1531972539664179204" >}}
 
 ## To Serve Humankind
 
@@ -71,10 +71,10 @@ In addition to warehouses and assembly lines, robots are no longer an unusual si
 Perhaps that's why [Association for Advancing Automation (A3)](https://www.weforum.org/agenda/2021/12/robots-jobs-staff-shortage-automation/) data for 2021 shows an all-time high for North American robot orders.
 
 <!-- Ambassador -->
-{{< twitter 1537924333414121472 >}}
+{{< tweet user="EngNadeau" id="1537924333414121472" >}}
 
 <!-- Euro space agency -->
-{{< twitter 1544279719910203392 >}}
+{{< tweet user="EngNadeau" id="1544279719910203392" >}}
 
 ---
 
@@ -86,7 +86,7 @@ They also need to exert a large force — whether lifting things, moving things,
 The challenge is to make them do this safely.
 
 <!-- Robot hugs -->
-{{< twitter 1549129907724120064 >}}
+{{< tweet user="EngNadeau" id="1549129907724120064" >}}
 
 ## Taking Human Shape
 
@@ -105,7 +105,7 @@ But to progress and accept them, we must make them fit into our world, not the o
 We can't redesign our homes, office spaces, and common areas for the robot to get from point A to B.
 
 <!-- Knightscope drowning -->
-{{< twitter 887025375754166272 >}}
+{{< tweet user="EngNadeau" id="887025375754166272" >}}
 
 ---
 
@@ -158,7 +158,7 @@ It's not a question of *whether* problems will occur; it's *when* they will happ
 How can we ensure that when robots collide with humans — as they will — it's as safe as possible?
 
 <!-- NN learned methods -->
-{{< twitter 1539236884056088579 >}}
+{{< tweet user="EngNadeau" id="1539236884056088579" >}}
 
 ## Traditional Hardware And Software
 
@@ -172,7 +172,7 @@ Unfortunately, the world in which people learn to perform their work is not the 
 Artificial intelligence and machine learning should help but often don't, and most A.I. systems live in virtual worlds working with static data.
 
 <!-- HRI in VR -->
-{{< twitter 1522106438264500225 >}}
+{{< tweet user="EngNadeau" id="1522106438264500225" >}}
 
 ---
 
@@ -182,7 +182,7 @@ For service robots to provide essential service, they need to be able to interac
 The solution is to build robots that move more like people and learn from them.
 
 <!-- VR suitcase -->
-{{< twitter 1528596823262212097 >}}
+{{< tweet user="EngNadeau" id="1528596823262212097" >}}
 
 ## Replicating Humans On The Inside
 
@@ -190,7 +190,7 @@ Robot developers must approach these hardware and software problems from a new p
 Rather than make robots that take human form *on the outside*, could we replicate the benefits of biomechanics and sensory data input *on the inside*?
 
 <!-- Bullish on humanoids -->
-{{< twitter 1530042238591303680 >}}
+{{< tweet user="EngNadeau" id="1530042238591303680" >}}
 
 ---
 
@@ -203,7 +203,7 @@ In hardware, eliminating unsafe gears and hydraulics can cut costs, reduce noise
 Focusing more on high-efficiency motor design can result in a drive system that uses very little material, is very lightweight, and is inherently safer for robot applications.
 
 <!-- Ansys -->
-{{< twitter 1558091115307454464 >}}
+{{< tweet user="EngNadeau" id="1558091115307454464" >}}
 
 ---
 
