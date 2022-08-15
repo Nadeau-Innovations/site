@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "@algolia/netlify-plugin-crawler": "^1.0.15",
     "@netlify/plugin-lighthouse": "^3.2.1",
     "@netlify/plugin-sitemap": "^0.8.1"
   }

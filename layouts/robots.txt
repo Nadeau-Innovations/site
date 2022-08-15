@@ -1,5 +1,0 @@
-# Algolia-Crawler-Verif: FDEDEE1404500E42
-
-User-agent: *
-
-Sitemap: https://nicholasnadeau.com/sitemap.xml
