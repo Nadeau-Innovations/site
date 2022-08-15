@@ -82,12 +82,12 @@ features:
     commento:
       url: ''
   search:
-    provider: algolia
-    algolia:
-      app_id: 'VT8JY4BVVD'
-      api_key: '4ecbdb16a22ed2c5f9df8df1d330c626'
-      index_name: 'netlify_96cf62a7-5c7d-4610-b84f-de0afc34773c_master_all.tmp'
-      show_logo: false
+    provider: wowchemy
+    wowchemy:
+      # Only the matches whose length exceeds this value will be returned.
+      min_length: 1
+      # Where 0 requires a perfect match and 1 matches anything.
+      threshold: 0.3
   map:
     provider: 'mapbox'
     api_key: ''
