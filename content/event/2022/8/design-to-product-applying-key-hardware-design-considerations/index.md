@@ -68,4 +68,8 @@ projects: []
 
 Nicholas Nadeau is the CTO of Halodi Robotics, a company that builds humanoid robots for different purposes like safety or medical treatment. We talked about different considerations that they needed to take into account and how they applied them while designing robots that should operate among humans and interact with them.
 
+Listen to the episode with Apple Podcasts or Spotify below:
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/9-applying-key-hardware-design-considerations/id1630933783?i=1000576504653"></iframe>
+
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1CuAKj6jrjgUvqdomdBPkL?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
