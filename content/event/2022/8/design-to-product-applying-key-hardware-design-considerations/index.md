@@ -49,7 +49,7 @@ image:
 url_slides:
 url_code:
 url_pdf:
-url_video:
+url_video: https://youtu.be/_RgIFBCWhmQ
 
 # Markdown Slides (optional).
 #   Associate this event with Markdown slides.
@@ -67,6 +67,10 @@ projects: []
 ---
 
 Nicholas Nadeau is the CTO of Halodi Robotics, a company that builds humanoid robots for different purposes like safety or medical treatment. We talked about different considerations that they needed to take into account and how they applied them while designing robots that should operate among humans and interact with them.
+
+{{< youtube _RgIFBCWhmQ >}}
+
+---
 
 Listen to the episode with Apple Podcasts or Spotify below:
 
