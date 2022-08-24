@@ -1,12 +1,18 @@
 # Nicholas' Personal Site
 
-Personal website, portfolio, and blog built using the Jamstack:
+Personal website, portfolio, and blog built using the Jamstack and other web/AI tech stacks:
 
 - [Netlify](https://www.netlify.com/) CI/CD, CDN, and hosting
 - [Hugo](https://gohugo.io/) static site framework
 - [Markdown](https://github.github.com/gfm/) content
 - [Namecheap](https://www.namecheap.com/) domain name provider
 - [Wowchemy](https://wowchemy.com/) Hugo theme
+- Images and text:
+  - [DALL-E](https://labs.openai.com)
+  - [GPT3](https://beta.openai.com/playground)
+  - [Midjourney](https://www.midjourney.com/app/)
+  - [Stable Diffusion](https://beta.dreamstudio.ai/dream)
+  - [Unsplash](https://unsplash.com/)
 
 Item | Badges
 ---|---
