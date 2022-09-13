@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-As a follow up to [my recent post]({{< ref "post/2020/6/download-ical-calendar-data-using-python/index.md" >}}), we can easily push timesheet data to [Clockify](https://clockify.me/) using their API.
+As a follow up to [my recent post]({{< ref "post/download-ical-calendar-data-using-python/index.md" >}}), we can easily push timesheet data to [Clockify](https://clockify.me/) using their API.
 
 <!--more-->
 

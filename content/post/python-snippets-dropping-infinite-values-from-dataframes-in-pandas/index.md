@@ -21,7 +21,7 @@ projects: []
 
 Infinite values can occur more often than people expect, especially for calculated data.
 
-For example, in [a recent post]({{< ref "post/2020/8/evaluating-twitter-with-plumes" >}}) I calculated the Twitter Follower-Friend ratio by dividing the `followers_count` series by the `friends_count` series.
+For example, in [a recent post]({{< ref "post/evaluating-twitter-with-plumes" >}}) I calculated the Twitter Follower-Friend ratio by dividing the `followers_count` series by the `friends_count` series.
 But what happens when `friends_count` is zero?
 `Inf`.
 

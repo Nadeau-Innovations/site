@@ -29,7 +29,7 @@ As such, I eventually converged towards simple and draconian filenames to ensure
 
 Now, I understand there are times when this level of rigidity doesn't fully make sense.
 One example is in mechanical engineering when working with a [PDM system](https://en.wikipedia.org/wiki/Product_data_management) (and non-developer stakeholders).
-Common practice is to have your filenames as `<SKU> - <Part Name>.<Extension>` (e.g., `ABC123 - Big Bolt.sldprt`). 
+Common practice is to have your filenames as `<SKU> - <Part Name>.<Extension>` (e.g., `ABC123 - Big Bolt.sldprt`).
 Yes, there are spaces, but as long as the schema is enforced, the database will still be easily machine parsable.
 
 If we extend this line of thought from filenames to a generalized "path" or "resource location" (e.g., URLs, data column headings, data labels), strict and consistent schemas are import, as the devil in the details.
@@ -41,10 +41,10 @@ They just causes headaches for everyone.
 
 String validation and sanitization ensures that a string meets a set of criteria (validation) or modifies it to conform to a schema (sanitization).
 As discussed above, there are plenty of important situations where incoming strings (e.g., data labels, paths, filenames) may not conform to a standard and behave unexpectedly.
-As previously discussed in the [temperature and humidity data analysis post]({{< ref "post/2020/10/python-for-hardware-engineers-analyzing-temperature-sensor-data" >}}), the `Extract` and `Transform` steps of an [ETL workflow](https://en.wikipedia.org/wiki/Extract,_transform,_load) typically applies some data cleaning.
+As previously discussed in the [temperature and humidity data analysis post]({{< ref "post/python-for-hardware-engineers-analyzing-temperature-sensor-data" >}}), the `Extract` and `Transform` steps of an [ETL workflow](https://en.wikipedia.org/wiki/Extract,_transform,_load) typically applies some data cleaning.
 Stripping non-alphanumeric characters is a simple and useful step for many data processing applications.
 
-As seen in [our previous post]({{< ref "post/2020/10/python-for-hardware-engineers-analyzing-temperature-sensor-data" >}}), the data logger tried to be fancy and used the (evil) degree symbol (`°C`) and the percent sign (`%RH`) for the temperature and humidity column headers, respectively.
+As seen in [our previous post]({{< ref "post/python-for-hardware-engineers-analyzing-temperature-sensor-data" >}}), the data logger tried to be fancy and used the (evil) degree symbol (`°C`) and the percent sign (`%RH`) for the temperature and humidity column headers, respectively.
 Unfortunately, this is not uncommon, and while Excel parses these strings normally, we can't always guarantee how different systems or programs will react.
 For example in LaTeX, the percent sign is the special character for comments, and thus needs to be escaped (`\%`) else you'll have a bad day.
 

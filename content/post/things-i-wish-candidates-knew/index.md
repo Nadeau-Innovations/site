@@ -157,7 +157,7 @@ It demonstrates that you understand that there's a process and that you are very
 
 ## 5) Show me results and outcomes.
 
-This topic relates back to a [previous post I wrote about the problems of engineering education]({{< ref "post/2021/5/things-i-wished-they-taught-in-engineering-school" >}}).
+This topic relates back to a [previous post I wrote about the problems of engineering education]({{< ref "post/things-i-wished-they-taught-in-engineering-school" >}}).
 Your education, online certificates, and even sometimes the places you worked don't mean much on their own.
 
 Show me that you can deliver results.

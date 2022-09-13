@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-Back in April, I had [the opportunity to talk at a Silicon Valley Robotics (SVR) event on the topic of hiring for inclusive robotics]({{< ref "event/2021/4/silicon-valley-robotics-society-robots-and-us-hiring-for-inclusive-robotics" >}}), moderated by [Andra Keay](https://www.linkedin.com/in/andra-keay/).
+Back in April, I had [the opportunity to talk at a Silicon Valley Robotics (SVR) event on the topic of hiring for inclusive robotics]({{< ref "event/silicon-valley-robotics-society-robots-and-us-hiring-for-inclusive-robotics" >}}), moderated by [Andra Keay](https://www.linkedin.com/in/andra-keay/).
 Now that [the video of the event is live](https://www.youtube.com/watch?v=rfZHSJC9IKg), I thought I'd clean up and publish my talking notes to make my dialogue more accessible.
 
 The notes were rewritten to feel like a transcript.
@@ -61,7 +61,7 @@ Up to this point, I've identified three areas of improvement that I'm trying to 
 First, let's talk about hiring.
 It's the big one.
 
-While there's no better feeling than finding that next awesome person to be part of your team, [the process itself is honestly terrible for everyone involved]({{< ref "post/2021/6/things-i-wish-candidates-knew" >}}).
+While there's no better feeling than finding that next awesome person to be part of your team, [the process itself is honestly terrible for everyone involved]({{< ref "post/things-i-wish-candidates-knew" >}}).
 Hundreds of CVs to review, many of which aren't even relevant.
 Scheduling interviews is a logistical nightmare.
 Job descriptions are never good.
@@ -126,7 +126,7 @@ We want the company culture and experience to be represented from the very begin
 ### Better Community Engagement
 
 Now, on the topic of better community engagement, that's why I've enjoyed being part of these recent SVR talks.
-It's why I love [conferences]({{< ref "event/2018/10/iros-2018" >}}), [webinars]({{< ref "event/2020/4/dyndrite-developer-council-ddc2020" >}}), and [local meetups]({{< ref "event/2021/4/hardware-in-the-loop-training-robot-contact-in-an-unstructured-environment" >}}).
+It's why I love [conferences]({{< ref "event/iros-2018" >}}), [webinars]({{< ref "event/dyndrite-developer-council-ddc2020" >}}), and [local meetups]({{< ref "event/hardware-in-the-loop-training-robot-contact-in-an-unstructured-environment" >}}).
 If we're not part of the ecosystem and community, we're not engaging with reality and instead live in a silo.
 This is where diversity starts to become inclusive.
 
@@ -136,7 +136,7 @@ It's through these opportunities and engagement that companies can find new and 
 These hidden gems that we didn't know existed because we didn't bother to look.
 
 I like to work with recruiters that help us target non-traditional talent locations.
-For instance, [last year, I travelled down to South America to hire developers]({{< ref "post/2020/6/how-i-hired-a-senior-fullstack-developer-from-vanhack" >}}) with a Canadian group led by [VanHack](https://vanhack.com/).
+For instance, [last year, I travelled down to South America to hire developers]({{< ref "post/how-i-hired-a-senior-fullstack-developer-from-vanhack" >}}) with a Canadian group led by [VanHack](https://vanhack.com/).
 [We relocated them and their families back to Canada](https://www.linkedin.com/posts/engnadeau_welcome-to-montreal-daniel-ferrans-activity-6800055232895209472-MeEC).
 We gave them opportunities they couldn't locally find while expanding the variety of people at our company.
 

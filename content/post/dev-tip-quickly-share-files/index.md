@@ -53,7 +53,7 @@ In a browser, check to make sure everything is working (e.g., navigate to `http:
 
 ## Creating a Public URL
 
-If your PC is exposed to your internal network, you can simply share its local IP (order better yet, [its hostname]({{< ref "post/2020/1/ubuntu-server-on-a-raspberry-pi" >}})) and the port number that's being served (e.g., `192.168.0.123:8000`).
+If your PC is exposed to your internal network, you can simply share its local IP (order better yet, [its hostname]({{< ref "post/ubuntu-server-on-a-raspberry-pi" >}})) and the port number that's being served (e.g., `192.168.0.123:8000`).
 In your terminal, run the following:
 
 ```bash

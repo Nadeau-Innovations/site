@@ -27,7 +27,7 @@ image:
 projects: []
 ---
 
-As a follow up to [a previous post about Raspberry Pi setups]({{< ref "post/2019/2/raspberry-pi-setup" >}}), I recently found out that [Ubuntu has an official server distribution for Raspberry Pi](https://ubuntu.com/download/raspberry-pi).
+As a follow up to [a previous post about Raspberry Pi setups]({{< ref "post/raspberry-pi-setup" >}}), I recently found out that [Ubuntu has an official server distribution for Raspberry Pi](https://ubuntu.com/download/raspberry-pi).
 
 Here are my steps to setting up a Raspberry Pi for development and testing.
 

@@ -1,5 +1,5 @@
 ---
- 
+
 title: "Python for Hardware Engineers: SQLite or; How I Learned to Stop Worrying and Love Databases"
 subtitle: ""
 summary: ""
@@ -15,17 +15,17 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
- 
+
 ---
 
 Design that is backed by data proves that your work is on the right track.
 It reveals the pain points, flaws, and opportunities, while unearthing new trends and improves your designs by adding objectivity.
 
 Data collection, processing, and analysis are fundamental skills that engineers need to create effective solutions and data-driven designs.
-A big reason for this [Python for Hardware Engineers]({{< ref "/post/2020/10/new-series-python-for-hardware-engineering" >}}) series is because I believe that the standard educational pathways that hardware engineers follow isn't sufficient for modern data-driven practices.
+A big reason for this [Python for Hardware Engineers]({{< ref "/post/new-series-python-for-hardware-engineering" >}}) series is because I believe that the standard educational pathways that hardware engineers follow isn't sufficient for modern data-driven practices.
 
 In university, mechanical and electrical engineering lab sessions required us to collect maybe few dozen data points and produce a report.
-Even our [semi-realistic temperature and humidity data processing example using a real data logger]({{< ref "/post/2020/10/python-for-hardware-engineers-analyzing-temperature-sensor-data" >}}) only collected recordings at 30min intervals.
+Even our [semi-realistic temperature and humidity data processing example using a real data logger]({{< ref "/post/python-for-hardware-engineers-analyzing-temperature-sensor-data" >}}) only collected recordings at 30min intervals.
 This would only produce a few hundred recordings during a week of constant data collection, something which Excel or simple `pandas` scripts can easily handle.
 
 But what happens when we collect more data?
@@ -102,7 +102,7 @@ As such, my general philosophy for when to save data straight to disk:
 ## When Data Gets Too Big
 
 At [AON3D](https://www.aon3d.com/) we have an internal fleet of printers used for customer success, engineering, R&D, and sales.
-As an experiment and side-project, I started recording all our prototype printers' temperatures (two toolhead sensors, one chamber sensor, and one bed sensor) over time to have a better understanding of system reliability and "hot-time" during engineering development and testing. 
+As an experiment and side-project, I started recording all our prototype printers' temperatures (two toolhead sensors, one chamber sensor, and one bed sensor) over time to have a better understanding of system reliability and "hot-time" during engineering development and testing.
 
 Each printer reports its temperature at a rate of 1Hz.
 I record 2s of data, per printer, every 5min to have a high-level overview of our internal fleet.
@@ -110,13 +110,13 @@ Each week I produce over 40K recordings totaling several hundred megabytes of da
 
 Initially, I was lazy and dumped the data to disk using the method described above.
 Each week I ran a script that consolidates the data to a CSV, such that other stakeholders can have easy access and weekly reports.
-The consolidation process took several minutes as each JSON file is loaded into memory, parsed into a `pandas` Series, concatenated into a DataFrame, and then exported. 
+The consolidation process took several minutes as each JSON file is loaded into memory, parsed into a `pandas` Series, concatenated into a DataFrame, and then exported.
 
 This is when data starts to get too big for saving to disk.
 
 ## Meet SQLite and `peewee`
 
-SQLite is a relational database system contained in a small C library. 
+SQLite is a relational database system contained in a small C library.
 In contrast to many other databases, SQLite is not a client–server engine, but rather it is embedded into the end program.
 
 In Python, SQLite is a library that provides a lightweight disk-based database that doesn’t require a separate server process.
@@ -323,4 +323,4 @@ It's the next step in an iterative approach to design, especially when jumping s
 
 Just as in hardware design, the KISS principle should be our focus for data collection and analysis.
 Most systems, including our data infrastructure, work best if they are kept simple rather than made complicated.
-Simplicity should be a key goal in design, and unnecessary complexity should be avoided. 
+Simplicity should be a key goal in design, and unnecessary complexity should be avoided.

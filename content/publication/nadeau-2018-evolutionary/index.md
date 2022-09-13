@@ -34,7 +34,7 @@ The  high-level  steps  of  differential  evolution  (DE): (1) A population of c
 
 ## Presentations
 
-This work has been featured in [Python meetup talks]({{< ref "event/2021/4/hardware-in-the-loop-training-robot-contact-in-an-unstructured-environment" >}}) and [IEEE webinars]({{< ref "event/2021/10/ieeeembs-robotics-webinar" >}}):
+This work has been featured in [Python meetup talks]({{< ref "event/hardware-in-the-loop-training-robot-contact-in-an-unstructured-environment" >}}) and [IEEE webinars]({{< ref "event/ieeeembs-robotics-webinar" >}}):
 
 {{< youtube oPycMTPJOCY >}}
 
