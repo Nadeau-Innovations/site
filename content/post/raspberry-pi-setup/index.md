@@ -1,23 +1,29 @@
-+++
-title = "Setting Up a Raspberry Pi for Dev Side-projects"
-date = 2019-02-10T10:40:22-05:00
-draft = false
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["bash", "boot", "connectivity", "dev", "device", "listenaddress", "login", "openssh", "passwd", "password", "port", "raspberry", "root", "ssh", "sudo", "user123"]
-categories = []
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
-+++
+---
+categories: []
+date: "2019-02-10T10:40:22-05:00"
+draft: false
+image:
+  caption: ""
+  focal_point: ""
+tags:
+- bash
+- boot
+- connectivity
+- dev
+- device
+- listenaddress
+- login
+- openssh
+- passwd
+- password
+- port
+- raspberry
+- root
+- ssh
+- sudo
+- user123
+title: Setting Up a Raspberry Pi for Dev Side-projects
+---
 
 The Raspberry Pi is a great device for dev side-projects, such as a home media station, an IoT device, or a local server.
 Here are some of my go-to configurations when setting one up.

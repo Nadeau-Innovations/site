@@ -1,33 +1,43 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Des milliers de visières fabriquées grâce à l’impression 3D"
-subtitle: ""
-summary: ""
+aliases:
+- /post/des-milliers-de-visires-fabriques-grce-limpression-3d
 authors: []
-tags: ["aon3d", "chain", "company", "demand", "face", "hospitals", "market", "", "new", "", "officer", "picture", "printer", "product", "profession", "shields", "shortage", "thousands", "visors", "week", "york","covid"]
 categories: []
-date: 2020-04-15T16:58:57-04:00
-lastmod: 2020-04-15T16:58:57-04:00
-featured: false
+date: "2020-04-15T16:58:57-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-04-15T16:58:57-04:00"
 projects: []
-aliases:
-- /post/des-milliers-de-visires-fabriques-grce-limpression-3d
+subtitle: ""
+summary: ""
+tags:
+- aon3d
+- chain
+- company
+- demand
+- face
+- hospitals
+- market
+- ""
+- new
+- ""
+- officer
+- picture
+- printer
+- product
+- profession
+- shields
+- shortage
+- thousands
+- visors
+- week
+- york
+- covid
+title: Des milliers de visières fabriquées grâce à l’impression 3D
 ---
 
 > La demande a explosé pour les visières ces dernières semaines, constate le chef de l’ingénierie d’AON3D, Nicholas Nadeau.

@@ -1,31 +1,26 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Download iCal Calendar Data Using Python"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["calendar", "data", "fire", "ics", "ical", "python","pandas"]
 categories: []
-date: 2020-06-25T08:32:04-04:00
-lastmod: 2020-06-25T08:32:04-04:00
-featured: false
+date: "2020-06-25T08:32:04-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-06-25T08:32:04-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- calendar
+- data
+- fire
+- ics
+- ical
+- python
+- pandas
+title: Download iCal Calendar Data Using Python
 ---
 
 Sometimes you need access to your calendar data, such as when making synchronization tools.

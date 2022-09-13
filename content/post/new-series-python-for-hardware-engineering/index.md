@@ -1,31 +1,28 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "New Series: Python for Hardware Engineers"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["engineer", "hardware", "engineering", "", "python", "design", "series", "mechanical", "electrical"]
 categories: []
-date: 2020-10-25
-lastmod: 2020-10-19T07:55:14-04:00
-featured: false
+date: "2020-10-25"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-10-19T07:55:14-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- engineer
+- hardware
+- engineering
+- ""
+- python
+- design
+- series
+- mechanical
+- electrical
+title: 'New Series: Python for Hardware Engineers'
 ---
 
 Once upon a time, at McGill University in Mechanical Engineering, I took a course called `COMP 208 Computer Programming for Physical Sciences and Engineering`.

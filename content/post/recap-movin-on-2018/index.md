@@ -1,10 +1,25 @@
-+++
-title = "Recap: Movin' On 2018"
-date = 2018-06-25T11:11:11
-tags = ["bertrand", "concept", "environment", "government", "incentive", "mobility", "movin", "piccard", "policy", "protection", "recap", "sector", "sustainable", "unit"]
-categories = []
-aliases = ["/post/recap-movin-on-2018"]
-+++
+---
+aliases:
+- /post/recap-movin-on-2018
+categories: []
+date: 2018-06-25T11:11:11
+tags:
+- bertrand
+- concept
+- environment
+- government
+- incentive
+- mobility
+- movin
+- piccard
+- policy
+- protection
+- recap
+- sector
+- sustainable
+- unit
+title: 'Recap: Movin'' On 2018'
+---
 
 
 Sustainable mobility was the primary topic of the event. Overall, one of my favourite quotes came from [Bertrand Piccard](https://en.wikipedia.org/wiki/Bertrand_Piccard):

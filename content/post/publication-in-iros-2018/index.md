@@ -1,10 +1,30 @@
-+++
-title = "Publication in the Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018)"
-date = 2018-07-01T09:44:46
-tags = ["async", "control", "evolutionary", "ieee", "intelligent", "interaction", "international", "iros", "madrid", "motion", "optimization", "physical", "proceedings", "robots", "rsj", "script", "spain", "systems"]
-categories = []
-aliases = ["/post/publication-in-iros-2018"]
-+++
+---
+aliases:
+- /post/publication-in-iros-2018
+categories: []
+date: 2018-07-01T09:44:46
+tags:
+- async
+- control
+- evolutionary
+- ieee
+- intelligent
+- interaction
+- international
+- iros
+- madrid
+- motion
+- optimization
+- physical
+- proceedings
+- robots
+- rsj
+- script
+- spain
+- systems
+title: Publication in the Proceedings of the 2018 IEEE/RSJ International Conference
+  on Intelligent Robots and Systems (IROS 2018)
+---
 
 
 ‪Happy to announce that [Ilian Bonev’s](https://twitter.com/ibonev) and my paper, “Evolutionary Motion Control Optimization in Physical Human-Robot Interaction,” has been accepted for publication in the Proceedings of the 2018 [IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018)](https://www.iros2018.org/)!

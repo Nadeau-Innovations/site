@@ -1,33 +1,30 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Tip of the Day: Find non-ASCII Characters with Regex"
-subtitle: ""
-summary: ""
+aliases:
+- /post/regex-tips-find-nonascii-characters
 authors: []
-tags: ["abcdef", "ascii", "characters", "object", "python", "regex", "span", "tips", "x7f"]
 categories: []
-date: 2020-04-03
-lastmod: 2020-04-03T10:24:16-04:00
-featured: false
+date: "2020-04-03"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-04-03T10:24:16-04:00"
 projects: []
-aliases:
-- /post/regex-tips-find-nonascii-characters
+subtitle: ""
+summary: ""
+tags:
+- abcdef
+- ascii
+- characters
+- object
+- python
+- regex
+- span
+- tips
+- x7f
+title: 'Tip of the Day: Find non-ASCII Characters with Regex'
 ---
 
 Search for non-ascii characters using regex: `[^\x00-\x7F]+`

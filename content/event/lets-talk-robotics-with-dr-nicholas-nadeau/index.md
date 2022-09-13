@@ -1,74 +1,39 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Let's talk robotics with Dr. Nicholas Nadeau!"
-event: "Let's Talk Robotics Podcast"
-event_url: https://www.exaptec.com.au/podcast/2021/10/18/lets-talk-robotics-with-dr-nicholas-nadeau
-location:
+abstract: null
 address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-10-18
-# date_end: 2021-10-20T06:26:05-04:00
-all_day: True
-
-# Schedule page publish date (NOT event date).
-publishDate: 2021-10-20T06:26:05-04:00
-
+  city: null
+  country: null
+  postcode: null
+  region: null
+  street: null
+all_day: true
 authors: []
-tags: [engineering,robotics]
-
-# Is this a featured event? (true/false)
+date: "2021-10-18"
+event: Let's Talk Robotics Podcast
+event_url: https://www.exaptec.com.au/podcast/2021/10/18/lets-talk-robotics-with-dr-nicholas-nadeau
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides:
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/EngNadeau
-url_code:
-url_pdf:
-url_video:
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+location: null
 projects: []
+publishDate: "2021-10-20T06:26:05-04:00"
+slides: ""
+summary: null
+tags:
+- engineering
+- robotics
+title: Let's talk robotics with Dr. Nicholas Nadeau!
+url_code: null
+url_pdf: null
+url_slides: null
+url_video: null
 ---
 
 First international guest on the "Let's Talk Robotics Podcast" hosted by Nicci Rossouw.

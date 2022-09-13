@@ -1,24 +1,24 @@
-+++
-title = "Profiling Python Code"
-date = 2019-02-10T15:07:03-05:00
-draft = false
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["bash", "cprofile", "cumtime", "ncalls", "percall", "pyprof2calltree", "python", "snakeviz", "tottime"]
-categories = []
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
-aliases = ["/post/profiling-python-code"]
-+++
+---
+categories: []
+date: "2019-02-10T15:07:03-05:00"
+draft: false
+image:
+  aliases:
+  - /post/profiling-python-code
+  caption: ""
+  focal_point: ""
+tags:
+- bash
+- cprofile
+- cumtime
+- ncalls
+- percall
+- pyprof2calltree
+- python
+- snakeviz
+- tottime
+title: Profiling Python Code
+---
 
 Figure out the bottlenecks in your Python scripts.
 

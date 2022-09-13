@@ -1,24 +1,19 @@
-+++
-title = "Resize and Convert All Images in a Directory"
-date = 2019-02-10T11:27:47-05:00
-draft = false
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["bash", "", "mogrify", "imagemagick"]
-categories = []
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
-aliases = ["/post/cli-resize-images"]
-+++
+---
+categories: []
+date: "2019-02-10T11:27:47-05:00"
+draft: false
+image:
+  aliases:
+  - /post/cli-resize-images
+  caption: ""
+  focal_point: ""
+tags:
+- bash
+- ""
+- mogrify
+- imagemagick
+title: Resize and Convert All Images in a Directory
+---
 
 `mogrify` is part of the ImageMagick suite of tools.
 It's simple, powerful, and easy to use.

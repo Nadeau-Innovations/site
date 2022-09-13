@@ -1,10 +1,20 @@
-+++
-title = "Spotlight: Engineering Neuroscience Products"
-date = 2016-08-22T00:00:00
-tags = ["brainsight", "company", "neuroscience", "products", "protocase", "quality", "research", "rogue", "sheet"]
-categories = []
-aliases = ["/post/spotlight-engineering-neuroscience-products"]
-+++
+---
+aliases:
+- /post/spotlight-engineering-neuroscience-products
+categories: []
+date: 2016-08-22T00:00:00
+tags:
+- brainsight
+- company
+- neuroscience
+- products
+- protocase
+- quality
+- research
+- rogue
+- sheet
+title: 'Spotlight: Engineering Neuroscience Products'
+---
 
 
 Rogue Research is an engineering innovation company that develops systems that revolutionize brain image visualization.

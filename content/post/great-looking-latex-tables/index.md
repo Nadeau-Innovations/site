@@ -1,10 +1,20 @@
-+++
-title = "Great Looking LaTeX Tables"
-date = 2018-06-25T22:13:30
-tags = ["data", "document", "midrule", "numbers", "precision", "resizebox", "tables", "toprule", "usepackage"]
-categories = []
-aliases = ["/post/great-looking-latex-tables"]
-+++
+---
+aliases:
+- /post/great-looking-latex-tables
+categories: []
+date: 2018-06-25T22:13:30
+tags:
+- data
+- document
+- midrule
+- numbers
+- precision
+- resizebox
+- tables
+- toprule
+- usepackage
+title: Great Looking LaTeX Tables
+---
 
 - No colour
 - No vertical gridlines

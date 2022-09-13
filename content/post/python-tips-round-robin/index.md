@@ -1,33 +1,30 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Tip of the Day: Combining Iterables in Python Through Round Robin"
-subtitle: ""
-summary: ""
+aliases:
+- /post/python-tips-round-robin
 authors: []
-tags: ["contestant", "cycle", "iterables", "nexts", "participant", "portion", "python", "robin", "roundrobin"]
 categories: []
-date: 2020-04-03T07:03:06-04:00
-lastmod: 2020-04-03T07:03:06-04:00
-featured: false
+date: "2020-04-03T07:03:06-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-04-03T07:03:06-04:00"
 projects: []
-aliases:
-- /post/python-tips-round-robin
+subtitle: ""
+summary: ""
+tags:
+- contestant
+- cycle
+- iterables
+- nexts
+- participant
+- portion
+- python
+- robin
+- roundrobin
+title: 'Tip of the Day: Combining Iterables in Python Through Round Robin'
 ---
 
 A round-robin tournament is a competition in which each contestant meets all other contestants in turn. In a single round-robin schedule, each participant plays every other participant once.

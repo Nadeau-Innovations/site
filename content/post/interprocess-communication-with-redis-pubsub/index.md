@@ -1,10 +1,25 @@
-+++
-title = "Interprocess Communication with Redis"
-date = 2018-07-30T21:55:53
-tags = ["bash", "channel", "container", "data", "interface", "ipc", "json", "message", "none", "pattern", "pubsub", "python", "redis", "world"]
-categories = []
-aliases = ["/post/interprocess-communication-with-redis-pubsub"]
-+++
+---
+aliases:
+- /post/interprocess-communication-with-redis-pubsub
+categories: []
+date: 2018-07-30T21:55:53
+tags:
+- bash
+- channel
+- container
+- data
+- interface
+- ipc
+- json
+- message
+- none
+- pattern
+- pubsub
+- python
+- redis
+- world
+title: Interprocess Communication with Redis
+---
 
 There are many methods to communicating between processes.
 Many methods work best when only using a single programming language, while others require custom packets and parsing.

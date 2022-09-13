@@ -1,10 +1,22 @@
-+++
-title = "Count the Number of Files in a Directory"
-date = 2018-06-14T00:00:00
-tags = ["number", "bash", "count", "", "word", "character", "byte", "output", "command", "log", "record"]
-categories = []
-aliases = ["/post/count-the-number-of-files-in-a-directory"]
-+++
+---
+aliases:
+- /post/count-the-number-of-files-in-a-directory
+categories: []
+date: 2018-06-14T00:00:00
+tags:
+- number
+- bash
+- count
+- ""
+- word
+- character
+- byte
+- output
+- command
+- log
+- record
+title: Count the Number of Files in a Directory
+---
 
 
 ```bash

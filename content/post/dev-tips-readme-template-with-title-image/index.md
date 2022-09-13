@@ -1,33 +1,29 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Tip of the Day: Markdown README Template With Title Image"
-subtitle: ""
-summary: "By using a mixture of HTML and Markdown, we can create a nice, simple `README` file that looks aesthetically pleasing to the eye."
+aliases:
+- /post/dev-tips-readme-template-with-title-image
 authors: []
-tags: ["alt", "badge", "felis", "ipsum", "label", "readme", "markdown"]
 categories: []
-date: 2020-04-20T07:31:23-04:00
-lastmod: 2020-04-20T07:31:23-04:00
-featured: false
+date: "2020-04-20T07:31:23-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-04-20T07:31:23-04:00"
 projects: []
-aliases:
-- /post/dev-tips-readme-template-with-title-image
+subtitle: ""
+summary: By using a mixture of HTML and Markdown, we can create a nice, simple `README`
+  file that looks aesthetically pleasing to the eye.
+tags:
+- alt
+- badge
+- felis
+- ipsum
+- label
+- readme
+- markdown
+title: 'Tip of the Day: Markdown README Template With Title Image'
 ---
 
 By using a mixture of HTML and Markdown, we can create a nice, simple `README` file that looks aesthetically pleasing to the eye:

@@ -1,31 +1,40 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "How I Hired a Senior Full-stack Developer in Colombia through VanHack"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["", "canada", "colombia", "developer", "hiring", "global", "", "", "medellin", "", "", "", "", "", "software", "fullstack", "", "", "tech", "travel", "vanhack"]
 categories: []
-date: 2020-06-17T14:58:12-04:00
-lastmod: 2020-06-17T14:58:12-04:00
-featured: false
+date: "2020-06-17T14:58:12-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-06-17T14:58:12-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- ""
+- canada
+- colombia
+- developer
+- hiring
+- global
+- ""
+- ""
+- medellin
+- ""
+- ""
+- ""
+- ""
+- ""
+- software
+- fullstack
+- ""
+- ""
+- tech
+- travel
+- vanhack
+title: How I Hired a Senior Full-stack Developer in Colombia through VanHack
 ---
 
 I recently had the opportunity (before the travel bans) to take part in a software developer recruiting mission in Medellin, Colombia through [VanHack](http://www.vanhack.com/).

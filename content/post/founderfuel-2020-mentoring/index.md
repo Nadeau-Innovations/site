@@ -1,31 +1,24 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Mentoring Founderfuel 2020"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["founderfuel","mentor","startup","montreal","engineering"]
 categories: []
-date: 2020-10-26T16:05:21-04:00
-lastmod: 2020-10-26T16:05:21-04:00
-featured: false
+date: "2020-10-26T16:05:21-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-10-26T16:05:21-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- founderfuel
+- mentor
+- startup
+- montreal
+- engineering
+title: Mentoring Founderfuel 2020
 ---
 
 Another year, another cohort.

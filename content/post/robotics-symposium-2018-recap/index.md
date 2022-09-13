@@ -1,10 +1,22 @@
-+++
-title = "Robotics Symposium 2018 Recap"
-date = 2018-04-06T00:00:00
-tags = ["electromate", "javascript", "language", "none", "pid", "presentation", "robotics", "script", "siteurl", "target", "var"]
-categories = []
-aliases = ["/post/robotics-symposium-2018-recap"]
-+++
+---
+aliases:
+- /post/robotics-symposium-2018-recap
+categories: []
+date: 2018-04-06T00:00:00
+tags:
+- electromate
+- javascript
+- language
+- none
+- pid
+- presentation
+- robotics
+- script
+- siteurl
+- target
+- var
+title: Robotics Symposium 2018 Recap
+---
 
 
 I recently had the opportunity to attend a great Robotics Symposium presented by [Electromate](https://www.electromate.com/) at [École de technologie supérieure](https://www.etsmtl.ca/). The primary goal of this event was to bring together academia and industry to discuss *how to build a robot*.

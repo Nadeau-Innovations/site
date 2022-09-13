@@ -1,33 +1,28 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Tip of the Day: Quickly Share Files with Python and ngrok"
-subtitle: ""
-summary: ""
+aliases:
+- /post/dev-tip-quickly-share-files
 authors: []
-tags: ["bash", "hostname", "ngrok", "port", "python", "server", "web"]
 categories: []
-date: 2020-04-06T07:42:59-04:00
-lastmod: 2020-04-06T07:42:59-04:00
-featured: false
+date: "2020-04-06T07:42:59-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-04-06T07:42:59-04:00"
 projects: []
-aliases:
-- /post/dev-tip-quickly-share-files
+subtitle: ""
+summary: ""
+tags:
+- bash
+- hostname
+- ngrok
+- port
+- python
+- server
+- web
+title: 'Tip of the Day: Quickly Share Files with Python and ngrok'
 ---
 
 Sometimes I just need to transfer a file across computers without the fuss of `ssh`, Google Drive, Firefox Send, etc.

@@ -1,31 +1,23 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "How to Make Hardware Development More Agile"
-subtitle: ""
-summary: ""
 authors: []
-tags: [agile,hardware,engineering,robotics]
 categories: []
-date: 2021-05-11T16:52:23-04:00
-lastmod: 2021-05-11T16:52:23-04:00
-featured: false
+date: "2021-05-11T16:52:23-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2021-05-11T16:52:23-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- agile
+- hardware
+- engineering
+- robotics
+title: How to Make Hardware Development More Agile
 ---
 
 People say that you can't do agile hardware development.

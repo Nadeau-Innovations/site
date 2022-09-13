@@ -1,69 +1,37 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Design to Product Podcast: Applying Key Hardware Design Considerations"
-event: "Design to Product Podcast"
-event_url: https://pod.link/designtoproduct/episode/37cc3fdfb595e106eace67bbc509ec29
-location: Podcast
+abstract: null
 address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2022-08-18
-# date_end: 2022-08-18T15:45:15-04:00
+  city: null
+  country: null
+  postcode: null
+  region: null
+  street: null
 all_day: false
-
-# Schedule page publish date (NOT event date).
-publishDate: 2022-08-18T15:45:15-04:00
-
 authors: []
-tags: [robotics,hardware,engineering,design,product]
-
-# Is this a featured event? (true/false)
+date: "2022-08-18"
+event: Design to Product Podcast
+event_url: https://pod.link/designtoproduct/episode/37cc3fdfb595e106eace67bbc509ec29
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides:
-url_code:
-url_pdf:
-url_video: https://youtu.be/_RgIFBCWhmQ
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+location: Podcast
 projects: []
+publishDate: "2022-08-18T15:45:15-04:00"
+slides: ""
+summary: null
+tags:
+- robotics
+- hardware
+- engineering
+- design
+- product
+title: 'Design to Product Podcast: Applying Key Hardware Design Considerations'
+url_code: null
+url_pdf: null
+url_slides: null
+url_video: https://youtu.be/_RgIFBCWhmQ
 ---
 
 Nicholas Nadeau is the CTO of Halodi Robotics, a company that builds humanoid robots for different purposes like safety or medical treatment. We talked about different considerations that they needed to take into account and how they applied them while designing robots that should operate among humans and interact with them.

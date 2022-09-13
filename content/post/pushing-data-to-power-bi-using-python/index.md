@@ -1,33 +1,28 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Pushing Streaming Data to Microsoft Power BI for Data Visualization Using Python"
-subtitle: ""
-summary: ""
+aliases:
+- /post/pushing-data-to-power-bi-using-python
 authors: []
-tags: ["api", "dashboard", "data", "datasets", "microsoft", "power bi", "python"]
 categories: []
-date: 2020-06-15T16:32:36-04:00
-lastmod: 2020-06-15T16:32:36-04:00
-featured: false
+date: "2020-06-15T16:32:36-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-06-15T16:32:36-04:00"
 projects: []
-aliases:
-- /post/pushing-data-to-power-bi-using-python
+subtitle: ""
+summary: ""
+tags:
+- api
+- dashboard
+- data
+- datasets
+- microsoft
+- power bi
+- python
+title: Pushing Streaming Data to Microsoft Power BI for Data Visualization Using Python
 ---
 
 [Power BI](https://powerbi.microsoft.com/) is a business analytics service by Microsoft that aims to provide data visualizations and business intelligence capabilities through simple report and dashboard tools.

@@ -1,22 +1,27 @@
 ---
-
-title: "Python for Hardware Engineers: Analyzing Temperature and Humidity Data From an OM-24 Sensor"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["sensor","data","python","hardware","engineering","science","excel"]
 categories: []
-date: 2020-10-31
-lastmod: 2020-10-18T12:58:26-04:00
-featured: false
+date: "2020-10-31"
 draft: false
-
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
+lastmod: "2020-10-18T12:58:26-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- sensor
+- data
+- python
+- hardware
+- engineering
+- science
+- excel
+title: 'Python for Hardware Engineers: Analyzing Temperature and Humidity Data From
+  an OM-24 Sensor'
 ---
 
 Data analysis of sensor data is a typical hardware engineering activity that often involves an Excel-based workflow.

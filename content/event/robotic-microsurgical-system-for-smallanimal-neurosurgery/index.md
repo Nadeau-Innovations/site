@@ -5,6 +5,12 @@ abstract: |
   Here we present the characterization of a robotic micro-surgical system for small-animal neurosurgery. The system is capable of moving to, drilling, injecting, placing electrodes or any other surgical device to predefined targets using imaging data and Brainsight Vet neuronavigation software (Rogue Research Inc., Montréal). Through stereo machine vision, the system is able to register a surface (e.g., exposed skull) to a given imaging dataset and calibrate an arbitrary tool in order to accurately position a 6-axis robotic arm (Mecademic, Montréal) for surgical procedures. In this particular study, we characterize the micro-surgical system using a surgical phantom in order to demonstrate the accuracy and repeatability of the tool positioning and subject registration. The experiment is designed to simulate keyhole drilling, electrode placement, and microinjections in a small-animal. The mapping between robot-space and imagespace is computed using a laser-generated point cloud and stereo machine vision. Consequently, the exact placement of the animal and the alignment of bregma and lambda become irrelevant, in contrast with paper atlas stereotaxic procedures, since navigation and robot control are performed with respect to the imaging data. The robot itself is capable of 5µm repeatability, as measured with an electronic indicator (Mitutoyo 543-793).
 
   This system removes the error-prone human component from surgical procedures, allowing for a more effective and efficient surgery, with the goal of improving surgical success rate, throughput, and experiment replicability.
+address:
+  city: Washington
+  country: United States
+  postcode: "20001"
+  region: D.C.
+  street: 801 Mt Vernon Pl NW
 date: "2017-11-06T00:00:00-05:00"
 draft: false
 event: Society for Neuroscience
@@ -14,12 +20,6 @@ header:
   image: ""
 highlight: true
 location: Walter E. Washington Convention Center
-address:
-  street: 801 Mt Vernon Pl NW
-  city: Washington
-  region: D.C.
-  postcode: '20001'
-  country: United States
 math: false
 projects: []
 selected: false

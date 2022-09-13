@@ -1,33 +1,29 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Converting GoPro Timelapse Images to a Video with Imagemagick and ffmpeg"
-subtitle: ""
-summary: ""
+aliases:
+- /post/converting-gopro-timelapse-to-a-video-or-gif-with-imagemagick-and-ffmpeg
 authors: []
-tags: ["imagemagick", "gif", "gopro", "ffmpeg", "video", "timelapse","bash","youtube"]
 categories: []
-date: 2020-05-19T13:47:35-04:00
-lastmod: 2020-05-19T13:47:35-04:00
-featured: false
+date: "2020-05-19T13:47:35-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-05-19T13:47:35-04:00"
 projects: []
-aliases:
-- /post/converting-gopro-timelapse-to-a-video-or-gif-with-imagemagick-and-ffmpeg
+subtitle: ""
+summary: ""
+tags:
+- imagemagick
+- gif
+- gopro
+- ffmpeg
+- video
+- timelapse
+- bash
+- youtube
+title: Converting GoPro Timelapse Images to a Video with Imagemagick and ffmpeg
 ---
 
 Recently, a crane was built in front of where I live and I wanted to capture a timelapse of the construction process.

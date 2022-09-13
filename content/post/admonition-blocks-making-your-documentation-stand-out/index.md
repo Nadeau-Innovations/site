@@ -1,10 +1,18 @@
-+++
-title = "Admonition Blocks: Making Your Documentation Stand Out"
-date = 2018-08-04T15:23:50
-tags = ["documentation", "admonition", "awesomebox", "alertmessage", "usepackage", "latex", "xelatex"]
-categories = []
-aliases = ["/post/admonition-blocks-making-your-documentation-stand-out"]
-+++
+---
+aliases:
+- /post/admonition-blocks-making-your-documentation-stand-out
+categories: []
+date: 2018-08-04T15:23:50
+tags:
+- documentation
+- admonition
+- awesomebox
+- alertmessage
+- usepackage
+- latex
+- xelatex
+title: 'Admonition Blocks: Making Your Documentation Stand Out'
+---
 
 Documentation doesn't always have to be boring.
 Admonition blocks draw the reader's attention to important notes and warnings that may not directly fit as part of the flow of the text.

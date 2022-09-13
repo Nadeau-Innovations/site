@@ -1,30 +1,26 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Ubuntu Server on a Raspberry Pi"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["bash", "device", "fail2ban", "hostname", "raspberry", "ssh", "sudo", "ubuntu"]
 categories: []
-date: 2020-01-13
-featured: false
+date: "2020-01-13"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- bash
+- device
+- fail2ban
+- hostname
+- raspberry
+- ssh
+- sudo
+- ubuntu
+title: Ubuntu Server on a Raspberry Pi
 ---
 
 As a follow up to [a previous post about Raspberry Pi setups]({{< ref "post/raspberry-pi-setup" >}}), I recently found out that [Ubuntu has an official server distribution for Raspberry Pi](https://ubuntu.com/download/raspberry-pi).

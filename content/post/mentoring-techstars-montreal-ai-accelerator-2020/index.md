@@ -1,31 +1,19 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Mentoring Techstars Montréal AI Accelerator"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2020-12-20T09:46:57-05:00
-lastmod: 2020-12-20T09:46:57-05:00
-featured: false
+date: "2020-12-20T09:46:57-05:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-12-20T09:46:57-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: Mentoring Techstars Montréal AI Accelerator
 ---
 
 This past September, I had the chance to meet ten exciting AI startups part of [Techstars Montréal AI Accelerator](https://demoday.techstars.com/montreal-ai-2020-t5).

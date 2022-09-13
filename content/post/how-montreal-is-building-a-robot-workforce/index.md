@@ -1,31 +1,23 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "How Montreal Is Building a Robot Workforce"
-subtitle: ""
-summary: ""
 authors: []
-tags: [montreal, robotics, VR, research]
 categories: []
-date: 2022-05-16T20:53:57-04:00
-lastmod: 2022-05-16T20:53:57-04:00
-featured: false
+date: "2022-05-16T20:53:57-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2022-05-16T20:53:57-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- montreal
+- robotics
+- VR
+- research
+title: How Montreal Is Building a Robot Workforce
 ---
 
 > “Our mission is to build humanoid robots that will change the world and solve the labour shortage,” says Nicholas Nadeau, CTO of Halodi Robotics. “The humanoid form factor is not simply a design choice; we believe it is the only choice for a system that needs to interact with the human world.”

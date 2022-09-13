@@ -1,41 +1,22 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Brainsight® NIRS"
-summary: "Near-infrared spectroscopy (NIRS) non-invasively probes the concentration and oxygenation of hemoglobin in the brain to detect changes induced by brain activity"
 authors: []
-tags: []
-categories: [research,hardware,medical]
-date: 2020-12-20T13:47:22-05:00
-
-# Optional external URL for project (replaces project detail page).
-external_link: "https://www.rogue-research.com/nirs/hardware/"
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+categories:
+- research
+- hardware
+- medical
+date: "2020-12-20T13:47:22-05:00"
+external_link: https://www.rogue-research.com/nirs/hardware/
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
+slides: ""
+summary: Near-infrared spectroscopy (NIRS) non-invasively probes the concentration
+  and oxygenation of hemoglobin in the brain to detect changes induced by brain activity
+tags: []
+title: Brainsight® NIRS
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
 ---

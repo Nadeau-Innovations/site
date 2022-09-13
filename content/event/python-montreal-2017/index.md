@@ -1,5 +1,13 @@
 ---
 abstract: ""
+address:
+  city: Montréal
+  country: Canada
+  postcode: H2X 1X2
+  region: QC
+  street: 51 Sherbrooke St W
+aliases:
+- /talk/python-montreal-2017
 date: "2017-10-01T00:00:00-04:00"
 draft: false
 event: 'Montréal-Python 67: Ultramodern Vintage - PyCon Canada Special'
@@ -9,12 +17,6 @@ header:
   image: ""
 highlight: true
 location: Maison Notman House
-address:
-  street: 51 Sherbrooke St W
-  city: Montréal
-  region: QC
-  postcode: H2X 1X2
-  country: Canada
 math: false
 projects: []
 selected: false
@@ -40,8 +42,6 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: https://youtu.be/wgKoGA69YXQ
-aliases:
-- /talk/python-montreal-2017
 ---
 
 This talk was presented at [Montréal-Python 67: Ultramodern Vintage - PyCon Canada Special](https://montrealpython.org/2017/10/mp67/)

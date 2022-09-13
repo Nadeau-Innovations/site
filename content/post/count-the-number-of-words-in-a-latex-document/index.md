@@ -1,10 +1,23 @@
-+++
-title = "Count the Number of Words in a LaTeX Document"
-date = 2018-06-14T00:00:00
-tags = ["bash", "byte", "character", "command", "count", "log", "number", "output", "record", "", "word","latex"]
-categories = []
-aliases = ["/post/count-the-number-of-words-in-a-latex-document"]
-+++
+---
+aliases:
+- /post/count-the-number-of-words-in-a-latex-document
+categories: []
+date: 2018-06-14T00:00:00
+tags:
+- bash
+- byte
+- character
+- command
+- count
+- log
+- number
+- output
+- record
+- ""
+- word
+- latex
+title: Count the Number of Words in a LaTeX Document
+---
 
 
 ```bash

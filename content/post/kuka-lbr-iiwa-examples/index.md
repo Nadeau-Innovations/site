@@ -1,33 +1,39 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "KUKA LBR iiwa Examples"
-subtitle: ""
-summary: ""
+aliases:
+- /post/kuka-lbr-iiwa-examples
 authors: []
-tags: ["application", "collision", "condition", "couple", "data", "demo", "examples", "iiwa", "impedance", "kuka", "lbr", "phd", "reactions", "repository", "research", "utility", "videos", "youtube"]
 categories: []
-date: 2020-05-03T21:41:25-04:00
-lastmod: 2020-05-03T21:41:25-04:00
-featured: false
+date: "2020-05-03T21:41:25-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-05-03T21:41:25-04:00"
 projects: []
-aliases:
-- /post/kuka-lbr-iiwa-examples
+subtitle: ""
+summary: ""
+tags:
+- application
+- collision
+- condition
+- couple
+- data
+- demo
+- examples
+- iiwa
+- impedance
+- kuka
+- lbr
+- phd
+- reactions
+- repository
+- research
+- utility
+- videos
+- youtube
+title: KUKA LBR iiwa Examples
 ---
 
 While cleaning out old git project from my PhD, I created [a repository of programming examples for the KUKA LBR iiwa](https://github.com/engnadeau/kuka-lbr-examples).

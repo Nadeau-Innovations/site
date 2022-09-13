@@ -1,69 +1,32 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Society, Robots, and Us: Hiring for Inclusive Robotics"
-event: "Silicon Valley Robotics - Society, Robots, and Us: Hiring for Inclusive Robotics"
-event_url: https://www.eventbrite.com/e/society-robots-and-us-hiring-for-inclusive-robotics-tickets-139729800595
-location: Online
+abstract: null
 address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-04-27
-# date_end: 2021-04-22T17:28:03-04:00
+  city: null
+  country: null
+  postcode: null
+  region: null
+  street: null
 all_day: true
-
-# Schedule page publish date (NOT event date).
-publishDate: 2021-04-22T17:28:03-04:00
-
 authors: []
-tags: []
-
-# Is this a featured event? (true/false)
+date: "2021-04-27"
+event: 'Silicon Valley Robotics - Society, Robots, and Us: Hiring for Inclusive Robotics'
+event_url: https://www.eventbrite.com/e/society-robots-and-us-hiring-for-inclusive-robotics-tickets-139729800595
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides:
-url_code:
-url_pdf:
-url_video: "https://www.youtube.com/watch?v=rfZHSJC9IKg"
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+location: Online
 projects: []
+publishDate: "2021-04-22T17:28:03-04:00"
+slides: ""
+summary: null
+tags: []
+title: 'Society, Robots, and Us: Hiring for Inclusive Robotics'
+url_code: null
+url_pdf: null
+url_slides: null
+url_video: https://www.youtube.com/watch?v=rfZHSJC9IKg
 ---
 
 Silicon Valley Robotics (SVR) is continuing the conversation about important robotics topics and socio-technical issues.

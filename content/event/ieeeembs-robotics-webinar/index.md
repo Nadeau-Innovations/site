@@ -1,70 +1,37 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "IEEE-EMBS Robotics Webinar"
-event: "IEEE-EMBS Robotics Webinar"
-event_url: https://ieeeembsvit.netlify.app/
-location:
+abstract: null
 address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-10-02
-# date_end: 2021-10-02T10:50:42-04:00
+  city: null
+  country: null
+  postcode: null
+  region: null
+  street: null
 all_day: true
-
-# Schedule page publish date (NOT event date).
-publishDate: 2021-10-02T10:50:42-04:00
-
 authors: []
-tags: []
-
-# Is this a featured event? (true/false)
+date: "2021-10-02"
+event: IEEE-EMBS Robotics Webinar
+event_url: https://ieeeembsvit.netlify.app/
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
 links:
-- name: Follow
-  url: https://twitter.com/EngNadeau
+- icon: twitter
   icon_pack: fab
-  icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides: "2021-10-02_vit-ieee.pdf"
-
-url_code:
-url_pdf:
-url_video: https://youtu.be/bpuirrU7Ovo
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+  name: Follow
+  url: https://twitter.com/EngNadeau
+location: null
 projects: []
+publishDate: "2021-10-02T10:50:42-04:00"
+slides: ""
+summary: null
+tags: []
+title: IEEE-EMBS Robotics Webinar
+url_code: null
+url_pdf: null
+url_slides: 2021-10-02_vit-ieee.pdf
+url_video: https://youtu.be/bpuirrU7Ovo
 ---
 
 {{< youtube bpuirrU7Ovo >}}

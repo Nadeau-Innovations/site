@@ -1,21 +1,32 @@
 ---
-
-title: "Python for Hardware Engineers: SQLite or; How I Learned to Stop Worrying and Love Databases"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["data", "databases", "dict", "disk", "engineers", "hardware", "peewee", "sql", "model", "python", "record", "table"]
 categories: []
-date: 2020-11-10T21:35:08-05:00
-lastmod: 2020-11-10T21:35:08-05:00
-featured: false
+date: "2020-11-10T21:35:08-05:00"
 draft: false
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
+lastmod: "2020-11-10T21:35:08-05:00"
 projects: []
-
+subtitle: ""
+summary: ""
+tags:
+- data
+- databases
+- dict
+- disk
+- engineers
+- hardware
+- peewee
+- sql
+- model
+- python
+- record
+- table
+title: 'Python for Hardware Engineers: SQLite or; How I Learned to Stop Worrying and
+  Love Databases'
 ---
 
 Design that is backed by data proves that your work is on the right track.

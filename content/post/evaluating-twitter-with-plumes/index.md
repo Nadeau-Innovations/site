@@ -1,19 +1,21 @@
 ---
-title: "Social Hygiene: Pruning my Twitter Feed with Plumes"
-subtitle: ""
-summary: ""
 authors: []
-tags: [twitter,python,cli]
 categories: []
-date: 2020-09-08
-lastmod: 2020-09-08
-featured: false
+date: "2020-09-08"
 draft: false
-
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
+lastmod: "2020-09-08"
+subtitle: ""
+summary: ""
+tags:
+- twitter
+- python
+- cli
+title: 'Social Hygiene: Pruning my Twitter Feed with Plumes'
 ---
 
 

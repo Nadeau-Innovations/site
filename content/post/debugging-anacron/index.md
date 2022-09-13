@@ -1,33 +1,37 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Debugging Anacron"
-subtitle: ""
-summary: ""
+aliases:
+- /post/debugging-anacron
 authors: []
-tags: ["anacron", "bin", "command", "cron", "flag", "home", "job", "life", "myscript", "", "path", "root", "solution", "step", "task", "tool"]
 categories: []
-date: 2020-01-12T18:39:48-05:00
-lastmod: 2020-01-12T18:39:48-05:00
-featured: false
+date: "2020-01-12T18:39:48-05:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-01-12T18:39:48-05:00"
 projects: []
-aliases:
-- /post/debugging-anacron
+subtitle: ""
+summary: ""
+tags:
+- anacron
+- bin
+- command
+- cron
+- flag
+- home
+- job
+- life
+- myscript
+- ""
+- path
+- root
+- solution
+- step
+- task
+- tool
+title: Debugging Anacron
 ---
 
 

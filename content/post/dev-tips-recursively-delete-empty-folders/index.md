@@ -1,33 +1,25 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Tip of the Day: Recursively Delete Empty Folders"
-subtitle: ""
-summary: "Stuck with many nested folders, some of which may be empty?"
+aliases:
+- /post/dev-tips-recursively-delete-empty-folders
 authors: []
-tags: ["bash", "empty", "folders", "tip"]
 categories: []
-date: 2020-04-21T07:57:14-04:00
-lastmod: 2020-04-21T07:57:14-04:00
-featured: false
+date: "2020-04-21T07:57:14-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-04-21T07:57:14-04:00"
 projects: []
-aliases:
-- /post/dev-tips-recursively-delete-empty-folders
+subtitle: ""
+summary: Stuck with many nested folders, some of which may be empty?
+tags:
+- bash
+- empty
+- folders
+- tip
+title: 'Tip of the Day: Recursively Delete Empty Folders'
 ---
 
 Stuck with many nested folders, some of which may be empty?

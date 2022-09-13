@@ -15,18 +15,20 @@ abstract: Given that the success of an interaction task depends on the capabilit
   a human leg phantom. The optimization process was able to successfully reduce the
   mean absolute error of the motion contact force to 0.537 N through the evolution
   of eight motion control parameters.
+address:
+  city: Madrid
+  country: Spain
+  postcode: "28042"
+  region: null
+  street: Av. Capital de España, 7
+aliases:
+- /talk/iros-2018
 date: "2018-10-02T14:30:00-04:00"
 draft: false
 event: 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 event_url: https://ras.papercept.net/conferences/conferences/IROS18/program/IROS18_ContentListWeb_2.html
 highlight: true
 location: Madrid Municipal Conference Centre
-address:
-  street: Av. Capital de España, 7
-  city: Madrid
-  region:
-  postcode: '28042'
-  country: Spain
 math: false
 projects: []
 selected: false
@@ -54,8 +56,6 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-aliases:
-- /talk/iros-2018
 ---
 
 ![Evolutionary Motion Control](kuka-evo_1.gif)

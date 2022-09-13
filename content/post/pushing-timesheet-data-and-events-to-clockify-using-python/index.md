@@ -1,31 +1,28 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Pushing Timesheet Data and Events to Clockify Using Python"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["api", "data", "clockify", "calendar", "timesheet", "", "python", "pandas", ""]
 categories: []
-date: 2020-06-25T12:04:57-04:00
-lastmod: 2020-06-25T12:04:57-04:00
-featured: false
+date: "2020-06-25T12:04:57-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2020-06-25T12:04:57-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- api
+- data
+- clockify
+- calendar
+- timesheet
+- ""
+- python
+- pandas
+- ""
+title: Pushing Timesheet Data and Events to Clockify Using Python
 ---
 
 As a follow up to [my recent post]({{< ref "post/download-ical-calendar-data-using-python/index.md" >}}), we can easily push timesheet data to [Clockify](https://clockify.me/) using their API.

@@ -1,10 +1,25 @@
-+++
-title = "Testing Python Packages with Docker"
-date = 2018-07-30T20:42:57
-tags = ["bash", "container", "deployment", "development", "devops", "docker", "environment", "first", "management", "method", "packages", "pwd", "python", ""]
-categories = []
-aliases = ["/post/testing-python-installs-with-docker"]
-+++
+---
+aliases:
+- /post/testing-python-installs-with-docker
+categories: []
+date: 2018-07-30T20:42:57
+tags:
+- bash
+- container
+- deployment
+- development
+- devops
+- docker
+- environment
+- first
+- management
+- method
+- packages
+- pwd
+- python
+- ""
+title: Testing Python Packages with Docker
+---
 
 
 Package management is hard.

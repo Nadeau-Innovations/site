@@ -1,10 +1,21 @@
-+++
-title = "Using MS Word to Check LaTeX Documents"
-date = 2018-07-30T21:04:52
-tags = ["bash", "check", "documents", "docx", "grammar", "microsoft", "pandoc", "phd", "", "word"]
-categories = []
-aliases = ["/post/using-ms-word-to-check-latex-documents"]
-+++
+---
+aliases:
+- /post/using-ms-word-to-check-latex-documents
+categories: []
+date: 2018-07-30T21:04:52
+tags:
+- bash
+- check
+- documents
+- docx
+- grammar
+- microsoft
+- pandoc
+- phd
+- ""
+- word
+title: Using MS Word to Check LaTeX Documents
+---
 
 
 Microsoft Word has great spelling and grammar checking.

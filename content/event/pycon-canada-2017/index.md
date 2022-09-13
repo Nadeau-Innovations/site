@@ -8,6 +8,14 @@ abstract: |
   - Spatial descriptions and transformations
   - Robot kinematics
   - Robot calibration with pybotics + NumPy + SciPy
+address:
+  city: Montréal
+  country: Canada
+  postcode: H2L 2C4
+  region: QC
+  street: 405 Rue Sainte-Catherine Est
+aliases:
+- /talk/pycon-canada-2017
 date: "2017-11-19T00:00:00-05:00"
 draft: false
 event: PyCon Canada
@@ -17,12 +25,6 @@ header:
   image: ""
 highlight: true
 location: Université du Québec à Montréal
-address:
-  street: 405 Rue Sainte-Catherine Est
-  city: Montréal
-  region: QC
-  postcode: H2L 2C4
-  country: Canada
 math: false
 projects: []
 selected: false
@@ -37,8 +39,6 @@ url_code: https://github.com/engnadeau/pybotics/
 url_pdf: https://github.com/engnadeau/pycon-canada-2017
 url_slides: https://github.com/engnadeau/pycon-canada-2017
 url_video: ""
-aliases:
-- /talk/pycon-canada-2017
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Why we should calibrate <a href="https://twitter.com/hashtag/robots?src=hash&amp;ref_src=twsrc%5Etfw">#robots</a> and introduction to cool library pyrobotics in <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> via <a href="https://twitter.com/EngNadeau?ref_src=twsrc%5Etfw">@EngNadeau</a> at the <a href="https://twitter.com/pyconca?ref_src=twsrc%5Etfw">@pyconca</a> <a href="https://twitter.com/hashtag/PyConCA2017?src=hash&amp;ref_src=twsrc%5Etfw">#PyConCA2017</a> <a href="https://twitter.com/hashtag/Montreal?src=hash&amp;ref_src=twsrc%5Etfw">#Montreal</a> <a href="https://t.co/wivyNGr8bp">pic.twitter.com/wivyNGr8bp</a></p>&mdash; Abhishek Gupta (@atg_abhishek) <a href="https://twitter.com/atg_abhishek/status/932285250734120960?ref_src=twsrc%5Etfw">November 19, 2017</a></blockquote>

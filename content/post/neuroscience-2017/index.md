@@ -1,10 +1,25 @@
-+++
-title = "Neuroscience 2017"
-date = 2017-08-13T00:00:00
-tags = ["async", "attendee", "convention", "guess", "ideas", "marketplace", "", "neuroscience", "", "robots", "script", "tool", "walter", "washington"]
-categories = []
-aliases = ["/post/neuroscience-2017"]
-+++
+---
+aliases:
+- /post/neuroscience-2017
+categories: []
+date: 2017-08-13T00:00:00
+tags:
+- async
+- attendee
+- convention
+- guess
+- ideas
+- marketplace
+- ""
+- neuroscience
+- ""
+- robots
+- script
+- tool
+- walter
+- washington
+title: Neuroscience 2017
+---
 
 
 >Neuroscience 2017 was held November 11-15 at the Walter E. Washington Convention Center in Washington, DC.

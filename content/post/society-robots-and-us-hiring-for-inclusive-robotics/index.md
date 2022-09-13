@@ -1,31 +1,19 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Society, Robots, and Us: Hiring for Inclusive Robotics"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2021-08-30T17:50:36-04:00
-lastmod: 2021-08-30T17:50:36-04:00
-featured: false
+date: "2021-08-30T17:50:36-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2021-08-30T17:50:36-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Society, Robots, and Us: Hiring for Inclusive Robotics'
 ---
 
 Back in April, I had [the opportunity to talk at a Silicon Valley Robotics (SVR) event on the topic of hiring for inclusive robotics]({{< ref "event/silicon-valley-robotics-society-robots-and-us-hiring-for-inclusive-robotics" >}}), moderated by [Andra Keay](https://www.linkedin.com/in/andra-keay/).

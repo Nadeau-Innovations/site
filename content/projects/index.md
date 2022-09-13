@@ -1,6 +1,6 @@
 ---
-title: "Projects and Products"
-summary: "Projects and Products"
 date: "2021-04-20"
-type: "widget_page"  # Page type is a Widget Page
+summary: Projects and Products
+title: Projects and Products
+type: widget_page
 ---
