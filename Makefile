@@ -11,7 +11,7 @@ build: hugo-info
 .PHONY: clean
 clean: hugo-info
 	rm -rf public
-	hudo mod clean
+	hugo mod clean
 	hugo mod tidy
 
 .PHONY: serve
