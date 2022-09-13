@@ -51,16 +51,16 @@ update-wowchemy:
 
 .PHONY: post
 post:
-	python3 hugo_new.py post
+	python3 scripts/hugo_new.py post
 
 .PHONY: event
 event:
-	python3 hugo_new.py event
+	python3 scripts/hugo_new.py event
 
 .PHONY: project
 project:
-	python3 hugo_new.py project
+	python3 scripts/hugo_new.py project
 
 .PHONY: publication
 publication:
-	python3 hugo_new.py publication
+	python3 scripts/hugo_new.py publication
