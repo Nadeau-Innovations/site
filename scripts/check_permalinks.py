@@ -15,18 +15,18 @@ def main(path: Path, localhost: bool = False, port: int = 1313):
     # load csv
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
-        links = [row["permalink"] for row in reader]
-    logging.info(f"Found {len(links)} links")
+        content = list(reader)
+    logging.info(f"Found {len(content)} content files")
 
     # modify links if needed
     if localhost:
         logging.info("Converting links to localhost")
-        links = [convert_url_to_localhost(url=link, port=port) for link in links]
+        content = [convert_url_to_localhost(url=link, port=port) for link in content]
 
     # check links
     logging.info("Checking links...")
     with Pool() as pool:
-        pool.map(check_link, links)
+        pool.map(check_link, content)
     logging.info("Checking complete")
 
 
