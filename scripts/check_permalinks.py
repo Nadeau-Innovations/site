@@ -2,6 +2,7 @@
 
 import csv
 import logging
+from typing import Any, Dict
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -15,34 +16,39 @@ def main(path: Path, localhost: bool = False, port: int = 1313):
     # load csv
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
-        content = list(reader)
-    logging.info(f"Found {len(content)} content files")
+        contents = list(reader)
+    logging.info(f"Found {len(contents)} content files")
 
     # modify links if needed
     if localhost:
         logging.info("Converting links to localhost")
-        content = [convert_url_to_localhost(url=link, port=port) for link in content]
+        contents = [convert_url_to_localhost(content=c, port=port) for c in contents]
 
     # check links
     logging.info("Checking links...")
     with Pool() as pool:
-        pool.map(check_link, content)
+        pool.map(check_link, contents)
     logging.info("Checking complete")
 
 
-def convert_url_to_localhost(url: str, port: int):
+def convert_url_to_localhost(content: Dict[str, Any], port: int):
     netloc = f"localhost:{port}"
+    url = content["permalink"]
     url = urllib.parse.urlparse(url)._replace(netloc=netloc, scheme="http").geturl()
-    return url
+    content["permalink"] = url
+    return content
 
 
-def check_link(link: str):
+def check_link(content: Dict[str, Any]):
     try:
-        urllib.request.urlopen(link)
+        urllib.request.urlopen(content["permalink"])
     except urllib.error.HTTPError:
-        logging.error(f"Bad URL: {link}")
+        logging.error(f"Bad URL: {content}")
+    except urllib.error.URLError:
+        logging.error("Host not available")
 
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    fire.Fire(main)
+    # fire.Fire(main)
+    main("permalinks.csv", localhost=True)
