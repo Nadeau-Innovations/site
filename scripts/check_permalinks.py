@@ -2,12 +2,12 @@
 
 import csv
 import logging
-from typing import Any, Dict
 import urllib.error
 import urllib.parse
 import urllib.request
 from multiprocessing import Pool
 from pathlib import Path
+from typing import Any, Dict
 
 import fire
 import frontmatter
@@ -73,5 +73,4 @@ def check_urls(content: Dict[str, Any]):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    # fire.Fire(main)
-    main("permalinks.csv", localhost=True)
+    fire.Fire(main)
