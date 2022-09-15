@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/8/labell/
 authors: []
 categories: []
 date: "2020-08-23T19:35:06-04:00"

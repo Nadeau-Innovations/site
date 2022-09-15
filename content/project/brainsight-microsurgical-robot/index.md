@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/12/brainsight-microsurgical-robot/
 authors: []
 categories: []
 date: "2020-12-25T14:23:24-05:00"

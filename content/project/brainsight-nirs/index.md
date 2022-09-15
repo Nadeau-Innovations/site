@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/12/brainsight-nirs/
 authors: []
 categories:
 - research

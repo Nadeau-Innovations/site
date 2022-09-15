@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/12/brainsight-tms-chair/
 authors: []
 categories: []
 date: "2020-12-25T14:14:49-05:00"

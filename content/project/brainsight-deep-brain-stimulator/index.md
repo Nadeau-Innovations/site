@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/12/brainsight-deep-brain-stimulator/
 authors: []
 categories: []
 date: "2020-12-25T14:22:23-05:00"

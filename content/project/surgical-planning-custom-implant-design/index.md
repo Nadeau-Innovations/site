@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/12/surgical-planning-custom-implant-design/
 authors: []
 categories: []
 date: "2020-12-25T14:19:58-05:00"

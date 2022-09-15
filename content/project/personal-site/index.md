@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/8/personal-site/
 authors: []
 categories: []
 date: "2020-08-23T11:15:27-04:00"

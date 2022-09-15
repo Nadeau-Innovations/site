@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/12/aonm2/
 authors: []
 categories: []
 date: "2020-12-25T19:48:34-05:00"

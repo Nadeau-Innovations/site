@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/8/plumes/
 authors: []
 categories: []
 date: "2020-08-23T10:33:11-04:00"

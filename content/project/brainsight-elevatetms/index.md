@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/12/brainsight-elevatetms/
 authors: []
 categories: []
 date: "2020-12-25T14:17:35-05:00"

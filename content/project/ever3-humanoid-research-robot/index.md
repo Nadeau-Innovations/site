@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2021/2/ever3-humanoid-research-robot/
 authors: []
 categories: []
 date: "2021-02-03T17:43:54-05:00"

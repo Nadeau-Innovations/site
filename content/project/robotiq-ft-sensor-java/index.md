@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/8/robotiq-ft-sensor-java/
 authors: []
 categories: []
 date: "2020-08-23T19:48:07-04:00"

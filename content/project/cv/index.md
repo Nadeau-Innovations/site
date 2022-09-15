@@ -1,4 +1,6 @@
 ---
+aliases:
+- /project/2020/8/cv/
 authors: []
 categories: []
 date: "2020-08-23T19:06:54-04:00"
