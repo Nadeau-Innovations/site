@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/dallas-isd-stem-expo/
 all_day: true
 authors: []
 date: "2022-01-22"

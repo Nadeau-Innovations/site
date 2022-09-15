@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/seattle-robotics-society-the-applications-of-pybotics/
 all_day: true
 authors: []
 date: "2022-10-15"

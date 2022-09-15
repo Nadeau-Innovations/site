@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/pushing-data-to-power-bi-using-python
+- /post/2020/6/pushing-data-to-power-bi-using-python/
 authors: []
 categories: []
 date: "2020-06-15T16:32:36-04:00"

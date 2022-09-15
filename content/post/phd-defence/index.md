@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/phd-defence
+- /post/2020/1/phd-defence/
 authors: []
 categories: []
 date: "2020-01-15T16:13:49-05:00"

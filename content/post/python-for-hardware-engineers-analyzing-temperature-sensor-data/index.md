@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/10/python-for-hardware-engineers-analyzing-temperature-sensor-data/
 authors: []
 categories: []
 date: "2020-10-31"

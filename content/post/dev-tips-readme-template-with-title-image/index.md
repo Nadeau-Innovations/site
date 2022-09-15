@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/dev-tips-readme-template-with-title-image
+- /post/2020/4/dev-tips-readme-template-with-title-image/
 authors: []
 categories: []
 date: "2020-04-20T07:31:23-04:00"

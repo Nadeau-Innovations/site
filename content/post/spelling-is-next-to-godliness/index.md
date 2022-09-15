@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/spelling-is-next-to-godliness
+- /post/2018/8/spelling-is-next-to-godliness/
 categories: []
-date: 2018-08-07T13:12:00
+date: "2018-08-07 13:12:00"
 tags:
 - bash
 - bin
@@ -35,7 +36,6 @@ tags:
 - tensorflow
 title: Spelling Is Next to Godliness
 ---
-
 
 Spelling and grammar are very important. However, when in a rush, we tend to neglect these important aspects.
 Search engines and humans readers usually don't appreciate content that includes spelling or grammatical errors.

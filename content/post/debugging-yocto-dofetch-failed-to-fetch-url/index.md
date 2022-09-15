@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/7/debugging-yocto-dofetch-failed-to-fetch-url/
 authors: []
 categories: []
 date: "2022-07-26T09:17:56-04:00"

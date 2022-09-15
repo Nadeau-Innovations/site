@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/design-to-product-podcast-applying-key-hardware-design-considerations/
 all_day: false
 authors: []
 date: "2022-08-18"

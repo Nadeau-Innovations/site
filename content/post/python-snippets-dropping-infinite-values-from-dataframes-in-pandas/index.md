@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/9/python-snippets-dropping-infinite-values-from-dataframes-in-pandas/
 authors: []
 categories: []
 date: "2020-09-09T07:24:08-04:00"

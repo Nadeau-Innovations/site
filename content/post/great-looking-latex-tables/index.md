@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/great-looking-latex-tables
+- /post/2018/6/great-looking-latex-tables/
 categories: []
-date: 2018-06-25T22:13:30
+date: "2018-06-25 22:13:30"
 tags:
 - data
 - document

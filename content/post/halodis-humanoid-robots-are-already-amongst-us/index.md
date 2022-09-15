@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/7/halodis-humanoid-robots-are-already-amongst-us/
 authors: []
 categories: []
 date: "2022-07-08T10:37:18-04:00"

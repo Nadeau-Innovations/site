@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/ieee-embs-robotics-webinar/
 all_day: true
 authors: []
 date: "2021-10-02"

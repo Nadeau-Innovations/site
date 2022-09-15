@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/silicon-valley-robotics-online-robotics-job-fair/
 all_day: true
 authors: []
 date: "2021-04-21"

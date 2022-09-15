@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2019/2/cli-resize-images/
 categories: []
 date: "2019-02-10T11:27:47-05:00"
 draft: false

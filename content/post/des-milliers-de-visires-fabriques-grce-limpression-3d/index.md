@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/des-milliers-de-visires-fabriques-grce-limpression-3d
+- /post/2020/4/des-milliers-de-visires-fabriques-grce-limpression-3d/
 authors: []
 categories: []
 date: "2020-04-15T16:58:57-04:00"

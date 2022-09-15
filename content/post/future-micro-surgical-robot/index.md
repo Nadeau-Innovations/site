@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/future-micro-surgical-robot
+- /post/2016/5/future-micro-surgical-robot/
 categories: []
-date: 2016-05-13T00:00:00
+date: "2016-05-13 00:00:00"
 tags:
 - async
 - mecademic

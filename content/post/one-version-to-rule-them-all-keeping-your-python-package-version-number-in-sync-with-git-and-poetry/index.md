@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/8/one-version-to-rule-them-all-keeping-your-python-package-version-number-in-sync-with-git-and-poetry/
 authors: []
 categories: []
 date: "2020-08-08T14:54:23-04:00"

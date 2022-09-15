@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/5/how-montreal-is-building-a-robot-workforce/
 authors: []
 categories: []
 date: "2022-05-16T20:53:57-04:00"

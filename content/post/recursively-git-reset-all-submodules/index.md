@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/recursively-git-reset-all-submodules
+- /post/2018/6/recursively-git-reset-all-submodules/
 categories: []
-date: 2018-06-14T00:00:00
+date: "2018-06-14 00:00:00"
 tags:
 - bash
 - command
@@ -14,7 +15,6 @@ tags:
 - submodule
 title: Recursively Git Reset All Submodules
 ---
-
 
 ```bash
 git submodule foreach --recursive git reset --hard

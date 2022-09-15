@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/8/lets-prioritize-safe-movement-for-humanoid-robots-not-facial-expressions/
 authors: []
 categories: []
 date: "2022-08-05T12:56:08-04:00"

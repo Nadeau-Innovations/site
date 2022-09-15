@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/society-robots-and-us-hiring-for-inclusive-robotics/
 all_day: true
 authors: []
 date: "2021-04-27"

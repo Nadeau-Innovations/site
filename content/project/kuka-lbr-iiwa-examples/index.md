@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/5/kuka-lbr-iiwa-examples/
 authors: []
 categories: []
 date: "2020-08-23T11:31:52-04:00"

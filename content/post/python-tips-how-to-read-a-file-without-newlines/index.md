@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/5/python-tips-how-to-read-a-file-without-newlines/
 authors: []
 categories: []
 date: "2021-05-03T17:43:53-04:00"

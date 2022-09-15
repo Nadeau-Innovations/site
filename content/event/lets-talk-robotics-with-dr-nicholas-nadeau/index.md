@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/lets-talk-robotics-with-dr.-nicholas-nadeau/
 all_day: true
 authors: []
 date: "2021-10-18"

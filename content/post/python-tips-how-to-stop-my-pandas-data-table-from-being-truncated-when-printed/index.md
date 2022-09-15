@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/5/python-tips-how-to-stop-my-pandas-data-table-from-being-truncated-when-printed/
 authors: []
 categories: []
 date: "2021-05-03T18:23:04-04:00"

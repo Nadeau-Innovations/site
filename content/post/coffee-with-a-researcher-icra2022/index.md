@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/6/coffee-with-a-researcher-icra2022/
 authors: []
 categories: []
 date: "2022-06-21T09:15:42-04:00"

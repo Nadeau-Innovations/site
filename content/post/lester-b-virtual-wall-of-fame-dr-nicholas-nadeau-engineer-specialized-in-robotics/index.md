@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/11/lester-b-virtual-wall-of-fame-dr-nicholas-nadeau-engineer-specialized-in-robotics/
 authors: []
 categories: []
 date: "2021-11-22T08:51:39-05:00"

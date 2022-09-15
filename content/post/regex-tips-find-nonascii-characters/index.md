@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/regex-tips-find-nonascii-characters
+- /post/2020/4/regex-tips-find-nonascii-characters/
 authors: []
 categories: []
 date: "2020-04-03"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2018/5/pybotics/
 authors: []
 categories: []
 date: "2020-08-23T10:33:04-04:00"

@@ -8,6 +8,7 @@ address:
   street: 51 Sherbrooke St W
 aliases:
 - /talk/python-montreal-2017
+- /talk/domo-arigato-mr.-roboto-calibrating-robots-with-python/
 date: "2017-10-01T00:00:00-04:00"
 draft: false
 event: 'Montréal-Python 67: Ultramodern Vintage - PyCon Canada Special'

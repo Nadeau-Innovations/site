@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/12/mentoring-techstars-montreal-ai-accelerator-2020/
 authors: []
 categories: []
 date: "2020-12-20T09:46:57-05:00"

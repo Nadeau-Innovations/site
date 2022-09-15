@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/interprocess-communication-with-redis-pubsub
+- /post/2018/7/interprocess-communication-with-redis-pubsub/
 categories: []
-date: 2018-07-30T21:55:53
+date: "2018-07-30 21:55:53"
 tags:
 - bash
 - channel

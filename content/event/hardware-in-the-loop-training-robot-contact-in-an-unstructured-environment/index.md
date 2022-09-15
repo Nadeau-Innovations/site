@@ -8,9 +8,11 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/hardware-in-the-loop-training-robot-contact-in-an-unstructured-environment/
 all_day: false
 authors: []
-date: 2021-04-19T18:00:00
+date: "2021-04-19 18:00:00"
 event: Montréal-Python 85 – Koala Poli
 event_url: https://www.meetup.com/Montreal-Python/events/277009455
 featured: false

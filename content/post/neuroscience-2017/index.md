@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/neuroscience-2017
+- /post/2017/8/neuroscience-2017/
 categories: []
-date: 2017-08-13T00:00:00
+date: "2017-08-13 00:00:00"
 tags:
 - async
 - attendee
@@ -20,7 +21,6 @@ tags:
 - washington
 title: Neuroscience 2017
 ---
-
 
 >Neuroscience 2017 was held November 11-15 at the Walter E. Washington Convention Center in Washington, DC.
 More than 30,300 attendees convened in the U.S. capital city for the world’s largest marketplace of ideas and tools for global neuroscience.

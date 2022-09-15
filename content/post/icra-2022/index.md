@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/5/icra-2022/
 authors: []
 categories: []
 date: "2022-05-27T12:58:03-04:00"

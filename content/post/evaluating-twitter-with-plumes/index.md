@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/8/evaluating-twitter-with-plumes/
 authors: []
 categories: []
 date: "2020-09-08"
@@ -17,7 +19,6 @@ tags:
 - cli
 title: 'Social Hygiene: Pruning my Twitter Feed with Plumes'
 ---
-
 
 While scrolling through my Twitter feed recently, I began to get a little annoyed at the amount of content that I was simply not interested in.
 In engineering terms, my signal-to-noise ratio was way too low.

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/8/society-robots-and-us-hiring-for-inclusive-robotics/
 authors: []
 categories: []
 date: "2021-08-30T17:50:36-04:00"

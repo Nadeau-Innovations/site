@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/dev-tips-recursively-delete-empty-folders
+- /post/2020/4/dev-tips-recursively-delete-empty-folders/
 authors: []
 categories: []
 date: "2020-04-21T07:57:14-04:00"

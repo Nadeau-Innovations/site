@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/debugging-anacron
+- /post/2020/1/debugging-anacron/
 authors: []
 categories: []
 date: "2020-01-12T18:39:48-05:00"
@@ -33,7 +34,6 @@ tags:
 - tool
 title: Debugging Anacron
 ---
-
 
 I like to automate things and `anacron`/`cron` are some of my go-to tools for getting the job done.
 

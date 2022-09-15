@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/9/how-to-reset-a-windows-password-with-just-physical-access-and-ubuntu/
 authors: []
 categories: []
 date: "2020-09-23T07:48:36-04:00"

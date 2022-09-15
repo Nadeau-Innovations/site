@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/10/new-pc-builds-how-my-mission-for-a-smaller-desktop-pc-resulted-in-building-two/
 authors: []
 categories: []
 date: "2020-10-17T09:43:09-04:00"

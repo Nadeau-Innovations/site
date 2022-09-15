@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/10/founderfuel-2020-mentoring/
 authors: []
 categories: []
 date: "2020-10-26T16:05:21-04:00"

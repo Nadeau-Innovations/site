@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/testing-python-installs-with-docker
+- /post/2018/7/testing-python-installs-with-docker/
 categories: []
-date: 2018-07-30T20:42:57
+date: "2018-07-30 20:42:57"
 tags:
 - bash
 - container
@@ -20,7 +21,6 @@ tags:
 - ""
 title: Testing Python Packages with Docker
 ---
-
 
 Package management is hard.
 Sometimes in Python package development, your local (development) environment may behave a little differently than a deployment target.

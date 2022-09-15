@@ -16,6 +16,7 @@ address:
   street: 405 Rue Sainte-Catherine Est
 aliases:
 - /talk/pycon-canada-2017
+- /talk/domo-arigato-mr.-roboto-calibrating-robots-with-python/
 date: "2017-11-19T00:00:00-05:00"
 draft: false
 event: PyCon Canada

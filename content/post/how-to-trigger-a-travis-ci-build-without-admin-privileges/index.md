@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/how-to-trigger-a-travis-ci-build-without-admin-privileges
+- /post/2018/2/how-to-trigger-a-travis-ci-build-without-admin-privileges/
 categories: []
-date: 2018-02-01T00:00:00
+date: "2018-02-01 00:00:00"
 tags:
 - access
 - admin
@@ -24,7 +25,6 @@ tags:
 - world
 title: How to Trigger a Travis CI Build Without Admin Privileges
 ---
-
 
 Sometimes Travis CI builds fail due to sporadic timeouts, network errors, etc. While these non-code errors can be quite annoying, Travis CI has a handy `Restart build` for when these situations occur, but only users with admin privileges have access to this feature.
 

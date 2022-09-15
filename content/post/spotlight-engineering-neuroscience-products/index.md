@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/spotlight-engineering-neuroscience-products
+- /post/2016/8/spotlight-engineering-neuroscience-products/
 categories: []
-date: 2016-08-22T00:00:00
+date: "2016-08-22 00:00:00"
 tags:
 - brainsight
 - company
@@ -15,7 +16,6 @@ tags:
 - sheet
 title: 'Spotlight: Engineering Neuroscience Products'
 ---
-
 
 Rogue Research is an engineering innovation company that develops systems that revolutionize brain image visualization.
 

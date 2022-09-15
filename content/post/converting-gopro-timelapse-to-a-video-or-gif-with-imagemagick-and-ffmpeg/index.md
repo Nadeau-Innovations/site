@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/converting-gopro-timelapse-to-a-video-or-gif-with-imagemagick-and-ffmpeg
+- /post/2020/5/converting-gopro-timelapse-to-a-video-or-gif-with-imagemagick-and-ffmpeg/
 authors: []
 categories: []
 date: "2020-05-19T13:47:35-04:00"

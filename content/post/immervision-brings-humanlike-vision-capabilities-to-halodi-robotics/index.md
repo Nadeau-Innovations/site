@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/5/immervision-brings-humanlike-vision-capabilities-to-halodi-robotics/
 authors: []
 categories: []
 date: "2022-05-19T13:39:04-04:00"

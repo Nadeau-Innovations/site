@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/11/startup-community-gala-2021-nomination-mentor-of-the-year/
 authors: []
 categories: []
 date: "2021-11-12T14:18:53-05:00"

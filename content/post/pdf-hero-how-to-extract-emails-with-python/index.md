@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/9/pdf-hero-how-to-extract-emails-with-python/
 authors: []
 categories: []
 date: "2021-09-11T10:23:30-04:00"

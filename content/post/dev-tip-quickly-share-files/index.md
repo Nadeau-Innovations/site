@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/dev-tip-quickly-share-files
+- /post/2020/4/dev-tip-quickly-share-files/
 authors: []
 categories: []
 date: "2020-04-06T07:42:59-04:00"

@@ -6,9 +6,11 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/silicon-valley-robotics-bots-beverages-online/
 all_day: true
 authors: []
-date: 2021-04-07T19:00:00
+date: "2021-04-07 19:00:00"
 event: 'Silicon Valley Robotics: Bots Beverages Online'
 event_url: https://www.meetup.com/Silicon-Valley-Robotics/events/swbpgsyccgbkb/
 featured: false

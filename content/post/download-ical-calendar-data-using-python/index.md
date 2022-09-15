@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/6/download-ical-calendar-data-using-python/
 authors: []
 categories: []
 date: "2020-06-25T08:32:04-04:00"

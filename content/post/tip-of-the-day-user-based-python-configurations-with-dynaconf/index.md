@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/tip-of-the-day-user-based-python-configurations-with-dynaconf
+- /post/2020/5/tip-of-the-day-user-based-python-configurations-with-dynaconf/
 authors: []
 categories: []
 date: "2020-05-06T13:14:48-04:00"

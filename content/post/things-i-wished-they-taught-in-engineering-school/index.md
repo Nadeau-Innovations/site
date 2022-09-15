@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/5/things-i-wished-they-taught-in-engineering-school/
 authors: []
 categories: []
 date: "2021-05-16T11:11:33-04:00"

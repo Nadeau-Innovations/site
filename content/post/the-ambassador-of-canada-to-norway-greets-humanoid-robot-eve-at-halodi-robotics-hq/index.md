@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/7/the-ambassador-of-canada-to-norway-greets-humanoid-robot-eve-at-halodi-robotics-hq/
 authors: []
 categories: []
 date: "2022-07-13T08:45:38-04:00"

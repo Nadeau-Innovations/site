@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/coronavirus-montreal-companies-rush-to-start-making-medical-equipment
+- /post/2020/4/coronavirus-montreal-companies-rush-to-start-making-medical-equipment/
 authors: []
 categories: []
 date: "2020-04-03T22:29:29-04:00"

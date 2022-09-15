@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/tip-of-the-day-run-google-lighthouse-tests-on-your-netlify-build-pipeline
+- /post/2020/5/tip-of-the-day-run-google-lighthouse-tests-on-your-netlify-build-pipeline/
 authors: []
 categories: []
 date: "2020-05-13T08:46:36-04:00"

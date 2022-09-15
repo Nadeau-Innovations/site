@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/11/python-tricks-replace-all-nonalphanumeric-characters-in-a-string/
 authors: []
 categories: []
 date: 2020-11-07T09:53:15-b05:00

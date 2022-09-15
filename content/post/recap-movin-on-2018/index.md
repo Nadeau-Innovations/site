@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/recap-movin-on-2018
+- /post/2018/6/recap-movin-on-2018/
 categories: []
-date: 2018-06-25T11:11:11
+date: "2018-06-25 11:11:11"
 tags:
 - bertrand
 - concept
@@ -20,7 +21,6 @@ tags:
 - unit
 title: 'Recap: Movin'' On 2018'
 ---
-
 
 Sustainable mobility was the primary topic of the event. Overall, one of my favourite quotes came from [Bertrand Piccard](https://en.wikipedia.org/wiki/Bertrand_Piccard):
 

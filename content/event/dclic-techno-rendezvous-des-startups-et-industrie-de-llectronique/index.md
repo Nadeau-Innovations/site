@@ -6,6 +6,8 @@ address:
   postcode: null
   region: null
   street: null
+aliases:
+- /talk/declic-techno-rendez-vous-des-startups-et-industrie-de-lelectronique/
 all_day: true
 authors: []
 date: "2021-10-12"

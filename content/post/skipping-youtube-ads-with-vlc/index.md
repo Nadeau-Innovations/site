@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2019/2/skipping-youtube-ads-with-vlc/
 categories: []
 date: "2019-02-10T11:18:18-05:00"
 draft: false

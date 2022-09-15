@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/10/new-series-python-for-hardware-engineering/
 authors: []
 categories: []
 date: "2020-10-25"

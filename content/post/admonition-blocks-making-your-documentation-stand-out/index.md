@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/admonition-blocks-making-your-documentation-stand-out
+- /post/2018/8/admonition-blocks-making-your-documentation-stand-out/
 categories: []
-date: 2018-08-04T15:23:50
+date: "2018-08-04 15:23:50"
 tags:
 - documentation
 - admonition

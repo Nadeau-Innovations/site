@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/python-tips-round-robin
+- /post/2020/4/python-tips-round-robin/
 authors: []
 categories: []
 date: "2020-04-03T07:03:06-04:00"

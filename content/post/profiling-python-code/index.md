@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2019/2/profiling-python-code/
 categories: []
 date: "2019-02-10T15:07:03-05:00"
 draft: false

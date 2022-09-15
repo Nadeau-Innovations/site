@@ -11,6 +11,8 @@ address:
   postcode: "20001"
   region: D.C.
   street: 801 Mt Vernon Pl NW
+aliases:
+- /talk/characterization-of-a-robotic-micro-surgical-system-for-small-animal-neurosurgery/
 date: "2017-11-06T00:00:00-05:00"
 draft: false
 event: Society for Neuroscience

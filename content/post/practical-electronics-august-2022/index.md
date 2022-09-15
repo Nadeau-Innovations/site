@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/7/practical-electronics-august-2022/
 authors: []
 categories: []
 date: "2022-07-13T13:43:08-04:00"

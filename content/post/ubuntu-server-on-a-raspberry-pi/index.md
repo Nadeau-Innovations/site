@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/1/ubuntu-server-on-a-raspberry-pi/
 authors: []
 categories: []
 date: "2020-01-13"

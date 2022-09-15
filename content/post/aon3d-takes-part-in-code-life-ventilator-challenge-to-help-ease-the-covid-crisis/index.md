@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/aon3d-takes-part-in-code-life-ventilator-challenge-to-help-ease-the-covid-crisis
+- /post/2020/5/aon3d-takes-part-in-code-life-ventilator-challenge-to-help-ease-the-covid-crisis/
 authors: []
 categories: []
 date: "2020-05-13T16:00:42-04:00"

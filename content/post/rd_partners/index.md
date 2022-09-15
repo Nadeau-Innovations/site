@@ -1,6 +1,7 @@
 ---
 aliases:
 - /post/rd_partners
+- /post/2019/6/rd_partners/
 categories: []
 date: "2019-06-13T14:05:55-04:00"
 draft: false

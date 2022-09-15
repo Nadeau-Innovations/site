@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/5/how-to-make-hardware-development-more-agile/
 authors: []
 categories: []
 date: "2021-05-11T16:52:23-04:00"

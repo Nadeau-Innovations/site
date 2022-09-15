@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2022/2/esa-security-nation-magazine-cover-story/
 authors: []
 categories: []
 date: "2022-02-11T15:34:57-05:00"

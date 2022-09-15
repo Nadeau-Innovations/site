@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/10/sanity-in-the-time-of-covid/
 authors: []
 categories: []
 date: "2020-10-30"

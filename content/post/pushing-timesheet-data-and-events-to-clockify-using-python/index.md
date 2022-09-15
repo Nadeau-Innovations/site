@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/6/pushing-timesheet-data-and-events-to-clockify-using-python/
 authors: []
 categories: []
 date: "2020-06-25T12:04:57-04:00"

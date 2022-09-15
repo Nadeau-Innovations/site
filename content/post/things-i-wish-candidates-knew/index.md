@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/6/things-i-wish-candidates-knew/
 authors: []
 categories: []
 date: "2021-06-06T11:55:14-04:00"

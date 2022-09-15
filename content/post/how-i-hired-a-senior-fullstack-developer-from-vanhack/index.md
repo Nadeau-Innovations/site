@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2020/6/how-i-hired-a-senior-fullstack-developer-from-vanhack/
 authors: []
 categories: []
 date: "2020-06-17T14:58:12-04:00"

@@ -1,8 +1,9 @@
 ---
 aliases:
 - /post/my-favourite-latex-packages
+- /post/2018/6/my-favourite-latex-packages/
 categories: []
-date: 2018-06-25T22:13:30
+date: "2018-06-25 22:13:30"
 summary: ' '
 tags:
 - babel
@@ -36,7 +37,6 @@ tags:
 - utf8
 title: My Favourite LaTeX Packages
 ---
-
 
 ```latex
 % english hyphenation

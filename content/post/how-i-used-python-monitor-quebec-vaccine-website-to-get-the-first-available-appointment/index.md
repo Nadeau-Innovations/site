@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2021/5/how-i-used-python-monitor-quebec-vaccine-website-to-get-the-first-available-appointment/
 authors: []
 categories: []
 date: "2021-05-21T10:35:34-04:00"
