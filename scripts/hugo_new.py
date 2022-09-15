@@ -1,7 +1,5 @@
 import logging
 import subprocess
-from datetime import datetime
-from pathlib import Path
 from string import ascii_lowercase, digits, whitespace
 
 import fire
@@ -28,16 +26,14 @@ def new(kind: str):
     title = get_title()
     title = sanitize_fname(title)
 
-    # get datetime
-    now = datetime.now()
-
     # set path
-    path = f"{kind}/{now.year}/{now.month}/{title}"
+    path = f"{kind}/{title}"
 
     # create
     cmd = ["hugo", "new", path]
     logging.info(f"Hugo command: {' '.join(cmd)}")
     subprocess.run(cmd)
+
 
 if __name__ == "__main__":
     # set logging
