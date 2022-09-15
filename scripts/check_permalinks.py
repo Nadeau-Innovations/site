@@ -49,7 +49,7 @@ def add_aliases(content: Dict[str, Any]):
     post.metadata["aliases"].append(alias_path)
 
     with open(md_path, "w") as f:
-        frontmatter.dump(post, f)
+        f.write(frontmatter.dumps(post))
 
 
 def convert_url_to_localhost(content: Dict[str, Any], port: int):
