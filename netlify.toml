@@ -5,7 +5,6 @@ command = "make build"
 [build.environment]
 HUGO_VERSION = "0.95.0"
 HUGO_ENABLEGITINFO = "true"
-PYTHON_VERSION = "3.8"
 
 # If skip_processing = true, all other settings are ignored
 [build.processing]
