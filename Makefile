@@ -51,16 +51,16 @@ update-wowchemy:
 
 .PHONY: post
 post:
-	python3 scripts/hugo_new.py post
+	pipenv run python scripts/hugo_new.py post
 
 .PHONY: event
 event:
-	python3 scripts/hugo_new.py event
+	pipenv run python scripts/hugo_new.py event
 
 .PHONY: project
 project:
-	python3 scripts/hugo_new.py project
+	pipenv run python scripts/hugo_new.py project
 
 .PHONY: publication
 publication:
-	python3 scripts/hugo_new.py publication
+	pipenv run python scripts/hugo_new.py publication
