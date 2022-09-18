@@ -120,7 +120,10 @@ Custom footer in site folder at layouts/partials/hooks/footer.html
 {{< ref "publication/nadeau-2018-evolutionary" >}}
 ```
 
-## Deployment
+### CI/CD and Releases
 
+- `master` branch is automatically released using [semantic-release](https://github.com/semantic-release/semantic-release) and GitHub Actions
+  - See [`.github/workflows/release.yml`](.github/workflows/release.yml)
+  - Requires a [personal token](https://github.com/settings/tokens) with the `public_repo` scope
 - The site is deployed using [Netlify](https://app.netlify.com/sites/competent-panini-00973b/overview)
 - [Build images](https://docs.netlify.com/configure-builds/overview/#build-image-selection) are defined in the [Netlify web UI](https://app.netlify.com/sites/competent-panini-00973b/settings/deploys#build-image-selection)
