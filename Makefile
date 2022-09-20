@@ -6,6 +6,7 @@ MD_NOTEBOOK_OUT := $(NOTEBOOK_SOURCES:ipynb=md)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # phony targets
 
+.PHONY: all
 all: build-notebooks normalize-yaml build
 
 .PHONY: build
