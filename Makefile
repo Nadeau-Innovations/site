@@ -64,3 +64,7 @@ project:
 .PHONY: publication
 publication:
 	pipenv run python scripts/hugo_new.py publication
+
+.PHONY: notebook
+notebook:
+	pipenv run python scripts/hugo_new.py post --notebook
