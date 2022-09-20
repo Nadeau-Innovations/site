@@ -2,14 +2,15 @@
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
-
 # store packages under dev so netlify doesn't install everything
 # https://docs.netlify.com/configure-builds/manage-dependencies/#python
+
 [dev-packages]
 black = "*"
 fire = "*"
 isort = "*"
 python-frontmatter = "*"
+nbformat = "*"
 
 [requires]
 python_version = "3.8"
