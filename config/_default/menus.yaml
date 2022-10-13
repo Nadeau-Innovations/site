@@ -13,9 +13,6 @@ main:
   - name: PUBLICATIONS
     url: 'publication/'
     weight: 30
-  - name: WORK WITH ME
-    url: '#contact'
-    weight: 35
   - name: CONTACT
     url: '#contact'
     weight: 40
