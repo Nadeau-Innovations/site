@@ -32,7 +32,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: c
     show_logo: true
     show_language: false
     show_day_night: false
@@ -41,6 +41,7 @@ header:
 
 # Site footer
 footer:
+  widget: minimal
   copyright:
     notice: '© {year} Nicholas Nadeau. This work is licensed under {license}'
     license:
