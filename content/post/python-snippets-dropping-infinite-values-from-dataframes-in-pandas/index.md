@@ -1,33 +1,28 @@
 ---
 aliases:
 - /post/2020/9/python-snippets-dropping-infinite-values-from-dataframes-in-pandas/
+title: "Python Snippets: Dropping Infinite Values From Dataframes in Pandas"
+subtitle: ""
+summary: ""
 authors: []
+tags: [pandas,python,data,dataframe,datascience,ml,ai]
 categories: []
-date: "2020-09-09T07:24:08-04:00"
-draft: false
+date: 2020-09-09T07:24:08-04:00
+lastmod: 2020-09-09T07:24:08-04:00
 featured: false
+draft: false
+
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-lastmod: "2020-09-09T07:24:08-04:00"
+
 projects: []
-subtitle: ""
-summary: ""
-tags:
-- pandas
-- python
-- data
-- dataframe
-- datascience
-- ml
-- ai
-title: 'Python Snippets: Dropping Infinite Values From Dataframes in Pandas'
 ---
 
 Infinite values can occur more often than people expect, especially for calculated data.
 
-For example, in [a recent post]({{< ref "post/evaluating-twitter-with-plumes" >}}) I calculated the Twitter Follower-Friend ratio by dividing the `followers_count` series by the `friends_count` series.
+For example, in [a recent post]({{< ref "post/evaluating-twitter-with-plumes" >}}) I calculated the Twitter Follower-Friend ratio by dividing the `followers_count` series by the `friends_count` series. 
 But what happens when `friends_count` is zero?
 `Inf`.
 
@@ -65,7 +60,7 @@ df
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -128,7 +123,7 @@ df.replace([np.inf, -np.inf], np.nan).dropna(subset=["c"], how="all")
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>

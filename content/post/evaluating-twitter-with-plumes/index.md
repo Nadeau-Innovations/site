@@ -1,24 +1,23 @@
 ---
 aliases:
 - /post/2020/8/evaluating-twitter-with-plumes/
+title: "Social Hygiene: Pruning my Twitter Feed with Plumes"
+subtitle: ""
+summary: ""
 authors: []
+tags: [twitter,python,cli]
 categories: []
-date: "2020-09-08"
-draft: false
+date: 2020-09-08
+lastmod: 2020-09-08
 featured: false
+draft: false
+
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-lastmod: "2020-09-08"
-subtitle: ""
-summary: ""
-tags:
-- twitter
-- python
-- cli
-title: 'Social Hygiene: Pruning my Twitter Feed with Plumes'
 ---
+
 
 While scrolling through my Twitter feed recently, I began to get a little annoyed at the amount of content that I was simply not interested in.
 In engineering terms, my signal-to-noise ratio was way too low.
@@ -97,7 +96,7 @@ df
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -426,7 +425,7 @@ df[["retweet_count", "favorite_count"]].describe()
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -481,7 +480,7 @@ df[["retweet_count", "favorite_count"]].describe()
 
 
 
-Hmmmm, I don't remember ever going viral and getting 200k+ retweets.
+Hmmmm, I don't remember ever going viral and getting 200k+ retweets. 
 
 Per the [Twitter API docs](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/overview/tweet-object), the `retweet_count` key of a Tweet object counts the source tweet's retweets, not just my personal retweets.
 
@@ -515,7 +514,7 @@ Since we're beginning to chain conditions, filters, transforms, etc. on our data
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -612,9 +611,9 @@ fig.tight_layout()
 ```
 
 
-
+    
 ![png](index_files/index_10_0.png)
-
+    
 
 
 It appears that I tend to be cyclical with my tweets.
@@ -648,9 +647,9 @@ fig.tight_layout()
 ```
 
 
-
+    
 ![png](index_files/index_12_0.png)
-
+    
 
 
 As expected, the number of interactions generally follows my tweeting frequency.
@@ -719,7 +718,7 @@ df
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1050,7 +1049,7 @@ df.filter(like="_count").describe()
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1195,7 +1194,7 @@ df.sort_values(by="followers_count", ascending=False).head()
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1354,11 +1353,11 @@ Oh... hello Obama.
 
 But this also brings up another issue: who should I actually follow?
 
-As much as I like Obama and Bill Gates, I don't actually interact with them.
-This is especially true for CNN and YouTube.
+As much as I like Obama and Bill Gates, I don't actually interact with them. 
+This is especially true for CNN and YouTube. 
 
 If there is something truly worthwhile being tweeted by these people (or orgs), I'll probably hear about it from my thousand other social media sources.
-What I want from Twitter is more personal content from people that provide intelligent ideas and good discussion topics.
+What I want from Twitter is more personal content from people that provide intelligent ideas and good discussion topics. 
 
 Let's start by exploring a user's followers vs. friends and their Twitter Follower-to-Friend (TFF ratio).
 
@@ -1378,9 +1377,9 @@ fig.tight_layout()
 ```
 
 
-
+    
 ![png](index_files/index_22_0.png)
-
+    
 
 
 Right away, we can see that the majority of outliers fall below a TFF ratio of 1.
@@ -1439,7 +1438,7 @@ df_retweeted.describe()
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1650,7 +1649,7 @@ df_favorites.describe()
         text-align: right;
     }
 </style>
-<table class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1818,9 +1817,9 @@ fig.tight_layout()
 ```
 
 
-
+    
 ![png](index_files/index_27_0.png)
-
+    
 
 
 The vast majority of people I interact with are within the core grouping of less than 2k friends and 50k followers (i.e., a TFF ratio of 25).
