@@ -17,3 +17,5 @@ design:
   spacing:
     padding: ["200px", "0", "200px", "0"]
 ---
+
+Providing Fractional CTO and product development expertise to jumpstart your innovation
