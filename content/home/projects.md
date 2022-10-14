@@ -28,7 +28,7 @@ content:
       brightness: 0.5
 
   - title: Code Life Ventilator Challenge
-    content: The Code Life Ventilator Challenge, hosted by the Montreal General Hospital Foundation, brought together professionals to design a low-cost, simple, and easy-to-manufacture ventilator that can serve patients experiencing COVID-19 respiratory challenges in a short timeframe
+    content: The Code Life Ventilator Challenge, hosted by the Montreal General Hospital Foundation, brought together professionals to design a low-cost, simple, and easy-to-manufacture ventilator for COVID-19 patients
     align: left
     background:
       position: center
