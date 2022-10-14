@@ -41,7 +41,7 @@ content:
     align: left
     background:
       position: center
-      media: projects/ypc.png
+      media: projects/ypc.jpg
       fit: cover
       brightness: 0.5
 
@@ -50,7 +50,7 @@ content:
     align: left
     background:
       position: center
-      media: projects/vet-robot.png
+      media: projects/vet-robot.jpg
       fit: contain
       brightness: 0.5
 
@@ -59,7 +59,7 @@ content:
     align: left
     background:
       position: center
-      media: projects/nirs.jpeg
+      media: projects/nirs.jpg
       fit: contain
       brightness: 0.5
 
@@ -68,7 +68,7 @@ content:
     align: left
     background:
       position: center
-      media: projects/tms.jpeg
+      media: projects/tms.jpg
       fit: contain
       brightness: 0.5
 ---
