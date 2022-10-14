@@ -89,7 +89,7 @@ features:
       # Where 0 requires a perfect match and 1 matches anything.
       threshold: 0.3
   map:
-    provider: 'mapbox'
+    provider: ''
     api_key: ''
     zoom: 15
 
