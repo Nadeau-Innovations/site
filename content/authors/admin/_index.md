@@ -31,11 +31,8 @@ superuser: true
 <!-- make sure "description" in config/_default/params.toml is also updated -->
 
 Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
-
-He has spent the last decade creating unique technologies for the biomedical, food robotics, collaborative robotics, and additive manufacturing domains.
-As CTO of Halodi Robotics, he led their engineering and worldwide expansion to bring safe and capable humanoid robots to everyone.
-While at AON3D (YC W17) as the head of engineering, he built accessible high-performance 3D printers, leading to the first 3D printed parts on the moon and space station.
+As CTO and engineering leader, he has spent the last decade creating unique technologies for the [biomedical](https://www.rogue-research.com/), [food robotics](https://www.ypc-technologies.com/), [collaborative robotics](https://www.halodi.com/), and [additive manufacturing](https://www.aon3d.com/) domains.
 
 Nicholas is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ).
-Nicholas received his Ph.D. from École de technologie supérieure, where his research combined machine learning and collaborative robotics to develop safe robotic freehand medical ultrasound methods.
-He is actively involved in the Montréal startup community, being a mentor at several accelerators, including NextAI, Techstars, Creative Destruction Lab, and FounderFuel.
+He received his Ph.D. from École de technologie supérieure, where his research combined machine learning and collaborative robotics to develop [safe robotic freehand medical ultrasound methods](https://espace.etsmtl.ca/id/eprint/2461/).
+Nicholas is actively involved in the Montréal startup community, being a mentor at several accelerators, including [NextAI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal/), and [FounderFuel](https://founderfuel.com/).
