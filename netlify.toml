@@ -3,7 +3,7 @@ publish = "public"
 command = "make build"
 
 [build.environment]
-HUGO_VERSION = "0.95.0"
+HUGO_VERSION = "0.104.3"
 HUGO_ENABLEGITINFO = "true"
 
 # If skip_processing = true, all other settings are ignored
@@ -12,7 +12,7 @@ skip_processing = false
 
 [build.processing.css]
 bundle = true
-minify = true
+minify = false
 
 [build.processing.js]
 bundle = true
@@ -30,10 +30,10 @@ command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 [[plugins]]
 # https://github.com/netlify/netlify-plugin-lighthouse
 package = "@netlify/plugin-lighthouse"
-  
+
   # optional, fails build when a category is below a threshold
   [plugins.inputs.thresholds]
-    performance = 0.8
+    performance = 0.7
     accessibility = 0.9
     best-practices = 0.9
     seo = 0.9

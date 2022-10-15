@@ -4,24 +4,15 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: '#about'
+  - name: BLOG
+    url: 'post/'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: EVENTS
+    url: 'event/'
     weight: 20
-  - name: Talks
-    url: '#talks'
+  - name: PUBLICATIONS
+    url: 'publication/'
     weight: 30
-  - name: Publications
-    url: '#publications'
+  - name: CONTACT
+    url: '#contact'
     weight: 40
-  - name: Projects
-    url: 'projects/'
-    weight: 50
-  - name: Contact
-    url: 'contact/'
-    weight: 60
-  - name: CV
-    url: 'https://engnadeau.github.io/cv/nicholas-nadeau_cv.pdf'
-    weight: 70

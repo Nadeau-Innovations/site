@@ -1,31 +1,24 @@
 ---
 aliases:
 - /post/2020/11/python-tricks-replace-all-nonalphanumeric-characters-in-a-string/
+title: "Python Tricks: Replace All Non-alphanumeric Characters in a String"
+subtitle: ""
+summary: ""
 authors: []
+tags: ["", "string", "data", "filter", "", "performance", "python", "regex", "str", "temperature"]
 categories: []
 date: 2020-11-07T09:53:15-b05:00
-draft: false
+lastmod: 2020-11-07T09:53:15-05:00
 featured: false
+draft: false
+
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-lastmod: "2020-11-07T09:53:15-05:00"
+
 projects: []
-subtitle: ""
-summary: ""
-tags:
-- ""
-- string
-- data
-- filter
-- ""
-- performance
-- python
-- regex
-- str
-- temperature
-title: 'Python Tricks: Replace All Non-alphanumeric Characters in a String'
+
 ---
 
 I have a confession to make: I'm a stickler for filenames.
@@ -37,7 +30,7 @@ As such, I eventually converged towards simple and draconian filenames to ensure
 
 Now, I understand there are times when this level of rigidity doesn't fully make sense.
 One example is in mechanical engineering when working with a [PDM system](https://en.wikipedia.org/wiki/Product_data_management) (and non-developer stakeholders).
-Common practice is to have your filenames as `<SKU> - <Part Name>.<Extension>` (e.g., `ABC123 - Big Bolt.sldprt`).
+Common practice is to have your filenames as `<SKU> - <Part Name>.<Extension>` (e.g., `ABC123 - Big Bolt.sldprt`). 
 Yes, there are spaces, but as long as the schema is enforced, the database will still be easily machine parsable.
 
 If we extend this line of thought from filenames to a generalized "path" or "resource location" (e.g., URLs, data column headings, data labels), strict and consistent schemas are import, as the devil in the details.

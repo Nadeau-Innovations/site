@@ -16,8 +16,7 @@ marketing:
     local_business_type: ''
     org_name: ''
     # NN: max ~160 characters description for SEO
-    description: >
-      Nicholas Nadeau is the CTO of Halodi Robotics, leading their engineering and worldwide expansion to bring safe and capable humanoid robots to everyone.
+    description: Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
     twitter: 'EngNadeau'
   analytics:
     google_analytics: 'UA-60125866-2'
@@ -32,7 +31,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: c
     show_logo: true
     show_language: false
     show_day_night: false
@@ -41,6 +40,7 @@ header:
 
 # Site footer
 footer:
+  widget: minimal
   copyright:
     notice: '© {year} Nicholas Nadeau. This work is licensed under {license}'
     license:
@@ -89,7 +89,7 @@ features:
       # Where 0 requires a perfect match and 1 matches anything.
       threshold: 0.3
   map:
-    provider: 'mapbox'
+    provider: ''
     api_key: ''
     zoom: 15
 

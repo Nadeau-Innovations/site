@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Nicholas Nadeau, Ph.D., P.Eng. # Website name
-baseurl: 'https://nicholasnadeau.com/' # Website URL
+title: Nicholas Nadeau
+baseurl: "https://nicholasnadeau.com/" # Website URL
 
 ############################
 ## LANGUAGE
