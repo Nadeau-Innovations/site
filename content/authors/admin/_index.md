@@ -1,6 +1,13 @@
 ---
-bio: Nicholas Nadeau is the CTO at [Halodi Robotics](https://www.halodi.com/), leading
-  their mission of bringing safe and capable humanoid robots to everyone.
+# Display name
+title: Nicholas Nadeau, Ph.D., P.Eng.
+
+# Full name (for SEO)
+first_name: Nicholas
+last_name: Nadeau
+
+bio: Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
+
 email: ""
 highlight_name: false
 social:
