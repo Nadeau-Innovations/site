@@ -1,6 +1,13 @@
 ---
-bio: Nicholas Nadeau is the CTO at [Halodi Robotics](https://www.halodi.com/), leading
-  their mission of bringing safe and capable humanoid robots to everyone.
+# Display name
+title: Nicholas Nadeau, Ph.D., P.Eng.
+
+# Full name (for SEO)
+first_name: Nicholas
+last_name: Nadeau
+
+bio: Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
+
 email: ""
 highlight_name: false
 social:
@@ -25,10 +32,18 @@ social:
   icon_pack: fab
   label: Connect with me on LinkedIn
   link: https://www.linkedin.com/in/engnadeau
+- icon: cv
+  icon_pack: ai
+  link: https://engnadeau.github.io/cv/nicholas-nadeau_cv.pdf
+
 superuser: true
 ---
 
-<!-- make sure "description" in config/_default/params.toml is also updated -->
+<!--
+sync the following bios:
+- "bio" above
+- "description" in config/_default/params.toml
+-->
 
 Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
 As CTO and engineering leader, he has spent the last decade creating unique technologies for the [biomedical](https://www.rogue-research.com/), [food robotics](https://www.ypc-technologies.com/), [collaborative robotics](https://www.halodi.com/), and [additive manufacturing](https://www.aon3d.com/) domains.
