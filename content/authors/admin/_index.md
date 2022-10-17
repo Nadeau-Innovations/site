@@ -32,7 +32,11 @@ social:
 superuser: true
 ---
 
-<!-- make sure "description" in config/_default/params.toml is also updated -->
+<!--
+sync the following bios:
+- "bio" above
+- "description" in config/_default/params.toml
+-->
 
 Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
 As CTO and engineering leader, he has spent the last decade creating unique technologies for the [biomedical](https://www.rogue-research.com/), [food robotics](https://www.ypc-technologies.com/), [collaborative robotics](https://www.halodi.com/), and [additive manufacturing](https://www.aon3d.com/) domains.
