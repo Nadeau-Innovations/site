@@ -26,8 +26,7 @@ summary: null
 tags: []
 title: 'Seattle Robotics Society: The Applications of Pybotics'
 url_code: null
-url_pdf: null
-url_slides: null
+url_slides: 2022-10-15_seattle-robotics.pdf
 url_video: null
 ---
 
