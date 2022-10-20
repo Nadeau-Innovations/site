@@ -9,6 +9,15 @@ design:
   interval: 5000
 content:
   slides:
+  - title: Osedea
+    content: Osedea had bold ideas involving emerging technologies but lacked the robotics and AI expertise to bring them to life. Nicholas' extensive experience in deploying robotics solutions around the world was a crucial in business development and technical development
+    align: top
+    background:
+      position: center
+      media: projects/osedea.jpg
+      fit: cover
+      brightness: 0.5
+
   - title: Halodi Robotics
     content: The EVE humanoid robot is a fully integrated platform that utilizes AI autonomy and direct force control for safe and capable operation in security, retail, and Industry 4.0 applications
     align: left
