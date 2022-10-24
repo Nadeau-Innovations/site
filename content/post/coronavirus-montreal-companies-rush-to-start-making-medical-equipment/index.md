@@ -24,7 +24,7 @@ tags:
 - medical
 - montreal
 - ""
-- ""
+- press
 - rush
 - telephone
 - week

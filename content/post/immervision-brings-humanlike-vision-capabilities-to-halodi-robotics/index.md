@@ -16,7 +16,8 @@ subtitle: Immervision and Halodi Robotics have partnered to develop a vision sys
   for humanoid robots and VR
 summary: “Robots have incredible potential to expand human capabilities and performance
   in the real world,” says Nicholas Nadeau, CTO of Halodi Robotics
-tags: []
+tags:
+- press
 title: Immervision Brings Human-like Vision Capabilities to Halodi Robotics
 ---
 

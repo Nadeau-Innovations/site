@@ -13,6 +13,9 @@ main:
   - name: PUBLICATIONS
     url: 'publication/'
     weight: 30
+  - name: PRESS
+    url: 'press/'
+    weight: 40
   - name: CONTACT
     url: '#contact'
     weight: 40

@@ -18,6 +18,7 @@ tags:
 - montreal
 - robotics
 - VR
+- press
 - research
 title: How Montreal Is Building a Robot Workforce
 ---

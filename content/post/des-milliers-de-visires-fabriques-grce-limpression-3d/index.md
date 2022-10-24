@@ -25,7 +25,7 @@ tags:
 - market
 - ""
 - new
-- ""
+- press
 - officer
 - picture
 - printer

@@ -14,7 +14,8 @@ lastmod: "2021-11-22T08:51:39-05:00"
 projects: []
 subtitle: ""
 summary: ""
-tags: []
+tags:
+- press
 title: 'Lester B Wall of Fame: Dr. Nicholas Nadeau, Engineer Specialized in Robotics'
 ---
 
