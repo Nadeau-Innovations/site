@@ -38,7 +38,7 @@ tags:
 - montreal
 - ""
 - patient
-- ""
+- press
 - ""
 - ventilator
 - world

@@ -21,7 +21,7 @@ tags:
 - mental
 - mitacs
 - neuroscience
-- ""
+- press
 - research
 - result
 - robotic
