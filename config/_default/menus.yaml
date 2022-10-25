@@ -17,5 +17,5 @@ main:
     url: 'press/'
     weight: 40
   - name: CONTACT
-    url: '#contact'
-    weight: 40
+    url: 'contact/'
+    weight: 50
