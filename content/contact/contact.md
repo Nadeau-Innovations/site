@@ -17,7 +17,7 @@ content:
 design:
   columns: "2"
 headless: true
-title: WANT TO GET IN TOUCH?
+title: GET IN TOUCH
 weight: 10
 widget: contact
 ---
