@@ -18,4 +18,4 @@ design:
     padding: ["200px", "0", "200px", "0"]
 ---
 
-Jumpstart your innovation with effective fractional CTO support
+Jumpstart your innovation with fractional CTO support
