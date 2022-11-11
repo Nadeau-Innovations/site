@@ -18,4 +18,4 @@ design:
     padding: ["200px", "0", "200px", "0"]
 ---
 
-Fractional CTO and product development expertise to jumpstart your innovation
+Jumpstart your innovation with effective fractional CTO support
