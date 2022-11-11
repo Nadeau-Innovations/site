@@ -5,7 +5,7 @@ weight: 10
 title: "**BUILD THE FUTURE**"
 cta:
   label: "LET'S WORK TOGETHER"
-  url: "#contact"
+  url: "/contact"
 design:
   background:
     image_darken: 0.6
