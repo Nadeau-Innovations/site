@@ -10,7 +10,7 @@ design:
   background:
     image_darken: 0.6
     text_color_light: true
-    image: hero.jpg
+    image: hero-talking.jpg
     image_size: cover
     image_position: center
     image_parallax: true
