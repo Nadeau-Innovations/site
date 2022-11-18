@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 5
-title: GET IN TOUCH
+title: Get in touch
 design:
   columns: "1"
   background:
