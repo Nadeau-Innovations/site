@@ -4,6 +4,12 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: HOME
+    url: '/'
+    weight: 1
+  - name: SERVICES
+    url: 'services/'
+    weight: 5
   - name: BLOG
     url: 'post/'
     weight: 10
