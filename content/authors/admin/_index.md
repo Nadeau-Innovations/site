@@ -32,9 +32,6 @@ social:
   icon_pack: fab
   label: Connect with me on LinkedIn
   link: https://www.linkedin.com/in/engnadeau
-- icon: cv
-  icon_pack: ai
-  link: https://engnadeau.github.io/cv/nicholas-nadeau_cv.pdf
 
 superuser: true
 ---
