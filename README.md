@@ -133,3 +133,4 @@ Custom footer in site folder at layouts/partials/hooks/footer.html
 - https://www.garyvaynerchuk.com/
 - https://www.tonyrobbins.com/
 - https://www.nicholaskusmich.com/
+- https://www.justinwelsh.me/
