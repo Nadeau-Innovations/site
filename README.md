@@ -23,13 +23,13 @@ Personal website, portfolio, and blog built using the Jamstack and other web/AI 
 
 ## Development
 
-### Hugo Installation
+### Installation
 
-- [Install `Hugo`](https://gohugo.io/getting-started/installing/#binary-cross-platform)
-  - Binary installation is easiest
+- [Install `Hugo`](https://github.com/gohugoio/hugo/releases/latest)
+  - `.deb` installation is easiest
 
 ```bash
-# e.g., download binary from https://github.com/gohugoio/hugo/releases
+# e.g., download binary from 
 dpkg -i hugo_extended_0.97.1_Linux-64bit.deb
 ```
 
