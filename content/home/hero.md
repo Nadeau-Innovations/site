@@ -4,7 +4,7 @@ headless: true
 weight: 10
 title: "**BUILD THE FUTURE**"
 cta:
-  label: "LET'S WORK TOGETHER"
+  label: "Get Started"
   url: "/services"
 design:
   background:
