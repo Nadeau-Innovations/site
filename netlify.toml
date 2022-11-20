@@ -45,6 +45,12 @@ package = "@netlify/plugin-sitemap"
 
 # https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
 [[redirects]]
+from = "https://www.nicholasnadeau.me"
+to = "https://www.nicholasnadeau.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "https://www.nadeauinnovations.com"
 to = "https://www.nicholasnadeau.com"
 status = 301
