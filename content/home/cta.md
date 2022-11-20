@@ -3,7 +3,7 @@ widget: hero
 headless: true
 title: Launch your innovation
 cta:
-  label: "EXPLORE SERVICES"
+  label: "Explore Services"
   url: "/services"
 weight: 50
 design:
