@@ -57,6 +57,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "https://www.n2innovations.com"
+to = "https://www.nicholasnadeau.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "https://www.engnadeau.com"
 to = "https://www.nicholasnadeau.com"
 status = 301
