@@ -51,7 +51,19 @@ status = 301
 force = true
 
 [[redirects]]
+from = "https://nicholasnadeau.me"
+to = "https://www.nicholasnadeau.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "https://www.nadeauinnovations.com"
+to = "https://www.nicholasnadeau.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://nadeauinnovations.com"
 to = "https://www.nicholasnadeau.com"
 status = 301
 force = true
@@ -63,7 +75,19 @@ status = 301
 force = true
 
 [[redirects]]
+from = "https://n2innovations.com"
+to = "https://www.nicholasnadeau.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "https://www.engnadeau.com"
+to = "https://www.nicholasnadeau.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://engnadeau.com"
 to = "https://www.nicholasnadeau.com"
 status = 301
 force = true
