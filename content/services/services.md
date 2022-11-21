@@ -19,7 +19,7 @@ feature:
     icon_pack: fas
     name: "**Embedded**"
     description: |
-        **Strategic** and **Tactical** services, plus aiding in technical development, design and code reviews, and talent management
+        **Strategic** and **Tactical** services, plus technical development, design and code reviews, and talent management
 ---
 
 ## Packages to Jumpstart Your Innovation
