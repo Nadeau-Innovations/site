@@ -15,3 +15,5 @@ design:
   spacing:
     padding: ["200px", "0", "200px", "0"]
 ---
+
+Set your team up for success with fractional CTO support
