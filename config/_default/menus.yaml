@@ -7,21 +7,39 @@ main:
   - name: HOME
     url: '/'
     weight: 1
-  - name: SERVICES
-    url: 'services/'
-    weight: 5
+
   - name: BLOG
+    identifier: blog
+    weight: 10
+
+  - name: POSTS
+    parent: blog
     url: 'post/'
     weight: 10
+
   - name: EVENTS
+    parent: blog
     url: 'event/'
     weight: 20
+
   - name: PUBLICATIONS
+    parent: blog
     url: 'publication/'
     weight: 30
+
   - name: PRESS
+    parent: blog
     url: 'press/'
     weight: 40
+
+  - name: SERVICES
+    url: 'services/'
+    weight: 15
+
+  - name: NEWSLETTER
+    url: 'https://engnadeau.substack.com/'
+    weight: 45
+
   - name: CONTACT
     url: 'contact/'
     weight: 50
