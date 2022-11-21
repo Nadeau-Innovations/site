@@ -414,7 +414,20 @@ is designed for humans that's the form factor you want to invest into and make w
 
 ## The Markets
 
-https://www.cnbc.com/2022/11/02/goldman-predicts-humanoid-robots-will-be-a-6-billion-market-in-10-years.html
+https://www.goldmansachs.com/insights/pages/humanoid-robots.html
+
+> Robots are making their first tentative steps from the factory floor into our homes and workplaces. In a recent report, Goldman Sachs Research estimates a $6 billion market (or more) in people-sized-and-shaped robots is achievable in the next 10 to 15 years. Such a market would be able to fill 4% of the projected US manufacturing labor shortage by 2030 and 2% of global elderly care demand by 2035.
+
+> GS Research makes an additional, more ambitious projection as well. “Should the hurdles of product design, use case, technology, affordability and wide public acceptance be completely overcome, we envision a market of up to US$154bn by 2035 in a blue-sky scenario,” say the authors of the report The investment case for humanoid robots. A market that size could fill from 48% to 126% of the labor gap, and as much as 53% of the elderly caregiver gap.
+
+>Goldman Sachs Research report details the multiple breakthroughs that have to happen in order for it to come to fruition.
+
+    The battery life of humanoid robots would have to improve to the point where one could work for up to 20 hours before requiring recharging (or need fast charging for one hour and work for four to five hours, then repeat).
+    Mobility and agility would have to incrementally increase, and the processing abilities of such robots would also have to make steady gains. In addition, depth cameras, force feedback, visual and voice sensors, and other aspects of sensing—the robot’s nerves and sensory organs—will all need to get incrementally better.
+    There will also need to be gains in computation, so that robots can avoid obstacles, screen the shortest route to completion of a task, and react to questions.
+    Still more challenging will be the process of training and refining the abilities of humanoid robots once they begin working. This process can take upwards of a year.
+    And finally, robot makers will need to bring down production costs by roughly 15-20% a year in order for the humanoid robot to be able to pay for itself in two years.
+
 
 according to Goldman Sachs
 
