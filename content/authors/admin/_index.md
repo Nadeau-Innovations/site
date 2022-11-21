@@ -6,7 +6,9 @@ title: Nicholas Nadeau, Ph.D., P.Eng.
 first_name: Nicholas
 last_name: Nadeau
 
-bio: Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
+bio: |
+  Nicholas Nadeau empowers teams through [fractional CTO services]({{< ref "services/" >}}) to build next-generation technologies.
+  [Subscribe to my newsletter](https://engnadeau.substack.com/) to keep up with the latest trends and [explore my services]({{< ref "services/" >}}) to jumpstart your innovation.
 
 email: ""
 highlight_name: false
