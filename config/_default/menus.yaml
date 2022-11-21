@@ -22,6 +22,9 @@ main:
   - name: PRESS
     url: 'press/'
     weight: 40
+  - name: NEWSLETTER
+    url: 'https://engnadeau.substack.com/'
+    weight: 45
   - name: CONTACT
     url: 'contact/'
     weight: 50
