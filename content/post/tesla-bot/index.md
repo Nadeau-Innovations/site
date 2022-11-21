@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Decoded: Tesla Bot and AI Day"
+title: "Tesla AI Day: Everyone wants to build a robot"
 subtitle: ""
 summary: ""
 authors: []
@@ -28,8 +28,13 @@ image:
 projects: []
 ---
 
-TODO: gifs
-- 17:34 entrance and reveal
+{{< video src="fea.mp4" >}}
+{{< video src="knee.mp4" >}}
+{{< video src="motors.mp4" >}}
+{{< video src="nav.mp4" >}}
+{{< video src="sim.mp4" >}}
+{{< video src="tasks.mp4" >}}
+
 - 19:45 tasks and semantic and manipulation
 - 20:25 "working at Fremont factory"
 - "off the shelf actuators" in current proto demo
@@ -43,6 +48,7 @@ TODO: gifs
 - 37:30 knee joint not back driveable; efficient and effective design, but what about intrinsic safety?
 - actuators similar to powertrain designed for tesla
 - 41:00 simulation
+  - this is why tesla will make their own motors; focused on holistic optimization for their applications; they will have enough volume to justify
 - 43:00 roller screws and actuators and clutch; define these things for the reader
   - https://en.wikipedia.org/wiki/Roller_screw
   - https://www.ewellix.com/en/products/ball-and-roller-screws/roller-screws/planetary-roller-screws
@@ -105,17 +111,22 @@ TODO: gifs
       - number of useful situations will grow exponentially; start small and focused
 - three to five year target is reasonable if scope is focused
 
-Every big tech reveal has its partisan commentators that will argue back and forth about the merits of the technology, but it might be timely that Tesla AI Day coincided with the [text message dump from the Twitter v. Elon debacle](https://time.com/6218578/elon-musk-texts-twitter/), because if we ask the question, ***what did you get done this week?***, well, in the case of Tesla, quite a bit.
+Tesla's AI Day was a big event in the robotics and AI community.
+While big tech reveals have their partisan commentators that will argue back and forth about the merits of the technology, but it might be timely that Tesla AI Day coincided with the [text message dump from the Twitter v. Elon debacle](https://time.com/6218578/elon-musk-texts-twitter/), because if we ask the question, ***what did you get done this week?***, well, in the case of Tesla, quite a bit.
 
-There has already been a flood of articles and thoughtpices about the bot, [some salty and negative](https://spectrum.ieee.org/robotics-experts-tesla-bot-optimus), [others pure hype](https://ca.finance.yahoo.com/news/tesla-optimus-robot-change-world-182110412.html?guccounter=1).
-Let's take a more nuanced look at the event and the robot.
+There has already been a flood of articles and thoughtpices about the bot, [some salty and negative](https://spectrum.ieee.org/robotics-experts-tesla-bot-optimus), [others pure hype](https://ca.finance.yahoo.com/news/tesla-optimus-robot-change-world-182110412.html).
+In this article, I want to take a more nuanced look at the event and the robot.
 
 {{< youtube ODSJsviD_SU >}}
 
-## The Event
+## The Pledge, the Turn, and the Prestige
 
-Let start with the elephant in the room: a biped prototype robot was revealed, it appeared to work well enough for a demo, and the hype continues.
-There's no deyning that Tesla AI Day is more than just a tech event; its a markerting and recruitment event.
+Let start with the elephant in the room: a humanoid robot was promised last year and a humanoid robot was revealed at this event.
+The prototype appeared to work well enough for a demo, and the hype continues.
+
+{{< video src="reveal.mp4" >}}
+
+There's no deyning that Tesla AI Day is more than just a tech event; it's also a markerting and recruitment event.
 
 On the financial marketing side, it appears that Elon has impeccable timing, hosting the uplifting event just before [poor Q3 results and other negative news](https://electrek.co/2022/10/04/tesla-tsla-plunges-elon-musk-agrees-buy-twitter/).
 
@@ -124,25 +135,48 @@ The team definitely deserves kudos for their accomplishments and the velocity at
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6982076559851483136" allowfullscreen="" title="Embedded post" width="504" height="559" frameborder="0"></iframe>
 
-Finally, aside from the recruitment angle, I don't believe the event was meant to impress expert engineers and roboticists.
+Finally, aside from the recruitment angle, I don't believe the event was meant to impress expert engineers and roboticists (beyond recruitment).
 Instead, there is a different target audience, the type of audience that helps maintain the hype, [generate over $10B in revenue through Model 3 preorders](https://www.theguardian.com/technology/2016/apr/04/tesla-motors-sells-10bn-model-3-two-days), and pumps the stock such that it has a P/E ratio of 10x Toyota.
 
 {{< tweet user="EngNadeau" id="1576035850625814528" >}}
 
 ## Overall Design
 
-I'm gonna do a full writeup on the actuator system tonight, wanna go deep and see what we can understand, the first prototype is Apptroniks system and not really tesla, 2nd prototype is really interesting
+From a design and systems architecture point of view, the first development prototype resembles the systems and technology developed by [Apptronik](https://apptronik.com/our-work/).
 
-TLDR: Teslabot is a classical humanoid that focuses on stiff position control with force/torque sensing, most of their focus seems to be on the robustness and reliability of stiff systems in contacts. It is about 1/5 the power to weight of Aria, it is not designed for dynamic motions and contacts, does not have any sensible path to safety, and power efficiency is going to be very bad. I would not write them off as they have shown how fast they can iterate and have “unlimited” money, but they did not solve anything yet on the hardware side, and the software for walking is a replica of the Asimo controller from 2007 (ZMP with heelstrike/toe-off).
+![Tesla Bot generations.](changes.png)
 
+It is a simple and straightforward humanoid robot design that uses position control with force-torque sensors.
+The primary goal of this prototype appears to be to get something moving as quickly as possible.
+Robustness and reliability also received a lot of attention, which I appreciate, as this will be an important element of making real-world applications successful.
+This prototype was not designed for dyanmic and smooth motions, like we see with other robot designs, such as Boston Dynamic's Atlas.
+
+My biggest concern is that there doesn't seem to be any regard for instrinsic safety.
+Stiff joints, high-ratio gears, and a heavy body makes for a lot of moving mass and inertia that needs to be considered from a risk assessment perspective.
+
+Alternatively, this was all designed in just a few months and the team appears to be working very efficiently and can iterate without concern for costs.
+In terms of the engineering triangle, the team have the benefit of focusing on **good** and **fast**, without having to worry about targeting **cheap**.
+
+![The engineering triangle.](triangle.jpg)
 
 ## Controls, Mobility, and Locomotion
 
+As other experts have noted, that gait looks a little wobbly in the prototype, most likely due to the design using planetary rollers with force sensors which makes the motion jerky and unnatural.
+The controls stack and walking behaviour appear to be the similar the ASIMO robot, which was presented back in the early 2000s, so nothing novel was seen here.
+This is [Zero Moment Point (ZMP) locomotion](https://en.wikipedia.org/wiki/Zero_moment_point) with the addition of toe off.
 
+{{< tweet user="EngNadeau" id="1576087850574958592" >}}
 
-The gait looked very wobbly?
+*Zero moment point (ZMP)* is a concept related with dynamics and control of legged locomotion (e.g., for humanoid robots).
+It specifies the point with respect to which dynamic reaction force at the contact of the foot with the ground does not produce any moment in the horizontal direction (i.e., the point where the sum of horizontal inertia and gravity forces is zero).
+Most importantly, the concept assumes the contact area is planar and has sufficiently high friction to keep the feet from sliding.
 
-They choose the direction of planetary roller plus force sensor which makes their robot jerky and not natural.
+*Toe off*, visualized in the image below, is an action is present in natural human walking and has been linked to minimizing the energy loss during impacts on contact.[^toe]
+
+[^toe]: Kuo, Arthur D., J. Maxwell Donelan, and Andy Ruina. "Energetic consequences of walking like an inverted pendulum: step-to-step transitions." Exercise and sport sciences reviews 33.2 (2005): 88-97.
+
+![The gait cycle.](gait-cycle.png "Credit: [Chiropractic Economics](https://www.chiroeco.com/gait-cycle/)")
+{{% /callout %}}
 
 On the locomotion side their work does not (yet!) look very impessive to me. Their gait is quite slow and not very dynamic. It is hard to say exactly what kind of control algorithms they are using but it loos like it could be one of the quite dated Zero Moment Point or Capture Point criterias that used to be very popular a while ago. But it does certainly not look cutting edge compared to some recent demonstrations  of bipedal locomotion on Atlas or Cassie for example.
 
