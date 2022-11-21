@@ -147,7 +147,8 @@ This can limit functionality when the hips are kinematically locked (e.g., sitti
 
 ## Manipulation
 
-the sequence where the robot grabs the watering can is quite impressive if that's a realistic result (and not just 100 attempts)
+The manipulation video segments of the presentation was cut *just right* and were a little too choreographed for my tastes.
+If the watering can demo is realistic, then it's super impressive, as long as it wasn't hundreds of attempts to capture just the right motion for a video clip.
 
 28 DoF , not including hands. hands not backdriveable so they can maintain a grasp for extended periods of time. the thumb has more than one DoF it seems. The hand is really strong, they had a standalone hand demo mounted on a stick and it seems to be more or less minituarized in the hand itself, and it is very strong. i was able to pick up a coke can and turn it upside down without any slippage in the grasp.
 
