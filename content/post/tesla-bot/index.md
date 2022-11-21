@@ -34,8 +34,8 @@ The real audience was the general population and the hype community.
 
 While big tech reveals have their partisan commentators that will argue back and forth about the merits of the technology, it was timely that Tesla AI Day coincided with the [text message dump from the Twitter v. Elon debacle](https://time.com/6218578/elon-musk-texts-twitter/), because if we ask the question, ***what did you get done this week?***, well, in the case of Tesla, quite a bit.
 
-There has already been a flood of articles and thoughtpices about the bot, [some salty and negative](https://spectrum.ieee.org/robotics-experts-tesla-bot-optimus), [others pure hype](https://ca.finance.yahoo.com/news/tesla-optimus-robot-change-world-182110412.html).
-I myself have been trying to write this article for over a month and my perspectives keep on shifting with each little discussion I have with friends and colleagues.
+There has already been a flood of articles and thoughtpieces about the bot, [some salty and negative](https://spectrum.ieee.org/robotics-experts-tesla-bot-optimus), [others pure hype](https://ca.finance.yahoo.com/news/tesla-optimus-robot-change-world-182110412.html).
+I myself have been trying to write this article for a while and my perspectives keep on shifting with each little discussion I have with friends and colleagues.
 Now, I want to take a more nuanced look at the event and the robot.
 
 {{< youtube ODSJsviD_SU >}}
@@ -47,14 +47,18 @@ The prototype appeared to work well enough for a demo, and the hype continues.
 
 {{< video src="reveal.mp4" >}}
 
-There's no denying that Tesla AI Day is more than just a tech event; it's mainly a marketing and recruitment event.
+There's no denying that Tesla AI Day is more than just a tech event; it's mainly a hype, marketing, and recruitment event.
 
 On the financial marketing side, it appears that Elon has impeccable timing, hosting the uplifting event just before [poor Q3 results and other negative news](https://electrek.co/2022/10/04/tesla-tsla-plunges-elon-musk-agrees-buy-twitter/).
 
 From a recruitment perspective, its an incredible opportunity to showcase the team, foster FOMO, and build in public.
 The team definitely deserves kudos for their accomplishments and the velocity at which they executed.
 
+---
+
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6982076559851483136" allowfullscreen="" title="Embedded post" width="504" height="559" frameborder="0"></iframe>
+
+---
 
 Near the 60 minute mark, the presenter mentions that everything seen here with the robot was only 6-8 months of work, which is absolutely incredible.
 The shear velocity and agility of the development team deserves the upmost respect.
@@ -63,8 +67,11 @@ The shear velocity and agility of the development team deserves the upmost respe
 Beyond the sheer engineering will of the team, I really appreciate how the engineers themselves present their work.
 A great example is [Felix Sygulla](https://www.linkedin.com/in/felix-sygulla/) explaining how the robot walks at the 50 minute mark.
 This kind of demo day show and tell empowers teams to stand by their work, explain it to the masses, and understand the mission-to-metrics relationship.
+In other words:
 
-In the words of Albert Einstein: *"If you can't explain it simply, you don't understand it well enough."*
+> If you can't explain it simply, you don't understand it well enough.
+>
+> ~ Albert Einstein
 
 Beyond recruitment and marketing, the target audience is the one that helps maintain the hype, [generate over $10B in revenue through Model 3 preorders](https://www.theguardian.com/technology/2016/apr/04/tesla-motors-sells-10bn-model-3-two-days), and pumps the stock such that it has a P/E ratio of 10x Toyota.
 As seen on social media, the general public **loved** the event.
@@ -116,7 +123,8 @@ Most importantly, the concept assumes the contact area is planar and has suffici
 ![The gait cycle.](gait-cycle.png "Credit: [Chiropractic Economics](https://www.chiroeco.com/gait-cycle/)")
 {{% /callout %}}
 
-Impressively, according to the presentation, the team was able to achieve toe off only five months after first steps.
+According to the presentation, the team was able to achieve toe off only five months after first steps.
+This is very impressive for a company that has never built a robot before.
 
 ![Evolution of walking.](walking.png)
 
@@ -128,6 +136,13 @@ The trade-off for a clutch-based system would be to save some energy and reduce 
 This *could* make sense if you calculate that the robot will be standing in one place for enough time to justify design choice.
 This would mean that static applications are the design focus, not necessarily *useful, dynamic work*.
 I personally think that this is a short-term design choice to *move faster* while future iterations will take a more dynamic stability approach.
+
+As noted by Elon at the 2.5h mark, the devleopment philosophy is to target the "fastest path to a useful robot that can be made at volume."
+This reflects the quote by Reid Hoffman:
+
+> If you are not embarrassed by the first version of your product, you've launched too late.
+>
+> ~ Reid Hoffman
 
 {{% callout note %}}
 **Stability Margin**
@@ -160,7 +175,7 @@ This kind of demo is trivial for any robot system.
 {{< video src="tasks.mp4" >}}
 
 Was the system perfectly tuned and overfit on training data for this video clip?
-Or is this manipulation ability generalizable aross many tasks?
+Or is this manipulation ability generalizable across many tasks?
 One this is for sure, it appears that the team is focusing on manipulation tasks that will be useful for Tesla factories first.
 
 However, if the watering can demo is realistic, then it's super impressive, as long as it wasn't hundreds of attempts to capture just the right motion for a video clip.
@@ -169,7 +184,7 @@ However, despite the added footage from the robot’s sensors, we have no idea h
 
 ## Safety
 
-Aside from the hands not being backdrivable and having a clamping risk, the knee joint isn't either.
+In addition to the hands not being backdrivable and having a clamping risk, the knee joint is also a safety hazard.
 While this may be efficient and effective from a certain design standpoint, there is a complete lack of intrinsic safety.
 Failing gracefully in a clamping situation is very difficult to do in a safe manner through extrinsic safety design.
 
@@ -191,9 +206,25 @@ E.g., software safety systems often use collision avoidance algorithms or force 
 [^phd]: Nadeau, Nicholas A. Towards the development of safe, collaborative robotic freehand ultrasound. Diss. École de technologie supérieure, 2019.
 {{% /callout %}}
 
-Now let's talk about the mass of the robot; a goal of 73kg is quite heavy.
-Per ISO/TS 15066:2016, which specifies safety requirements for collaborative industrial robot systems, the maximum permissible quasi-static contact force for human-robot contact is 220N against the thighs, knees, and lower legs.
+Now let's talk about safety, quasi-static contact, and transient contact.
 
+{{% callout note %}}
+**Quasi-static Contact**
+
+Contact between an operator and part of a robot system, where the operator body part can be clamped between a moving part of a robot system and another fixed or moving part of the robot cell.
+{{% /callout%}}
+
+{{% callout note %}}
+**Transient Contact**
+
+Contact between an operator and part of a robot system, where the operator body part is not clamped and can recoil or retract from the moving part of the robot system.
+{{% /callout%}}
+
+Per ISO/TS 15066:2016, which specifies safety requirements for collaborative industrial robot systems, the maximum permissible quasi-static contact force (e.g., clamping scenario) for human-robot contact is 220N against the thighs, knees, and lower legs.
+The target mass of the robot is 73kg, which is quite heavy.
+This has a weight (i.e., force) of about 716N, well over the quasi-static limits if the robot is ever fully clamping a person.
+
+Transient contact (e.g., faceplant collision) has a limit of twice the maximum allowed quasi-static contact force.
 As the exact mass distribution of the robot is proprietary information, we can conservatively estimate the robot's moving mass as the total mass of the robot, {{< math >}}$m_R${{< /math >}}, in a worst-case full faceplant event.
 The contact event is simplified as a two-body system, the effective mass of a given human body region, {{< math >}}$m_H${{< /math >}},
 For the thighs, knees, and the lower legs region, the effective human mass is 75 kg. The reduced mass of the two-body system, {{< math >}}$\mu${{< /math >}}, may now be calculated as:
@@ -204,7 +235,8 @@ $
 $
 {{< /math >}}
 
-Finally, the transferred energy due to an inelastic contact, {{< math >}}$E${{< /math >}}, event is given by:
+A quick free-fall calculation from a 1m height (half the robot's height) has a final faceplant velocity of about 4.4m/s.
+The transferred energy due to an inelastic contact, {{< math >}}$E${{< /math >}}, event is given by:
 
 {{< math >}}
 $
@@ -214,7 +246,6 @@ $
 
 where $\nu$ is the relative velocity between the robot and human contact bodies.
 
-A quick free-fall calculation from a 1m height (half the robot's height) has a final faceplant velocity of 4.4m/s.
 From ISO/TS 15066:2016, the maximum allowable transferred energy for the thighs and knees region for an injury-free collision is 1.9J, so we're *way* over the limit.
 
 At least they thought about the robot's own safety and damage control from faceplant events, as demonstrated by the FEA simulations.
@@ -223,264 +254,176 @@ At least they thought about the robot's own safety and damage control from facep
 
 ## Supply Chain, Manufacturing, and Cost
 
-- same production technique as tesla, high volume, low cost
-- - less than 20k$ if millions of units
-- - 28dof
+Over the past few months, I've been having calls with financial and investment professionals who want to learn more about the backend operations of building robots, namely the supply chain and manufacturing challenges.
 
-Price point of 20k USD, do we believe that?
+Tesla has the advantage of already building electric vehicles in large volumes.
+Essentially, for the Tesla bot, they'll more or less copy many of the same processes, production techniques, and procurement strategies, allowing them to achieve high-volumes and low-costs.
+As Elon let slip, the robot will be less than $20k if they can produce it in volumes of millions of units.
 
-the development platform uses off the shelf actuators, but the latest uses their own (but couldn't balance or hold its own weight yet)
+In robotics, joints are usually the primary cost driver of a system, as motors, gears, and the surrounding electronics are high-value items.
+This is especially true if you don't reuse the same joint architecture for all joints.
+Ideally, a robot would have the same drivetrain for each joint, allowing you to reduce costs by increasing the number of common components (i.e., volume discount).
 
-Their price targe is really ambitious, the cost target should be even lower that 20K USD (they might want to earn money 😅 ). I'm not sure they believe in this target, I have my reservations. But they can squeeze the supply chain a lot, and Tesla has so many products at high volume.
+As an example, the cost of strain wave gearing (e.g., Harmonic Drive) is a well known issue in robotics, even at higher volumes.
+The Harmonic Drive company has a near monopoly on the technology, purely from a quality standpoint, as the patent expired decades ago.
+As a rule of thumb, each gearing unit costs around $1k, so the Tesla bot would be expected to have a base cost of around $28k (i.e., one gearing unit per joint).
 
-Cost of harmonic drives is a well known issue even in high volumes, the patents expired and prices vary from 400$-1.500$ for component sets depending on load capability and quality/backlash.
-
-Planetary rollers are generally more complex and expensive than ball screws as the rollers and screws need to be very precisely ground after hardening to match and mesh nicely with rolling contact. This will clearly drive the cost of the system.
-
+I'm really curious to see how Tesla will escape the cost trap of strain wave gearing.
+Will they attempt to make their own cheaper units?
+Or will they transition to a direct-drive system and skip the costs and mass of gears alltogether?
 
 ## Motors and Actuation
 
-It also follows that there is no way they are reaching their original goal of 54kg with these actuators.
+Given the insight on gearing above, motor and actuation design will be critical to costs and mass.
+But we already see some hint of progress.
+The development platform uses off-the-shelf actuators, but it appears that the latest prototype uses their own actuators instead.
 
-- actuators similar to powertrain designed for tesla
-- - clutches made to remove need to keep motors on; reduce power consumption
-- "off the shelf actuators" in current proto demo
+As it stands now with the development platform, their mass and cost targets are ambitious given all the gearing and clutches that are part of their drivetrain system.
+This also results in a very stiff system with high gear ratios, mechanical locking, and zero compliance.
 
-- 43:00 roller screws and actuators and clutch; define these things for the reader
-  - https://en.wikipedia.org/wiki/Roller_screw
-  - https://www.ewellix.com/en/products/ball-and-roller-screws/roller-screws/planetary-roller-screws
-  - https://www.moog.com/products/linear-motion/screws/planetary-roller-screws.html
-  - https://en.wikipedia.org/wiki/Clutch
-  - integrated force and torque sensors
-- strain wave gearing and use gif
-  - https://en.wikipedia.org/wiki/Strain_wave_gearing
-- 44:20 lifting piano
+It's notable that they have both a clutch and high gear ratios.
+Typically, the high gear ratios would have been enough to compensate for gravity and to reduce the holding torque (and thus power consumption).
+
+However, given torque sensing at each joint, you can do forms of active impedance control to create a pseudo-compliant system, similar to how the KUKA LBR iiwa collaborative robot works.
+This essentially masks the inertia of the system by sensing collisions, but only works well at low speeds and quasi-static conditions.
+At high speeds, the end-to-end inertia of the drivetrain system (i.e., motor, gears, moving mass) would be outside the controllable bandwidth and result in high momentary transient forces.[^phd]
+Even the engineers and Elon answered around bandwidth questions during the Q&A.
+
+[^phd]: Nadeau, Nicholas A. Towards the development of safe, collaborative robotic freehand ultrasound. Diss. École de technologie supérieure, 2019.
+
+{{< youtube "xLpEqh76HUI" >}}
+
+{{% callout note %}}
+**Roller Screw**
+
+![Roller screw](Roller_Screw.gif)
+
+A roller screw, also known as a planetary roller screw or satellite roller screw, is a low-friction precision screw-type actuator, a mechanical device for converting rotational motion to linear motion, or vice versa.
+
+Due to its complexity the roller screw is a relatively expensive actuator (as much as an order of magnitude more expensive than ball screws), but may be suitable for high-precision, high-speed, heavy-load, long-life and heavy-use applications.
+{{% /callout %}}
+
+{{% callout note %}}
+**Strain Wave Gearing**
+
+![Strain wave gearing](strain-wavegif.gif)
+
+Strain wave gearing (also known as harmonic gearing) is a type of mechanical gear system that uses a flexible spline with external teeth, which is deformed by a rotating elliptical plug to engage with the internal gear teeth of an outer spline.
+
+Strain wave gearing has some advantages over traditional gearing systems such as helical or planetary gears, including:
+
+- no backlash
+- compactness and light weight
+- high gear ratios
+- reconfigurable ratios within a standard housing
+- good resolution and excellent repeatability (linear representation) when repositioning inertial loads
+- high torque capability
+- coaxial input and output shafts
+
+High gear reduction ratios are possible in a small volume (a ratio from 30:1 up to 320:1 is possible in the same space in which planetary gears typically only produce a 10:1 ratio).
+{{% /callout %}}
+
+{{% callout note %}}
+**Clutch**
+
+A clutch is a mechanical device that engages and disengages power transmission, especially from a drive shaft to a driven shaft.
+In the simplest application, clutches connect and disconnect two rotating shafts.
+In these devices, one shaft is typically attached to an engine or other power unit (the driving member), while the other shaft (the driven member) provides output power for work.
+
+E.g., in a torque-controlled drill, one shaft is driven by a motor, and the other drives a drill chuck.
+The clutch connects the two shafts so they may be locked together and spin at the same speed (engaged), locked together but spinning at different speeds (slipping), or unlocked and spinning at different speeds (disengaged).
+{{% /callout %}}
 
 {{< youtube dliVT8cKOsc >}}
 
-I don't understand motors well, but this seems more complicated than ours right?
-Based on the rotation speeds of the different stages in the motor on the left it seemed like it has a really high gear ratio, or am I seeing wrong?
-and if so, does this mean that it's not soft like ours?
+Regardless of all the critiques above, I have no doubt that this is just the first iteration of many for the team.
+Given the simulation snippets presented around the 41 minute mark, they will undoubtedly be making their own custom motors and drivetrains, focusing on a holistic optimization.
+With millions of units being the target, they will have enough volume to justify their own custom designs.
 
-Yes, high gear ration with mechanical locking, weather it's a clutch for the rotary or (maybe, not sure) self locking wedge effect for the ball screw.
-
-0 compliance
-
-Very interesting that they added a clutch and high gear ratio since with high gear ratio the holding torque required to e.g. compensate gravity while standing should be much lower than with a low gear ratio motor 🤔
-
-I assume it's for holding weights in the upper body, basically arms
-
-It makes "sense" from a power efficiency standpoint in the hips/torso when carrying objects but requires classical stable gaits
-
-how will these respond when you bump the robot? I guess it's stiff and not softly moving with the motions?
-
-If they do this, then yes. The apptronik system the started with is semi-compliant through series elastic
-
-chatted with some of their hand / motor people. the new prototype doesn't have any wires, so it's hard to know what the wiring layout looks like
-
-their motor housings are heavy but i was told that the motor housing doubles as structural support for the whole robot
-
-We do that as well. Our advantage is that they need a lot of steel for the gearing, and that is very heavy. We don't :)
-
-The hardware stack is overall very traditional, the fact that actuators passively locks makes the robot inheritely unsafe and not backdrivable, but they can maintain position without power consumption (caveat: you cannot mantain position and balance, @michael agree?)
-
-This is a modern HarmonicDrive variable impedance actuator, originally pioneered by DLR in the DLR-Arm (2003) and later Toro robots. This was commercialized through the Kuka LWR series robots and formed the basis for the Franka Panda, which was made by a breakout group from Kuka. Honorable mentions that also did a lot of work in this space is IIT (Walkman). The novel part here is the contact-less torque sensor, torque sensors have traditionally been the reliability problem for these drives and also suffer from drift over time. But even if they solved that problem the inherent actuator dynamics has the same problems.
-
-SHOW GIFS OF MY PHD
-
-Generally, high positioning accuracy requires high stiffness at the price of high robot mass relative to its payload. In contrast, the robotic systems developed at DLR (arms, hands, a humanoid manipulator) are designed for interaction with humans in unstructured, everyday environments. In such applications, high absolute positioning accuracy cannot be exploited due to limited accuracy of position information about the surrounding environment, while its side-effects in design (high stiffness and mass) are clearly undesired. However, the robots are operated at relatively low velocities compared to industrial robots, thus enabling higher gear ratios. The main requirements for the electronic design result from the high number of sensors, such as joint torque sensors, redundant position sensing, and wrist force-torque sensing.
-
-The basic concept here is you can get away with masking your inertia by using your torque sensor and motor to detect collision forces and control them as long as you move slowly. Inner loop joint torque controllers are used to reduce the negative effects of high motor inertia and friction due to the gears. The system is still stiff enough to do high-speed movements in non-collision states, but cannot do high-speed collisions as that is outside of the controllable bandwidth. StrainWave gearing has large hysteresis and friction in addition to sinusoidal torque ripple, requiring high reliance/gains on the torque sensor, adding phase delays and further decreasing bandwidth. When asked about the bandwidth, the engineer did not want to answer, and Elon claimed bandwidth of more like 10-20Hz than 1 Hz, which would be normal for this type of system in low load conditions (bandwidth drops exponentially with load). This is the same system as used in the Honda Asimo and UBTech Walker. The mention of contactless torque sensors is interesting as drift and reliability issues have generally plagued torque sensors in these systems.
-
-If your gear is 20% efficient, you need to provide 5x the torque at your motor, and motor losses follow torque squared, further driving inefficiencies. They also use cross-roller bearings, which, while being very stiff, have significant friction. This will reduce the efficiency even further. I would be very surprised if they manage anything above 20-50% system efficiency on these actuators.
-
-A planetary roller screw has rollers on the nut side, as shown in Figure 2, or on the shaft side, as shown in Figure 3. The threaded rollers are placed between a shaft (inner screw) and a nut (outer screw), providing more contact points than balls. Ball screws are primarily suitable for drive mechanisms that give priority to efficiency and transparency, whereas planetary roller screws are suitable when high load capacity, long service life, and high speed are required. Tesla is here choosing to sacrifice dynamic performance and efficiency for impact proofing and reliability. The torque transparency and compliance of roller screws are very similar to StrainWave gears as described in the previous chapter, although slightly better as they are a function of efficiency. The potential for jamming rollers creates very large ripples on torque.
-
-- 41:00 simulation
-  - this is why tesla will make their own motors; focused on holistic optimization for their applications; they will have enough volume to justify
 {{< video src="motors.mp4" >}}
+
 {{< video src="motor-design.mp4" >}}
-custom motor design and packaging to optimize overall robot design
+
+The tweet below best reveals the inner systems.
+
 {{< tweet user="EngNadeau" id="1588692643596234752" >}}
-some of the best looks of the inner system
-vertical design of magnetics, gear train with packaging
-understands level of integration from all systems
-the bot we've seen so far is just a prototype optimized for "getting something moving asap", i have no doubt that there will be many iterations, each of which will coverge towards a more optimal form and function.
 
 ## Software, Perception, and AI
 
-the software story seems less mature, they seem to be making a lot of similar high level design choices as FSD = perception + planning. their choice to do mocap retargeting is kind of interesting, curious why they didn't just do teleop
-
-They are good at talking😄. My impression is that the hardware is very immature and underwhelming. The software seemed really good
-
-We can also see that they went for a static neck relying on the cameras to cover the FOV. This will obviously limit HRI, but also cause some occlusion problems as the cameras should translate forward on looking down to increase useful FOV.
+On the software side, it appears that they have copy-pasted as much as possible from Tesla vehicles and FSD.
 
 {{< video src="nav.mp4" >}}
 
+I'm always impressed by the shear magnitude of data Tesla processes.
+Between electric vehicles and robots, the Tesla data team will have access to the largest dataset of indoors and outdoors real-world visual data available, a big advantage towards training systems that need to interact with the human environment.
+This will also drive their procedural simulation digital twin of the world that was presented near the two hour mark.
+Autolabelling will only become more powerful.
 
-- 10k+ GPUs for autolabelling of Tesla vehicle data
-  - shared with robot team?
-    - big advantage
-
-
--   55:30 natural motion references using human demonstration and XR trackers
-    - HTC vive body trackers https://www.lifewire.com/set-up-full-body-tracking-on-htc-vive-5216963
-    - MOCAP
-    - NOT SCALABLE? not true imitation learning
-
-- 47:55 software and navigation
-  - cars avoid everything, robots should interact with everything; how do we merge software and navigation autopilot approaches?
-  - split problem in two? a global navigation problem then refine to a local interaction problem?
-- 48:50 keypoint vslam navigation
-  - not end to end visual navigation?
-
-- 1:48:45 procedural simulation using collected ground truth data from autolabelling team
 {{< video src="sim.mp4" >}}
 
+At around the 55 minute mark, we see motion capture (using HTC Vive body trackers) being used to record natural motion references that are to be projected onto the robot.
+While this is a great "get it done quick" solution, it's not really scalable for imitation learning approaches, unless you only want to target a handful of specific applications and tasks (e.g., Tesla factory tasks).
+Otherwise, why wasn't teleoperation used (e.g., using VR headsets) instead of motion capture?
+Teleoperation would have at least allowed for a shadow mode whereby the software stack is trying to follow the human expert motions.
 
-{{< video src="tasks.mp4" >}}
-- 19:45 tasks and semantic and manipulation
+One curiousity I have about copying over the Tesla FSD stack is that while it's great for global navigation tasks, cars and autonomous driving are designed to *avoid* objects in the world.
+Robots, especially humanoid robots, are designed to interact with objects in the world.
+Will they be taking a two step approach to navigation and interaction, where the robot plans a coarse navigation as a first step and then switches to a local interaction mode?
+
+Quick insight for budding ML engineers: learn PyTorch, as it is the defacto framework used by the Tesla.
+
 ## Batteries
 
-- battery pack looks like Spot; changeable?
-- - everything integrated into battery pack; sensors etc; using vehicle + energy experience and existing techs to make this more efficient to develop, manufacturing, and cooling, and safety
-- leverage existing supply chain and manufacturing channels
+Batteries is one of the most important components of a mobile robot and probably the system that Tesla has the biggest advantage.
+From a first glance, the battery pack looks almost swappable, like the Boston Dynamics Spot robot.
+This would conceivably allow the robot to have a better duty cycle and uptime by being able to hot-swap the battery for a fresh one instead of waiting for the whole system to charge.
 
-The fact that they integrated so many electronics in the battery pack, and that they packaged so much energy inside that volume is also impressive. I'm tempted to think that the robot will be heavier than the forty something kg they targeted last year, but I don't have data to back up.
-
-Current weight spec seems to be 73 kg.
-
-I’m guessing the torso cavity they have is significantly larger than ours, which is why they can fit such a large battery pack. Looks like the same form factor cells and a pretty standard configuration, even though the tried to make it sound new and exciting. Integrating electronics like that is standard for all smaller battery packs, but not in EVs.
-
-I wonder if they’re heavy weight offsets the large capacity compared to our smaller capacity and lighter robot
-
-I think I heard they also integrate some level of sensing electronics in there
-
-They also have some buffy fans for the BP
-
-When she says sensing, she’s just describing what every BMS does, sensing the state of the battery pack in terms of voltages, currents, temperatures etc.
-
-The fans might very well not be for the battery, unless they consume way more power than they presented, the pack shouldn’t need it. Perhaps some compute is bolted to it as well?
-
-I’m sure they’re battery will have quite good kWh/kg and kW/kg ratios though
-
-I think battery + PDB might get hot enough?
-
-I assumed there is some compute in the BP when she said sensing
-
-Unless they have what we call compute in there, which would be pretty cool, it should just be a BMS. I think they probably have those fans to cool something other than the battery 😊
-
-@Fredrik Larsen our battery is 400 Wh from memory, is that right. Also curious about their power consumption when they have a 2300Wh battery..
-
-It's a different order of magnitude, so I think we should look into this
-
-I read somewhere they provide "24h service with one charge"
-
-Close, a bit over 500Wh, I agree though, I’m slightly concerned that the input I was given for required capacity might have been too optimistic. The next step up in capacity for us would be around 750Wh.
-With our current envelope, there is no space for a larger pack,  but we could potentially make it with a slightly larger back.
-
-I assume Aria will be more power efficient than Optimus, due to different actuators (less friction), and significantly lower weight.
-
-Also, I assume Optimus have some serious on board compute, dissipating quite some power, while Aria has kinda minimal on board compute.
-
-Let's see that. I still remember the day Jesper smiled at me and told me he wants a 200W computer 🫠
+Otherwise, the battery pack is impressively packed with all the electronics and sensing integrated into a single system.
+If they're using existing technologies and designs from their vehicles division, then this will be very efficient in terms of development and manufacturing.
 
 ## Product Market Fit
 
- Ignoring that last bit about changing the entire economy, and possibly also ignoring the time frame because “next few months or years” is not particularly meaningful, the push to make Tesla Bot useful is another substantial advantage that Tesla has. Unlike most companies working on humanoid robots, Tesla is potentially its own biggest customer, at least initially, and having these in-house practical tasks for the robot to train on could really help accelerate development.
+As noted by IEEE Spectrum, "Tesla is potentially its own biggest customer."
+having an in-house customer will dramatically accelerate the development of the product.
 
- BLS material movers and security
+If we take a look at U.S. Bureau of Labor Statistics for *Hand Laborers and Material Movers*[^bls], there were around 6.5M jobs in 2021, growing at a rate of 6% per year, with an average salary of around $30k.
+Even with just one robot for every hundred humans, this would be a billion dollar market opportunity just in the U.S. alone.
+To put in perspective, there's only around 3.5M industrial robots in the world.[^robots]
 
+[robots]: https://www.automation.com/en-us/articles/october-2022/ifr-presents-world-robotics-report-2022
+[bls]: https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm
 
 ## Lex + Andrej Karpathy
 
-I think it is a very good form factor to go after because like I mentioned the the world is designed for humanoid form factor these things would be able to
-1:50:18
-operate our machines they would be able to sit down in chairs uh potentially even drive cars uh basically the world
-1:50:25
-is designed for humans that's the form factor you want to invest into and make work over time uh I think you know
+In a recent interview between [Lex Fridman and Andrej Karpathy](https://www.youtube.com/watch?v=cdiD-9MMpb0), Andrej noted:
 
+> The world is designed for humanoid form factor these things would be able to operate our machines they would be able to sit down in chairs uh potentially even drive cars basically the world is designed for humans that's the form factor you want to invest into and make work over time.
 
-
- and the reason that happened very quickly is as you alluded to, there's a ton of copy paste from what's happening in the autopilot a lot. The amount of expertise that like came out of the woodworks at Tesla for building the human robot was incredible to see like basically Ellen said at one point, we're doing this. And then next day, basically like all these cad models started to appear and people talking about like the supply chain and manufacturing and people showed up with like screwdrivers and everything like the other day and started to like put together the body and I was like, whoa! Like all these people exist at Tesla and fundamentally building a car is actually not that different from building a robot the same. And that is true, not just for the hardware pieces and also, let's not forget hardware, not just for a demo, but um, manufacturing of that hardware at scale. It's like a whole different thing, but for software as well, basically this robot currently thinks it's a car. Uh, it's gonna
-
-  thinks it's a car. Um, some of the earlier demos actually, we're talking about potentially doing them outside in the parking lot because that's where all of the computer vision that was like working out of the
-
-   of like inside. Um, but all the operating system, everything just copy paste. Computer vision mostly copy paste. I mean, you have to retrain the neural nuts, but the approach and everything and data engine and offline trackers. And the way we go about the occupancy tracker and so on everything copy paste. You just need to retrain your neural lots. Uh, and then the planning control of course has to change quite a bit, but there's a ton of copy paste from what's happening at Tesla. And so if you were to, if you were to go with the goal of like, okay, let's build a million human robots and you're not Tesla, that's that's a lot to ask if your Tesla, it's actually like, it's not, it's not that crazy. And
-
-    I think it's going to take a long time. But the way you want to structure the development is you need to say okay it's going to take a long time. How can I set up the uh product development roadmap so that I'm making revenue along the way. I'm not setting myself up for a 01 loss function where it doesn't work until it works. You don't wanna be in that position. You want to make it useful almost immediately and then you want to slowly deploy it uh and uh
-
-     scale and you want to set up your data engine, your improvement loops, the telemetry, the evaluation, the harness and everything. Um and you want to improve the product over time incrementally and you're making revenue along the way. That's extremely important because otherwise you cannot build these large undertakings just like don't make sense economically. And also from the point of view of the team working on it, they need the dopamine along the way. They're not just going to make a promise about this being useful. This is going to change the world in 10 years when it works, it's not where you want to be, you want to be in a place like I think about a politics today where it's offering increased safety and um and uh convenience of driving today, people pay for it, people like it, people purchase it and then you also have the greater mission that you're working towards
+> The reason that happened very quickly is as you alluded to, there's a ton of copy paste from what's happening in the autopilot a lot. The amount of expertise that like came out of the woodworks at Tesla for building the human robot was incredible to see like basically Elon said at one point, we're doing this. And then next day, basically like all these CAD models started to appear and people talking about like the supply chain and manufacturing and people showed up with like screwdrivers and everything like the other day and started to like put together the body and I was like, whoa! Like all these people exist at Tesla and fundamentally building a car is actually not that different from building a robot the same. And that is true, not just for the hardware pieces and also, let's not forget hardware, not just for a demo, but um, manufacturing of that hardware at scale. It's like a whole different thing, but for software as well, basically this robot currently thinks it's a car. Um, some of the earlier demos actually, we're talking about potentially doing them outside in the parking lot because that's where all of the computer vision that was like working out of the box.
+> Um, but all the operating system, everything just copy paste. Computer vision mostly copy paste. I mean, you have to retrain the neural nuts, but the approach and everything and data engine and offline trackers. And the way we go about the occupancy tracker and so on everything copy paste. You just need to retrain your neural lots. Uh, and then the planning control of course has to change quite a bit, but there's a ton of copy paste from what's happening at Tesla. And so if you were to, if you were to go with the goal of like, okay, let's build a million human robots and you're not Tesla, that's that's a lot to ask if your Tesla, it's actually like, it's not, it's not that crazy. And I think it's going to take a long time. But the way you want to structure the development is you need to say okay it's going to take a long time. How can I set up the uh product development roadmap so that I'm making revenue along the way. I'm not setting myself up for a 01 loss function where it doesn't work until it works. You don't wanna be in that position. You want to make it useful almost immediately and then you want to slowly deploy it uh and uh scale and you want to set up your data engine, your improvement loops, the telemetry, the evaluation, the harness and everything. Um and you want to improve the product over time incrementally and you're making revenue along the way. That's extremely important because otherwise you cannot build these large undertakings just like don't make sense economically. And also from the point of view of the team working on it, they need the dopamine along the way. They're not just going to make a promise about this being useful. This is going to change the world in 10 years when it works, it's not where you want to be, you want to be in a place like I think about a politics today where it's offering increased safety and um and uh convenience of driving today, people pay for it, people like it, people purchase it and then you also have the greater mission that you're working towards
 
 ## The Markets
 
-https://www.goldmansachs.com/insights/pages/humanoid-robots.html
+Per Goldman Sachs Research[^goldmansachs], it is estimated that humanoid robots is a $6B+ market and is achievable in the next 10 to 15 years.
+This is close to the global EV market and one-third the global smartphone market.
+This technology would be able to fill 4% of the projected US manufacturing labour shortage by 2030 and 2% of global elderly care demand by 2035.
 
-> Robots are making their first tentative steps from the factory floor into our homes and workplaces. In a recent report, Goldman Sachs Research estimates a $6 billion market (or more) in people-sized-and-shaped robots is achievable in the next 10 to 15 years. Such a market would be able to fill 4% of the projected US manufacturing labor shortage by 2030 and 2% of global elderly care demand by 2035.
+In a more ambitious projection, Goldman Sachs Research envisions a market of up to $154B by 2035 if multiple technical breakthroughs are achieved, including:
 
-> GS Research makes an additional, more ambitious projection as well. “Should the hurdles of product design, use case, technology, affordability and wide public acceptance be completely overcome, we envision a market of up to US$154bn by 2035 in a blue-sky scenario,” say the authors of the report The investment case for humanoid robots. A market that size could fill from 48% to 126% of the labor gap, and as much as 53% of the elderly caregiver gap.
+- A 20h battery life
+- Improved mobility and agility
+- Improved computation, navigation, and real-world interaction
+- A well-defined process for training and refining task abilities
+- An ROI of two to three years
 
->Goldman Sachs Research report details the multiple breakthroughs that have to happen in order for it to come to fruition.
+A market that size could fill from 48% to 126% of the labour gap.
 
-    The battery life of humanoid robots would have to improve to the point where one could work for up to 20 hours before requiring recharging (or need fast charging for one hour and work for four to five hours, then repeat).
-    Mobility and agility would have to incrementally increase, and the processing abilities of such robots would also have to make steady gains. In addition, depth cameras, force feedback, visual and voice sensors, and other aspects of sensing—the robot’s nerves and sensory organs—will all need to get incrementally better.
-    There will also need to be gains in computation, so that robots can avoid obstacles, screen the shortest route to completion of a task, and react to questions.
-    Still more challenging will be the process of training and refining the abilities of humanoid robots once they begin working. This process can take upwards of a year.
-    And finally, robot makers will need to bring down production costs by roughly 15-20% a year in order for the humanoid robot to be able to pay for itself in two years.
-
-
-according to Goldman Sachs
-
-The firm estimates that in 10 to 15 years, it’s achievable for the humanoid robots market to reach $6 billion and continue to grow from there.
-
-it could represent 4% of the U.S. manufacturing labor shortage gap by 2030 and 2% of lack of global elderly care workers by 2035
-
-“Should the hurdles of product design, use case, technology, affordability and wide public acceptance be completely overcome, we envision a market of up to US$154bn by 2035E in a blue-sky scenario (close to that of the global EV market and one-third the global smartphone market as of 2021), which suggests labor shortage issues such as for manufacturing and elderly care can be solved to a large extent,”
-
-“Assuming the technology level will be attained and referencing cost reductions in EV manufacturing historically, our assessment suggests factory applications could be economically viable in 2025E-28E and consumer applications in 2030E-2035E,”
-
-- 20:25 "working at Fremont factory"
-- - What's next: focus on their factories
-  - lets them iterate and hide blemishes internally
-  - lets them build their own volume before public release, like AWS
-  - lets them focus on a narrow scope for navigation and manuipulation to get a useful rbotus robot early rather than a mediocre jack of all trades robot
-
-“In a blue-sky scenario we see a range of 21%-463% in incremental revenue by 2030E vs 2021 actual revenue from existing business for key stocks (Leaderdrive/HDS/Hiwin/THK/Sanhua), while in the base case we see 2%-35%,”
-
-Investors can look to buy stocks such as Aptiv PLC and Magna International to capture this growth, the firm said. “Four primary types of sensors used in ADAS include camera, radar, ultrasonic and lidar. Each sensor has its own advantages and limitations, which is why both humanoid robots and ADAS will employ a combination of them, known as the sensor suite
-
-“What’s unique in humanoid robots’ sensing module is gyroscope/ Inertia Measurement Unit (IMU), to keep the robot’s balance,” said Du. Low-end IMUs are usually found in vehicles, while high-end ones can sense movement in three dimensional spaces and are used in aerospace. This could include companies such as Raytheon Technologies and Honeywell
-
- “Previous start-ups failed to access the mass market because they couldn’t reduce the cost,” she said. “Future attempts at humanoid robots will need to decide whether they can reduce the usage of hardware components and let software take on the analytical role.”
-
-## Lessons
-
-- for young engineers learning ML frameworks, hint hint, pytorch should be your goto
-
-- "fastest path to a useful robot that can be made at volume" - elon 2:30:00
-  - internally at tesla factories
-  - very sure that design and architecture will go through several revisions
-    - hence getting it tested in the real world asap to get feedback
-      - great product development lesson: target good enough; get feedback; iterate
-        - don't wait for perfection
-        - Reid Hoffman's quote — “If you are not embarrassed by the first version of your product, you've launched too late.” — is a great example of loss of intent.
+[goldmansachs]: https://www.goldmansachs.com/insights/pages/humanoid-robots.html
 
 
-## Future Work
+## Next Steps
 
-- social robotics is a future enhancement/problem, not a short term focus
-  - actuators and tasks come first
-
-
-- localized control ROM that can't be updated over the intenet
-  - localized stop buttons and controls
-  - prevent terminator
-- Similar to AWS, Dojo and teslabot will start as internal tools that scale up to the point where public release can subsidize their cost and crreate new revenue streams
-- Start with simple tasks, eg loading parts, carry from one end of the factoy, etc
-  - BLS material movers
-    - even just 1 robot for every 100 humans is 60k robots
-      - to put in perspective, there's only around 3.5M industrial robots in the world
-        - https://www.automation.com/en-us/articles/october-2022/ifr-presents-world-robotics-report-2022
-        - that's just one application of humanoid robots
-      - number of useful situations will grow exponentially; start small and focused
-- three to five year target is reasonable if scope is focused
+As noted around the 20 minute mark, the robot will be working at the Fremont factory.
+This will allow the Tesla team to iterate quickly with direct internal customer feedback and task expertise.
+It'll also allow them to hide any mistake and blemishes internally, while only showing the public the best performance.
+It'll also allow them to build the demand and production volume internally with less worry around costs, very similar to how AWS was an internal resource at Amazon before being spun out.
