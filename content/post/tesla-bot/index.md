@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Bots and Hype: Tesla's Optimus Reveal"
+title: "Decoded: Tesla Bot and AI Day"
 subtitle: ""
 summary: ""
 authors: []
@@ -27,6 +27,83 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+TODO: gifs
+- 17:34 entrance and reveal
+- 19:45 tasks and semantic and manipulation
+- 20:25 "working at Fremont factory"
+- "off the shelf actuators" in current proto demo
+- same production technique as tesla, high volume, low cost
+- less than 20k$ if millions of units
+- 28dof
+- battery pack looks like Spot; changeable?
+- everything integrated into battery pack; sensors etc; using vehicle + energy experience and existing techs to make this more efficient to develop, manufacturing, and cooling, and safety
+- leverage existing supply chain and manufacturing channels
+- 35:30 FEAs focused on robot damage control; what about human contact?
+- 37:30 knee joint not back driveable; efficient and effective design, but what about intrinsic safety?
+- actuators similar to powertrain designed for tesla
+- 41:00 simulation
+- 43:00 roller screws and actuators and clutch; define these things for the reader
+  - https://en.wikipedia.org/wiki/Roller_screw
+  - https://www.ewellix.com/en/products/ball-and-roller-screws/roller-screws/planetary-roller-screws
+  - https://www.moog.com/products/linear-motion/screws/planetary-roller-screws.html
+  - https://en.wikipedia.org/wiki/Clutch
+  - integrated force and torque sensors
+- strain wave gearing and use gif
+  - https://en.wikipedia.org/wiki/Strain_wave_gearing
+- 44:20 lifting piano
+- non backdriveable fingers
+- clutches made to remove need to keep motors on; reduce power consumption
+- 47:55 software and navigation
+  - cars avoid everything, robots should interact with everything; how do we merge software and navigation autopilot approaches?
+  - split problem in two? a global navigation problem then refine to a local interaction problem?
+- 48:50 keypoint vslam navigation
+  - not end to end visual navigation?
+- 13 months 1 week August 19, 2021 – September 30, 2022
+- 49:00 walking sim
+  - only 5mo between first steps and toe off
+  - Propulsion (or toe off) is the final stage of the stance phase. It begins immediately as the heel lifts off the ground. During propulsion the foot becomes supinated, allowing the structure of the midfoot to brace tightly producing a rigid lever effect.
+  - https://www.footbionics.com/Patients/The+Gait+Cycle.html
+- really appreciate how the engineers themselves present their work
+  - 50:20 eg Felix and walking
+  - empowers the team to stand by their work and be able to explain it to the masses
+    -   If you can't explain it simply, you don't understand it well enough.  Albert Einstein
+-   55:30 natural motion references using human demonstration and XR trackers
+    - HTC vive body trackers https://www.lifewire.com/set-up-full-body-tracking-on-htc-vive-5216963
+    - MOCAP
+    - NOT SCALABLE? not true imitation learning
+- What's next: focus on their factories
+  - lets them iterate and hide blemishes internally
+  - lets them build their own volume before public release, like AWS
+  - lets them focus on a narrow scope for navigation and manuipulation to get a useful rbotus robot early rather than a mediocre jack of all trades robot
+- 57:00 barely 6-8mo for all of this
+- 10k+ GPUs for autolabelling of Tesla vehicle data
+  - shared with robot team?
+    - big advantage
+- 1:48:45 procedural simulation using collected ground truth data from autolabelling team
+- for young engineers learning ML frameworks, hint hint, pytorch should be your goto
+- Q&A
+- "fastest path to a useful robot that can be made at volume" - elon 2:30:00
+  - internally at tesla factories
+  - very sure that design and architecture will go through several revisions
+    - hence getting it tested in the real world asap to get feedback
+      - great product development lesson: target good enough; get feedback; iterate
+        - don't wait for perfection
+        - Reid Hoffman's quote — “If you are not embarrassed by the first version of your product, you've launched too late.” — is a great example of loss of intent.
+- social robotics is a future enhancement/problem, not a short term focus
+  - actuators and tasks come first
+- localized control ROM that can't be updated over the intenet
+  - localized stop buttons and controls
+  - prevent terminator
+- Similar to AWS, Dojo and teslabot will start as internal tools that scale up to the point where public release can subsidize their cost and crreate new revenue streams
+- Start with simple tasks, eg loading parts, carry from one end of the factoy, etc
+  - BLS material movers
+    - even just 1 robot for every 100 humans is 60k robots
+      - to put in perspective, there's only around 3.5M industrial robots in the world
+        - https://www.automation.com/en-us/articles/october-2022/ifr-presents-world-robotics-report-2022
+        - that's just one application of humanoid robots
+      - number of useful situations will grow exponentially; start small and focused
+- three to five year target is reasonable if scope is focused
 
 Every big tech reveal has its partisan commentators that will argue back and forth about the merits of the technology, but it might be timely that Tesla AI Day coincided with the [text message dump from the Twitter v. Elon debacle](https://time.com/6218578/elon-musk-texts-twitter/), because if we ask the question, ***what did you get done this week?***, well, in the case of Tesla, quite a bit.
 
