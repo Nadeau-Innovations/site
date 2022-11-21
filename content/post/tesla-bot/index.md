@@ -29,7 +29,7 @@ projects: []
 ---
 
 Tesla's AI Day was a big event in the robotics and AI community.
-But the intended audience was not roboticists or AI experts, with the exception of recruitment.
+But, with the exception of recruitment, the intended audience was not roboticists or AI experts.
 The real audience was the general population and the hype community.
 
 While big tech reveals have their partisan commentators that will argue back and forth about the merits of the technology, it was timely that Tesla AI Day coincided with the [text message dump from the Twitter v. Elon debacle](https://time.com/6218578/elon-musk-texts-twitter/), because if we ask the question, ***what did you get done this week?***, well, in the case of Tesla, quite a bit.
@@ -64,7 +64,7 @@ Beyond the sheer engineering will of the team, I really appreciate how the engin
 A great example is [Felix Sygulla](https://www.linkedin.com/in/felix-sygulla/) explaining how the robot walks at the 50 minute mark.
 This kind of demo day show and tell empowers teams to stand by their work, explain it to the masses, and understand the mission-to-metrics relationship.
 
-In the words of Albert Einstein: "If you can't explain it simply, you don't understand it well enough."
+In the words of Albert Einstein: *"If you can't explain it simply, you don't understand it well enough."*
 
 Beyond recruitment and marketing, the target audience is the one that helps maintain the hype, [generate over $10B in revenue through Model 3 preorders](https://www.theguardian.com/technology/2016/apr/04/tesla-motors-sells-10bn-model-3-two-days), and pumps the stock such that it has a P/E ratio of 10x Toyota.
 As seen on social media, the general public **loved** the event.
@@ -80,19 +80,19 @@ From a design and systems architecture point of view, the first development prot
 It is a simple and straightforward humanoid robot design that uses position control with force-torque sensors.
 The primary goal of this prototype appears to be to get something moving as quickly as possible.
 Robustness and reliability also received a lot of attention, which I appreciate, as this will be an important element of making real-world applications successful.
-This prototype was not designed for dyanmic and smooth motions, like we see with other robot designs, such as Boston Dynamic's Atlas.
+This prototype was not designed for dynamic and smooth motions, like we see with other robot designs, such as Boston Dynamic's Atlas.
 
-My biggest concern is that there doesn't seem to be any regard for instrinsic safety.
+My biggest concern is that there doesn't seem to be any regard for intrinsic safety.
 Stiff joints, high-ratio gears, and a heavy body makes for a lot of moving mass and inertia that needs to be considered from a risk assessment perspective.
 
 Alternatively, this was all designed in just a few months and the team appears to be working very efficiently and can iterate without concern for costs.
-In terms of the engineering triangle, the team have the benefit of focusing on **good** and **fast**, without having to worry about targeting **cheap**.
+In terms of the engineering triangle, the team is focusing on **fast**, then **good**, and has the benefit of not worrying about **cheap**.
 
 ![The engineering triangle.](triangle.jpg)
 
 ## Controls, Mobility, and Locomotion
 
-As other experts have noted, that gait looks a little wobbly in the prototype, most likely due to the design using planetary rollers with force sensors which makes the motion jerky and unnatural.
+As other experts have noted, the demonstrated gait looks a little wobbly in the prototype, most likely due to the design using planetary rollers with force sensors which makes the motion jerky and unnatural.
 The controls stack and walking behaviour appear to be the similar the ASIMO robot, which was presented back in the early 2000s, so nothing novel was seen here.
 This is [Zero Moment Point (ZMP) locomotion](https://en.wikipedia.org/wiki/Zero_moment_point) with the addition of toe off.
 
@@ -116,40 +116,34 @@ Most importantly, the concept assumes the contact area is planar and has suffici
 ![The gait cycle.](gait-cycle.png "Credit: [Chiropractic Economics](https://www.chiroeco.com/gait-cycle/)")
 {{% /callout %}}
 
-On the locomotion side their work does not (yet!) look very impessive to me. Their gait is quite slow and not very dynamic. It is hard to say exactly what kind of control algorithms they are using but it loos like it could be one of the quite dated Zero Moment Point or Capture Point criterias that used to be very popular a while ago. But it does certainly not look cutting edge compared to some recent demonstrations  of bipedal locomotion on Atlas or Cassie for example.
+Impressively, according to the presentation, the team was able to achieve toe off only five months after first steps.
 
-Aslo it has bend knees and impacts very softly
+![Evolution of walking.](walking.png)
 
-- 37:30 knee joint not back driveable; efficient and effective design, but what about intrinsic safety?
-{{< video src="knee.mp4" >}}
+One question people I've spoken to have had is if the system as designed is able to maintain balance in a fixed position.
+As they have (at least?) six degrees of freedom per leg, they can walk fully actuated for a range of joint position and velocity combinations.
+But with clutches and the loss of actuation, the stability margin of a fixed position will be very small.
 
+The trade-off for a clutch-based system would be to save some energy and reduce the active holding torque at the cost of stability.
+This *could* make sense if you calculate that the robot will be standing in one place for enough time to justify design choice.
+This would mean that static applications are the design focus, not necessarily *useful, dynamic work*.
+I personally think that this is a short-term design choice to *move faster* while future iterations will take a more dynamic stability approach.
 
-- 49:00 walking sim
-  - only 5mo between first steps and toe off
-  - Propulsion (or toe off) is the final stage of the stance phase. It begins immediately as the heel lifts off the ground. During propulsion the foot becomes supinated, allowing the structure of the midfoot to brace tightly producing a rigid lever effect.
-  - https://www.footbionics.com/Patients/The+Gait+Cycle.html
+{{% callout note %}}
+**Stability Margin**
 
-No straight leg impact
+The range of disturbances that the system can handle.
+Stability for a biped is defined in terms of whether or not the biped will fall down.
 
-They also seem to use 6 DoF per leg and therefore can walk fully actuated.
+As discussed in Pratt and Russ (2006): [^stability]
 
-@Toni Garcia it is possible to maintain balance and a fixed position if the system is fully actuated for some joint position/velocity combinations. But usually the stability margin (the range of disturbances the system can handle) would be very small there.
+[^stability]: Pratt, Jerry E., and Russ Tedrake. "Velocity-based stability margins for fast bipedal walking." Fast motions in biomechanics and robotics. Springer, Berlin, Heidelberg, 2006. 299-324.
 
-Yeah, I meant loss of actuation due to the clutch. So fully locked.
+> An ideal stability margin for a biped would act as a fortune teller. It would tell us when the biped is going to fall down next, what the cause will be, and how it can be prevented. If the biped is not going to fall down, the margin would indicate the closest the biped will be to falling down in the next step or so, at what point during the gait this occurs, and how much extra disturbance it could handle.
+{{% /callout %}}
 
-Super curious why they want it.
-
-Agree. Trading off safety and stability to safe some energy here and there just seems like a bad idea.
-
-maybe they just lock some of them for performing manipulation, but also there that would not be ideal I think
-
-That is why I am not sure whether it really makes sense to use a clutch there. I would assume their will be some delay when you want to reactivate a certain joint which is generally not nice for stabilizing the robot. Interesting design choice for sure.
-
-The first that stands out is the lack of a Y-axis in the torso, this will limit the robot's ability to work while sitting on its knees or a chair in addition to leaning over counters that are above hip-y height.
-
-These numbers generally make sense for a humanoid in their size and weight and are comparable to other “classical humanoids” like Honda-Asimo, UBTech-Walker, DLR-Toro, and IIT-Walkman. What stands out is the very high knee/hip torque which is smart when relying on ZMP-style walking (always in balance). It also follows that there is no way they are reaching their original goal of 54kg with these actuators.
-
-The advantage of this system is that the friction reduces the need for active holding torque, and Tesla also claims it wants to use the clutches to reduce power in holding torque. This comes back to the system being built for static, not dynamic, balance and motions. When you lock the joints in your upper body to save power while holding a large mass, you lose controllability. You would normally like to use that large mass to help you balance and to make your gait more efficient. This also comes down to how much the robot will be standing in the corner vs doing work, I’m a bit surprised that they so openly talk about optimizing for not doing work.
+Aside from clutches and gait, one design choice that stands out is the lack of a *bending* axis in the torso.
+This can limit functionality when the hips are kinematically locked (e.g., sitting in a chair) or when bending over obstacles that are above the hip's height.
 
 ## Manipulation
 
@@ -172,6 +166,9 @@ This looks like staged precomputed trajectories without any significant contacts
  However, despite the added footage from the robot’s sensors, we have no idea how this was actually done—whether it was autonomous or not, or how many tries it took to get right. There’s also a clip of a robot picking up an object and attempting to place it in a bin, but the video cuts right before the placement is successful. This makes me think that we’re seeing carefully curated best-case scenarios for performance.
 
 ## Safety
+
+- 37:30 knee joint not back driveable; efficient and effective design, but what about intrinsic safety?
+{{< video src="knee.mp4" >}}
 
 this version looks decent... if they dress it then it would look pretty good (ignoring the nasty pinch points in arms).
 
@@ -208,6 +205,8 @@ Planetary rollers are generally more complex and expensive than ball screws as t
 
 
 ## Motors and Actuation
+
+It also follows that there is no way they are reaching their original goal of 54kg with these actuators.
 
 - actuators similar to powertrain designed for tesla
 - - clutches made to remove need to keep motors on; reduce power consumption
