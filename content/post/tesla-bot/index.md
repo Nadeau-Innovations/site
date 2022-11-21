@@ -147,46 +147,79 @@ This can limit functionality when the hips are kinematically locked (e.g., sitti
 
 ## Manipulation
 
-The manipulation video segments of the presentation was cut *just right* and were a little too choreographed for my tastes.
-If the watering can demo is realistic, then it's super impressive, as long as it wasn't hundreds of attempts to capture just the right motion for a video clip.
+The hands are not backdrivable, so while they can maintain a grasp for an extended period of time, I would be very weary about shaking the robot's hand.
+Clamping risk needs to be seriously considered for human-robot interaction.
 
-28 DoF , not including hands. hands not backdriveable so they can maintain a grasp for extended periods of time. the thumb has more than one DoF it seems. The hand is really strong, they had a standalone hand demo mounted on a stick and it seems to be more or less minituarized in the hand itself, and it is very strong. i was able to pick up a coke can and turn it upside down without any slippage in the grasp.
+I also appears that they've integrated friction pads onto the fingers.
+This allows the overally clamping force of the fingers to be reduced while maintaining a secure, non-slip grip on objects.
 
-- non backdriveable fingers
+The manipulation video segments of the presentation were cut *just right* and were a little too choreographed for my tastes.
+It came across as a "puppet show" staged performance with precomputed trajectories and there weren't any significant contact forces.
+This kind of demo is trivial for any robot system.
 
+{{< video src="tasks.mp4" >}}
 
+Was the system perfectly tuned and overfit on training data for this video clip?
+Or is this manipulation ability generalizable aross many tasks?
+One this is for sure, it appears that the team is focusing on manipulation tasks that will be useful for Tesla factories first.
 
-The magic of friction. With high friction pads on the fingers, the force applied by the fingers need to be less than without high friction materials for picking up the same object.
+However, if the watering can demo is realistic, then it's super impressive, as long as it wasn't hundreds of attempts to capture just the right motion for a video clip.
 
-We'll have those pads
-
-Also hard to say how impressed we sould be on the few manipulation tasks they showed. If that translated to a wide range of objects it would be very impressive but it could also be that they ust got them work for these select few controlled tasks by tuning the knobs and datasets. Any opinions on that?
-
-This looks like staged precomputed trajectories without any significant contacts or external wrenches. Which is trivial for any system, so doesn't really tell us anything
-
- However, despite the added footage from the robot’s sensors, we have no idea how this was actually done—whether it was autonomous or not, or how many tries it took to get right. There’s also a clip of a robot picking up an object and attempting to place it in a bin, but the video cuts right before the placement is successful. This makes me think that we’re seeing carefully curated best-case scenarios for performance.
+However, despite the added footage from the robot’s sensors, we have no idea how this was actually done—whether it was autonomous or not, or how many tries it took to get right. There’s also a clip of a robot picking up an object and attempting to place it in a bin, but the video cuts right before the placement is successful. This makes me think that we’re seeing carefully curated best-case scenarios for performance.
 
 ## Safety
 
-- 37:30 knee joint not back driveable; efficient and effective design, but what about intrinsic safety?
+Aside from the hands not being backdrivable and having a clamping risk, the knee joint isn't either.
+While this may be efficient and effective from a certain design standpoint, there is a complete lack of intrinsic safety.
+Failing gracefully in a clamping situation is very difficult to do in a safe manner through extrinsic safety design.
+
 {{< video src="knee.mp4" >}}
 
-this version looks decent... if they dress it then it would look pretty good (ignoring the nasty pinch points in arms).
+We won't even address the pinch points all over the body, as I assume that these will be resolved in future revisions.
 
-weight goal of 73kg... oof
+{{% callout note %}}
+**Intrinsic Safety**
 
-Do graphs of weight vs impact energy
+Safety through the design of the robot itself, often involving the use of soft bodies or compliant joints.
+E.g., with damping and mechanical flexibility being part of the design requirements of  robotic manipulators, energy transfer during impact is greatly reduced.[^phd]
 
-Nothing back drivable. Clamping hazards
+**Extrinsic Safety**
 
-as a product designer it shocks me how much other robotics companies just blatantly ignores pinch points
+Safety through the design of the application or software controls.
+E.g., software safety systems often use collision avoidance algorithms or force sensors to detect and attempt to stop hard collisions.[^phd]
 
-There seem to be no thoughts currently around the large reflected inertia, the mass of the robot (73kg), or pinch-points when it comes to human safety.
+[^phd]: Nadeau, Nicholas A. Towards the development of safe, collaborative robotic freehand ultrasound. Diss. École de technologie supérieure, 2019.
+{{% /callout %}}
+
+Now let's talk about the mass of the robot; a goal of 73kg is quite heavy.
+Per ISO/TS 15066:2016, which specifies safety requirements for collaborative industrial robot systems, the maximum permissible quasi-static contact force for human-robot contact is 220N against the thighs, knees, and lower legs.
+
+As the exact mass distribution of the robot is proprietary information, we can conservatively estimate the robot's moving mass as the total mass of the robot, {{< math >}}$m_R${{< /math >}}, in a worst-case full faceplant event.
+The contact event is simplified as a two-body system, the effective mass of a given human body region, {{< math >}}$m_H${{< /math >}},
+For the thighs, knees, and the lower legs region, the effective human mass is 75 kg. The reduced mass of the two-body system, {{< math >}}$\mu${{< /math >}}, may now be calculated as:
+
+{{< math >}}
+$
+\mu = \left(\frac{1}{m_H} + \frac{1}{m_R}\right)^{-1} = 37kg
+$
+{{< /math >}}
+
+Finally, the transferred energy due to an inelastic contact, {{< math >}}$E${{< /math >}}, event is given by:
+
+{{< math >}}
+$
+E = \frac{\mu\nu^2}{2} = 358J
+$
+{{< /math >}}
+
+where $\nu$ is the relative velocity between the robot and human contact bodies.
+
+A quick free-fall calculation from a 1m height (half the robot's height) has a final faceplant velocity of 4.4m/s.
+From ISO/TS 15066:2016, the maximum allowable transferred energy for the thighs and knees region for an injury-free collision is 1.9J, so we're *way* over the limit.
+
+At least they thought about the robot's own safety and damage control from faceplant events, as demonstrated by the FEA simulations.
 
 {{< video src="fea.mp4" >}}
-safety for just the robot?
-- 35:30 FEAs focused on robot damage control; what about human contact?
-
 
 ## Supply Chain, Manufacturing, and Cost
 
