@@ -160,7 +160,7 @@ Batteries are one of the most critical components of a mobile robot and probably
 At first glance, the battery pack looks almost swappable, like the Boston Dynamics Spot robot.
 This would conceivably allow the robot to have a better duty cycle and uptime by being able to hot-swap the battery for a fresh one instead of waiting for the whole system to charge.
 
-![Tesla bot battery](battery.png)
+![Tesla bot battery and architecture](arch.png)
 
 Otherwise, the battery pack is impressively packed with all the electronics and sensing integrated into a single system.
 If they're using existing technologies and designs from their vehicles division, then this will be very efficient in terms of development and manufacturing.
@@ -172,7 +172,7 @@ As [experts have noted](https://twitter.com/chubicki/status/1576087846405828608)
 {{% callout note %}}
 **Roller Screw**
 
-![Roller screw](Roller_Screw.gif)
+{{< video src="roller.mp4" >}}
 
 A roller screw, also known as a planetary roller screw or satellite roller screw, is a low-friction precision screw-type actuator, a mechanical device for converting rotational motion to linear motion or vice versa.
 
@@ -274,6 +274,8 @@ It also appears that they've integrated friction pads onto the fingers, reducing
 First, the hands are not backdrivable, so while they can maintain a grasp for an extended period, I would be very weary about shaking the robot's hand.
 The clamping risk needs to be seriously considered for human-robot interaction.
 
+![Design of the hands](hands.png)
+
 Second, the knee joint is also a safety hazard.
 While this may be efficient and effective from a certain design standpoint, there is a complete lack of intrinsic safety.
 Failing gracefully in a clamping situation is difficult to do safely through extrinsic safety design.
@@ -374,7 +376,7 @@ So, the Tesla bot would be expected to have a base cost of around $28k (i.e., on
 {{% callout note %}}
 **Strain Wave Gearing**
 
-![Strain wave gearing](strain-wavegif.gif)
+{{< video src="strain-wavegif.mp4" >}}
 
 Strain wave gearing (also known as harmonic gearing) is a mechanical gear system that uses a flexible spline with external teeth, which is deformed by a rotating elliptical plug to engage with the internal gear teeth of an outer spline.
 
@@ -406,6 +408,8 @@ The development platform uses off-the-shelf actuators, but the latest prototype 
 As it stands now with the development platform, their mass and cost targets are ambitious, given all the gearing and clutches that are part of their drivetrain system.
 This also produces a stiff system with high gear ratios, mechanical locking, and zero compliance.
 
+![Actuator system](actuator1.png)
+
 Notably, they have both a clutch system and high gear ratios.
 Typically, the high gear ratios would have been enough to compensate for gravity and to reduce the holding torque (and thus power consumption).
 
@@ -423,9 +427,12 @@ Even the engineers and Elon avoided a direct answer to bandwidth questions durin
 
 Regardless of the critiques above, I do not doubt that this is just the team's first iteration (of many).
 Given the simulation snippets presented around the 41-minute mark, they will undoubtedly make custom motors and drivetrains, focusing on holistic optimization.
-With millions of units being the target, they will have enough volume to justify custom designs.
 
 {{< video src="motors.mp4" >}}
+
+With millions of units being the target, they will have enough volume to justify custom designs.
+
+![Actuator designs](actuator3.png)
 
 We can already get a peek into their inner systems:
 
