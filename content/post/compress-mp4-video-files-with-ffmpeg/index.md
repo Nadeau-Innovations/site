@@ -31,17 +31,24 @@ projects: []
 Need to reduce the file size of MP4 video files?
 A [few simple FFMPEG commands](https://unix.stackexchange.com/a/38380) make it easy.
 
-This is especially useful as part of an ETL pipeline for preprocessing AI/ML data or to reduce the file size of videos for a website.
+Quick and straightforward video compression is advantageous as part of an ETL pipeline for preprocessing AI/ML data or reducing video file sizes for a website.
 
 ## Compression Commands
 
 ```bash
 # libx265 can offer around 25–50% savings compared to H.264 video encoded with libx264
-ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+ffmpeg -i input.mp4 -vcodec libx265 output.mp4
 
 # libx264 offers more compatibility, e.g., static site generators
-ffmpeg -i input.mp4 -vcodec libx264 -crf 20 output.mp4
+ffmpeg -i input.mp4 -vcodec libx264 output.mp4
 ```
+
+You can also add a [*Constant Rate Factor* (CRF) flag](https://trac.ffmpeg.org/wiki/Encode/H.264) (`-crf`) to more finely control the quality vs. size of the output.
+The range of the CRF scale is exponential and accepts values between 0–51:
+
+- 0 is lossless
+- 23 is the default
+- 51 is the worst quality possible
 
 ## Looping Over a Directory
 
@@ -50,7 +57,7 @@ Loop over a directory with the following:
 
 ```bash
 for F in *.mp4; \
-  do ffmpeg -i $F -vcodec libx264 -crf 24 temp.mp4 \
+  do ffmpeg -i $F -vcodec libx264 temp.mp4 \
     && mv -f temp.mp4 $F; \
   done
 ```
