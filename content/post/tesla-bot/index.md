@@ -11,6 +11,7 @@ date: 2022-11-27
 lastmod: 2022-11-27
 featured: false
 draft: false
+math: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
