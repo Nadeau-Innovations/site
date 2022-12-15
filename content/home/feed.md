@@ -9,6 +9,7 @@ content:
   filters:
     folders:
       - post
+      - event
       - project
       - publication
   count: 3
