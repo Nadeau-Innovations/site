@@ -8,9 +8,15 @@ main:
     url: '/'
     weight: 1
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - name: SERVICES
+    url: 'services/'
+    weight: 10
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - name: BLOG
     identifier: blog
-    weight: 10
+    weight: 20
 
   - name: POSTS
     parent: blog
@@ -32,14 +38,22 @@ main:
     url: 'press/'
     weight: 40
 
-  - name: SERVICES
-    url: 'services/'
-    weight: 15
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - name: RESOURCES
+    identifier: resources
+    weight: 30
 
   - name: NEWSLETTER
+    parent: resources
     url: 'https://engnadeau.substack.com/'
-    weight: 45
+    weight: 10
 
+  - name: BATTLE CARDS
+    parent: resources
+    url: 'battle-cards/'
+    weight: 20
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - name: CONTACT
     url: 'contact/'
-    weight: 50
+    weight: 40
