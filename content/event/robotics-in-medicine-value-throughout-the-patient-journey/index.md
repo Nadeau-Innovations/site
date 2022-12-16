@@ -71,6 +71,8 @@ You are invited to an exclusive event featuring presentations and discussions wi
 
 Join us to learn about how robotics revolutionizes patient care and develop your network in this growing industry.
 
+👉 [Get your tickets here.](https://www.eventbrite.ca/e/robotics-in-medicine-value-throughout-the-patient-journey-tickets-488115896787) 👈
+
 ![Speakers](speakers.jpg)
 
 Society needs a solution for labor shortages and the need to create high-skilled jobs for our healthcare crisis and the devastating effects that will arise. The adoption of robotics in medicine may seem like something from a sci-fi movie. Still, the reality is that many solutions exist now that, once adopted, can alleviate many of our challenges.
