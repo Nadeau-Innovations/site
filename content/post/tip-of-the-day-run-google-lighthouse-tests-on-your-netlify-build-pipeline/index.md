@@ -38,7 +38,7 @@ Measured metrics include performance, accessibility, SEO, and best practices.
 It also has a [CLI app](https://developers.google.com/web/tools/lighthouse#cli) for command line automation.
 
 [Netlify](https://www.netlify.com/) is a platform for modern static website deployment.
-It's one of my favourite tools for hosting and testing websites and documentation (e.g., [my site](https://nicholasnadeau.me/) and [AON3D's documentation](https://docs.aon3d.com/)).
+It's one of my favourite tools for hosting and testing websites and documentation (e.g., [my site](https://nadeauinnovations.com/) and [AON3D's documentation](https://docs.aon3d.com/)).
 
 With the goal of automating all my workflows, I wanted to combine my site's Lighthouse audits with a local build and testing pipeline.
 Fortunately, Netlify also [offers a CLI](https://docs.netlify.com/cli/get-started/) that replicates the hosted build process and can deploy to obfuscated URLs for previewing and testing sites.
