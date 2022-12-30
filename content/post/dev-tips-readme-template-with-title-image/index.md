@@ -31,7 +31,7 @@ By using a mixture of HTML and Markdown, we can create a nice, simple `README` f
 
 ```markdown
 <p align="center">
-  <a aria-label="My Logo's Label" href="https://nicholasnadeau.me">
+  <a aria-label="My Logo's Label" href="https://nadeauinnovations.com">
     <img src="my-logo.png">
   </a>
 

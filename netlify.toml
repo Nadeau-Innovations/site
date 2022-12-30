@@ -46,48 +46,48 @@ package = "@netlify/plugin-sitemap"
 # https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
 [[redirects]]
 from = "https://www.nicholasnadeau.me"
-to = "https://www.nicholasnadeau.com"
+to = "https://www.nadeauinnovations.com"
 status = 301
 force = true
 
 [[redirects]]
 from = "https://nicholasnadeau.me"
-to = "https://www.nicholasnadeau.com"
+to = "https://www.nadeauinnovations.com"
 status = 301
 force = true
 
 [[redirects]]
-from = "https://www.nadeauinnovations.com"
-to = "https://www.nicholasnadeau.com"
+from = "https://www.nicholasnadeau.com"
+to = "https://www.nadeauinnovations.com"
 status = 301
 force = true
 
 [[redirects]]
-from = "https://nadeauinnovations.com"
-to = "https://www.nicholasnadeau.com"
+from = "https://www.nicholasnadeau.com"
+to = "https://nadeauinnovations.com"
 status = 301
 force = true
 
 [[redirects]]
 from = "https://www.n2innovations.com"
-to = "https://www.nicholasnadeau.com"
+to = "https://www.nadeauinnovations.com"
 status = 301
 force = true
 
 [[redirects]]
 from = "https://n2innovations.com"
-to = "https://www.nicholasnadeau.com"
+to = "https://www.nadeauinnovations.com"
 status = 301
 force = true
 
 [[redirects]]
 from = "https://www.engnadeau.com"
-to = "https://www.nicholasnadeau.com"
+to = "https://www.nadeauinnovations.com"
 status = 301
 force = true
 
 [[redirects]]
 from = "https://engnadeau.com"
-to = "https://www.nicholasnadeau.com"
+to = "https://www.nadeauinnovations.com"
 status = 301
 force = true

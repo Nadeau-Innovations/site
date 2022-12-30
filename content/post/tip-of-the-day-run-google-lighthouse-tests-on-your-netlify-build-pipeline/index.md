@@ -38,7 +38,7 @@ Measured metrics include performance, accessibility, SEO, and best practices.
 It also has a [CLI app](https://developers.google.com/web/tools/lighthouse#cli) for command line automation.
 
 [Netlify](https://www.netlify.com/) is a platform for modern static website deployment.
-It's one of my favourite tools for hosting and testing websites and documentation (e.g., [my site](https://nicholasnadeau.me/) and [AON3D's documentation](https://docs.aon3d.com/)).
+It's one of my favourite tools for hosting and testing websites and documentation (e.g., [my site](https://nadeauinnovations.com/) and [AON3D's documentation](https://docs.aon3d.com/)).
 
 With the goal of automating all my workflows, I wanted to combine my site's Lighthouse audits with a local build and testing pipeline.
 Fortunately, Netlify also [offers a CLI](https://docs.netlify.com/cli/get-started/) that replicates the hosted build process and can deploy to obfuscated URLs for previewing and testing sites.
@@ -63,4 +63,4 @@ Broken down, we have:
 - `netlify deploy --json`: deploys the current directory to a preview URL, does not pretty-print any output, and outputs the deployment data as JSON
 - `jq -r ".deploy_url"`: processes the incoming JSON string, extracts the value of the `deploy_url` key, and outputs raw strings
 
-This website's repository [contains a `Makefile`](https://github.com/engnadeau/nicholasnadeau-me/blob/master/Makefile) that uses the above process in a production setting.
+This website's repository [contains a `Makefile`](https://github.com/engnadeau/nadeau-innovations-site/blob/master/Makefile) that uses the above process in a production setting.
