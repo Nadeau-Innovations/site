@@ -33,8 +33,6 @@ I'm fortunate enough to have a partner who works in the Office for Students with
 She has opened my eyes to the bigger picture in many ways.
 It is also very relevant to the [current growth phase of Halodi Robotics](https://halodi.com/news/halodi-robotics-secures-10m-in-funding-to-bring-humanoid-robots-into-real-world-applications-in-a-series-a-round-led-by-valinor-and-adt) as we transition to "scale-up mode."
 
-{{< tweet user="HalodiRobotics" id="1395669592668835842" >}}
-
 I'll be taking a two-sided approach to this topic, talking about the challenges as a hiring manager and some of the things I'm trying to do to help the situation.
 
 If we're building a product to change the world, we need to ensure that we represent the world through the product and the people making the product.
@@ -120,8 +118,6 @@ It's why I love [conferences]({{< ref "event/iros-2018" >}}), [webinars]({{< ref
 If we're not part of the ecosystem and community, we're not engaging with reality and instead live in a silo.
 This is where diversity starts to become inclusive.
 
-{{< tweet user="HalodiRobotics" id="1339154534166355968" >}}
-
 It's through these opportunities and engagement that companies can find new and more diverse talent pools.
 These hidden gems that we didn't know existed because we didn't bother to look.
 
@@ -145,8 +141,6 @@ Finally, we have the subtopic of better mentorship and growth opportunities.
 For instance, [we recently published a story about Cayce, our current VP of Supply Chain](https://medium.com/halodi-news/halodi-robotics-leading-the-way-for-women-in-technology-ab3f65a55bdc).
 She rose through the ranks from temp to project manager to VP.
 Now how do we make this a regular part of our culture?
-
-{{< tweet user="HalodiRobotics" id="1419745078478884866" >}}
 
 As I hinted before, there's a supply and demand problem with finding diversity, to begin with.
 But we also need to make room for it.
