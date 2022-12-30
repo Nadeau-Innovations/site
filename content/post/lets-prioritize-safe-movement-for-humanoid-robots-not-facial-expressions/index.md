@@ -25,9 +25,6 @@ title: Let’s Prioritize Safety for Humanoid Robots, Not Flower Picking Movie M
 The biggest operational challenge for companies today: finding qualified help at rates to keep their businesses open.
 The U.S. started 2022 with a 3.8% [unemployment rate](https://twitter.com/potus/status/1499895262864621573?s=21) and 11 million [job openings](https://www.bls.gov/jlt/), the widest gap in jobs-to-available-employees in decades.
 
-<!-- NN labour shortage tweet -->
-{{< tweet user="EngNadeau" id="1526295088380248064" >}}
-
 ---
 
 The obvious answer to this deficit for commercial security, retail operations, warehouse logistics, and healthcare staffing is to augment the workforce with robots to extend available human resources.

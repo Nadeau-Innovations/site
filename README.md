@@ -29,8 +29,16 @@ Personal website, portfolio, and blog built using the Jamstack and other web/AI 
   - `.deb` installation is easiest
 
 ```bash
-# e.g., download binary from 
-dpkg -i hugo_extended_0.97.1_Linux-64bit.deb
+# e.g., download binary from
+sudo dpkg -i hugo_extended_0.97.1_Linux-64bit.deb
+```
+
+- [Install golang](https://go.dev/doc/install)
+
+### Build
+
+```bash
+make build
 ```
 
 ### Creating Content
