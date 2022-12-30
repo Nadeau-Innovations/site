@@ -8,6 +8,6 @@
     "@semantic-release/github"
   ],
   "preset": "angular",
-  "repositoryUrl": "https://github.com/engnadeau/personal-site.git",
+  "repositoryUrl": "https://github.com/engnadeau/nadeau-innovations-site.git",
   "tagFormat": "${version}"
 }

@@ -20,10 +20,10 @@ image:
 projects: []
 ---
 
-Data analysis of sensor data is a typical hardware engineering activity that often involves an Excel-based workflow. 
+Data analysis of sensor data is a typical hardware engineering activity that often involves an Excel-based workflow.
 While Excel (and other spreadsheet tools) are great for quick and dirty, one-off analyses, a [Python](https://www.python.org/) + [`pandas`](pandas.pydata.org/) workflow can really takes things to the next level.
 
-In this post, we'll be analyzing sensor data from an [`Omega OM-24 Temperature and Humidity Data Logger`](https://www.omega.ca/en/control-and-monitoring-devices/data-loggers/temperature-and-humidity-data-loggers/om-22-series/p/OM-24) using a modern data analysis workflow. 
+In this post, we'll be analyzing sensor data from an [`Omega OM-24 Temperature and Humidity Data Logger`](https://www.omega.ca/en/control-and-monitoring-devices/data-loggers/temperature-and-humidity-data-loggers/om-22-series/p/OM-24) using a modern data analysis workflow.
 Hardware engineers should be very familiar with Omega, as they are a quick and easy online vendor of a wide range of sensors.
 The `OM-24` is an example of a simple, low-cost, no frills sensor: there's no fancy wiring to do, no difficult calibrations, just turn it on and start recording.
 
@@ -44,7 +44,7 @@ This allows us to segment our code (i.e., [separation of concerns](https://en.wi
 While the following example is quite trivial (i.e., the three phases won't consume a lot of time or computing resources), it never hurts to follow best practices!
 For example, by following ETL principles, we can easily expand our code to handle the processing thousands of data files instead of simply being a script that handles just one at a time.
 
-From an "architectural" standpoint, we'll keep it simple and decide that the intermediary data format will be a [`pandas.DataFrame` object](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) that will be passed between ETL phases. 
+From an "architectural" standpoint, we'll keep it simple and decide that the intermediary data format will be a [`pandas.DataFrame` object](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) that will be passed between ETL phases.
 
 Overall, the process will look like this:
 
@@ -402,7 +402,7 @@ df["Date_Time"].diff()
     2     0 days 00:30:00
     3     0 days 00:30:00
     4     0 days 00:30:00
-                ...      
+                ...
     622   0 days 00:30:00
     623   0 days 00:30:00
     624   0 days 00:30:00
@@ -434,14 +434,14 @@ df.info()
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 627 entries, 0 to 626
     Data columns (total 6 columns):
-     #   Column               Non-Null Count  Dtype         
-    ---  ------               --------------  -----         
+     #   Column               Non-Null Count  Dtype
+    ---  ------               --------------  -----
      0   Date_Time            627 non-null    datetime64[ns]
-     1   Index                627 non-null    int64         
-     2   Time Elapsed (days)  627 non-null    float64       
-     3   °C                   627 non-null    float64       
-     4   Unnamed: 5           0 non-null      float64       
-     5   %RH                  627 non-null    float64       
+     1   Index                627 non-null    int64
+     2   Time Elapsed (days)  627 non-null    float64
+     3   °C                   627 non-null    float64
+     4   Unnamed: 5           0 non-null      float64
+     5   %RH                  627 non-null    float64
     dtypes: datetime64[ns](1), float64(4), int64(1)
     memory usage: 29.5 KB
 
@@ -740,7 +740,7 @@ We will take advantage of [`pandas`' fantastic `DataFrame.resample()` function](
 To properly do this, we have to make our `date_time` column our `DataFrame` index by [creating a `DatetimeIndex`](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html).
 
 Next, we will apply our aggregation functions to the resampled `DataFrame` to generate the new values.
-We can take two approaches to this step: 
+We can take two approaches to this step:
 
 1. Create a new DataFrame per aggregation function (i.e., one for the mean, one for the max, one for the min)
 2. Create a multindex DataFrame with all three aggregation functions (preferred)
@@ -1083,12 +1083,12 @@ ax.axhline(df["temperature"].mean(), c="C1", ls="--");
 ```
 
 
-    
+
 ![png](index_files/index_17_0.png)
-    
 
 
-As seen in the above plot, we want the sum of the time of the data above the dashed line (mean temperature). 
+
+As seen in the above plot, we want the sum of the time of the data above the dashed line (mean temperature).
 An easy approach would be to segment our data around a condition (i.e., "is above mean temperature", True or False) and sum the time deltas of the segmented data points (think Riemann sum).
 The accuracy of this approach would be limited by the temporal resolution of our data.
 
@@ -1413,9 +1413,9 @@ fig.savefig("my-output-path.pdf")
 ```
 
 
-    
+
 ![png](index_files/index_27_0.png)
-    
+
 
 
 #### Descriptive Statistics vs Time
@@ -1441,9 +1441,9 @@ fig.savefig("my-output-path.pdf")
 ```
 
 
-    
+
 ![png](index_files/index_29_0.png)
-    
+
 
 
 #### Humidity Heatmap by Time of Day
@@ -1479,9 +1479,9 @@ fig.savefig("my-output-path.pdf")
 ```
 
 
-    
+
 ![png](index_files/index_31_0.png)
-    
+
 
 
 ## Discussion
@@ -1489,7 +1489,7 @@ fig.savefig("my-output-path.pdf")
 A Python-based workflow for data processing can seem daunting at first, but can really unlock the next level of manipulation and analysis once you get the hang of it.
 While this blog post sectioned the code into chunks and snippets, it was actually written as a [Jupyter Notebook](https://jupyter.org/), mixing both the code and text into a single document.
 Think about how powerful this is: your report and data analysis can live in a single document and single source of truth.
-If you're extra curious, you can find the source code (i.e., the raw Jupyter Notebook) in [my website's public repository](https://github.com/engnadeau/nicholasnadeau-me).
+If you're extra curious, you can find the source code (i.e., the raw Jupyter Notebook) in [my website's public repository](https://github.com/engnadeau/nadeau-innovations-site).
 
 For me personally, the real win of this workflow is keeping the [original logger data](data.xls) untouched and pure.
 No possibility of accidentally changing the data and hitting `Ctrl+S` in Excel.
