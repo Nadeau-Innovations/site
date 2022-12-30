@@ -16,6 +16,16 @@ defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  - _target:
+      path: /post/**
+    reading_time: true
+    show_related: true
+
+############################
 ## MODULES
 ############################
 
@@ -64,8 +74,6 @@ related:
   indices:
     - name: tags
       weight: 100
-    - name: categories
-      weight: 70
 security:
   _merge: deep
 sitemap:
