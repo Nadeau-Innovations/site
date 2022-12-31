@@ -20,7 +20,6 @@ social:
     header: true
   icon: twitter
   icon_pack: fab
-  label: Follow me on Twitter
   link: https://twitter.com/EngNadeau
 - icon: graduation-cap
   icon_pack: fas
@@ -32,7 +31,6 @@ social:
     header: true
   icon: linkedin
   icon_pack: fab
-  label: Connect with me on LinkedIn
   link: https://www.linkedin.com/in/engnadeau
 
 superuser: true
