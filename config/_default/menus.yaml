@@ -1,59 +1,29 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
 main:
-  - name: HOME
-    url: '/'
-    weight: 1
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - name: SERVICES
     url: 'services/'
     weight: 10
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - name: RESULTS
+    url: 'results/'
+    weight: 20
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - name: PRODUCTS
+    url: 'products/'
+    weight: 30
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - name: BLOG
-    identifier: blog
-    weight: 20
-
-  - name: POSTS
-    parent: blog
     url: 'post/'
-    weight: 10
+    weight: 35
 
-  - name: EVENTS
-    parent: blog
-    url: 'event/'
-    weight: 20
-
-  - name: PUBLICATIONS
-    parent: blog
-    url: 'publication/'
-    weight: 30
-
-  - name: PRESS
-    parent: blog
-    url: 'press/'
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - name: ABOUT
+    url: 'about/'
     weight: 40
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - name: RESOURCES
-    identifier: resources
-    weight: 30
-
-  - name: NEWSLETTER
-    parent: resources
-    url: 'https://engnadeau.substack.com/'
-    weight: 10
-
-  - name: BATTLE CARDS
-    parent: resources
-    url: 'battle-cards/'
-    weight: 20
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - name: CONTACT
+  - name: LET'S TALK
     url: 'contact/'
-    weight: 40
+    weight: 50
