@@ -1,17 +1,11 @@
 ---
-# Display name
-title: Nicholas Nadeau, Ph.D., P.Eng.
-
-# Full name (for SEO)
-first_name: Nicholas
-last_name: Nadeau
-
 bio: |
   Nicholas Nadeau empowers teams through [fractional CTO services]({{< ref "services/" >}}) to build next-generation technologies.
   [Subscribe to my newsletter](https://engnadeau.substack.com/) to keep up with the latest trends and [explore my services]({{< ref "services/" >}}) to jumpstart your innovation.
-
 email: ""
+first_name: Nicholas
 highlight_name: false
+last_name: Nadeau
 role: Founder
 social:
 - icon: envelope
@@ -33,8 +27,8 @@ social:
   icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/engnadeau
-
 superuser: true
+title: Nicholas Nadeau, Ph.D., P.Eng.
 ---
 
 <!--
