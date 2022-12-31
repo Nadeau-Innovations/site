@@ -12,6 +12,7 @@ bio: |
 
 email: ""
 highlight_name: false
+role: Founder
 social:
 - icon: envelope
   icon_pack: fas
