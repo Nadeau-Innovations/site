@@ -1,32 +1,20 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Deconstructing Tesla AI Day"
-subtitle: "Everyone wants to build a humanoid robot"
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2022-11-27
-lastmod: 2022-11-27
-featured: false
+date: "2022-11-27"
 draft: false
-math: true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: Top
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2022-11-27"
+math: true
 projects: []
+subtitle: Everyone wants to build a humanoid robot
+summary: ""
+tags: []
+title: Deconstructing Tesla AI Day
 ---
 
 Tesla's AI Day was a significant event in the robotics and AI community.

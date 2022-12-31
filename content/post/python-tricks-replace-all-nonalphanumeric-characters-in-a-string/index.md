@@ -1,24 +1,31 @@
 ---
 aliases:
 - /post/2020/11/python-tricks-replace-all-nonalphanumeric-characters-in-a-string/
-title: "Python Tricks: Replace All Non-alphanumeric Characters in a String"
-subtitle: ""
-summary: ""
 authors: []
-tags: ["", "string", "data", "filter", "", "performance", "python", "regex", "str", "temperature"]
 categories: []
 date: 2020-11-07T09:53:15-b05:00
-lastmod: 2020-11-07T09:53:15-05:00
-featured: false
 draft: false
-
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
+lastmod: "2020-11-07T09:53:15-05:00"
 projects: []
-
+subtitle: ""
+summary: ""
+tags:
+- ""
+- string
+- data
+- filter
+- ""
+- performance
+- python
+- regex
+- str
+- temperature
+title: 'Python Tricks: Replace All Non-alphanumeric Characters in a String'
 ---
 
 I have a confession to make: I'm a stickler for filenames.

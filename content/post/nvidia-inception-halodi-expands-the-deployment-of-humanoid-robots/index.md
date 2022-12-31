@@ -1,31 +1,31 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "NVIDIA Inception: Halodi Expands the Deployment of Humanoid Robots"
-subtitle: ""
-summary: ""
 authors: []
-tags: [press,NVIDIAInception,Startups,AI,AIinRobotics,robotics, AIinRobotics, robots, humanoidrobots, Jetson, startup, startupincubator]
 categories: []
-date: 2022-11-05T10:52:26-04:00
-lastmod: 2022-11-05T10:52:26-04:00
-featured: false
+date: "2022-11-05T10:52:26-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2022-11-05T10:52:26-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- press
+- NVIDIAInception
+- Startups
+- AI
+- AIinRobotics
+- robotics
+- AIinRobotics
+- robots
+- humanoidrobots
+- Jetson
+- startup
+- startupincubator
+title: 'NVIDIA Inception: Halodi Expands the Deployment of Humanoid Robots'
 ---
 
 Thrilled to have been featured by NVIDIA as part of their Inception Program.
