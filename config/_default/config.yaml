@@ -24,6 +24,7 @@ cascade:
       path: /post/**
     reading_time: true
     show_related: true
+    show_breadcrumb: true
 
 ############################
 ## MODULES

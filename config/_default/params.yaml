@@ -31,7 +31,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: c
+    align: r
     show_logo: true
     show_language: false
     show_day_night: false
@@ -60,7 +60,6 @@ features:
   syntax_highlighter:
     enable: true
     extra_languages:
-      - r
       - latex
       - python
   math:
