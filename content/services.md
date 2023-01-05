@@ -24,6 +24,7 @@ sections:
       - 200px
       - "0"
 - block: features
+  id: fractional-cto
   content:
     items:
     - description: Empower the company strategy and roadmap through executive advising
@@ -40,6 +41,7 @@ sections:
       name: ACCELERATE
     title: Packages to jumpstart your innovation
 - block: hero
+  id: speaking
   content:
     cta:
       label: Schedule a Talk
