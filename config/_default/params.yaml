@@ -16,7 +16,7 @@ marketing:
     local_business_type: ProfessionalService
     org_name: ''
     # NN: max ~160 characters description for SEO
-    description: Nadeau Innovations helps companies build next-generation technologies and empowers high-performance teams through Fractional CTO services.
+    description: Nadeau Innovations helps companies build next-generation technologies and empowers high-performance teams through fractional CTO services.
     twitter: 'EngNadeau'
   analytics:
     google_analytics: 'UA-60125866-2'
