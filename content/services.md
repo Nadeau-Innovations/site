@@ -51,13 +51,19 @@ sections:
   design:
     background:
       image:
-        filename: pycon.jpg
+        filename: milan.jpg
         filters:
           brightness: 0.6
         parallax: true
-        position: bottom
+        position: top
         size: cover
       text_color_light: true
+    spacing:
+      padding:
+      - 100px
+      - "0"
+      - 100px
+      - "0"
 - block: portfolio
   content:
     default_button_index: 0
