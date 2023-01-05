@@ -1,0 +1,13 @@
+{{ $title := "" }}
+{{ with .Params.seo.title }}
+  {{ $title = replace . "{brand}" site.Title }}
+{{ else }}
+  {{ $title = .Title | default site.Title }}
+  <!--
+    Switched order of title and site.
+    See upstream for comparison:
+    https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/modules/wowchemy-core/layouts/partials/functions/get_page_title.html
+   -->
+  {{ if ne $title site.Title }}{{ $title = printf "%s | %s" site.Title $title }}{{ end }}
+{{ end }}
+{{ return $title }}
