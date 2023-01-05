@@ -1,4 +1,5 @@
 ---
+title: Fractional CTO | Innovative Engineering
 sections:
 - block: hero
   content:

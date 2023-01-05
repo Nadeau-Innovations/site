@@ -44,7 +44,7 @@ sections:
     cta:
       label: Schedule a Talk
       url: /contact
-    text: Improve productivity, boost morale, and share knowledge
+    text: Improve productivity, boost morale, and share knowledge.
     title: Empower your team
   design:
     background:
