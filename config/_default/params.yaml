@@ -42,9 +42,9 @@ header:
 footer:
   widget: minimal
   copyright:
-    notice: '© {year} Nicholas Nadeau. This work is licensed under {license}'
+    notice: '© {year} Nadeau Innovations.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
