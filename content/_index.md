@@ -1,5 +1,5 @@
 ---
-title: Nadeau Innovations | Fractional CTO | Innovative Consulting | Experienced Engineering
+title: Fractional CTO | Innovative Engineering
 sections:
 - block: hero
   content:
