@@ -4,6 +4,7 @@ show_date: false
 summary: Bold ideas involving emerging technologies and robotics solutions for dynamic
   sensing and Industry 4.0.
 title: Osedea
+profile: false
 ---
 
 [Osedea](https://www.osedea.com/) builds ingeniously thought-out web and mobile applications, artificial intelligence solutions, and custom software for businesses with big dreams.

@@ -4,6 +4,7 @@ show_date: false
 summary: Innovative and practical biomedical tools used by thousands of neuroscience,
   neurology, and psychiatric researchers to achieve their research goals.
 title: Rogue Research
+profile: false
 ---
 
 [Rogue Research](https://www.rogue-research.com/) is a medical device company that develops innovative and practical tools used by neuroscience, neurology, and psychiatric researchers to achieve their research goals. Their Brainsight navigator is used in thousands of laboratories worldwide to improve the application of transcranial magnetic stimulation (TMS), focused ultrasound, functional near-infrared spectroscopy (fNIRS), and veterinary neurosurgery.
