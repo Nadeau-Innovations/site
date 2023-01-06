@@ -17,7 +17,7 @@ marketing:
     org_name: ''
     # NN: max ~160 characters description for SEO
     description: Nadeau Innovations helps companies build next-generation technologies and empowers high-performance teams through fractional CTO services.
-    twitter: 'EngNadeau'
+    twitter: 'NadeauInnov'
   analytics:
     google_analytics: 'UA-60125866-2'
     baidu_tongji: ''
@@ -42,9 +42,9 @@ header:
 footer:
   widget: minimal
   copyright:
-    notice: '© {year} Nicholas Nadeau. This work is licensed under {license}'
+    notice: '© {year} Nadeau Innovations.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

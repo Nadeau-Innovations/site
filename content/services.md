@@ -24,6 +24,7 @@ sections:
       - 200px
       - "0"
 - block: features
+  id: fractional-cto
   content:
     items:
     - description: Empower the company strategy and roadmap through executive advising
@@ -40,6 +41,7 @@ sections:
       name: ACCELERATE
     title: Packages to jumpstart your innovation
 - block: hero
+  id: speaking
   content:
     cta:
       label: Schedule a Talk
@@ -49,13 +51,19 @@ sections:
   design:
     background:
       image:
-        filename: pycon.jpg
+        filename: milan.jpg
         filters:
           brightness: 0.6
         parallax: true
-        position: bottom
+        position: top
         size: cover
       text_color_light: true
+    spacing:
+      padding:
+      - 100px
+      - "0"
+      - 100px
+      - "0"
 - block: portfolio
   content:
     default_button_index: 0

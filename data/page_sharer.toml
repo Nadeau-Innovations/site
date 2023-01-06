@@ -4,7 +4,7 @@
 
 [[buttons]]
   id = "twitter"
-  url = "https://twitter.com/intent/tweet?url={url}&text={title}&via=EngNadeau"
+  url = "https://twitter.com/intent/tweet?url={url}&text={title}&via=NadeauInnov"
   title = "Twitter"
   icon_pack = "fab"
   icon = "twitter"

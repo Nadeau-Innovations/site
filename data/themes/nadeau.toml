@@ -6,11 +6,14 @@ name = "Nadeau"
 primary = "#2E3B5B" # dark buttons and featurette icons
 
 # Menu
-menu_primary = "#FFFFFF" # nav bar
-menu_text = "#212121" # nav bar text links
+menu_primary = "#FFFFFF"     # nav bar
+menu_text = "#212121"        # nav bar text links
 menu_text_active = "#3F517D" # nav bar text links when active
 menu_title = "#EAC65A"
 
 # Home sections alternating rows without backgrounds
 home_section_odd = "#FFFFFF"
 home_section_even = "#F7F7F7"
+
+link = "#3F517D"
+link_hover = "#3F517D"

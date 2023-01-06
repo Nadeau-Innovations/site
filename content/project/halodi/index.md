@@ -5,6 +5,7 @@ summary: The EVE humanoid robot is a fully integrated platform that utilizes AI 
   and direct force control for safe and capable operation in security, retail, and
   Industry 4.0 applications.
 title: Halodi Robotics
+profile: false
 ---
 
 [Halodi Robotics](https://www.halodi.com/) builds humanoid robots to solve the labor crisis. The EVE humanoid robot is a fully integrated platform that utilizes AI autonomy and direct force control for safe and capable operation in security, retail, and Industry 4.0 applications.
