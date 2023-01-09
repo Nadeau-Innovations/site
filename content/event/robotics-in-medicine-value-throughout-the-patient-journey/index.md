@@ -46,3 +46,5 @@ Event highlights:
 
 - Learn about cutting-edge robotics technologies revolutionizing patient care
 - Develop your network in this rapidly evolving and promising industry
+
+![Presentation partners.](partners.jpg)
