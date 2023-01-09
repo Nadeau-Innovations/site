@@ -34,7 +34,7 @@ You are invited to an exclusive event featuring presentations and discussions wi
 
 Join us to learn about how robotics revolutionizes patient care and develop your network in this growing industry.
 
-👉 [Get your tickets here.](https://www.eventbrite.ca/e/robotics-in-medicine-value-throughout-the-patient-journey-tickets-488115896787) 👈
+{{< cta cta_text="GET YOUR TICKETS ✅" cta_link="https://www.eventbrite.ca/e/robotics-in-medicine-value-throughout-the-patient-journey-tickets-488115896787" cta_new_tab="true" >}}
 
 ![Speakers](speakers.jpg)
 
