@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: npm
-          node-version: 16
+          node-version: 18
       - run: npx --yes semantic-release@20
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
