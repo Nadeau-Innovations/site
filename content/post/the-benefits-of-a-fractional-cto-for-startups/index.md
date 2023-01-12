@@ -57,7 +57,12 @@ Fractional executives are often available for immediate engagement and can be de
 
 Hiring a full-time CTO is extremely expensive and challenging. The recruitment process alone is a high-risk, lengthy affair, as you want to ensure that you've picked the perfect candidate, or else you're stuck.
 
-For companies that do not have technical founders, it is necessary to find someone to lead the engineering organization and be able to translate the vision down to the individual contributors and the technical risk back up to the executive team.
+> ***Hiring a full-time CTO is extremely expensive and challenging.***
+
+For companies that do not have technical founders, it is necessary to find someone to lead the engineering organization.
+The right leader will be able to translate the vision down to the individual contributors and the technical risk back up to the executive team.
+
+Moreover, the average fractional CTO cost is much lower than a full-time hire. It offers the same level of expertise without the risk of hiring the wrong person. As your company evolves, so will your leadership needs. Fractional experts allow the company to stay agile and iterate as an organization.
 
 ## What to Look for in a Fractional CTO
 
@@ -76,7 +81,11 @@ The right fractional CTO will be able to:
 
 A fractional CTO empowers the company with the expertise and responsibilities needed to deliver products and innovation efficiently and effectively. A fractional CTO will flexibly execute vital executive functions for a *fraction* of the budget.
 
-First, we start with identifying the core motivation or problem, such as:
+Fractional CTOs can be empowered to lead the engineering organization, manage projects, or provide technical expertise. They can also be hired to support the executive team in areas where they do not have expertise.
+
+Some companies may give them authority to hire, fire, and promote team members. They may also be given the authority to manage the budget and make decisions on the company's behalf.
+
+When starting a new engagement, a fractional CTO will start with identifying the core motivation or problem, such as:
 
 - Does the executive team need coaching on strategy and roadmap in areas they do not have expertise?
 - Do projects or deliverables need a leader to enable agile development and operations?
@@ -109,7 +118,7 @@ Several vital situations signal the need for a fractional CTO:
   - A fractional CTO empowers the company strategy and roadmap through executive advising, offering the right expertise for the current company needs.
 - Your development team lacks guidance or is missing deliverables
   - A fractional CTO uses their experience and knowledge to work with team leaders to enable agile projects, development, and operations while acting as a bridge between individual contributors and company leadership.
-- You have a specific project that needs senior technical expertise
+- You have a specific project that needs senior technical expertise to get off the ground or out of a jam
   - A fractional CTO offers both hands-on experience and visionary leadership to innovate and accelerate product development
 
 ![Nicholas at PyCon.](pycon.jpg "[Nicholas Nadeau]({{< ref "about" >}}) presenting at [PyCon](https://pycon.org/), the largest convention for the [Python programming language](https://www.python.org/).")
