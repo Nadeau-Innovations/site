@@ -93,6 +93,12 @@ With the scope and engagement defined, a fractional CTO becomes part of your tea
 
 ![Nicholas with Osedea.](osedea.jpg "[Nicholas Nadeau]({{< ref "about" >}}) working with [Osedea]({{< ref "project/osedea" >}}) to develop [a new innovation product for Industry 4.0 and dynamic sensing](https://www.osedea.com/en/blog/meet-spot).")
 
+## How Much Does a Fractional CTO Cost?
+
+The cost of a fractional CTO depends on the scope of work and level of engagement. The cost structure can be either a monthly retainer fee or an hourly rate.
+
+Typical hourly rates range from $150 to $300 per hour, depending on the seniority of the executive and the type of work. A monthly retainer fee is typically between a few thousand to tens of thousands of dollars per month, depending on the scope of work and level of engagement.
+
 ## When Do I Need a Fractional CTO?
 
 Several vital situations signal the need for a fractional CTO:
