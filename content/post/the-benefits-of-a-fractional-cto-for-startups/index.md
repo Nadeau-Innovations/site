@@ -44,6 +44,15 @@ A CTO is an executive responsible for the technical landscape of the company's v
 
 While there are [many different types of CTOs](https://www.allthingsdistributed.com/2007/07/the_different_cto_roles.html), early-stage startups require a mixture of a hands-on team leader and a big-thinker. Execution and velocity are the most critical indicators at this stage, so having this expertise bolster the team is vital.
 
+## What Does "Fractional" Mean?
+
+A fractional executive is a type of consulting role with a very specific purpose: set the company up for success by filling a critical leadership role or responsibility.
+
+The executive role is fulfilled at a *fraction* of the full role, either on a part-time basis or focusing on a subset of the role (i.e., a specific project).
+This approach eliminates the costs of long-term commitments, high-end salaries, and all the employee benefits that come with a job while still retaining the expertise needed to achieve the company's goals.
+
+Fractional executives are often available for immediate engagement and can be deployed at a moment's notice. They are flexible and can be scaled up or down as the company's needs change.
+
 ## Why Hire a Fractional CTO?
 
 Hiring a full-time CTO is extremely expensive and challenging. The recruitment process alone is a high-risk, lengthy affair, as you want to ensure that you've picked the perfect candidate, or else you're stuck.
