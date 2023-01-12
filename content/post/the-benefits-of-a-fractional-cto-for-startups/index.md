@@ -42,7 +42,7 @@ In the case of technical development, fractional (or part-time) CTOs can support
 
 A CTO is an executive responsible for the technical landscape of the company's vision and mission. These senior leaders bring their expertise to achieve business goals, build technical teams, and deliver innovative products.
 
-![Nicholas with his team in Milan.](milan.jpg "[Nicholas Nadeau]({{< ref "about" >}}) with his [Halodi Robotics]({{< ref "project/halodi" >}}) team in Milan.")
+![Nicholas with his team in Milan.](milan.jpg "[Nicholas Nadeau]({{< ref "about" >}}) with the [Halodi Robotics]({{< ref "project/halodi" >}}) team in Milan [deploying a humanoid robot for packaging machines](https://www.foodbev.com/news/altopack-and-halodi-robotics-partner-to-develop-packaging-robot/).")
 
 While there are [many different types of CTOs](https://www.allthingsdistributed.com/2007/07/the_different_cto_roles.html), early-stage startups require a mixture of a hands-on team leader and a big-thinker. Execution and velocity are the most critical indicators at this stage, so having this expertise bolster the team is vital.
 
@@ -73,7 +73,7 @@ With the scope and engagement defined, a fractional CTO becomes part of your tea
 - Leadership, agile project management, and coaching of junior engineering teams
 - Technical strategy, roadmap, and business development of a new vertical or innovation initiative
 
-![Nicholas with Osedea.](osedea.jpg "[Nicholas Nadeau]({{< ref "about" >}}) working with [Osedea]({{< ref "project/osedea" >}}) to develop a new innovation product.")
+![Nicholas with Osedea.](osedea.jpg "[Nicholas Nadeau]({{< ref "about" >}}) working with [Osedea]({{< ref "project/osedea" >}}) to develop [a new innovation product for Industry 4.0 and dynamic sensing](https://www.osedea.com/en/blog/meet-spot).")
 
 ## When Do I Need a Fractional CTO?
 
@@ -88,8 +88,7 @@ Several vital situations signal the need for a fractional CTO:
 - You have a specific project that needs senior technical expertise
   - A fractional CTO offers both hands-on experience and visionary leadership to innovate and accelerate product development
 
-![Nicholas at PyCon.](pycon.jpg "[Nicholas Nadeau]({{< ref "about" >}}) presenting at PyCon, the largest convention for the Python programming language.")
-
+![Nicholas at PyCon.](pycon.jpg "[Nicholas Nadeau]({{< ref "about" >}}) presenting at [PyCon](https://pycon.org/), the largest convention for the [Python programming language](https://www.python.org/).")
 
 ## Ready to Invigorate Your Technology and Inspire Your Team?
 
