@@ -34,9 +34,7 @@ Building a company is hard. Startups need to move fast, iterate quickly, and get
 
 While many tech startups have technical founders, not all are experienced or ready for the technical challenges they face. Getting an initial idea or MVP is the first step. Scaling the product, business, and team is a different challenge altogether.
 
-Fortunately, [mentors]({{< ref "post/next-ai-mentor-spotlight" >}}) and [fractional executives]({{< ref "services" >}}) are available to set the company up for success.
-
-In the case of technical development, fractional (or part-time) CTOs can support the founders and early engineers in achieving their goals more efficiently and effectively. We can create an efficient leadership organization without incurring a full-time senior executive's costs (e.g., salary, stock options, benefits).
+Fortunately, fractional CTOs can support the founders and set the company up for success.
 
 ## What is a CTO?
 
