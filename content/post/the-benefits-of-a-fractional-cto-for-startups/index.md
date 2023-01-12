@@ -59,7 +59,18 @@ Hiring a full-time CTO is extremely expensive and challenging. The recruitment p
 
 For companies that do not have technical founders, it is necessary to find someone to lead the engineering organization and be able to translate the vision down to the individual contributors and the technical risk back up to the executive team.
 
-Moreover, the average fractional CTO cost is much lower than a full-time hire. It offers the same level of expertise without the risk of getting stuck with the wrong person. As your company evolves, so will your leadership needs. Fractional experts allow the company to stay agile and iterate as an organization.
+## What to Look for in a Fractional CTO
+
+For startups, the ideal fractional CTO is a hands-on leader who can execute on the company's vision and mission. They are a technical expert who can lead the engineering organization and deliver innovative products. Their flexibility is derived from their ability to work with the company's existing leadership and team, and switch between tactical and strategic approaches.
+
+> ***The ideal fractional CTO is a hands-on leader who can execute on the company’s vision and mission.***
+
+The right fractional CTO will be able to:
+
+- Lead both the people and the technology
+- Translate the vision down to the individual contributors
+- Communicate the technical risk back up to the executive team
+- Connect the day-to-day execution with the long-term strategy
 
 ## How Does a Fractional CTO Work?
 
