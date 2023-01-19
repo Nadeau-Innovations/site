@@ -46,8 +46,8 @@ sections:
       label: Schedule a Talk
       url: /contact
     cta_alt:
-        label: See Past Events
-        url: /event
+      label: See Past Events
+      url: /event
     text: |
       Drive innovation, boost morale, and share knowledge by scheduling workshops or talks.
 
