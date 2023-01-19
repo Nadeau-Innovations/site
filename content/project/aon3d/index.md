@@ -1,10 +1,10 @@
 ---
 date: "2018-09-01"
+profile: false
 show_date: false
 summary: The AON-M2 is an affordable, advanced additive manufacturing machine designed
   to print high-quality parts with the widest range of thermoplastics on the market.
 title: AON3D
-profile: false
 ---
 
 [AON3D](https://www.aon3d.com) believes industrial 3D printing should be accessible and open, and should encourage businesses to explore what’s possible.

@@ -1,5 +1,4 @@
 ---
-title: Fractional CTO | Innovative Engineering
 sections:
 - block: hero
   content:
@@ -70,5 +69,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
+title: Fractional CTO | Innovative Engineering
 type: landing
 ---

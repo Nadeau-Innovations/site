@@ -1,31 +1,25 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Next AI Mentor Spotlight"
-subtitle: ""
-summary: ""
 authors: []
-tags: [press,NextAI,Startups,Montreal,Mentor,SupplyChain]
 categories: []
-date: 2023-01-10T10:43:59-05:00
-lastmod: 2023-01-10T10:43:59-05:00
-featured: false
+date: "2023-01-10T10:43:59-05:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-10T10:43:59-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- press
+- NextAI
+- Startups
+- Montreal
+- Mentor
+- SupplyChain
+title: Next AI Mentor Spotlight
 ---
 
 > #MentorMonday 🚀

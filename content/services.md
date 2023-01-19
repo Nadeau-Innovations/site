@@ -24,7 +24,6 @@ sections:
       - 200px
       - "0"
 - block: features
-  id: fractional-cto
   content:
     items:
     - description: Empower the company strategy and roadmap through executive advising
@@ -40,8 +39,8 @@ sections:
       icon_pack: fas
       name: ACCELERATE
     title: Packages to jumpstart your innovation
+  id: fractional-cto
 - block: hero
-  id: speaking
   content:
     cta:
       label: Schedule a Talk
@@ -64,6 +63,7 @@ sections:
       - "0"
       - 100px
       - "0"
+  id: speaking
 - block: portfolio
   content:
     default_button_index: 0

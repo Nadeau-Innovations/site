@@ -21,17 +21,18 @@ sections:
       - 200px
       - "0"
 - block: portfolio
-  id: press
   content:
     filters:
-      tags: [press]
       kinds:
-        - page
-    sort_by: 'Date'
+      - page
+      tags:
+      - press
     sort_ascending: false
+    sort_by: Date
   design:
-    columns: '1'
+    columns: "1"
     view: Compact
+  id: press
 - block: hero
   content:
     cta:
