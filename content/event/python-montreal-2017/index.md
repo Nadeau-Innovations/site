@@ -33,6 +33,7 @@ tags:
 - pybotics
 - pycon
 - python
+- talk
 - robots
 - special
 - ultramodern

@@ -28,7 +28,8 @@ projects: []
 publishDate: "2021-10-02T10:50:42-04:00"
 slides: ""
 summary: null
-tags: []
+tags:
+- talk
 title: IEEE-EMBS Robotics Webinar
 url_code: null
 url_pdf: null

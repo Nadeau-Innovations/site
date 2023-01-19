@@ -29,9 +29,8 @@ tags:
 - episode
 - manager
 - markdown
-- ""
-- ""
 - podcast
+- talk
 - products
 title: The Products by Design Podcast
 url_code: null

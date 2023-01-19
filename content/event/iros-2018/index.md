@@ -40,6 +40,7 @@ tags:
 - evolutionary
 - framework
 - interaction
+- talk
 - math
 - motion
 - optimization

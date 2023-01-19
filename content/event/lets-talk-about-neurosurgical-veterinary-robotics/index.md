@@ -21,6 +21,7 @@ summary: ""
 tags:
 - neuroscience
 - robotics
+- talk
 time_start: "2016-11-01T09:00:00-04:00"
 title: Let's Talk About Neurosurgical Veterinary Robotics
 url_code: ""

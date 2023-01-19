@@ -37,6 +37,7 @@ tags:
 - initiative
 - leaders
 - life
+- talk
 - members
 - product
 - world

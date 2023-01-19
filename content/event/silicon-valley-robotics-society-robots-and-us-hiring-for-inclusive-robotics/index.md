@@ -23,7 +23,8 @@ projects: []
 publishDate: "2021-04-22T17:28:03-04:00"
 slides: ""
 summary: null
-tags: []
+tags:
+- talk
 title: 'Society, Robots, and Us: Hiring for Inclusive Robotics'
 url_code: null
 url_pdf: null

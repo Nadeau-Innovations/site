@@ -30,6 +30,7 @@ slides: ""
 summary: null
 tags:
 - engineering
+- talk
 - robotics
 title: Let's talk robotics with Dr. Nicholas Nadeau!
 url_code: null
