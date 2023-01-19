@@ -23,7 +23,8 @@ projects: []
 publishDate: "2022-09-13T07:52:37-04:00"
 slides: ""
 summary: null
-tags: []
+tags:
+- talk
 title: 'Seattle Robotics Society: The Applications of Pybotics'
 url_code: null
 url_slides: 2022-10-15_seattle-robotics.pdf

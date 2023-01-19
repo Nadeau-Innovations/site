@@ -29,6 +29,7 @@ tags:
 - engineering
 - design
 - product
+- talk
 title: 'Design to Product Podcast: Applying Key Hardware Design Considerations'
 url_code: null
 url_pdf: null

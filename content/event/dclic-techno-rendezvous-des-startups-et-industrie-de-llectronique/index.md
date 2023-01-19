@@ -23,7 +23,8 @@ projects: []
 publishDate: "2021-10-07T13:59:50-04:00"
 slides: ""
 summary: null
-tags: []
+tags:
+- talk
 title: 'Déclic Techno: Rendez-vous des startups et industrie de l''électronique'
 url_code: null
 url_pdf: null

@@ -27,6 +27,7 @@ tags:
 - robotics
 - hiring
 - jobs
+- talk
 - machinelearning
 - datascience
 - ai

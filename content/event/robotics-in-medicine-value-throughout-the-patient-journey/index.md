@@ -22,7 +22,8 @@ publishDate: "2022-12-15T09:48:59-05:00"
 slides: ""
 summary: Join us for presentations and panel discussions with those developing and
   using robotics to revolutionize the care of medical patients.
-tags: []
+tags:
+- talk
 title: 'Robotics in Medicine: Value Throughout the Patient Journey'
 url_code: null
 url_pdf: null

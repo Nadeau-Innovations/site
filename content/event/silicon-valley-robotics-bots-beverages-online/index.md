@@ -25,6 +25,7 @@ slides: ""
 summary: null
 tags:
 - robotics
+- talk
 title: 'Silicon Valley Robotics: Bots Beverages Online'
 url_code: null
 url_pdf: null

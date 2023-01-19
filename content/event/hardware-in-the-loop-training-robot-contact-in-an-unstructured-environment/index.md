@@ -33,6 +33,7 @@ tags:
 - python
 - datascience
 - ai
+- talk
 - scikitlearn
 - java
 - kuka

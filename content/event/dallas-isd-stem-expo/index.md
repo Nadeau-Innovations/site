@@ -23,7 +23,8 @@ projects: []
 publishDate: "2022-01-20T15:08:52-05:00"
 slides: ""
 summary: null
-tags: []
+tags:
+- talk
 title: Dallas ISD STEM Expo
 url_code: null
 url_pdf: null

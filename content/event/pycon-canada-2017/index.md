@@ -33,6 +33,7 @@ summary: ""
 tags:
 - robotics
 - python
+- talk
 - mechanical
 time_start: "2017-11-19T11:00:00-05:00"
 title: 'Domo arigato, Mr. Roboto: Calibrating Robots with Python'
