@@ -1,10 +1,10 @@
 ---
 date: "2017-09-01"
+profile: false
 show_date: false
 summary: Kitchen automation with robotics, computer vision, and AI that can prepare
   a large variety of dishes using fresh ingredients.
 title: YPC Technologies
-profile: false
 ---
 
 [YPC Technologies](https://www.ypc-technologies.com/)' robots can cook thousands of restaurant-quality recipes using fresh ingredients.

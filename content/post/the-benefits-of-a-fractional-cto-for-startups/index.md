@@ -1,31 +1,22 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "The Benefits of a Fractional CTO for Startups"
-subtitle: ""
-summary: "While many tech startups have technical founders, not all are experienced or ready for the technical challenges they face. Getting an initial idea or MVP is the first step. Scaling the product, business, and team is a different challenge altogether."
 authors: []
-tags: []
 categories: []
-date: 2023-01-10T14:36:36-05:00
-lastmod: 2023-01-10T14:36:36-05:00
-featured: false
+date: "2023-01-10T14:36:36-05:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-10T14:36:36-05:00"
 projects: []
+subtitle: ""
+summary: While many tech startups have technical founders, not all are experienced
+  or ready for the technical challenges they face. Getting an initial idea or MVP
+  is the first step. Scaling the product, business, and team is a different challenge
+  altogether.
+tags: []
+title: The Benefits of a Fractional CTO for Startups
 ---
 
 {{< toc >}}
