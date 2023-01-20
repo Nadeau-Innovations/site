@@ -51,7 +51,7 @@ sections:
     text: |
       Drive innovation, boost morale, and share knowledge by scheduling workshops or talks.
 
-      They provide valuable insight into industry trends, emerging technologies, and creative ideas, helping you to stay ahead of the curve.
+      Workshops provide valuable insight into industry trends, emerging technologies, and creative ideas, helping you to stay ahead of the curve.
     title: Empower your team
   design:
     background:
