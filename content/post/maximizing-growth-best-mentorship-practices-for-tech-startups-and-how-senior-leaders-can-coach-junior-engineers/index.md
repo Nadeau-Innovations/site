@@ -40,7 +40,7 @@ Another important aspect of mentorship is providing regular feedback. Regularly 
 
 #### Trust
 
-Finally, a key element of effective mentorship is building trust and mutual respect. The mentor must be approachable, supportive, open to feedback, and willing to listen and learn from the mentee. It also means sharing your experiences and knowledge to help the mentee grow and develop.
+Finally, a key element of effective mentorship is building trust and mutual respect. Both parties must be approachable, supportive, open to feedback, and willing to listen and learn from each other. It also means that the mentor should be open to sharing their experiences and knowledge to help the mentee grow and develop.
 
 #### Growth Opportunities
 
