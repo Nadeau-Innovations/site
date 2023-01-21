@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Maximizing Growth: Best Mentorship Practices for Tech Startups and How Senior Leaders Can Coach Junior Engineers"
+title: "Maximizing Mentorship: How Senior Leaders Can Coach Junior Engineers in Tech Startups"
 subtitle: ""
 summary: ""
 authors: []
