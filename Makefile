@@ -78,6 +78,10 @@ debug:
 	@echo NOTEBOOK_SOURCES: $(NOTEBOOK_SOURCES)
 	@echo MD_NOTEBOOK_OUT: $(MD_NOTEBOOK_OUT)
 
+.PHONY: post-branch
+post-branch:
+	pipenv run python scripts/hugo_new.py post --branch
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # file targets
 

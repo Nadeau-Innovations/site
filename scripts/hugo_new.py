@@ -23,23 +23,54 @@ def get_title():
     return title
 
 
-def new(kind: str, notebook: bool = False):
+def new(kind: str, notebook: bool = False, branch: bool = False):
     # get title
     title = get_title()
-    title = sanitize_fname(title)
+    slug = sanitize_fname(title)
 
     # set path
-    path = f"{kind}/{title}"
+    hugo_path = f"{kind}/{slug}"
+    index_path = "content" / Path(hugo_path) / "index.md"
 
-    # create
-    cmd = ["hugo", "new", path]
+    # create md document
+    cmd = ["hugo", "new", hugo_path]
     logging.info(f"Hugo command: {' '.join(cmd)}")
     subprocess.run(cmd)
 
     # create notebook if needed
     if notebook:
-        path = "content" / Path(path) / "index.md"
-        create_notebook(path=path)
+        create_notebook(path=index_path)
+
+    # create branch if needed
+    if branch:
+        # checkout master
+        cmd = ["git", "checkout", "master"]
+        logging.info(f"Git command: {' '.join(cmd)}")
+        subprocess.run(cmd)
+
+        # create branch
+        cmd = ["git", "checkout", "-b", slug]
+        logging.info(f"Git command: {' '.join(cmd)}")
+        subprocess.run(cmd)
+
+        # push branch
+        cmd = ["git", "push", "-u", "origin", slug]
+        logging.info(f"Git command: {' '.join(cmd)}")
+        subprocess.run(cmd)
+
+        # commit document to branch
+        cmd = ["git", "add", str(index_path)]
+        logging.info(f"Git command: {' '.join(cmd)}")
+        subprocess.run(cmd)
+
+        cmd = ["git", "commit", "-m", f"feat: added {kind}"]
+        logging.info(f"Git command: {' '.join(cmd)}")
+        subprocess.run(cmd)
+
+        # use gh cli to open pr with title and empty body
+        cmd = ["gh", "pr", "create", "--title", f'"feat: {title}"', "--body", '""']
+        logging.info(f"GitHub command: {' '.join(cmd)}")
+        subprocess.run(cmd)
 
 
 def create_notebook(path: Path):
