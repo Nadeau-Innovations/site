@@ -72,6 +72,11 @@ def new(kind: str, notebook: bool = False, branch: bool = False):
         logging.info(f"GitHub command: {' '.join(cmd)}")
         subprocess.run(cmd)
 
+    # open document
+    cmd = ["code", str(index_path)]
+    logging.info(f"VSCode command: {' '.join(cmd)}")
+    subprocess.run(cmd)
+
 
 def create_notebook(path: Path):
     # get metadata and text
