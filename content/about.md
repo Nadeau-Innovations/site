@@ -22,6 +22,19 @@ sections:
 - block: about.avatar
   content:
     username: admin
+- block: features
+  content:
+    title: Our Partners
+    items:
+    - icon: rocket
+      icon_pack: fas
+      name: Fundica
+    - icon: rocket
+      icon_pack: fas
+      name: Pivot+Edge
+    - icon: rocket
+      icon_pack: fas
+      name: R&D Partners
 - block: hero
   content:
     cta:
