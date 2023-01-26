@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Why a Monorepo Is Easier to Maintain and Why Separation of Concerns Is Still Key for Teamwork and Future Scalability in Robotics"
+title: "Monorepos and Separation of Concerns: 3 Key Insights for Teamwork and Future Scalability in Robotics"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2023-01-20T13:09:06-05:00
+date: 2023-01-26
 lastmod: 2023-01-20T13:09:06-05:00
 featured: false
 draft: false
@@ -28,7 +28,9 @@ image:
 projects: []
 ---
 
-As a robotics tech startup, it can be tempting to adopt a monorepo approach to manage the codebase of projects. A monorepo is a single code repository that contains all of the code and dependencies for a given project or organization. This approach can be easier to maintain than a microservices approach, where different systems and components are spread across multiple repositories. However, even though a monorepo can be easier to maintain, it is still essential to maintain a separation of concerns between the different components for maintainability, teamwork, and to prepare for the possibility of splitting the repository in the future.
+As a robotics tech startup, it can be tempting to adopt a [monorepo](https://en.wikipedia.org/wiki/Monorepo) approach to manage the codebase of projects. A monorepo is a single code repository that contains all of the code and dependencies for a given project or organization. This approach can be easier to maintain than a [microservices](https://en.wikipedia.org/wiki/Microservices) approach, where different systems and components are spread across multiple repositories.
+
+However, even though a monorepo can be easier to maintain, it is still essential to maintain a separation of concerns between the different components for maintainability, teamwork, and to prepare for the possibility of splitting the repository in the future.
 
 #### Navigating the Codebase
 
