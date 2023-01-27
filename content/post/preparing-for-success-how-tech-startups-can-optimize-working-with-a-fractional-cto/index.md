@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-Working with a fractional CTO can be an excellent way for a tech startup to gain access to the technical expertise and guidance they need without the added cost and commitment of hiring a full-time CTO. However, for the collaboration to be as efficient and effective as possible, the startup must take the proper steps to prepare.
+Working with a fractional CTO can be an excellent way for a tech startup to gain access to the technical expertise and guidance they need without the added cost and commitment of hiring a full-time CTO. For the collaboration to be as efficient and effective as possible, here are some steps for the startup to prepare.
 
 #### Define the Scope
 
