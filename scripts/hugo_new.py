@@ -73,7 +73,7 @@ def new(kind: str, notebook: bool = False, branch: bool = False):
         subprocess.run(cmd)
 
     # open document
-    cmd = ["code", str(index_path)]
+    cmd = ["code", str(index_path.parent)]
     logging.info(f"VSCode command: {' '.join(cmd)}")
     subprocess.run(cmd)
 
