@@ -38,7 +38,7 @@ sync the following bios:
 -->
 
 Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through fractional CTO services.
-As CTO and engineering leader, he has spent the last decade creating unique technologies for the [biomedical](https://www.rogue-research.com/), [food robotics](https://www.ypc-technologies.com/), [collaborative robotics](https://www.halodi.com/), and [additive manufacturing](https://www.aon3d.com/) domains.
+As CTO and engineering leader, he has spent the last decade creating unique technologies for the [biomedical]({{< ref "project/rogue" >}}), [food robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}) domains.
 
 Nicholas is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ).
 He received his Ph.D. from École de technologie supérieure, where his research combined machine learning and collaborative robotics to develop [safe robotic freehand medical ultrasound methods](https://espace.etsmtl.ca/id/eprint/2461/).
