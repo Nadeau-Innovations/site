@@ -22,19 +22,20 @@ sections:
 - block: about.avatar
   content:
     username: admin
-- block: features
+- block: companies
+  id: partners
   content:
     title: Our Partners
     items:
-    - icon: rocket
-      icon_pack: fas
-      name: Fundica
-    - icon: rocket
-      icon_pack: fas
-      name: Pivot+Edge
-    - icon: rocket
-      icon_pack: fas
-      name: R&D Partners
+    - icon: fundica
+      icon_pack: custom
+      url: https://www.fundica.com/
+    - icon: pivot-edge
+      icon_pack: custom
+      url: https://www.pivotandedge.com/
+    - icon: rdp
+      icon_pack: custom
+      url: https://www.rdpartners.com/
 - block: hero
   content:
     cta:
