@@ -27,7 +27,7 @@ tags:
 title: 'Robotics in Medicine: Value Throughout the Patient Journey'
 url_code: null
 url_pdf: null
-url_slides: null
+url_slides: 2023-01-26_Hacking-Health-Robotics-compressed.pdf
 url_video: null
 ---
 
