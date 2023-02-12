@@ -13,7 +13,7 @@ sections:
         filename: talking.jpg
         filters:
           brightness: 0.6
-        parallax: true
+        parallax: false
         position: center
         size: cover
       text_color_light: true
@@ -65,7 +65,7 @@ sections:
         filename: marker.jpg
         filters:
           brightness: 0.6
-        parallax: true
+        parallax: false
         position: center
         size: cover
       text_color_light: true

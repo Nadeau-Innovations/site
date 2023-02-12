@@ -9,8 +9,8 @@ sections:
         filename: conversation.jpg
         filters:
           brightness: 0.6
-        parallax: true
-        position: bottom
+        parallax: false
+        position: center
         size: cover
       text_color_light: true
     spacing:

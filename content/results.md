@@ -9,7 +9,8 @@ sections:
         filename: engineering-team.jpg
         filters:
           brightness: 0.6
-        parallax: true
+        parallax: false
+        position: center
         size: cover
       text_color_light: true
     spacing:
@@ -44,8 +45,8 @@ sections:
         filename: engineer.jpg
         filters:
           brightness: 0.6
-        parallax: true
-        position: top
+        parallax: false
+        position: center
         size: cover
       text_color_light: true
 title: Results

@@ -13,8 +13,8 @@ sections:
         filename: pycon.jpg
         filters:
           brightness: 0.6
-        parallax: true
-        position: bottom
+        parallax: false
+        position: center
         size: cover
       text_color_light: true
     spacing:
@@ -49,9 +49,7 @@ sections:
       label: See Past Events
       url: /event
     text: |
-      Drive innovation, boost morale, and share knowledge by scheduling workshops or talks.
-
-      Workshops provide valuable insight into industry trends, emerging technologies, and creative ideas, helping you to stay ahead of the curve.
+      Drive innovation, boost morale, and share knowledge.
     title: Empower your team
   design:
     background:
@@ -59,15 +57,15 @@ sections:
         filename: milan.jpg
         filters:
           brightness: 0.6
-        parallax: true
-        position: top
+        parallax: false
+        position: center
         size: cover
       text_color_light: true
     spacing:
       padding:
-      - 100px
+      - 200px
       - "0"
-      - 100px
+      - 200px
       - "0"
   id: speaking
 - block: portfolio
@@ -96,8 +94,8 @@ sections:
         filename: engineer.jpg
         filters:
           brightness: 0.6
-        parallax: true
-        position: top
+        parallax: false
+        position: center
         size: cover
       text_color_light: true
 title: Services
