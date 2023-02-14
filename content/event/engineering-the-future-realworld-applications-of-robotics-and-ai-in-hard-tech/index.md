@@ -46,9 +46,8 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides:
 url_code:
-url_pdf:
+url_slides: "2023-02-14_IEEE Concordia Lunch and Learn with Desjardins - Engineering the Future Real-World Applications of Robotics and AI in Hard Tech-compressed.pdf"
 url_video:
 
 # Markdown Slides (optional).
