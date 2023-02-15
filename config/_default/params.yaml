@@ -67,7 +67,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/engnadeau/nadeau-innovations-site'
+    url: 'https://github.com/nadeau-innovations/site'
     content_dir: content
     branch: master
   avatar:
