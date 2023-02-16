@@ -65,6 +65,12 @@ slides: ""
 projects: []
 ---
 
+![IEEE Concordia, Desjardins, and Nicholas Nadeau](foto1(1).jpg)
+
+![Nicholas Nadeau presentating](foto3(1).jpg)
+
+---
+
 Desjardins and IEEE Concordia are happy to present a new edition of Lunch and Learn! 
 
 Robotics and AI are at the forefront of hard tech applications and are central to the next generation of innovation.
