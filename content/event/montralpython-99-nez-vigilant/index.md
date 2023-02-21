@@ -46,7 +46,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides:
+url_slides: "2023-02-20_Montreal Python - Harnessing Python for Hard Tech Applications-compressed.pdf"
 
 url_code:
 url_pdf:
