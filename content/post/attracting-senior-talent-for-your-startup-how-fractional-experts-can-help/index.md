@@ -58,7 +58,7 @@ One of the biggest advantages of working with a fractional talent team is that i
 >
 > ~ [Nicholas Nadeau](https://www.linkedin.com/in/engnadeau), Founder @ [Nadeau Innovations]({{< ref "/" >}})
 
-But it’s not just about the cost savings. A fractional hiring is a fully functioning talent acquisition engine, providing your startup with the recruiting infrastructure needed to hire the right people. This includes people, process, and technology, all designed to help you find and retain top talent.
+But it’s not just about the cost savings. A fractional hiring team is a fully functioning talent acquisition engine, providing your startup with the recruiting infrastructure needed to hire the right people. This includes people, process, and technology, all designed to help you find and retain top talent.
 
 As Nicholas Nadeau, founder of Nadeau Innovations, notes, “Pivot + Edge works closely with your startup to understand your needs, goals, and culture and uses that knowledge to find the right people for your team. This approach ensures that we’re not just finding candidates who look good on paper but are a good fit for the startup.”
 
