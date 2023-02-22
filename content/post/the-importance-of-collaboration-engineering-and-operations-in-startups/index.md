@@ -4,7 +4,7 @@
 title: "The Importance of Collaboration: Engineering and Operations in Startups"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin,john-gauch]
 tags: []
 categories: []
 date: 2023-02-22T13:49:57-05:00
