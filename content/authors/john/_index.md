@@ -4,7 +4,7 @@ bio: |
 email: ""
 first_name: John
 highlight_name: false
-last_name: Fleischauer–or
+last_name: Fleischauer
 role: CEO / Chief Hiring Officer
 social:
 - icon: envelope
