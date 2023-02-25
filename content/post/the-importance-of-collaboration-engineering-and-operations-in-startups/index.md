@@ -39,6 +39,10 @@ On the other hand, operations are responsible for ensuring the company runs smoo
 
 If you're at an early-stage company, you're focused on growth and growth challenges. Fractional leaders with experience at this stage can serve as partners contributing to your customer and product strategy. They will help ensure you are building the right thing and building the thing right.
 
+> “Building a technology strategy and product and bringing it to life for customers means executing effectively across the company’s operations. It’s no small feat and especially challenging before a company’s business model has been ironed out.”
+>
+> ~ [John Gauch, Fractional COO](https://www.johngauch.com/)
+
 Collaboration between engineering and operations can result in various benefits for a tech startup, including:
 
 - **Accelerated product development**: Engineers can quickly and easily share information with operations about what they need to build, and operations can provide feedback on what is practical and feasible.
