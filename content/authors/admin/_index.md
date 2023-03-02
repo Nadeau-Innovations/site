@@ -6,7 +6,7 @@ email: ""
 first_name: Nicholas
 highlight_name: false
 last_name: Nadeau
-role: Founder
+role: Founder / Fractional CTO
 social:
 - icon: envelope
   icon_pack: fas
