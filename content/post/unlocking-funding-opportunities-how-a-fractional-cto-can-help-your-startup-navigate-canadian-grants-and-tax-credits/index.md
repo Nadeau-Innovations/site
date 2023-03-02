@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Unlocking Funding Opportunities: How a Fractional CTO Can Help Your Startup Navigate Canadian Grants and Tax Credits"
+title: "Unlocking Funding Opportunities: Canadian Grants and Tax Credits Made Easy with a Fractional CTO and Funding Experts"
 subtitle: ""
 summary: ""
 authors: [admin,mike]
