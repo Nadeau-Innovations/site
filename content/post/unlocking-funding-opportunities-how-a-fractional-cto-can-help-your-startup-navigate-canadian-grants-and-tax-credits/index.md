@@ -34,7 +34,9 @@ Canadian grants and tax credits (e.g., [SR&ED](https://www.canada.ca/en/revenue-
 
 #### Identifying Funding Opportunities
 
-A fractional CTO can help startups identify the Canadian grants and tax credit programs that are most relevant to their business and provide guidance on how to apply for them. Additionally, they can help startups understand the technical requirements and documentation needed to qualify for these programs. In many cases, a fractional CTO will also introduce startups to funding experts, who will lend their expertise and work with the fractional CTO to help startups discover and acquire the best government funding for their needs.
+In addition to helping startups identify relevant Canadian grants and tax credit programs, a fractional CTO can also connect them to funding databases like [Fundica](https://www.fundica.com/). As a licensed funding search engine, Fundica has access to a wide range of funding opportunities offered by major financial institutions, including [TD Bank](https://www.td.com/ca/en/business-banking/small-business/find-government-funding-and-grants). By leveraging Fundica's platform, entrepreneurs can quickly discover and validate funding options within minutes.
+
+A fractional CTO can guide startups through this process, helping them select the most promising opportunities and begin the application process. Moreover, with their technical expertise, fractional CTOs can assist startups in meeting the necessary documentation and technical requirements to qualify for these programs. In collaboration with funding experts, fractional CTOs can work to ensure that startups acquire the best possible government funding for their specific needs.
 
 #### Working with Experts
 
