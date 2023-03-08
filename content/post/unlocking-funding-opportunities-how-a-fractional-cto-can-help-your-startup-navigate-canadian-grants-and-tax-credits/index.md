@@ -4,7 +4,7 @@
 title: "Unlocking Funding Opportunities: Canadian Grants and Tax Credits Made Easy with a Fractional CTO and Funding Experts"
 subtitle: ""
 summary: ""
-authors: [admin,mike]
+authors: [admin,mike-lee]
 tags: []
 categories: []
 date: 2023-03-02
