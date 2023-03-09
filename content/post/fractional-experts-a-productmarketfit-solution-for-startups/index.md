@@ -62,7 +62,7 @@ Fractional experts also help startups accelerate their development and growth. S
 
 ## Extending Financial Runways
 
-One of the biggest challenges for startups is extending their financial runways. Hiring fractional experts can help startups extend their financial runways by reducing their burn rate. As noted by Pivot + Edge in an article titled "[How to Balance Achieving Your Hiring Goals While Extending Your Financial Runway](https://www.pivotandedge.com/our-blog/how-to-balance-achieving-your-hiring-goals-while-extending-your-financial-runway/)," startups can use the money they save on salaries and benefits to invest in other business areas, such as marketing and product development.
+One of the biggest challenges for startups is extending their financial runways. Hiring fractional experts can help startups extend their financial runways by reducing their burn rate. As noted by Pivot + Edge in an article titled "[How to Balance Achieving Your Hiring Goals While Extending Your Financial Runway](https://www.pivotandedge.com/our-blog/how-to-balance-achieving-your-hiring-goals-while-extending-your-financial-runway/)," startups can use the money they save to invest in other business areas, such as marketing, product development, and even salaries.
 
 > "Compensation is wildly complicated, and it's easy to fall into the same trap that many professional sports franchises fall into during free agency – overpaying for talent because of poor scouting or a false sense of urgency."
 >
