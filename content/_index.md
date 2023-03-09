@@ -5,7 +5,7 @@ sections:
     cta:
       label: Get Started
       url: /services
-    text: Jumpstart your innovation with fractional CTO support
+    text: Accelerate hard tech innovation with fractional CTO support
     title: '**Build the future**'
   design:
     background:
