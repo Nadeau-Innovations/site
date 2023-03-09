@@ -44,13 +44,13 @@ sections:
 
         ## How We Work
 
-        We have three base packages for our fractional CTO services:
+        We offer three packages for our fractional CTO services:
 
-        1. **Innovate**: Empower the executive team with innovation, strategy, and roadmap advising through weekly strategy meetings. $2K per month.
-        2. **Execute**: Enable agile projects, development, and operations with team leaders and managers through weekly project and operations coaching sessions. $4K per month.
-        3. **Accelerate**: Support engineering and talent management as part of the team to boost performance and achieve milestones. $200 per hour (minimum commitment of 32 hours per month).
+        1. **Innovate**: Empower the team with flexible access to expertise and strategic advising through a retainer.
+        2. **Execute**: Enable agile projects, development, and operations with consistent weekly sessions at a flat monthly rate.
+        3. **Accelerate**: Embed support as part of the team to boost performance and achieve milestones at an hourly rate (minimum commitment of 32 hours per month).
 
-        All packages start with a three-month commitment and then switch to month-to-month with a 30-day notice for pauses or cancellations.
+        Non-retainer packages start with a three-month commitment and then switch to month-to-month with a 30-day notice for pauses or cancellations.
 
         ## Why Work With Nadeau Innovations
 
