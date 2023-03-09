@@ -4,7 +4,7 @@
 title: "Attracting Senior Talent for Your Startup: How Fractional Experts Can Help"
 subtitle: ""
 summary: ""
-authors: [admin,john]
+authors: [admin,john-fleischauer]
 tags: []
 categories: []
 date: 2023-02-22

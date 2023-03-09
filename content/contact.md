@@ -6,7 +6,7 @@ sections:
   design:
     background:
       image:
-        filename: conversation.jpg
+        filename: heroes/conversation.jpg
         filters:
           brightness: 0.6
         parallax: false
