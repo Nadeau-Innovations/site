@@ -29,6 +29,8 @@ image:
 projects: []
 ---
 
+{{< toc >}}
+
 Starting a startup is an exciting and challenging endeavour, but it's easy for first-time founders to make mistakes. Here are some common mistakes that first-time founders make when starting a startup and how to avoid them.
 
 ## Underestimating Development Costs
@@ -101,5 +103,15 @@ End-to-end user-centric testing should be an integral part of the development wo
 Moreover, end-to-end user-centric testing should be part of the team culture and a continuous and agile process. Testing should not be seen as a separate phase of development but as an ongoing process that runs parallel to development. This means incorporating testing into the development workflow, ensuring that testing is automated, and using tools and frameworks that enable continuous testing and integration.
 
 By prioritizing end-to-end user-centric testing, startups can identify issues early in the development cycle, reduce the risk of product failure, and improve the overall quality of the product. Additionally, testing can provide valuable feedback that can be used to improve the product and inform future development efforts.
+
+## Not Leveraging the Right Resources
+
+As a first-time founder, navigating the complexities of starting and scaling a business can be overwhelming. While trying to do everything yourself is tempting, leveraging outside expertise and support can help you avoid costly mistakes and accelerate your growth.
+
+Consider partnering with experienced advisors or consultants who can guide everything from fundraising to product development. Fractional leadership can also be an excellent option for startups needing senior-level talent but not ready to commit to a full-time hire.
+
+As discussed in the video below, fractional executives can provide strategic leadership in engineering, marketing, operations, talent, and finance, allowing you to focus on your core competencies and drive growth. By tapping into outside expertise and support, first-time founders can increase their chances of success and build a strong foundation for their venture.
+
+{{< video src="0208 Senior Talent Long Form Ni.mp4" controls="yes" >}}
 
 Starting a startup is an exciting and challenging endeavour. Still, first-time founders can avoid common mistakes by being realistic about hardware development costs, hiring the right team, practicing effective team management, maintaining clear communication, and testing and validating the product. By avoiding these mistakes, first-time founders can set their startups up for success and increase their chances of long-term success.
