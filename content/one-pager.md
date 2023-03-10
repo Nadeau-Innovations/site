@@ -46,7 +46,7 @@ sections:
 
         We offer three packages for our fractional CTO services:
 
-        1. **Innovate**: Empower the team with flexible access to expertise and strategic advising through a retainer.
+        1. **Innovate**: Empower the team with flexible access to expertise and strategic advising through a bank of hours retainer.
         2. **Execute**: Enable agile projects, development, and operations with consistent weekly sessions at a flat monthly rate.
         3. **Accelerate**: Embed support as part of the team to boost performance and achieve milestones at an hourly rate (minimum commitment of 32 hours per month).
 
