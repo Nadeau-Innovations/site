@@ -31,7 +31,7 @@ serve: hugo-info build-notebooks
 	hugo serve --gc --minify
 
 .PHONY: serve-future
-serve-future: hugo-info
+serve-future: hugo-info build-notebooks
 	hugo serve --gc --minify --buildFuture
 
 .PHONY: hugo-info
