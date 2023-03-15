@@ -1,70 +1,37 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Harnessing Python for Hard Tech Applications
+abstract: null
+address:
+  city: Montreal
+  country: Canada
+  postcode: null
+  region: Quebec
+  street: null
+all_day: false
+authors: []
+date: "2023-02-20T18:00:00-05:00"
 event: Montréal-Python 99 – Nez Vigilant
 event_url: https://www.meetup.com/montreal-python/events/291270324/
-location: Montreal
-address:
-  street:
-  city: Montreal
-  region: Quebec
-  postcode:
-  country: Canada
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-02-20T18:00:00-05:00
-# date_end: 2023-01-30T09:32:27-05:00
-all_day: false
-
-# Schedule page publish date (NOT event date).
-publishDate: 2023-01-30T09:32:27-05:00
-
-authors: []
-tags: [python, meetup, montreal, talk,software]
-
-# Is this a featured event? (true/false)
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides: "2023-02-20_Montreal Python - Harnessing Python for Hard Tech Applications-compressed.pdf"
-
-url_code:
-url_pdf:
-url_video: https://www.youtube.com/watch?v=Jwut2bpqa-Q
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+location: Montreal
 projects: []
+publishDate: "2023-01-30T09:32:27-05:00"
+slides: ""
+summary: null
+tags:
+- python
+- meetup
+- montreal
+- talk
+- software
+title: Harnessing Python for Hard Tech Applications
+url_code: null
+url_pdf: null
+url_slides: 2023-02-20_Montreal Python - Harnessing Python for Hard Tech Applications-compressed.pdf
+url_video: https://www.youtube.com/watch?v=Jwut2bpqa-Q
 ---
 
 Join the monthly Montréal-Python meetup for technical talks and networking with like-minded professionals. Stay up-to-date on the latest developments in the Python community and enhance your skills with hands-on presentations from industry experts.

@@ -1,31 +1,25 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Pinning Package Versions with Poetry: A Short Guide to Optimizing Python Development and Projects"
-subtitle: ""
-summary: ""
 authors: []
-tags: [python, poetry, package management, dependency management, versioning]
 categories: []
-date: 2023-01-30
-lastmod: 2023-01-20T13:25:15-05:00
-featured: false
+date: "2023-01-30"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-20T13:25:15-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- python
+- poetry
+- package management
+- dependency management
+- versioning
+title: 'Pinning Package Versions with Poetry: A Short Guide to Optimizing Python Development
+  and Projects'
 ---
 
 The [Poetry package manager](https://python-poetry.org/) for [Python](https://www.python.org/) is a powerful tool for managing dependencies and versions of packages. One of the key features of Poetry is its ability to pin package versions, which allows for easy dependency management. This blog post will explore how to use Poetry to select a package version and provide examples to help you get started.

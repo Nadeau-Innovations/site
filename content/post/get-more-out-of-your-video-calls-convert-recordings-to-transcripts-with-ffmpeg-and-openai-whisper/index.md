@@ -1,31 +1,38 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Get More Out of Your Video Calls: Convert Recordings to Transcripts with FFMPEG and OpenAI Whisper"
-subtitle: ""
-summary: ""
 authors: []
-tags: [python,wsl,wsl2,openai,whisper,ffmpeg,zoom,google,google meet,microsoft,microsoft teams,teams,video,audio,call,ai,machine learning,ubuntu]
 categories: []
-date: 2023-02-16T13:25:49-05:00
-lastmod: 2023-02-16T13:25:49-05:00
-featured: false
+date: "2023-02-16T13:25:49-05:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-02-16T13:25:49-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- python
+- wsl
+- wsl2
+- openai
+- whisper
+- ffmpeg
+- zoom
+- google
+- google meet
+- microsoft
+- microsoft teams
+- teams
+- video
+- audio
+- call
+- ai
+- machine learning
+- ubuntu
+title: 'Get More Out of Your Video Calls: Convert Recordings to Transcripts with FFMPEG
+  and OpenAI Whisper'
 ---
 
 Are you tired of sifting through hours of video call recordings to find that one crucial detail? Do you need help taking accurate notes during a fast-paced virtual meeting? If so, converting your video call recordings to transcripts can save you time and improve your productivity.

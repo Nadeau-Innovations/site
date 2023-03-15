@@ -1,31 +1,20 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Preparing for Success: How Tech Startups Can Optimize Working with a Fractional CTO"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-01-27
-lastmod: 2023-01-20T13:36:07-05:00
-featured: false
+date: "2023-01-27"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-20T13:36:07-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Preparing for Success: How Tech Startups Can Optimize Working with a Fractional
+  CTO'
 ---
 
 Working with a fractional CTO can be an excellent way for a tech startup to gain access to the technical expertise and guidance they need without the added cost and commitment of hiring a full-time CTO. For the collaboration to be as efficient and effective as possible, here are some steps for the startup to prepare.

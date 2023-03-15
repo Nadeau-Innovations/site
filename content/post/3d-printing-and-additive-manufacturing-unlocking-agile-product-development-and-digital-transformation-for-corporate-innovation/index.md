@@ -1,31 +1,20 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "3D Printing and Additive Manufacturing: Unlocking Agile Product Development and Digital Transformation for Corporate Innovation"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-01-25
-lastmod: 2023-01-21T21:10:06-05:00
-featured: false
+date: "2023-01-25"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-21T21:10:06-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: '3D Printing and Additive Manufacturing: Unlocking Agile Product Development
+  and Digital Transformation for Corporate Innovation'
 ---
 
 3D printing and additive manufacturing are revolutionizing how companies innovate and develop products. These technologies, also known as "rapid prototyping," allow for the quick and efficient creation of physical objects, reducing the time and cost associated with traditional manufacturing methods.
