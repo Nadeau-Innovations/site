@@ -1,31 +1,22 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "La robotique pour révolutionner la médecine et l’expérience du patient"
-subtitle: ""
-summary: ""
 authors: []
-tags: [press,robotics,healthcare]
 categories: []
-date: 2023-01-30T14:35:54-05:00
-lastmod: 2023-01-30T14:35:54-05:00
-featured: false
+date: "2023-01-30T14:35:54-05:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-30T14:35:54-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags:
+- press
+- robotics
+- healthcare
+title: La robotique pour révolutionner la médecine et l’expérience du patient
 ---
 
 Excited to see my [recent talk with Hacking Health Montreal]({{< ref "event/robotics-in-medicine-value-throughout-the-patient-journey" >}}) on the future of robotics and innovation in healthcare featured in [CScience](https://www.cscience.ca/2023/01/27/la-robotique-pour-revolutionner-la-medecine-et-lexperience-du-patient/).

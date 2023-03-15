@@ -1,31 +1,22 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Unlocking Funding Opportunities: Canadian Grants and Tax Credits Made Easy with a Fractional CTO and Funding Experts"
-subtitle: ""
-summary: ""
-authors: [admin,mike-lee]
-tags: []
+authors:
+- admin
+- mike-lee
 categories: []
-date: 2023-03-02
-lastmod: 2023-01-20T15:25:44-05:00
-featured: false
+date: "2023-03-02"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-20T15:25:44-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Unlocking Funding Opportunities: Canadian Grants and Tax Credits Made Easy
+  with a Fractional CTO and Funding Experts'
 ---
 
 Technology startups are the backbone of innovation and growth in the modern economy. However, starting a tech company can be daunting, especially for entrepreneurs who may not have a background in technology or experience with the complex and ever-evolving field of technology.

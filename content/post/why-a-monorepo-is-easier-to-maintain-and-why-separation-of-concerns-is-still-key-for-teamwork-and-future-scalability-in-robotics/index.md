@@ -1,31 +1,20 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Monorepos and Separation of Concerns: 3 Key Insights for Teamwork and Future Scalability in Robotics"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-01-26
-lastmod: 2023-01-20T13:09:06-05:00
-featured: false
+date: "2023-01-26"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-20T13:09:06-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Monorepos and Separation of Concerns: 3 Key Insights for Teamwork and Future
+  Scalability in Robotics'
 ---
 
 As a robotics tech startup, it can be tempting to adopt a [monorepo](https://en.wikipedia.org/wiki/Monorepo) approach to manage the codebase of projects. A monorepo is a single code repository that contains all of the code and dependencies for a given project or organization. This approach can be easier to maintain than a [microservices](https://en.wikipedia.org/wiki/Microservices) approach, where different systems and components are spread across multiple repositories.

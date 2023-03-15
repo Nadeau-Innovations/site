@@ -1,31 +1,20 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Maximizing Mentorship: How Senior Leaders Can Coach Junior Engineers in Tech Startups"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-01-20T12:02:55-05:00
-lastmod: 2023-01-20T12:02:55-05:00
-featured: false
+date: "2023-01-20T12:02:55-05:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-20T12:02:55-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Maximizing Mentorship: How Senior Leaders Can Coach Junior Engineers in Tech
+  Startups'
 ---
 
 Mentorship is a crucial aspect of any tech startup, as it helps to ensure junior engineers learn and grow in their roles. However, for mentorship to be effective, it is essential to understand best practices and consistently implement them.

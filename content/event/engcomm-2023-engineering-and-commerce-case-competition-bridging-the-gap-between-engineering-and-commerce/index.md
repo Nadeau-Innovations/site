@@ -1,69 +1,39 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "ENGCOMM 2023: Engineering and Commerce Case Competition"
-event: "ENGCOMM 2023: Engineering and Commerce Case Competition"
-event_url: https://www.engcomm.ca/
-location: John Molson School of Business
+abstract: null
 address:
-  street: 1450 Rue Guy
   city: Montreal
-  region: Quebec
-  postcode: H3H 0A1
   country: Canada
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-02-24
-# date_end: 2023-02-19T11:00:25-05:00
+  postcode: H3H 0A1
+  region: Quebec
+  street: 1450 Rue Guy
 all_day: true
-
-# Schedule page publish date (NOT event date).
-publishDate: 2023-02-19T11:00:25-05:00
-
 authors: []
-tags: [engineering, business, competition, case, competition, engcomm, engcomm2023]
-
-# Is this a featured event? (true/false)
+date: "2023-02-24"
+event: 'ENGCOMM 2023: Engineering and Commerce Case Competition'
+event_url: https://www.engcomm.ca/
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides:
-url_code:
-url_pdf:
-url_video:
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+location: John Molson School of Business
 projects: []
+publishDate: "2023-02-19T11:00:25-05:00"
+slides: ""
+summary: null
+tags:
+- engineering
+- business
+- competition
+- case
+- competition
+- engcomm
+- engcomm2023
+title: 'ENGCOMM 2023: Engineering and Commerce Case Competition'
+url_code: null
+url_pdf: null
+url_slides: null
+url_video: null
 ---
 
 I'm excited to be taking part at [ENGCOMM 2023](https://www.engcomm.ca/) as a judge!

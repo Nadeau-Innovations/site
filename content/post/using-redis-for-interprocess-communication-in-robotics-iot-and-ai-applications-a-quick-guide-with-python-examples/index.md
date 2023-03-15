@@ -1,31 +1,20 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Using Redis for Inter-Process Communication in Robotics, IoT, and AI Applications: A Quick Guide with Python Examples"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-01-22
-lastmod: 2023-01-20T15:02:57-05:00
-featured: false
+date: "2023-01-22"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-20T15:02:57-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Using Redis for Inter-Process Communication in Robotics, IoT, and AI Applications:
+  A Quick Guide with Python Examples'
 ---
 
 [Redis](https://redis.com/), an in-memory data structure store, can be an effective tool for inter-process communication (IPC) in robotics, IoT, and AI applications. This guide will show you how to use Redis with Python to share data and facilitate communication in different applications.

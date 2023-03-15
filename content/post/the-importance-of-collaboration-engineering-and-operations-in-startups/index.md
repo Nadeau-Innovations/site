@@ -1,31 +1,21 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "The Importance of Collaboration: Engineering and Operations in Startups"
-subtitle: ""
-summary: ""
-authors: [admin,john-gauch]
-tags: []
+authors:
+- admin
+- john-gauch
 categories: []
-date: 2023-03-01
-lastmod: 2023-02-22T13:49:57-05:00
-featured: false
+date: "2023-03-01"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-02-22T13:49:57-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'The Importance of Collaboration: Engineering and Operations in Startups'
 ---
 
 In a tech startup, engineering and operations are two critical departments that must work together seamlessly to achieve success. Both teams have unique responsibilities, and their efforts must be aligned to achieve the company's goals. This collaboration is vital to ensure that the company's products, services, and value are delivered efficiently and effectively to the end users.

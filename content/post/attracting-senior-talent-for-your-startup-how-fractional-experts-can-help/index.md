@@ -1,31 +1,21 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Attracting Senior Talent for Your Startup: How Fractional Experts Can Help"
-subtitle: ""
-summary: ""
-authors: [admin,john-fleischauer]
-tags: []
+authors:
+- admin
+- john-fleischauer
 categories: []
-date: 2023-02-22
-lastmod: 2023-02-20T11:37:28-05:00
-featured: false
+date: "2023-02-22"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-02-20T11:37:28-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Attracting Senior Talent for Your Startup: How Fractional Experts Can Help'
 ---
 
 Hiring senior talent for your startup can be daunting. Not only is the pool of potential candidates smaller, but it's also a high-stakes hire that can significantly impact your company's success.

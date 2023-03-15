@@ -1,31 +1,20 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Easily Set Package Versions With Git Tags and Poetry: A Step-by-step Guide for Python Developers"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-01-23
-lastmod: 2023-01-20T12:34:01-05:00
-featured: false
+date: "2023-01-23"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-01-20T12:34:01-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Easily Set Package Versions With Git Tags and Poetry: A Step-by-step Guide
+  for Python Developers'
 ---
 
 Git tags can be a helpful way to set the version of a package when using the Poetry package manager for Python. Using Git tags, you can easily track the different versions of your package and ensure that the correct version is being used in your project.

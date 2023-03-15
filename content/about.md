@@ -23,9 +23,7 @@ sections:
   content:
     username: admin
 - block: companies
-  id: partners
   content:
-    title: Our Partners
     items:
     - icon: fundica
       icon_pack: custom
@@ -36,6 +34,8 @@ sections:
     - icon: rdp
       icon_pack: custom
       url: https://www.rdpartners.com/
+    title: Our Partners
+  id: partners
 - block: hero
   content:
     cta:

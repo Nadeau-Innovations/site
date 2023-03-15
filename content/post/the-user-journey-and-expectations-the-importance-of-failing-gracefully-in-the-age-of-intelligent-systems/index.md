@@ -1,32 +1,21 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "The User Journey and Expectations: The Importance of Failing Gracefully in the Age of Intelligent Systems"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-03-15
-lastmod: 2023-03-08T15:14:47-05:00
-featured: false
+date: "2023-03-15"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
-  filename: "heroes/crash.jpg"
   caption: ""
+  filename: heroes/crash.jpg
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-08T15:14:47-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'The User Journey and Expectations: The Importance of Failing Gracefully in
+  the Age of Intelligent Systems'
 ---
 
 In today's world, technology is everywhere. From smartphones to intelligent systems and robots, we are surrounded by machines that make our lives easier and more efficient. However, as we increasingly rely on hard tech and intelligent systems, ensuring their functional safety and reliability becomes even more critical. This is especially true when humans and AI or robotics work together in manufacturing, transportation, and healthcare. This blog post will explore the concept of "failing gracefully" and why intelligent systems must do so, especially when humans are involved.

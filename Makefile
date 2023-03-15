@@ -10,7 +10,7 @@ MD_NOTEBOOK_OUT := $(NOTEBOOK_SOURCES:ipynb=md)
 all: build-notebooks normalize-yaml build
 
 .PHONY: build
-build: hugo-info
+build: hugo-info normalize-yaml
 	hugo --gc --minify
 
 .PHONY: build-notebooks
@@ -27,11 +27,11 @@ clean: hugo-info
 	hugo mod tidy
 
 .PHONY: serve
-serve: hugo-info build-notebooks
+serve: hugo-info normalize-yaml build-notebooks
 	hugo serve --gc --minify
 
 .PHONY: serve-future
-serve-future: hugo-info build-notebooks
+serve-future: hugo-info normalize-yaml build-notebooks
 	hugo serve --gc --minify --buildFuture
 
 .PHONY: hugo-info
