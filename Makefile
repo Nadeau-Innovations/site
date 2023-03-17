@@ -28,10 +28,6 @@ clean: hugo-info
 
 .PHONY: serve
 serve: hugo-info normalize-yaml build-notebooks
-	hugo serve --gc --minify
-
-.PHONY: serve-future
-serve-future: hugo-info normalize-yaml build-notebooks
 	hugo serve --gc --minify --buildFuture
 
 .PHONY: hugo-info
