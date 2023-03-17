@@ -23,6 +23,36 @@ sections:
 - block: about.avatar
   content:
     username: admin
+- block: hero
+  content:
+    title: Our Mission
+    text: Empower hard tech startups and corporate innovation by providing expert guidance and strategic direction to accelerate their growth
+  design:
+    background:
+      image:
+        filename: heroes/engineer.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+- block: features
+  content:
+    items:
+    - description: We enable access to cutting-edge innovation for businesses of all sizes
+      icon: globe
+      icon_pack: fas
+      name: Purpose
+    - description: We foster inventive solutions to real-world challenges in hard tech
+      icon: lightbulb
+      icon_pack: fas
+      name: Ingenuity
+    - description: We inspire confidence, ownership, and responsibility in our clients and their teams
+      icon: users
+      icon_pack: fas
+      name: Empowerment
+    title: Our Values
 - block: companies
   content:
     items:
