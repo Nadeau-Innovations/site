@@ -2,13 +2,12 @@
 sections:
 - block: hero
   content:
-    text: Discover how our expert fractional CTO support has driven innovation and
-      growth for hard tech startups and corporations
-    title: '**Success Stories: Transforming Industries**'
+    text: Explore the latest trends, strategies, and best practices in hard tech and business innovation
+    title: '**Innovative Insights**'
   design:
     background:
       image:
-        filename: heroes/engineering-team.jpg
+        filename: heroes/cobot.jpg
         filters:
           brightness: 0.6
         parallax: false
@@ -21,20 +20,27 @@ sections:
       - "0"
       - 200px
       - "0"
-- block: portfolio
+- block: collection
+  id: posts
   content:
-    default_button_index: 0
+    count: 5
     filters:
       folders:
-      - project
-      kinds:
-      - page
+        - post
+      author: ""
+      category: ""
+      tag: ""
+      publication_type: ""
+      featured_only: false
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+    offset: 0
+    sort_by: 'Date'
     sort_ascending: false
-    sort_by: Date
   design:
-    columns: "1"
-    flip_alt_rows: true
-    view: showcase
+    view: compact
+    columns: '1'
 - block: hero
   content:
     cta:

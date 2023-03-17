@@ -1,7 +1,7 @@
 ---
 bio: |
-  Nicholas Nadeau empowers teams through [fractional CTO services]({{< ref "services/" >}}) to build next-generation technologies.
-  [Subscribe to my newsletter](https://engnadeau.substack.com/) to keep up with the latest trends and [explore my services]({{< ref "services/" >}}) to jumpstart your innovation.
+  Nicholas Nadeau is a fractional CTO who empowers teams to build innovative, next-generation technologies.
+  Stay informed on cutting-edge hard tech trends - [**subscribe to my newsletter**](https://engnadeau.substack.com). Ready to innovate? [**Discover my services**]({{< ref "services/" >}}) and accelerate your growth.
 email: ""
 first_name: Nicholas
 highlight_name: false
@@ -37,9 +37,8 @@ sync the following bios:
 - "description" in config/_default/params.toml
 -->
 
-Nicholas Nadeau helps companies build next-generation technologies and empowers high-performance teams through fractional CTO services.
-As CTO and engineering leader, he has spent the last decade creating unique technologies for the [biomedical]({{< ref "project/rogue" >}}), [food robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}) domains.
+Nicholas Nadeau is a seasoned fractional CTO who helps companies build next-generation technologies and leads high-performance teams across diverse domains, including [biomedical]({{< ref "project/rogue" >}}), [food robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}).
 
-Nicholas is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ).
-He received his Ph.D. from École de technologie supérieure, where his research combined machine learning and collaborative robotics to develop [safe robotic freehand medical ultrasound methods](https://espace.etsmtl.ca/id/eprint/2461/).
-Nicholas is actively involved in the Montréal startup community, being a mentor at several accelerators, including [NextAI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal/), and [FounderFuel](https://founderfuel.com/).
+As a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ), Nicholas earned his Ph.D. from École de technologie supérieure. His research focused on combining machine learning and collaborative robotics to develop safe robotic freehand medical ultrasound methods.
+
+Nicholas actively contributes to the Montreal startup community, mentoring at top accelerators like NextAI, Techstars, Creative Destruction Lab, and FounderFuel.

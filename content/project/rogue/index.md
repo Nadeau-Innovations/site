@@ -2,15 +2,15 @@
 date: "2011-04-01"
 profile: false
 show_date: false
-summary: Innovative and practical biomedical tools used by thousands of neuroscience,
-  neurology, and psychiatric researchers to achieve their research goals.
+summary: Empowering neuroscience research with innovative and practical biomedical
+  tools for a range of applications.
 title: Rogue Research
 ---
 
-[Rogue Research](https://www.rogue-research.com/) is a medical device company that develops innovative and practical tools used by neuroscience, neurology, and psychiatric researchers to achieve their research goals. Their Brainsight navigator is used in thousands of laboratories worldwide to improve the application of transcranial magnetic stimulation (TMS), focused ultrasound, functional near-infrared spectroscopy (fNIRS), and veterinary neurosurgery.
+[Rogue Research](https://www.rogue-research.com/) specializes in medical devices, offering innovative and practical tools to help neuroscience, neurology, and psychiatric researchers achieve their goals. Their flagship product, the Brainsight navigator, is utilized in thousands of labs worldwide to enhance transcranial magnetic stimulation (TMS), focused ultrasound, functional near-infrared spectroscopy (fNIRS), and veterinary neurosurgery applications.
 
-The Elevate TMS device opens new avenues in non-invasive brain stimulation by giving you control over more parameters in the TMS pulse that fundamentally influence the nature of neuromodulation.
+Elevate TMS, their cutting-edge device, revolutionizes non-invasive brain stimulation by offering unprecedented control over TMS pulse parameters that significantly impact neuromodulation.
 
-Their veterinary microsurgical robot uses computer vision, high-resolution brain imaging, and a high-precision robot to extend the utility of image-guided neurosurgery in high-accuracy applications.
+Their veterinary microsurgical robot leverages computer vision, high-resolution brain imaging, and a high-precision robot to extend the capabilities of image-guided neurosurgery for high-accuracy applications.
 
-Nicholas Nadeau led the development of the novel robotic veterinary neurosurgery system, including trajectory generation algorithms, computer vision, and hardware design. He also developed several biomedical devices and systems for transcranial magnetic stimulation (TMS), near-infrared spectroscopy (NIRS), deep brain stimulation (DBS), and image-based neuronavigation.
+Nicholas Nadeau spearheaded the development of the groundbreaking robotic veterinary neurosurgery system, which included trajectory generation algorithms, computer vision, and hardware design. Additionally, he developed multiple biomedical devices and systems for TMS, NIRS, deep brain stimulation (DBS), and image-based neuronavigation.

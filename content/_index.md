@@ -3,14 +3,14 @@ sections:
 - block: hero
   content:
     cta:
-      label: Get Started
+      label: Start Innovating
       url: /services
-    text: Accelerate hard tech innovation with fractional CTO support
-    title: '**Build the future**'
+    text: Accelerate growth with tailored fractional CTO expertise
+    title: '**Unlock Your Hard Tech Potential**'
   design:
     background:
       image:
-        filename: talking.jpg
+        filename: heroes/talking.jpg
         filters:
           brightness: 0.6
         parallax: false
@@ -26,19 +26,19 @@ sections:
 - block: features
   content:
     items:
-    - description: Empower the company strategy and roadmap
+    - description: Define and align your technology roadmap
+      icon: chart-line
+      icon_pack: fas
+      name: STRATEGIZE
+    - description: Drive agile development and efficient operations
+      icon: cogs
+      icon_pack: fas
+      name: IMPLEMENT
+    - description: Nurture engineering talent and boost performance
       icon: rocket
       icon_pack: fas
-      name: INNOVATE
-    - description: Enable agile projects, development, and operations
-      icon: truck-fast
-      icon_pack: fas
-      name: EXECUTE
-    - description: Support engineering and talent management
-      icon: people-group
-      icon_pack: fas
-      name: ACCELERATE
-    title: Creative solutions for real-world problems
+      name: OPTIMIZE
+    title: Fractional CTO Expertise for Hard Tech Success
 - block: portfolio
   content:
     default_button_index: 0
@@ -58,11 +58,11 @@ sections:
     cta:
       label: Let's Talk
       url: /contact
-    title: Start your innovation
+    title: Transform Your Hard Tech Vision Into Reality
   design:
     background:
       image:
-        filename: marker.jpg
+        filename: heroes/collaborating.jpg
         filters:
           brightness: 0.6
         parallax: false

@@ -6,7 +6,6 @@ draft: false
 featured: false
 image:
   caption: ""
-  filename: heroes/crash.jpg
   focal_point: ""
   preview_only: false
 lastmod: "2023-03-08T15:14:47-05:00"

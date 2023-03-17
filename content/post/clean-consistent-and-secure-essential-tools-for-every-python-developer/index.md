@@ -1,32 +1,19 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Clean, Consistent, and Secure: Essential Tools for Every Python Developer"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-03-16
-lastmod: 2023-03-10T14:48:20-05:00
-featured: false
+date: "2023-03-16"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
-  filename: "heroes/snake.jpg"
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-10T14:48:20-05:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Clean, Consistent, and Secure: Essential Tools for Every Python Developer'
 ---
 
 Python is one of the most popular programming languages developers use worldwide, and it's known for its simplicity, readability, and ease of use. However, as with any programming language, it's essential to use tools to help you write clean, secure, and efficient code.
