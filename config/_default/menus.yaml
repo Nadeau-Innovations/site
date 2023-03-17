@@ -1,10 +1,10 @@
 main:
-  - name: WHAT WE DO
+  - name: SERVICES
     url: 'services/'
     weight: 10
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - name: RESULTS
+  - name: SUCCESS STORIES
     url: 'results/'
     weight: 20
 
@@ -19,6 +19,6 @@ main:
     weight: 40
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - name: LET'S TALK
+  - name: CONTACT
     url: 'contact/'
     weight: 50
