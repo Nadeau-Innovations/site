@@ -5,8 +5,8 @@ sections:
     cta:
       label: Get Started
       url: /services
-    text: Accelerate hard tech innovation with fractional CTO support
-    title: '**Build the future**'
+    text: Scale faster with expert fractional CTO support
+    title: '**Accelerate Hard Tech**'
   design:
     background:
       image:
@@ -26,19 +26,19 @@ sections:
 - block: features
   content:
     items:
-    - description: Empower the company strategy and roadmap
+    - description: Define and align your technology roadmap
+      icon: chart-line
+      icon_pack: fas
+      name: STRATEGIZE
+    - description: Drive agile development and efficient operations
+      icon: cogs
+      icon_pack: fas
+      name: IMPLEMENT
+    - description: Nurture engineering talent and boost performance
       icon: rocket
       icon_pack: fas
-      name: INNOVATE
-    - description: Enable agile projects, development, and operations
-      icon: truck-fast
-      icon_pack: fas
-      name: EXECUTE
-    - description: Support engineering and talent management
-      icon: people-group
-      icon_pack: fas
-      name: ACCELERATE
-    title: Creative solutions for real-world problems
+      name: OPTIMIZE
+    title: Fractional CTO Expertise for Hard Tech Success
 - block: portfolio
   content:
     default_button_index: 0
