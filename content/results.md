@@ -38,11 +38,11 @@ sections:
     cta:
       label: Let's Talk
       url: /contact
-    title: Ready to get started?
+    title: Transform Your Hard Tech Vision Into Reality
   design:
     background:
       image:
-        filename: engineer.jpg
+        filename: heroes/collaborating.jpg
         filters:
           brightness: 0.6
         parallax: false

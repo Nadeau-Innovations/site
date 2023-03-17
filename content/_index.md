@@ -58,11 +58,11 @@ sections:
     cta:
       label: Let's Talk
       url: /contact
-    title: Start your innovation
+    title: Transform Your Hard Tech Vision Into Reality
   design:
     background:
       image:
-        filename: marker.jpg
+        filename: heroes/collaborating.jpg
         filters:
           brightness: 0.6
         parallax: false
