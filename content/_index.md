@@ -10,7 +10,7 @@ sections:
   design:
     background:
       image:
-        filename: talking.jpg
+        filename: heroes/talking.jpg
         filters:
           brightness: 0.6
         parallax: false

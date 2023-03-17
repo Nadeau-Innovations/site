@@ -6,7 +6,7 @@ sections:
   design:
     background:
       image:
-        filename: cobot.jpg
+        filename: heroes/team.jpg
         filters:
           brightness: 0.6
         parallax: false

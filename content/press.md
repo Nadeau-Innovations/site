@@ -7,7 +7,7 @@ sections:
   design:
     background:
       image:
-        filename: news.jpg
+        filename: heroes/news.jpg
         filters:
           brightness: 0.6
         parallax: false

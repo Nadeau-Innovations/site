@@ -1,6 +1,6 @@
 ---
 banner:
-  image: cobot.jpg
+  image: heroes/cobot.jpg
 cms_exclude: true
 title: Blog
 view: 2

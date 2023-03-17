@@ -10,7 +10,7 @@ sections:
   design:
     background:
       image:
-        filename: 3dp-lab.jpg
+        filename: heroes/3dp-lab.jpg
         filters:
           brightness: 0.6
         parallax: false

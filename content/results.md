@@ -6,7 +6,7 @@ sections:
   design:
     background:
       image:
-        filename: engineering-team.jpg
+        filename: heroes/engineering-team.jpg
         filters:
           brightness: 0.6
         parallax: false

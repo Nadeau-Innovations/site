@@ -55,7 +55,7 @@ sections:
   design:
     background:
       image:
-        filename: milan.jpg
+        filename: heroes/milan.jpg
         filters:
           brightness: 0.6
         parallax: false
