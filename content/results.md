@@ -2,7 +2,9 @@
 sections:
 - block: hero
   content:
-    title: '**Forward-thinking innovation**'
+    text: Discover how our expert fractional CTO support has driven innovation and
+      growth for hard tech startups and corporations
+    title: '**Success Stories: Transforming Industries**'
   design:
     background:
       image:

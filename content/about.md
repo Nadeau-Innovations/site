@@ -2,7 +2,8 @@
 sections:
 - block: hero
   content:
-    title: '**Experience solves complex problems**'
+    title: '**Meet the Expertise Behind the Innovations**'
+    text: Discover how our experience in hard tech drives groundbreaking solutions for startups and corporations
   design:
     background:
       image:
