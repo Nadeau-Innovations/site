@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Unlocking Corporate Innovation: How Collaborative Robots are Enabling Digital Transformation and Agile Development"
+title: "Corporate Innovation in Hard Tech: Collaborative Robotics and Beyond"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2023-01-21T20:58:02-05:00
-lastmod: 2023-01-21T20:58:02-05:00
+date: 2023-03-20
+lastmod: 2023-03-20
 featured: false
 draft: false
 
@@ -28,16 +28,30 @@ image:
 projects: []
 ---
 
-As technology continues to evolve, companies are constantly looking for ways to stay ahead of the curve and innovate in their respective industries. One way to achieve this is through adopting collaborative robots, also known as cobots, in the workplace. These robots work alongside human employees to augment their capabilities, allowing for faster and more efficient production processes. But the benefits of cobots go beyond just increased productivity; they also enable digital transformation and agile development, crucial components for driving corporate innovation.
+Technology constantly evolves, and corporations must embrace cutting-edge solutions to stay ahead of the competition and ensure their continued growth. One such answer lies in hard tech, where innovations like collaborative robotics and computer vision are transforming how businesses operate. By leveraging these innovations, corporate leaders can unlock the full potential of digital transformation, agile manufacturing, data-driven decisions, and Industry 4.0.
 
-Digital transformation refers to integrating technology into a company's operations and processes. Collaborative robots are vital because they can automate repetitive tasks and free up human employees to focus on higher-value activities. This increases efficiency and allows for collecting data and insights that can be used to improve processes and drive innovation.
+## Collaborative Robotics: Enhancing Human Potential
+
+Collaborative robots, or cobots, are designed to work alongside human employees, augmenting their capabilities and streamlining production processes. Integrating cobots into the workplace increases productivity and catalyzes digital transformation and agile development—two essential components for driving corporate innovation.
+
+Digital transformation entails integrating advanced technology into a company's operations and processes. Collaborative robots play a pivotal role in this transformation by automating repetitive tasks, allowing human employees to concentrate on high-value activities. This boosts efficiency and enables the collection of valuable data and insights that can be harnessed to improve processes and spur innovation.
 
 ![Nicholas with a KUKA LBR.](nick.jpg "[Nicholas Nadeau]({{< ref "about" >}}) working with a KUKA LBR iiwa collaborative robot [to develop techniques for biomedical applications]({{< ref "publication/nadeau-2019-towards" >}}).")
 
-Agile development is a methodology that emphasizes collaboration and flexibility in the development process. Cobots enable this by providing real-time feedback and data, allowing teams to iterate and make adjustments quickly. This can lead to the development of new products and services at a faster pace than traditional development methods.
+Agile manufacturing emphasizes collaboration, adaptability, and flexibility in the development process. Cobots facilitate this approach by providing real-time feedback and data, enabling teams to iterate and swiftly adjust. As a result, companies can develop new products and services faster than traditional development methods allow.
+
+Cobots offer several other benefits, such as versatility across various industries and environments and cost-effectiveness by working alongside human employees to increase productivity without additional staff.
 
 ![Nicholas hand-guiding a KUKA LBR.](hand.jpg "[Nicholas Nadeau]({{< ref "about" >}}) hand-guiding a KUKA LBR iiwa collaborative robot [for accuracy calibration]({{< ref "publication/nadeau-2019-impedance" >}}).")
 
-In addition to their role in digital transformation and agile development, cobots also bring several other benefits. They are versatile and can work in various industries and environments. They are also cost-effective, as they can work alongside human employees to increase productivity without hiring additional staff.
+## Beyond Robotics: The Power of Computer Vision and Other Hard Tech Innovations
 
-Adopting collaborative robots in the workplace can be a game-changer for companies looking to drive innovation and stay competitive in today's fast-paced business environment. They enable digital transformation and agile development, allowing for faster and more efficient production processes and the development of new products and services. As companies adapt to the ever-changing technological landscape, collaborative robots will play an increasingly important role in driving innovation and success.
+Hard tech innovations like computer vision contribute significantly to corporate innovation by enabling advanced automation, data analysis, and decision-making processes. By harnessing these technologies, companies can revolutionize their operations, paving the way for Industry 4.0 and creating a competitive edge in the market.
+
+![Nicholas and Osedea.](osedea.jpg "[Nicholas Nadeau]({{< ref "about" >}}) and the [Osedea team using the Boston Dynamics Spot robot for computer vision, dynamic sensing, and Industry 4.0 applications.]({{< ref "project/osedea" >}}).")
+
+## Unlocking Corporate Innovation with Fractional CTO Expertise
+
+Adopting collaborative robotics and other hard tech innovations in the workplace can be a game-changer for companies striving to drive innovation and maintain a competitive edge in today's fast-paced business landscape. By leveraging the expertise of a fractional CTO consultancy, corporate innovation leaders, executives, and decision-makers can unlock the full potential of these technologies, enabling digital transformation, agile manufacturing, and data-driven decisions.
+
+As companies adapt to the ever-changing technological landscape, collaborative robots and other hard tech innovations will be increasingly important in driving innovation and success. The key to harnessing the power of these technologies lies in the hands of forward-thinking leaders who recognize the value of expert guidance and collaboration.
