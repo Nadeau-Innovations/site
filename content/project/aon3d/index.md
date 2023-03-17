@@ -2,7 +2,8 @@
 date: "2018-09-01"
 profile: false
 show_date: false
-summary: Advancing additive manufacturing with the AON-M2, a versatile and cost-effective 3D printer for thermoplastics.
+summary: Advancing additive manufacturing with the AON-M2, a versatile and cost-effective
+  3D printer for thermoplastics.
 title: AON3D
 ---
 

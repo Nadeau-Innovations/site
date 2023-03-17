@@ -2,7 +2,8 @@
 date: "2021-02-01"
 profile: false
 show_date: false
-summary: Revolutionizing AI-driven humanoid robots for security, retail, and Industry 4.0 applications.
+summary: Revolutionizing AI-driven humanoid robots for security, retail, and Industry
+  4.0 applications.
 title: Halodi Robotics
 ---
 

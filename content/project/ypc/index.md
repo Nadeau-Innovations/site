@@ -2,7 +2,8 @@
 date: "2017-09-01"
 profile: false
 show_date: false
-summary: Transforming kitchens through automation using robotics, AI, and computer vision for versatile food preparation.
+summary: Transforming kitchens through automation using robotics, AI, and computer
+  vision for versatile food preparation.
 title: YPC Technologies
 ---
 

@@ -2,7 +2,8 @@
 date: "2022-10-01"
 profile: false
 show_date: false
-summary: Driving Industry 4.0 with dynamic sensing and robotic solutions for emerging technologies.
+summary: Driving Industry 4.0 with dynamic sensing and robotic solutions for emerging
+  technologies.
 title: Osedea
 ---
 

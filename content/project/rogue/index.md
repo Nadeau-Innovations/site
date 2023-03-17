@@ -2,7 +2,8 @@
 date: "2011-04-01"
 profile: false
 show_date: false
-summary: Empowering neuroscience research with innovative and practical biomedical tools for a range of applications.
+summary: Empowering neuroscience research with innovative and practical biomedical
+  tools for a range of applications.
 title: Rogue Research
 ---
 
