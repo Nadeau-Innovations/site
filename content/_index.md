@@ -3,10 +3,10 @@ sections:
 - block: hero
   content:
     cta:
-      label: Get Started
+      label: Start Innovating
       url: /services
-    text: Scale faster with expert fractional CTO support
-    title: '**Accelerate Hard Tech**'
+    text: Accelerate growth with tailored fractional CTO expertise
+    title: '**Unlock Your Hard Tech Potential**'
   design:
     background:
       image:
