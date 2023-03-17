@@ -2,7 +2,8 @@
 sections:
 - block: hero
   content:
-    text: Explore the latest trends, strategies, and best practices in hard tech and business innovation
+    text: Explore the latest trends, strategies, and best practices in hard tech and
+      business innovation
     title: '**Innovative Insights**'
   design:
     background:
@@ -21,26 +22,26 @@ sections:
       - 200px
       - "0"
 - block: collection
-  id: posts
   content:
     count: 5
     filters:
-      folders:
-        - post
       author: ""
       category: ""
-      tag: ""
-      publication_type: ""
-      featured_only: false
       exclude_featured: false
       exclude_future: false
       exclude_past: false
+      featured_only: false
+      folders:
+      - post
+      publication_type: ""
+      tag: ""
     offset: 0
-    sort_by: 'Date'
     sort_ascending: false
+    sort_by: Date
   design:
+    columns: "1"
     view: compact
-    columns: '1'
+  id: posts
 - block: hero
   content:
     cta:
