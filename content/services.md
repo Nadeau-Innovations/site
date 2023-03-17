@@ -1,16 +1,18 @@
 ---
 sections:
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Hero
 - block: hero
   content:
     cta:
-      label: Let's Talk
+      label: Get Started
       url: /contact
-    text: Align technology, people, and process to achieve results.
-    title: '**Set your team up for success**'
+    text: Expert fractional CTO support tailored to your needs
+    title: "**Unlock Your Team's Potential**"
   design:
     background:
       image:
-        filename: pycon.jpg
+        filename: heroes/collaborating.jpg
         filters:
           brightness: 0.6
         parallax: false
@@ -23,23 +25,30 @@ sections:
       - "0"
       - 200px
       - "0"
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Key Service Offerings
 - block: features
   content:
     items:
-    - description: Empower the company strategy and roadmap through executive advising
+    - description: Align technology, people, and processes to achieve outstanding results
+      icon: users-cog
+      icon_pack: fas
+      name: Set Your Team Up for Success
+    - description: Drive innovation, boost morale, and share knowledge through expert guidance
+      icon: lightbulb
+      icon_pack: fas
+      name: Empower Your Team
+    - description: Optimize your technology strategy and development to scale faster
       icon: rocket
       icon_pack: fas
-      name: INNOVATE
-    - description: Enable agile projects, development, and operations with team leadership
-      icon: truck-fast
-      icon_pack: fas
-      name: EXECUTE
-    - description: Support engineering and talent management as part of your team
-      icon: people-group
-      icon_pack: fas
-      name: ACCELERATE
-    title: Packages to jumpstart your innovation
+      name: Accelerate Your Growth
+    title: Comprehensive Solutions for Hard Tech Innovation
   id: fractional-cto
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# TODO: Testimonials
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Events and Past Talks
+# TODO: better if this was after Success Stories
 - block: hero
   content:
     cta:
@@ -48,9 +57,8 @@ sections:
     cta_alt:
       label: See Past Events
       url: /event
-    text: |
-      Drive innovation, boost morale, and share knowledge.
-    title: Empower your team
+    text: Empower your team with insights and expertise from past events
+    title: Inspiring Talks and Events
   design:
     background:
       image:
@@ -68,8 +76,11 @@ sections:
       - 200px
       - "0"
   id: speaking
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Success Stories
 - block: portfolio
   content:
+    title: Success Stories
     default_button_index: 0
     filters:
       folders:
@@ -82,12 +93,15 @@ sections:
     columns: "1"
     flip_alt_rows: true
     view: showcase
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Final CTA Section
 - block: hero
   content:
     cta:
       label: Let's Talk
       url: /contact
-    title: Transform Your Hard Tech Vision Into Reality
+    title: Ready to Elevate Your Hard Tech Innovation?
+    text: Get in touch for a tailored strategy to achieve your goals
   design:
     background:
       image:
