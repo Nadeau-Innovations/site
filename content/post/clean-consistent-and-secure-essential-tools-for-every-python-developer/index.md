@@ -6,7 +6,6 @@ draft: false
 featured: false
 image:
   caption: ""
-  filename: heroes/snake.jpg
   focal_point: ""
   preview_only: false
 lastmod: "2023-03-10T14:48:20-05:00"

@@ -8,7 +8,6 @@ draft: false
 featured: false
 image:
   caption: ""
-  filename: heroes/hiring.jpg
   focal_point: ""
   preview_only: false
 lastmod: "2023-03-08T13:02:30-05:00"
