@@ -1,7 +1,7 @@
 ---
 bio: |
   Nicholas Nadeau is a fractional CTO who empowers teams to build innovative, next-generation technologies.
-  Stay informed on cutting-edge hard tech trends - [**subscribe to my newsletter**](https://engnadeau.substack.com). Ready to innovate? [**Discover my services**]({{< ref "services/" >}}) and accelerate your growth.
+  Stay informed on cutting-edge hard tech trends - [subscribe to my newsletter](https://engnadeau.substack.com). Ready to innovate? [Discover my services]({{< ref "services/" >}}) and accelerate your growth.
 email: ""
 first_name: Nicholas
 highlight_name: false
