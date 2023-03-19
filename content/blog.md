@@ -40,7 +40,7 @@ sections:
     sort_by: Date
   design:
     columns: "1"
-    view: compact
+    view: showcase
   id: posts
 - block: hero
   content:
