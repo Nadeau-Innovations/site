@@ -2,8 +2,9 @@
 sections:
 - block: hero
   content:
-    text: Company news, editorial features, and press releases.
-    title: '**Press and Newsroom**'
+    text: Explore the latest news stories featuring our innovative hard tech solutions,
+      expert insights, and accomplishments
+    title: '**Nadeau Innovations in the Spotlight: Media Coverage & Press Releases**'
   design:
     background:
       image:
