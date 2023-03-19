@@ -20,18 +20,25 @@ sections:
       - "0"
       - 200px
       - "0"
-- block: portfolio
+- block: collection
   content:
+    count: 10
     filters:
-      kinds:
-      - page
-      tags:
-      - press
+      author: ""
+      category: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      featured_only: false
+      folders: ""
+      publication_type: ""
+      tag: press
+    offset: 0
     sort_ascending: false
     sort_by: Date
   design:
     columns: "1"
-    view: Compact
+    view: showcase
   id: press
 - block: hero
   content:

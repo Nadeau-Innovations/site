@@ -39,19 +39,25 @@ sections:
       icon_pack: fas
       name: OPTIMIZE
     title: Fractional CTO Expertise for Hard Tech Success
-- block: portfolio
+- block: collection
   content:
-    default_button_index: 0
+    count: 5
     filters:
+      author: ""
+      category: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      featured_only: false
       folders:
       - project
-      kinds:
-      - page
+      publication_type: ""
+      tag: ""
+    offset: 0
     sort_ascending: false
     sort_by: Date
   design:
     columns: "1"
-    flip_alt_rows: true
     view: showcase
 - block: hero
   content:
