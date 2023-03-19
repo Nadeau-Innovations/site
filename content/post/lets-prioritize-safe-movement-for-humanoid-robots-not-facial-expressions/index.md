@@ -64,9 +64,6 @@ Perhaps that's why [Association for Advancing Automation (A3)](https://www.wefor
 <!-- Ambassador -->
 {{< tweet user="EngNadeau" id="1537924333414121472" >}}
 
-<!-- Euro space agency -->
-{{< tweet user="EngNadeau" id="1544279719910203392" >}}
-
 ---
 
 But for anthropomorphic service robots to become widely accepted, they must move and interact with humans in a way that feels relatively natural.
