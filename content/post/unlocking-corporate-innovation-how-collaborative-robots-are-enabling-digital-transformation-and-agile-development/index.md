@@ -1,31 +1,19 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Corporate Innovation in Hard Tech: Collaborative Robotics and Beyond"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-03-20
-lastmod: 2023-03-20
-featured: false
+date: "2023-03-20"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-20"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Corporate Innovation in Hard Tech: Collaborative Robotics and Beyond'
 ---
 
 Technology constantly evolves, and corporations must embrace cutting-edge solutions to stay ahead of the competition and ensure their continued growth. One such answer lies in hard tech, where innovations like collaborative robotics and computer vision are transforming how businesses operate. By leveraging these innovations, corporate leaders can unlock the full potential of digital transformation, agile manufacturing, data-driven decisions, and Industry 4.0.
