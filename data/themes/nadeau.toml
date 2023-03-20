@@ -14,3 +14,7 @@ menu_title = "#EAC65A"
 # Home sections alternating rows without backgrounds
 home_section_odd = "#FFFFFF"
 home_section_even = "#F7F7F7"
+
+# links
+link = "blue"
+link_hover = "#2E3B5B"
