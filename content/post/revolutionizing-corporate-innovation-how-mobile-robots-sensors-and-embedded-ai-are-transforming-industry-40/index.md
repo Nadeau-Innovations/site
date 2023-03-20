@@ -4,7 +4,7 @@
 title: "Spotting Success: How Mobile Robots and AI Are Driving Industry 4.0 Forward"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin,thierry-marcoux]
 tags: []
 categories: []
 date: 2023-03-27
@@ -28,13 +28,16 @@ image:
 projects: []
 ---
 
-
-
 Integrating advanced technology into all production and operations has become paramount as we navigate the fourth industrial revolution, or Industry 4.0. Among the critical components of this transformation are mobile robots, sensors, and embedded artificial intelligence (AI) at the edge. By harnessing these innovations, businesses can revolutionize traditional manufacturing processes and unlock new levels of innovation and efficiency in the workplace.
 
 ## Spot the Difference: How Quadrupedal Robots are Changing the Game
 
 Take, for instance, the Boston Dynamics Spot robot—a quadrupedal mobile robot designed for various inspection, monitoring, and mapping tasks. Equipped with multiple sensors and cameras, Spot can gather data and perform functions in challenging or hazardous environments for human workers. Embedded AI further empowers the robot to make autonomous decisions and navigate independently, boosting efficiency and minimizing the need for human intervention.
+
+> "Spot's versatility and capabilities, from inspecting machinery to navigating challenging terrain, make it an invaluable asset for companies seeking cutting-edge solutions."
+>
+> ~ [Thierry Marcoux](https://www.linkedin.com/in/thierry-marcoux-28480b53/), Head of Growth @ [Osedea](https://www.osedea.com/)
+
 
 ![Nicholas and Osedea.](osedea.jpg "[Nicholas Nadeau]({{< ref "about" >}}) and the [Osedea team]({{< ref "project/osedea" >}}) using [the Boston Dynamics Spot robot for computer vision, dynamic sensing, and Industry 4.0 applications](https://www.osedea.com/en/blog/meet-spot).")
 
