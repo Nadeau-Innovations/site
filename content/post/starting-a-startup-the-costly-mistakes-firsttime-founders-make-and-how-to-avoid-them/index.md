@@ -1,31 +1,22 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Starting a Startup? The Costly Mistakes First-Time Founders Make and How to Avoid Them"
-subtitle: ""
-summary: ""
-authors: [admin,john-fleischauer]
-tags: []
+authors:
+- admin
+- john-fleischauer
 categories: []
-date: 2023-03-21
-lastmod: 2023-03-21
-featured: false
+date: "2023-03-21"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-21"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: Starting a Startup? The Costly Mistakes First-Time Founders Make and How to
+  Avoid Them
 ---
 
 {{< toc >}}
