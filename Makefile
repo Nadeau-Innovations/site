@@ -50,33 +50,29 @@ update-wowchemy:
 
 .PHONY: post
 post:
-	pipenv run python scripts/hugo_new.py post
+	pipenv run python scripts/hugo_new.py post --branch
 
 .PHONY: event
 event:
-	pipenv run python scripts/hugo_new.py event
+	pipenv run python scripts/hugo_new.py event --branch
 
 .PHONY: project
 project:
-	pipenv run python scripts/hugo_new.py project
+	pipenv run python scripts/hugo_new.py project --branch
 
 .PHONY: publication
 publication:
-	pipenv run python scripts/hugo_new.py publication
+	pipenv run python scripts/hugo_new.py publication --branch
 
 .PHONY: notebook
 notebook:
-	pipenv run python scripts/hugo_new.py post --notebook
+	pipenv run python scripts/hugo_new.py post --notebook --branch
 
 .PHONY: debug
 debug:
 	@echo BIB_SOURCES: $(BIB_SOURCES)
 	@echo NOTEBOOK_SOURCES: $(NOTEBOOK_SOURCES)
 	@echo MD_NOTEBOOK_OUT: $(MD_NOTEBOOK_OUT)
-
-.PHONY: post-branch
-post-branch:
-	pipenv run python scripts/hugo_new.py post --branch
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # file targets
