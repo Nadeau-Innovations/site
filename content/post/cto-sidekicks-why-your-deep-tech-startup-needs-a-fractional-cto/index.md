@@ -1,31 +1,19 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "CTO Sidekicks: Why Your Deep Tech Startup Needs a Fractional CTO"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-03-31T15:46:29-04:00
-lastmod: 2023-03-31T15:46:29-04:00
-featured: false
+date: "2023-03-31T15:46:29-04:00"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-31T15:46:29-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'CTO Sidekicks: Why Your Deep Tech Startup Needs a Fractional CTO'
 ---
 
 In deep tech and hard tech startups, the founding Chief Technology Officer (CTO) plays a pivotal role in driving innovation, developing cutting-edge solutions, and maintaining a razor-sharp focus on the company's core competencies. However, as brilliant as these founders may be, they often need additional support to navigate the challenges of growing a successful business. This is where a fractional CTO can be the perfect ally, providing the guidance and expertise needed to complement the founding CTO's strengths and ensure the venture's success.

@@ -1,31 +1,19 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Square Pegs, Round Holes: Reshaping OKRs for Hard Tech Startups"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-04-04
-lastmod: 2023-03-31T16:53:31-04:00
-featured: false
+date: "2023-04-04"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-31T16:53:31-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Square Pegs, Round Holes: Reshaping OKRs for Hard Tech Startups'
 ---
 
 Establishing clear objectives and key results (OKRs) is crucial when achieving success in hard tech startups. But too often, startups adopt processes designed for larger, more established organizations. It's like trying to fit a square peg into a round hole—forcing a solution that isn't tailored to the unique needs of a startup.
