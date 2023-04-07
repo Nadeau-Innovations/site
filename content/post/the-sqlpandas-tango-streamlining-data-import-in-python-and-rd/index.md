@@ -1,31 +1,19 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "The SQL-Pandas Tango: Streamlining Data Import in Python and R&D"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-04-03
-lastmod: 2023-03-31T16:03:33-04:00
-featured: false
+date: "2023-04-03"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-31T16:03:33-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'The SQL-Pandas Tango: Streamlining Data Import in Python and R&D'
 ---
 
 In software R&D, efficiently loading SQL scripts in Python using [`sqlite3`](https://docs.python.org/3/library/sqlite3.html) and importing data into a [Pandas](https://pandas.pydata.org/) [DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) can be a game-changer.

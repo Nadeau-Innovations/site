@@ -1,31 +1,21 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Spotting Success: How Mobile Robots and AI Are Driving Industry 4.0 Forward"
-subtitle: ""
-summary: ""
-authors: [admin,thierry-marcoux]
-tags: []
+authors:
+- admin
+- thierry-marcoux
 categories: []
-date: 2023-03-27
-lastmod: 2023-03-27
-featured: false
+date: "2023-03-27"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-03-27"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Spotting Success: How Mobile Robots and AI Are Driving Industry 4.0 Forward'
 ---
 
 Integrating advanced technology into all production and operations has become paramount as we navigate the fourth industrial revolution, or Industry 4.0. Among the critical components of this transformation are mobile robots, sensors, and embedded artificial intelligence (AI) at the edge. By harnessing these innovations, businesses can revolutionize traditional manufacturing processes and unlock new levels of innovation and efficiency in the workplace.

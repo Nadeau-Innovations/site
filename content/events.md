@@ -2,13 +2,13 @@
 sections:
 - block: hero
   content:
+    cta:
+      label: Book Your Event
+      url: contact/
     text: |
       Explore our diverse range of past, present, and upcoming workshops, webinars, and networking events, designed to inspire innovation, foster collaboration, and accelerate your growth.
       Ready to create your own event?
     title: '**Unleashing Creativity and Collaboration: Recent & Upcoming Events**'
-    cta:
-        label: Book Your Event
-        url: contact/
   design:
     background:
       image:

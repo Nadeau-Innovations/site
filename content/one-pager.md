@@ -35,6 +35,15 @@ sections:
 
       As a strategic partner, Nadeau Innovations supports both **corporate innovation** and **startups** in their technology development journey. Leverage the expertise and experience of a seasoned technology professional without the expense and commitment of a full-time hire.
 
+
+      Our core services include the following:
+
+        1. **Fractional CTO Services**: Providing customized fractional CTO services to help companies build cutting-edge technologies and high-performance teams. Our strategic partnership approach ensures expertise, flexibility, cost-effectiveness, and an independent perspective crucial for driving innovation.
+        2. **Technology Strategy Development**: Collaborating with clients to create comprehensive technology roadmaps that align their business objectives with the latest technological advancements. Our expertise spans various domains, allowing us to offer strategic guidance tailored to each client's unique needs.
+        3. **Innovation Management**: Assisting companies in managing their innovation initiatives from idea generation to product launch. We help establish processes, frameworks, and performance metrics to ensure a smooth and successful innovation journey.
+        4. **Team Building and Leadership**: Supporting clients in building high-performance teams by offering guidance on talent acquisition, resource allocation, and skill development. Our experience in managing cross-functional teams enables us to foster collaboration and drive success.
+        5. **Mentorship and Training**: Drawing from our extensive experience in the startup community, we provide mentorship and training for entrepreneurs and teams across different sectors. Our hands-on approach equips them with the necessary skills and knowledge to navigate innovation and growth challenges.
+
       ### Corporate Innovation
 
       As businesses face increasing competition and rapid technology advances, corporate innovation becomes essential. Fractional CTO services provide technical guidance and leadership for established companies to tap into new markets, stay relevant, and foster an agile innovation and experimentation culture.
