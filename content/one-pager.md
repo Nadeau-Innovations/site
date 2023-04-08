@@ -29,36 +29,30 @@ sections:
     text: >
       ## What We Do
 
-      Nadeau Innovations empowers companies to build next-generation technologies and high-performance teams through tailored fractional CTO services.
-
-      We strategically partner with clients in their innovation initiatives, offering expertise, flexibility, cost-effectiveness, and an independent perspective crucial for innovation development.
-
-      As a strategic partner, Nadeau Innovations supports both **corporate innovation** and **startups** in their technology development journey. Leverage the expertise and experience of a seasoned technology professional without the expense and commitment of a full-time hire.
+      Nadeau Innovations’ tailored fractional CTO services empower companies to develop next-gen technologies and high-performance teams. We provide a strategic partnership, offering expertise, flexibility, cost-effectiveness, and an independent perspective to drive innovation in startups and corporate ventures without the expense of a full-time hire.
 
 
       Our core services include the following:
 
-        1. **Fractional CTO Services**: Providing customized fractional CTO services to help companies build cutting-edge technologies and high-performance teams. Our strategic partnership approach ensures expertise, flexibility, cost-effectiveness, and an independent perspective crucial for driving innovation.
-        2. **Technology Strategy Development**: Collaborating with clients to create comprehensive technology roadmaps that align their business objectives with the latest technological advancements. Our expertise spans various domains, allowing us to offer strategic guidance tailored to each client's unique needs.
-        3. **Innovation Management**: Assisting companies in managing their innovation initiatives from idea generation to product launch. We help establish processes, frameworks, and performance metrics to ensure a smooth and successful innovation journey.
-        4. **Team Building and Leadership**: Supporting clients in building high-performance teams by offering guidance on talent acquisition, resource allocation, and skill development. Our experience in managing cross-functional teams enables us to foster collaboration and drive success.
-        5. **Mentorship and Training**: Drawing from our extensive experience in the startup community, we provide mentorship and training for entrepreneurs and teams across different sectors. Our hands-on approach equips them with the necessary skills and knowledge to navigate innovation and growth challenges.
+        - **Fractional CTO**: Customized services to build cutting-edge tech and teams, with a strategic approach ensuring expertise, flexibility, and cost-effectiveness.
+        - **Tech Strategy**: Comprehensive roadmaps aligning business objectives with the latest advancements tailored to each client’s needs.
+        - **Innovation Management**: Assisting from idea generation to product launch with processes, frameworks, and metrics for a successful journey.
+        - **Team Building & Leadership**: Guidance on talent acquisition, resource allocation, and skill development to foster collaboration and success.
+        - **Mentorship & Training**: Empowering entrepreneurs and teams with skills and knowledge to navigate innovation challenges through a hands-on approach.
 
-      ### Corporate Innovation
+      ### Revitalize Corporate Innovation
 
-      As businesses face increasing competition and rapid technology advances, corporate innovation becomes essential. Fractional CTO services provide technical guidance and leadership for established companies to tap into new markets, stay relevant, and foster an agile innovation and experimentation culture.
+      Stay ahead of the curve with our technical guidance and leadership, helping you tap into new markets, maintain relevancy, and cultivate an agile innovation culture.
 
-      ### Startups
+      ### Elevate Your Startup
 
-      Startups encounter unique challenges during early growth and development stages. A fractional CTO provides guidance and support in product development, technology strategy, team management, and fundraising. As a hands-on leader, they execute the company's vision and mission, guiding the engineering organization to deliver innovative products. They work seamlessly with existing leadership and teams, adapting between tactical and strategic approaches.
+      Overcome early-stage challenges with our product development, technology strategy, team management, and fundraising expertise. Our hands-on leadership will bring your vision to life.
 
-      ## How We Work
+      ## Our Customizable Packages
 
-      We offer three customizable packages for our fractional CTO services:
-
-        1. **Innovate**: Empower your team with flexible expertise and strategic advising through a bank of hours retainer.
-        2. **Execute**: Enable agile projects, development, and operations with consistent weekly sessions at a flat monthly rate.
-        3. **Accelerate**: Embed support as part of your team to boost performance and achieve milestones at an hourly rate (minimum commitment of 32 hours per month).
+        - **Innovate**: Boost your team with flexible expertise and strategic advice via a bank-of-hours retainer.
+        - **Execute**: Drive agile projects and operations with consistent weekly sessions at a flat monthly rate.
+        - **Accelerate**: Integrate support to enhance performance and reach milestones at an hourly rate (minimum 32 hours/month commitment).
 
       Non-retainer packages start with a three-month commitment, then switch to month-to-month with a 30-day notice for pauses or cancellations.
 
