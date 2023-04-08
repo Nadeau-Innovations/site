@@ -1,7 +1,9 @@
 .DEFAULT_GOAL := all
+
 BIB_SOURCES := $(shell find content -iname "*.bib")
 NOTEBOOK_SOURCES := $(shell find content -iname "*.ipynb")
 MD_NOTEBOOK_OUT := $(NOTEBOOK_SOURCES:ipynb=md)
+FEATURED_IMAGES := $(shell find content -iname "featured.*")
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # phony targets
@@ -73,6 +75,14 @@ debug:
 	@echo BIB_SOURCES: $(BIB_SOURCES)
 	@echo NOTEBOOK_SOURCES: $(NOTEBOOK_SOURCES)
 	@echo MD_NOTEBOOK_OUT: $(MD_NOTEBOOK_OUT)
+
+.PHONY: resize-featured-images
+resize-featured-images: $(FEATURED_IMAGES)
+	for IMAGE in $(FEATURED_IMAGES); do \
+		echo $$IMAGE && \
+		mogrify -resize 1200x\> $$IMAGE; \
+		mogrify -resize \>x630 $$IMAGE; \
+	done
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # file targets
