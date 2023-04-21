@@ -3,7 +3,8 @@ date: "2022-10-01"
 profile: false
 show_date: false
 summary: Harnessing Innovation to Transform Industries and Redefine What's Possible
-title: "Unleashing the Power of Robotics and AI: Nadeau Innovations and Osedea's Ingenious Partnership"
+title: 'Unleashing the Power of Robotics and AI: Nadeau Innovations and Osedea''s
+  Ingenious Partnership'
 ---
 
 In today's fast-paced world of technology and innovation, partnering with the right experts can make all the difference. Nicholas Nadeau, the founder of Nadeau Innovations, is a prime example of an experienced leader who helps businesses unlock their potential through robotics, AI, and other cutting-edge technologies.
@@ -24,6 +25,8 @@ As labour shortages and public health concerns challenge core markets, Osedea an
 - A fourth dimension of insight on data—time
 - Mitigating the 4Ds of robotization: Dull, Dirty, Dangerous, and Dear jobs
 - Enabling humans to focus on more stimulating and complex tasks
+
+{{< youtube "sqKOULVeepA" >}}
 
 ## Prototyping: The Key to Successful Applications
 
