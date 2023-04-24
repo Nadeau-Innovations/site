@@ -62,13 +62,10 @@ sections:
   content:
     items:
     - icon: fundica
-      icon_pack: custom
       url: https://www.fundica.com/
     - icon: pivot-edge
-      icon_pack: custom
       url: https://www.pivotandedge.com/
     - icon: rdp
-      icon_pack: custom
       url: https://www.rdpartners.com/
     title: Our Partners
   id: partners

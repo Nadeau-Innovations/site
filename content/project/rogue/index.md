@@ -3,7 +3,8 @@ date: "2011-04-01"
 profile: false
 show_date: false
 summary: Pioneering Neuroscience and Transforming Medical Devices
-title: "Revolutionizing Medical Devices: Nicholas Nadeau's R&D Engineering at Rogue Research"
+title: 'Revolutionizing Medical Devices: Nicholas Nadeau''s R&D Engineering at Rogue
+  Research'
 ---
 
 As neuroscience, neurology, and psychiatry continue to evolve, the need for cutting-edge medical devices has become increasingly important. At [Rogue Research](https://www.rogue-research.com/), Nicholas Nadeau's expertise in R&D engineering has contributed to developing pioneering tools that help researchers and practitioners achieve their goals in these rapidly advancing fields.

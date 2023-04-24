@@ -3,7 +3,8 @@ date: "2017-09-01"
 profile: false
 show_date: false
 summary: Creating the Future of Sustainable and Convenient Gourmet Meals
-title: "Reimagining Kitchen Automation: Nicholas Nadeau's Technical Advisory at Jasper (YPC Technologies)"
+title: 'Reimagining Kitchen Automation: Nicholas Nadeau''s Technical Advisory at Jasper
+  (YPC Technologies)'
 ---
 
 As the demand for innovative and sustainable food solutions continues to grow, [Jasper (YPC Technologies)](https://www.ypc-technologies.com/) has emerged as a pioneer in kitchen automation by developing robotic kitchens that can prepare various dishes using fresh ingredients. Nicholas Nadeau, a technical advisor to Jasper, was key in guiding the company through its transformation and growth.
