@@ -1,31 +1,19 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Keep It Simple, Startup: The No-Nonsense Approach to Tech Development"
-subtitle: ""
-summary: ""
 authors: []
-tags: []
 categories: []
-date: 2023-04-24
-lastmod: 2023-04-21T11:04:49-04:00
-featured: false
+date: "2023-04-24"
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+lastmod: "2023-04-21T11:04:49-04:00"
 projects: []
+subtitle: ""
+summary: ""
+tags: []
+title: 'Keep It Simple, Startup: The No-Nonsense Approach to Tech Development'
 ---
 
 Getting caught up in the race to create the next groundbreaking technology is easy. However, startups should not lose sight of the bigger picture – developing their minimum viable products (MVPs) and achieving market success.
