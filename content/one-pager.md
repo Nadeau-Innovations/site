@@ -51,8 +51,7 @@ sections:
       ## Our Customizable Packages
 
         - **Innovate**: Boost your team with flexible expertise and strategic advice via a bank-of-hours retainer.
-        - **Execute**: Drive agile projects and operations with consistent weekly sessions at a flat monthly rate.
-        - **Accelerate**: Integrate support to enhance performance and reach milestones at an hourly rate (minimum 32 hours/month commitment).
+        - **Execute**: Drive agile projects and operations, and reach milestones with consistent, integrated support at an hourly rate (minimum 32 hours/month commitment).
 
       Non-retainer packages start with a three-month commitment, then switch to month-to-month with a 30-day notice for pauses or cancellations.
 
@@ -68,6 +67,17 @@ sections:
 
       Nicholas is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ). He earned his Ph.D. from École de technologie supérieure, where his research combined machine learning and collaborative robotics to develop [safe robotic freehand medical ultrasound methods](https://espace.etsmtl.ca/id/eprint/2461/). Nicholas actively participates in the Montréal startup community, mentoring at accelerators, including [NextAI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal/), and [FounderFuel](https://founderfuel.com/).
 
+- block: companies
+  content:
+    items:
+    - icon: fundica
+      url: https://www.fundica.com/
+    - icon: pivot-edge
+      url: https://www.pivotandedge.com/
+    - icon: rdp
+      url: https://www.rdpartners.com/
+    title: Our Partners
+  id: partners
 - block: hero
   content:
     cta:

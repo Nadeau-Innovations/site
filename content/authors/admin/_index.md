@@ -37,8 +37,6 @@ sync the following bios:
 - "description" in config/_default/params.toml
 -->
 
-Nicholas Nadeau is a seasoned fractional CTO who helps companies build next-generation technologies and leads high-performance teams across diverse domains, including [biomedical]({{< ref "project/rogue" >}}), [food robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}).
+Nicholas Nadeau is a dynamic CTO and seasoned professional engineer specializing in next-gen technology development and executive leadership. With a Ph.D. from École de technologie supérieure, Nicholas has a strong background in [AI/ML]({{< ref "project/halodi" >}}), [biomedical]({{< ref "project/rogue" >}}), [collaborative robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}).
 
-As a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ), Nicholas earned his Ph.D. from École de technologie supérieure. His research focused on combining machine learning and collaborative robotics to develop safe robotic freehand medical ultrasound methods.
-
-Nicholas actively contributes to the Montreal startup community, mentoring at top accelerators like NextAI, Techstars, Creative Destruction Lab, and FounderFuel.
+As a trusted mentor in the Montréal startup community, he supports accelerators like [NextAI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/), and [FounderFuel](https://founderfuel.com/). Nicholas is dedicated to empowering hard-tech startups and driving corporate innovation by providing expert guidance, strategic direction, and access to cutting-edge technology, fostering inventive solutions, building high-performance teams, and inspiring confidence in clients.
