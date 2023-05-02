@@ -51,8 +51,7 @@ sections:
       ## Our Customizable Packages
 
         - **Innovate**: Boost your team with flexible expertise and strategic advice via a bank-of-hours retainer.
-        - **Execute**: Drive agile projects and operations with consistent weekly sessions at a flat monthly rate.
-        - **Accelerate**: Integrate support to enhance performance and reach milestones at an hourly rate (minimum 32 hours/month commitment).
+        - **Execute**: Drive agile projects and operations, and reach milestones with consistent, integrated support at an hourly rate (minimum 32 hours/month commitment).
 
       Non-retainer packages start with a three-month commitment, then switch to month-to-month with a 30-day notice for pauses or cancellations.
 
