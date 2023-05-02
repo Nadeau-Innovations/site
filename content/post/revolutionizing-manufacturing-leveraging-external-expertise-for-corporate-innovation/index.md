@@ -13,7 +13,8 @@ projects: []
 subtitle: ""
 summary: ""
 tags: []
-title: "Revolutionizing Manufacturing: Leveraging External Expertise for Corporate Innovation"
+title: 'Revolutionizing Manufacturing: Leveraging External Expertise for Corporate
+  Innovation'
 ---
 
 Organizations must pursue corporate innovation to remain competitive in today's dynamic business environment. Innovation may involve:
