@@ -61,13 +61,17 @@ sections:
 - block: companies
   content:
     items:
+    - icon: airbotics
+      url: https://www.airbotics.io/
     - icon: fundica
       url: https://www.fundica.com/
+    - icon: interius-farms
+      url: https://interiusfarms.com/
     - icon: pivot-edge
       url: https://www.pivotandedge.com/
     - icon: rdp
       url: https://www.rdpartners.com/
-    title: Our Partners
+    title: Clients & Partners
   id: partners
 - block: hero
   content:
