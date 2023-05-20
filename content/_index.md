@@ -10,7 +10,7 @@ sections:
   design:
     background:
       image:
-        filename: heroes/talking.jpg
+        filename: heroes/startup.jpg
         filters:
           brightness: 0.6
         parallax: false
