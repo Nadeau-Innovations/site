@@ -41,7 +41,7 @@ sections:
     title: Fractional CTO Expertise for Hard Tech Success
 - block: collection
   content:
-    count: 5
+    count: 3
     filters:
       author: ""
       category: ""
@@ -59,6 +59,23 @@ sections:
   design:
     columns: "1"
     view: showcase
+- block: companies
+  content:
+    items:
+    - icon: airbotics
+      url: https://www.airbotics.io/
+    - icon: fundica
+      url: https://www.fundica.com/
+    - icon: interius-farms
+      url: https://interiusfarms.com/
+    - icon: osedea
+      url: https://interiusfarms.com/
+    - icon: pivot-edge
+      url: https://www.pivotandedge.com/
+    - icon: rdp
+      url: https://www.rdpartners.com/
+    title: Clients & Partners
+  id: partners
 - block: hero
   content:
     cta:

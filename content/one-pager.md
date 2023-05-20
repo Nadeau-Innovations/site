@@ -66,17 +66,22 @@ sections:
         - [Biomedical, neuroimaging, and surgical robotics]({{< ref "project/rogue/" >}})
 
       Nicholas is a professional engineer (P.Eng.) and a member of the Ordre des ingénieurs du Québec (OIQ). He earned his Ph.D. from École de technologie supérieure, where his research combined machine learning and collaborative robotics to develop [safe robotic freehand medical ultrasound methods](https://espace.etsmtl.ca/id/eprint/2461/). Nicholas actively participates in the Montréal startup community, mentoring at accelerators, including [NextAI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal/), and [FounderFuel](https://founderfuel.com/).
-
 - block: companies
   content:
     items:
+    - icon: airbotics
+      url: https://www.airbotics.io/
     - icon: fundica
       url: https://www.fundica.com/
+    - icon: interius-farms
+      url: https://interiusfarms.com/
+    - icon: osedea
+      url: https://interiusfarms.com/
     - icon: pivot-edge
       url: https://www.pivotandedge.com/
     - icon: rdp
       url: https://www.rdpartners.com/
-    title: Our Partners
+    title: Clients & Partners
   id: partners
 - block: hero
   content:
