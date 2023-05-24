@@ -10,7 +10,7 @@ sections:
   design:
     background:
       image:
-        filename: heroes/startup.jpg
+        filename: heroes/homepage.jpg
         filters:
           brightness: 0.6
         parallax: false
