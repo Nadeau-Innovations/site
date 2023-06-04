@@ -14,7 +14,7 @@ sections:
       image:
         filename: heroes/event.jpg
         filters:
-          brightness: 0.6
+          brightness: 0.3
         parallax: false
         position: center
         size: cover
