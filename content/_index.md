@@ -10,7 +10,7 @@ sections:
   design:
     background:
       image:
-        filename: heroes/homepage.jpg
+        filename: heroes/robot-wine.jpg
         filters:
           brightness: 0.6
         parallax: false
