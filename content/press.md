@@ -40,7 +40,6 @@ sections:
   design:
     columns: "1"
     view: showcase
-  id: press
 - block: hero
   content:
     cta:
