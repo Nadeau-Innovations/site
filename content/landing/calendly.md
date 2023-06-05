@@ -2,13 +2,15 @@
 sections:
 - block: hero
   content:
-    text: Discover how our expert fractional CTO support has driven innovation and
-      growth for hard tech startups and corporations
-    title: '**Success Stories: Transforming Industries**'
+    cta:
+      label: Explore Services
+      url: /services
+    text: Amplify your tech innovation with personalized fractional CTO expertise
+    title: '**Unleash Your Tech Potential**'
   design:
     background:
       image:
-        filename: heroes/engineering-team.jpg
+        filename: heroes/hands.jpg
         filters:
           brightness: 0.6
         parallax: false
@@ -17,30 +19,10 @@ sections:
       text_color_light: true
     spacing:
       padding:
-      - 200px
+      - 100px
       - "0"
-      - 200px
+      - 100px
       - "0"
-- block: collection
-  content:
-    count: 3
-    filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
-      featured_only: false
-      folders:
-      - project
-      publication_type: ""
-      tag: ""
-    offset: 0
-    sort_ascending: false
-    sort_by: Date
-  design:
-    columns: "1"
-    view: showcase
 - block: companies
   content:
     items:
@@ -60,19 +42,27 @@ sections:
 - block: hero
   content:
     cta:
-      label: Let's Talk
-      url: /contact
-    title: Transform Your Hard Tech Vision Into Reality
+      label: Stay Informed
+      url: https://engnadeau.substack.com/
+    text: "Stay informed on hard tech and innovation in startups and agile businesses.
+      Subscribe now. \U0001F680"
+    title: Stay Informed. Subscribe to Our Newsletter.
   design:
     background:
       image:
-        filename: heroes/collaborating.jpg
+        filename: heroes/robot-coffee.jpg
         filters:
-          brightness: 0.6
+          brightness: 0.4
         parallax: false
         position: center
         size: cover
       text_color_light: true
-title: Results
+    spacing:
+      padding:
+      - 100px
+      - "0"
+      - 100px
+      - "0"
+title: Services
 type: landing
 ---

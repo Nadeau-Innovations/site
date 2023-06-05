@@ -41,7 +41,6 @@ sections:
   design:
     columns: "1"
     view: showcase
-  id: posts
 - block: hero
   content:
     cta:

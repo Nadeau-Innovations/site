@@ -74,7 +74,6 @@ sections:
     - icon: rdp
       url: https://www.rdpartners.com/
     title: Clients & Partners
-  id: partners
 - block: hero
   content:
     cta:

@@ -2,13 +2,16 @@
 sections:
 - block: hero
   content:
-    text: Explore the latest news stories featuring our innovative hard tech solutions,
-      expert insights, and accomplishments
-    title: '**Nadeau Innovations in the Spotlight: Media Coverage & Press Releases**'
+    cta:
+      label: Refer Services
+      url: /services
+    text: |
+      Enjoyed our services? Refer a friend and share the benefits of our personalized fractional CTO expertise.
+    title: '**Refer a Friend and Share the Benefits**'
   design:
     background:
       image:
-        filename: heroes/news.jpg
+        filename: heroes/hands.jpg
         filters:
           brightness: 0.6
         parallax: false
@@ -17,13 +20,13 @@ sections:
       text_color_light: true
     spacing:
       padding:
-      - 200px
+      - 100px
       - "0"
-      - 200px
+      - 100px
       - "0"
 - block: collection
   content:
-    count: 10
+    count: 3
     filters:
       author: ""
       category: ""
@@ -31,31 +34,41 @@ sections:
       exclude_future: false
       exclude_past: false
       featured_only: false
-      folders: ""
+      folders:
+      - post
       publication_type: ""
-      tag: press
+      tag: ""
     offset: 0
     sort_ascending: false
     sort_by: Date
+    title: Latest Insights
   design:
     columns: "1"
     view: showcase
 - block: hero
   content:
     cta:
-      label: Let's Talk
-      url: /contact
-    title: Transform Your Hard Tech Vision Into Reality
+      label: Stay Informed
+      url: https://engnadeau.substack.com/
+    text: "Stay informed on hard tech and innovation in startups and agile businesses.
+      Subscribe now. \U0001F680"
+    title: Stay Informed. Subscribe to Our Newsletter.
   design:
     background:
       image:
-        filename: heroes/collaborating.jpg
+        filename: heroes/robot-coffee.jpg
         filters:
-          brightness: 0.6
+          brightness: 0.4
         parallax: false
         position: center
         size: cover
       text_color_light: true
-title: Press
+    spacing:
+      padding:
+      - 100px
+      - "0"
+      - 100px
+      - "0"
+title: Services
 type: landing
 ---

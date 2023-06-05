@@ -10,7 +10,7 @@ sections:
   design:
     background:
       image:
-        filename: heroes/homepage.jpg
+        filename: heroes/robot-wine.jpg
         filters:
           brightness: 0.6
         parallax: false
@@ -26,18 +26,21 @@ sections:
 - block: features
   content:
     items:
-    - description: Define and align your technology roadmap
-      icon: chart-line
+    - description: Align technology, people, and processes to achieve outstanding
+        results.
+      icon: users-cog
       icon_pack: fas
-      name: STRATEGIZE
-    - description: Drive agile development and efficient operations
-      icon: cogs
+      name: Align for Success
+    - description: Expert guidance to drive innovation, boost morale, and share knowledge,
+        empowering your team.
+      icon: lightbulb
       icon_pack: fas
-      name: IMPLEMENT
-    - description: Nurture engineering talent and boost performance
+      name: Empower Innovation
+    - description: Optimize technology strategy and development for faster scaling
+        and accelerated growth.
       icon: rocket
       icon_pack: fas
-      name: OPTIMIZE
+      name: Accelerate Growth
     title: Fractional CTO Expertise for Hard Tech Success
 - block: collection
   content:
@@ -75,7 +78,6 @@ sections:
     - icon: rdp
       url: https://www.rdpartners.com/
     title: Clients & Partners
-  id: partners
 - block: hero
   content:
     cta:
