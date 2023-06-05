@@ -5,7 +5,8 @@ sections:
     cta:
       label: Refer Services
       url: /services
-    text: Enjoyed our services? Refer a friend and share the benefits of our personalized fractional CTO expertise.
+    text: |
+      Enjoyed our services? Refer a friend and share the benefits of our personalized fractional CTO expertise.
     title: '**Refer a Friend and Share the Benefits**'
   design:
     background:
@@ -25,7 +26,6 @@ sections:
       - "0"
 - block: collection
   content:
-    title: Latest Insights
     count: 3
     filters:
       author: ""
@@ -41,6 +41,7 @@ sections:
     offset: 0
     sort_ascending: false
     sort_by: Date
+    title: Latest Insights
   design:
     columns: "1"
     view: showcase
@@ -49,7 +50,8 @@ sections:
     cta:
       label: Stay Informed
       url: https://engnadeau.substack.com/
-    text: Stay informed on hard tech and innovation in startups and agile businesses. Subscribe now. 🚀
+    text: "Stay informed on hard tech and innovation in startups and agile businesses.
+      Subscribe now. \U0001F680"
     title: Stay Informed. Subscribe to Our Newsletter.
   design:
     background:

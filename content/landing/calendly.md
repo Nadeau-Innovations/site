@@ -44,7 +44,8 @@ sections:
     cta:
       label: Stay Informed
       url: https://engnadeau.substack.com/
-    text: Stay informed on hard tech and innovation in startups and agile businesses. Subscribe now. 🚀
+    text: "Stay informed on hard tech and innovation in startups and agile businesses.
+      Subscribe now. \U0001F680"
     title: Stay Informed. Subscribe to Our Newsletter.
   design:
     background:

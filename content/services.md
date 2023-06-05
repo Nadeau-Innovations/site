@@ -50,7 +50,9 @@ sections:
 - block: features
   content:
     items:
-    - description: Boost your team with [expertise and strategic advice]({{< ref "/results" >}}) through a bank-of-hours retainer, providing flexible support tailored to your needs.
+    - description: Boost your team with [expertise and strategic advice]({{< ref "/results"
+        >}}) through a bank-of-hours retainer, providing flexible support tailored
+        to your needs.
       icon: hourglass-half
       icon_pack: fas
       name: Flexible Retainer
@@ -59,7 +61,8 @@ sections:
       icon: hands-helping
       icon_pack: fas
       name: Embedded Expertise
-    - description: Empower your team with [workshops, talks, and events]({{< ref "/events" >}}) that equip them with strategies for navigating hard tech innovation.
+    - description: Empower your team with [workshops, talks, and events]({{< ref "/events"
+        >}}) that equip them with strategies for navigating hard tech innovation.
       icon: brain
       icon_pack: fas
       name: Targeted Workshops
