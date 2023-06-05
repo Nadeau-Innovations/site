@@ -1,6 +1,6 @@
 ---
 bio: |
-  Nicholas Nadeau is a fractional CTO who empowers teams to build innovative, next-generation technologies.
+  Nicholas Nadeau is a fractional CTO empowering startups with next-gen technology, AI/ML expertise, and a passion for driving corporate innovation.
   Stay informed on cutting-edge hard tech trends - [subscribe to my newsletter](https://engnadeau.substack.com). Ready to innovate? [Discover my services]({{< ref "services/" >}}) and accelerate your growth.
 email: ""
 first_name: Nicholas
@@ -34,9 +34,9 @@ title: Nicholas Nadeau, Ph.D., P.Eng.
 <!--
 sync the following bios:
 - "bio" above
-- "description" in config/_default/params.toml
+- "description" in config/_default/params.yaml
 -->
 
-Nicholas Nadeau is a dynamic CTO and seasoned professional engineer specializing in next-gen technology development and executive leadership. With a Ph.D. from École de technologie supérieure, Nicholas has a strong background in [AI/ML]({{< ref "project/halodi" >}}), [biomedical]({{< ref "project/rogue" >}}), [collaborative robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}).
+Dr. Nicholas Nadeau is a dynamic CTO and seasoned professional engineer specializing in next-gen technology development and executive leadership. With extensive experience in [AI/ML]({{< ref "project/halodi" >}}), [biomedical engineering]({{< ref "project/rogue" >}}), [collaborative robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}), Nicholas brings a wealth of knowledge and expertise to the table.
 
-As a trusted mentor in the Montréal startup community, he supports accelerators like [NextAI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/), and [FounderFuel](https://founderfuel.com/). Nicholas is dedicated to empowering hard-tech startups and driving corporate innovation by providing expert guidance, strategic direction, and access to cutting-edge technology, fostering inventive solutions, building high-performance teams, and inspiring confidence in clients.
+As a trusted mentor and innovator, he actively supports and empowers startups and organizations worldwide, including renowned accelerators like [Next AI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/), and [FounderFuel](https://founderfuel.com/). Nicholas is dedicated to driving corporate innovation by providing expert guidance, strategic direction, and access to cutting-edge technology. His ability to foster inventive solutions, build high-performance teams, and inspire confidence in clients makes him an invaluable asset for executives seeking to stay ahead in today's rapidly evolving technological landscape.
