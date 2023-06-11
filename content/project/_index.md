@@ -2,6 +2,6 @@
 banner:
   image: heroes/cobot.jpg
 cms_exclude: true
-title: Publications
-view: 4
+title: Success Stories
+view: 2
 ---
