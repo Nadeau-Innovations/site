@@ -14,5 +14,5 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/negin-ashouri/
 superuser: false
-title: Negin Ashouri
+title: Negin Ashouri, MCompSc.
 ---
