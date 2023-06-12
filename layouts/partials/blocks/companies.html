@@ -1,24 +1,16 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 
-<div class="row featurette">
-  {{ with $block.content.title }}
+<div class="row featurette d-flex flex-wrap justify-content-center">
   <div class="col-md-12 section-heading">
-    <h1>{{ . | markdownify | emojify }}</h1>
+    <h1>Clients & Partners</h1>
   </div>
-  {{ end }}
 
-  {{ with $block.content.text }}
-  <div class="col-md-12">
-    {{ . | emojify | markdownify }}
-  </div>
-  {{ end }}
-
-  {{ range $block.content.items }}
+  {{ range site.Params.companies }}
   {{ $url := .url }}
-  <div class="col-12 col-sm-4">
+  <div class="col-12 col-sm-4 d-flex justify-content-center">
     {{ with .icon }}
-    <div class="featurette-icon hover-zoom">
+    <div class=" featurette-icon hover-zoom">
       {{- $svg_icon := resources.Get (printf "media/companies/%s.svg" .) -}}
       <a href="{{ $url }}" target="_blank">
         <img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}"
