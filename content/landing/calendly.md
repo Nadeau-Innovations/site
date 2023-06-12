@@ -48,6 +48,5 @@ sections:
       - "0"
       - 100px
       - "0"
-title: Services
 type: landing
 ---
