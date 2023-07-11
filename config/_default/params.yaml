@@ -16,7 +16,7 @@ marketing:
     local_business_type: ProfessionalService
     org_name: ''
     # NN: max ~160 characters description for SEO
-    description: "Nadeau Innovations: Fractional CTO, expert in next-gen tech. Empowers startups worldwide, drives corporate innovation. AI/ML, robotics, additive manufacturing."
+    description: "Unlock Your Hard Tech Potential: We empower startups and corporate innovation with fractional CTO expertise."
     twitter: 'NadeauInnov'
   analytics:
     google_analytics: 'UA-60125866-2'
