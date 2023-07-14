@@ -1,0 +1,666 @@
+Path: /home/nicholas/git/site/content/contact.md
+Content:
+sections:
+- block: hero
+  content:
+    text: Let's discuss how our expert fractional CTO services can accelerate your
+      hard tech innovation
+    title: '**Get in Touch**'
+  design:
+    background:
+      image:
+        filename: heroes/conversation.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 200px
+      - '0'
+      - 200px
+      - '0'
+- block: contact
+  content:
+    form:
+      netlify:
+        captcha: true
+      provider: netlify
+    title: Reach Out for Expert Guidance
+  design:
+    columns: '1'
+- block: hero
+  content:
+    cta:
+      label: Explore Our Services
+      url: /contact
+    text: Explore how our expert fractional CTO services can transform your hard tech
+      innovation journey
+    title: Discover the Benefits
+  design:
+    background:
+      image:
+        filename: heroes/collaborating.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+title: Contact
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/services.md
+Content:
+sections:
+- block: hero
+  content:
+    cta:
+      label: Get Started
+      url: /contact
+    text: Tailored fractional CTO services for startups and corporate innovation
+    title: '**Propel Your Tech Innovation**'
+  design:
+    background:
+      image:
+        filename: heroes/3dp-lab.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 200px
+      - '0'
+      - 200px
+      - '0'
+- block: markdown
+  content:
+    text: 'Nadeau Innovations empowers companies with tailored fractional CTO services
+      to develop next-gen technologies and high-performance teams. Our strategic partnership
+      offers expertise, flexibility, cost-effectiveness, and an independent perspective
+      to drive innovation in startups and corporate ventures.
+
+      '
+    title: What We Do
+- block: features
+  content:
+    items:
+    - description: Align technology, people, and processes to achieve outstanding
+        results.
+      icon: users-cog
+      icon_pack: fas
+      name: Align for Success
+    - description: Expert guidance to drive innovation, boost morale, and share knowledge,
+        empowering your team.
+      icon: lightbulb
+      icon_pack: fas
+      name: Empower Innovation
+    - description: Optimize technology strategy and development for faster scaling
+        and accelerated growth.
+      icon: rocket
+      icon_pack: fas
+      name: Accelerate Growth
+    title: Our Approach
+- block: features
+  content:
+    items:
+    - description: Boost your team with [expertise and strategic advice]({{< ref "/results"
+        >}}) through a bank-of-hours retainer, providing flexible support tailored
+        to your needs.
+      icon: hourglass-half
+      icon_pack: fas
+      name: Flexible Retainer
+    - description: '[Drive agile projects and operations]({{< ref "/results" >}}),
+        reaching milestones with integrated support through hourly rates and dedicated
+        expertise.
+
+        '
+      icon: hands-helping
+      icon_pack: fas
+      name: Embedded Expertise
+    - description: Empower your team with [workshops, talks, and events]({{< ref "/events"
+        >}}) that equip them with strategies for navigating hard tech innovation.
+      icon: brain
+      icon_pack: fas
+      name: Targeted Workshops
+    title: Tailor-Made Packages
+- block: features
+  content:
+    items:
+    - description: Led by [Nicholas Nadeau]({{< ref "/about" >}}), Nadeau Innovations
+        has extensive experience in innovative hardware and software systems.
+      icon: bolt
+      icon_pack: fas
+      name: Cutting-Edge Expertise
+    - description: '[Our expertise]({{< ref "/results" >}}) spans humanoid robotics,
+        VR/AR/XR, AI/ML, robotics, computer vision, 3D printing and additive manufacturing,
+        IIoT, and biomedical.
+
+        '
+      icon: puzzle-piece
+      icon_pack: fas
+      name: Diverse Tech Domains
+    - description: '[Nicholas Nadeau]({{< ref "/about" >}}), a professional engineer,
+        holds a Ph.D. in robotics and AI/ML and actively mentors at renowned accelerators
+        like [Next AI](https://www.nextcanada.com/next-ai), [Techstars](https://www.techstars.com),
+        and [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal).
+
+        '
+      icon: medal
+      icon_pack: fas
+      name: Accomplished Leadership
+    title: Choose Success
+- block: companies
+- block: hero
+  content:
+    cta:
+      label: Let's Talk
+      url: /contact
+    text: Get in touch for a tailored strategy to achieve your goals
+    title: Ready to Elevate Your Hard Tech Innovation?
+  design:
+    background:
+      image:
+        filename: heroes/collaborating.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+title: Services
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/blog.md
+Content:
+sections:
+- block: hero
+  content:
+    text: Explore the latest trends, strategies, and best practices in hard tech and
+      business innovation
+    title: '**Innovative Insights**'
+  design:
+    background:
+      image:
+        filename: heroes/cobot.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 200px
+      - '0'
+      - 200px
+      - '0'
+- block: collection
+  content:
+    count: 5
+    filters:
+      author: ''
+      category: ''
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      featured_only: false
+      folders:
+      - post
+      publication_type: ''
+      tag: ''
+    offset: 0
+    sort_ascending: false
+    sort_by: Date
+  design:
+    columns: '1'
+    view: showcase
+- block: hero
+  content:
+    cta:
+      label: Let's Talk
+      url: /contact
+    title: Transform Your Hard Tech Vision Into Reality
+  design:
+    background:
+      image:
+        filename: heroes/collaborating.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+title: Results
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/about.md
+Content:
+sections:
+- block: hero
+  content:
+    text: Discover how our experience in hard tech drives groundbreaking solutions
+      for startups and corporations
+    title: '**Meet the Expertise Behind the Innovations**'
+  design:
+    background:
+      image:
+        filename: heroes/team.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 200px
+      - '0'
+      - 200px
+      - '0'
+- block: about.avatar
+  content:
+    username: admin
+- block: hero
+  content:
+    text: Empower hard tech startups and corporate innovation by providing expert
+      guidance and strategic direction to accelerate their growth
+    title: Our Mission
+  design:
+    background:
+      image:
+        filename: heroes/engineer.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+- block: features
+  content:
+    items:
+    - description: We enable access to cutting-edge innovation for businesses of all
+        sizes
+      icon: globe
+      icon_pack: fas
+      name: Purpose
+    - description: We foster inventive solutions to real-world challenges in hard
+        tech
+      icon: lightbulb
+      icon_pack: fas
+      name: Ingenuity
+    - description: We inspire confidence, ownership, and responsibility in our clients
+        and their teams
+      icon: users
+      icon_pack: fas
+      name: Empowerment
+    title: Our Values
+- block: companies
+- block: hero
+  content:
+    cta:
+      label: Let's Talk
+      url: /contact
+    title: Transform Your Hard Tech Vision Into Reality
+  design:
+    background:
+      image:
+        filename: heroes/collaborating.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+title: About
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/events.md
+Content:
+sections:
+- block: hero
+  content:
+    cta:
+      label: Book Your Event
+      url: contact/
+    text: 'Explore our diverse range of past, present, and upcoming workshops, webinars,
+      and networking events, designed to inspire innovation, foster collaboration,
+      and accelerate your growth.
+
+      Ready to create your own event?
+
+      '
+    title: '**Unleashing Creativity and Collaboration: Recent & Upcoming Events**'
+  design:
+    background:
+      image:
+        filename: heroes/event.jpg
+        filters:
+          brightness: 0.3
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 200px
+      - '0'
+      - 200px
+      - '0'
+- block: collection
+  content:
+    count: 5
+    filters:
+      author: ''
+      category: ''
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      featured_only: false
+      folders:
+      - event
+      publication_type: ''
+      tag: ''
+    offset: 0
+    sort_ascending: false
+    sort_by: Date
+  design:
+    columns: '1'
+    view: showcase
+- block: hero
+  content:
+    cta:
+      label: Let's Talk
+      url: /contact
+    title: Transform Your Hard Tech Vision Into Reality
+  design:
+    background:
+      image:
+        filename: heroes/collaborating.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+title: Results
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/results.md
+Content:
+sections:
+- block: hero
+  content:
+    text: Discover how our expert fractional CTO support has driven innovation and
+      growth for hard tech startups and corporations
+    title: '**Success Stories: Transforming Industries**'
+  design:
+    background:
+      image:
+        filename: heroes/engineering-team.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 200px
+      - '0'
+      - 200px
+      - '0'
+- block: collection
+  content:
+    count: 3
+    filters:
+      author: ''
+      category: ''
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      featured_only: false
+      folders:
+      - project
+      publication_type: ''
+      tag: ''
+    offset: 0
+    sort_ascending: false
+    sort_by: Date
+  design:
+    columns: '1'
+    view: showcase
+- block: companies
+- block: hero
+  content:
+    cta:
+      label: Let's Talk
+      url: /contact
+    title: Transform Your Hard Tech Vision Into Reality
+  design:
+    background:
+      image:
+        filename: heroes/collaborating.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+title: Results
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/press.md
+Content:
+sections:
+- block: hero
+  content:
+    text: Explore the latest news stories featuring our innovative hard tech solutions,
+      expert insights, and accomplishments
+    title: '**Nadeau Innovations in the Spotlight: Media Coverage & Press Releases**'
+  design:
+    background:
+      image:
+        filename: heroes/news.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 200px
+      - '0'
+      - 200px
+      - '0'
+- block: collection
+  content:
+    count: 10
+    filters:
+      author: ''
+      category: ''
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      featured_only: false
+      folders: ''
+      publication_type: ''
+      tag: press
+    offset: 0
+    sort_ascending: false
+    sort_by: Date
+  design:
+    columns: '1'
+    view: showcase
+- block: hero
+  content:
+    cta:
+      label: Let's Talk
+      url: /contact
+    title: Transform Your Hard Tech Vision Into Reality
+  design:
+    background:
+      image:
+        filename: heroes/collaborating.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+title: Press
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/landing/client.md
+Content:
+sections:
+- block: hero
+  content:
+    cta:
+      label: Refer Services
+      url: /services
+    text: 'Enjoyed our services? Refer a friend and share the benefits of our personalized
+      fractional CTO expertise.
+
+      '
+    title: '**Refer a Friend and Share the Benefits**'
+  design:
+    background:
+      image:
+        filename: heroes/hands.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 100px
+      - '0'
+      - 100px
+      - '0'
+- block: collection
+  content:
+    count: 3
+    filters:
+      author: ''
+      category: ''
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      featured_only: false
+      folders:
+      - post
+      publication_type: ''
+      tag: ''
+    offset: 0
+    sort_ascending: false
+    sort_by: Date
+    title: Latest Insights
+  design:
+    columns: '1'
+    view: showcase
+- block: hero
+  content:
+    cta:
+      label: Stay Informed
+      url: https://engnadeau.substack.com/
+    text: "Stay informed on hard tech and innovation in startups and agile businesses.\
+      \ Subscribe now. \U0001F680"
+    title: Stay Informed. Subscribe to Our Newsletter.
+  design:
+    background:
+      image:
+        filename: heroes/robot-coffee.jpg
+        filters:
+          brightness: 0.4
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 100px
+      - '0'
+      - 100px
+      - '0'
+type: landing
+---
+
+
+Path: /home/nicholas/git/site/content/landing/calendly.md
+Content:
+sections:
+- block: hero
+  content:
+    cta:
+      label: Explore Services
+      url: /services
+    text: Amplify your tech innovation with personalized fractional CTO expertise
+    title: '**Unleash Your Tech Potential**'
+  design:
+    background:
+      image:
+        filename: heroes/hands.jpg
+        filters:
+          brightness: 0.6
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 100px
+      - '0'
+      - 100px
+      - '0'
+- block: companies
+- block: hero
+  content:
+    cta:
+      label: Stay Informed
+      url: https://engnadeau.substack.com/
+    text: "Stay informed on hard tech and innovation in startups and agile businesses.\
+      \ Subscribe now. \U0001F680"
+    title: Stay Informed. Subscribe to Our Newsletter.
+  design:
+    background:
+      image:
+        filename: heroes/robot-coffee.jpg
+        filters:
+          brightness: 0.4
+        parallax: false
+        position: center
+        size: cover
+      text_color_light: true
+    spacing:
+      padding:
+      - 100px
+      - '0'
+      - 100px
+      - '0'
+type: landing
+---
+
+
