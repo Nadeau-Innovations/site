@@ -1,6 +1,6 @@
 ---
 bio: |
-  Nicholas Nadeau is a fractional CTO empowering startups with next-gen technology, AI/ML expertise, and a passion for driving corporate innovation.
+  Nicholas Nadeau is a fractional CTO empowering startups with next-gen technology expertise, and a passion for driving corporate innovation.
   Stay informed on cutting-edge hard tech trends - [subscribe to my newsletter](https://engnadeau.substack.com). Ready to innovate? [Discover my services]({{< ref "services/" >}}) and accelerate your growth.
 email: ""
 first_name: Nicholas
@@ -37,6 +37,4 @@ sync the following bios:
 - "description" in config/_default/params.yaml
 -->
 
-Dr. Nicholas Nadeau is a dynamic CTO and seasoned professional engineer specializing in next-gen technology development and executive leadership. With extensive experience in [AI/ML]({{< ref "project/halodi" >}}), [biomedical engineering]({{< ref "project/rogue" >}}), [collaborative robotics]({{< ref "project/ypc" >}}), [humanoid robotics]({{< ref "project/halodi" >}}), [Industry 4.0]({{< ref "project/osedea" >}}), and [additive manufacturing]({{< ref "project/aon3d" >}}), Nicholas brings a wealth of knowledge and expertise.
-
-As a trusted mentor and innovator, he supports and empowers startups and organizations worldwide, including renowned accelerators like [Next AI](https://www.nextcanada.com/next-ai/), [Techstars](https://www.techstars.com/), [Creative Destruction Lab](https://creativedestructionlab.com/), and [FounderFuel](https://founderfuel.com/). Nicholas is dedicated to driving corporate innovation by providing expert guidance, strategic direction, and access to cutting-edge technology. His ability to foster inventive solutions, build high-performance teams, and inspire confidence in clients makes him an invaluable asset for executives seeking to stay ahead in today's rapidly evolving technological landscape.
+Dr. Nicholas Nadeau, a dynamic CTO and seasoned engineer, brings deep expertise in AI/ML, robotics, 3D printing, and other emerging technologies. As [ex-CTO of 1X (Halodi Robotics)]({{< ref "project/halodi" >}}) he secured [the world’s largest humanoid robotics contract with ADT Commercial for security guarding](https://newsroom.adt.com/adt-commercial/adt-commercial-unveils-evoguard-intelligent-autonomous-security-solutions-brand-at-ces-2023) and [raised $24M from OpenAI](https://1xtech.medium.com/1x-raises-23-5m-in-series-a2-funding-led-by-openai-6040af4f3f4f). At [AON3D (YC W17)]({{< ref "project/aon3d" >}}), he enabled the first 3D-printed parts on the [space station](https://www.aon3d.com/case-study/why-the-canadian-space-agency-chose-3d-printing/) and [moon](https://www.aon3d.com/applications/the-first-3d-printed-parts-on-the-moon/). An active mentor for startups and executives at accelerators like [Techstars](https://www.techstars.com), [NextAI](https://www.nextcanada.com), and [Creative Destruction Lab](https://creativedestructionlab.com), Nicholas now leads [Nadeau Innovations]({{< ref "/" >}}) as a fractional CTO working with startups and corporate innovation tackling complex hard tech problems.
