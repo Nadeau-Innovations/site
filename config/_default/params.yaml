@@ -111,6 +111,8 @@ companies:
     url: https://femtherapeutics.com/
   - icon: fundica
     url: https://www.fundica.com/
+  - icon: gratified
+    url: https://gratified.io/
   - icon: interius-farms
     url: https://interiusfarms.com/
   - icon: osedea
@@ -119,3 +121,7 @@ companies:
     url: https://www.pivotandedge.com/
   - icon: rdp
     url: https://www.rdpartners.com/
+  - icon: smartone
+    url: https://smartone.ai/
+  - icon: xprlabs
+    url: https://xprlabs.com/
