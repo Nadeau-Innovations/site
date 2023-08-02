@@ -1,68 +1,38 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Bots Gone Wild Ai and Robotics in Unstructured Human Environments"
-event:
-event_url:
-location:
+abstract: null
 address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-08-02T08:45:22-04:00
-date_end: 2023-08-02T08:45:22-04:00
-all_day: false
-
-# Schedule page publish date (NOT event date).
-publishDate: 2023-08-02T08:45:22-04:00
-
+  city: Montréal
+  country: Canada
+  postcode: H4C 2K1
+  region: QC
+  street: 780 Av. Brewster
+all_day: true
 authors: []
-tags: []
-
-# Is this a featured event? (true/false)
+date: "2023-08-02"
+# date_end: "2023-08-02"
+event: "TandemLaunch Lunch & Learn"
+event_url: https://www.linkedin.com/posts/engnadeau_hardtech-activity-7092593946643550208-zucv?utm_source=share&utm_medium=member_desktop
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides:
-
-url_code:
-url_pdf:
-url_video:
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+location: TandemLaunch
 projects: []
+publishDate: "2023-08-02T08:45:22-04:00"
+slides: ""
+summary: null
+tags: []
+title: "Bots Gone Wild: AI and Robotics in Unstructured Human Environments"
+url_code: null
+url_pdf: null
+url_slides: null
+url_video: null
 ---
+
+This talk explores innovations in AI and robotics for unstructured real-world environments. It will cover closed-loop data applications, humanoid and service robots for labour, inspection use cases with Boston Dynamics Spot, and the coming wave of intelligent systems built to interact collaboratively in human spaces. The discussion will provide an insider perspective on the progress, pitfalls and potential as autonomy moves beyond controlled settings and into the chaos of the human world.
+
+![Nicholas with TandemLaunch and Osedea.](group-photo.jpg)
+
+Dr. Nicholas Nadeau, a dynamic CTO and seasoned engineer, brings deep expertise in AI/ML, robotics, 3D printing, and other emerging technologies.
+
