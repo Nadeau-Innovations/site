@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "site"
+version = "0.1.0"
+description = ""
+authors = ["Nicholas Nadeau <nicholas.nadeau@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+isort = "^5.12.0"
+ruff = "^0.0.284"
+fire = "^0.5.0"
+
+
+[tool.poetry.group.notebook.dependencies]
+nbformat = "^5.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 88
