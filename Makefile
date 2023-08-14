@@ -9,7 +9,7 @@ HUGO_FLAGS := --gc --minify
 
 # Run everything in sequence: clean, update, normalize, and build
 .PHONY: all
-all: debug clean update-wowchemy normalize-yaml build
+all: debug clean update-wowchemy normalize-yaml build format lint
 
 # Clean the environment
 .PHONY: clean
@@ -62,3 +62,17 @@ project:
 debug:
 	hugo env
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Python Targets
+
+.PHONY: format
+format:
+	poetry run black .
+	poetry run isort .
+	poetry run ruff --fix .
+
+.PHONY: lint
+lint:
+	poetry run black --check .
+	poetry run isort -c .
+	poetry run ruff check .
