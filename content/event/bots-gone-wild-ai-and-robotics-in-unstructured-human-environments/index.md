@@ -9,8 +9,7 @@ address:
 all_day: true
 authors: []
 date: "2023-08-02"
-# date_end: "2023-08-02"
-event: "TandemLaunch Lunch & Learn"
+event: TandemLaunch Lunch & Learn
 event_url: https://www.linkedin.com/posts/engnadeau_hardtech-activity-7092593946643550208-zucv?utm_source=share&utm_medium=member_desktop
 featured: false
 image:
@@ -23,7 +22,7 @@ publishDate: "2023-08-02T08:45:22-04:00"
 slides: ""
 summary: null
 tags: []
-title: "Bots Gone Wild: AI and Robotics in Unstructured Human Environments"
+title: 'Bots Gone Wild: AI and Robotics in Unstructured Human Environments'
 url_code: null
 url_pdf: null
 url_slides: null
