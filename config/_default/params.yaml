@@ -105,6 +105,8 @@ extensions:
 
 # Companiess Widget
 companies:
+  - icon: acrylic
+    url: https://acrylicrobotics.ca/
   - icon: airbotics
     url: https://www.airbotics.io/
   - icon: femtherapeutics
