@@ -22,7 +22,7 @@ jobs:
 
     - name: Install dependencies with Poetry
       run: |
-        poetry install --no-root --group dev
+        poetry install --only dev
 
     - name: Run lint
       run: make lint
