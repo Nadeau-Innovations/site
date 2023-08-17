@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "The Future of Art Acrylic Robotics Unique Approach to Creativity"
+title: "The Future of Art: Acrylic Robotics' Unique Approach to Creativity"
 summary: ""
 authors: []
 tags: []
