@@ -27,7 +27,11 @@ title: Identifying Opportunities to Leverage AI Within the Manufacturing Sector
 url_code: null
 url_pdf: null
 url_slides: null
-url_video: null
+url_video: https://www.youtube.com/watch?v=tH1h4uJ7SuY
+---
+
+{{< youtube tH1h4uJ7SuY >}}
+
 ---
 
 Join us as we explore the transformative potential of AI in manufacturing. In this insightful discussion, we'll focus on the tangible applications of AI, demonstrating how it can revolutionize operational efficiency, supply chains, and quality control. Discover the game-changing impact of AI in the manufacturing sector and how its integration can offer a significant return on investment and competitive edge.
