@@ -23,27 +23,27 @@ sections:
       - "0"
       - 300px
       - "0"
+
 - block: features
   content:
+    title: 'Solutions Tailored for You'
     items:
-    - description: Align technology, people, and processes to achieve outstanding
-        results.
-      icon: users-cog
-      icon_pack: fas
-      name: Align for Success
-    - description: Expert guidance to drive innovation, boost morale, and share knowledge,
-        empowering your team.
-      icon: lightbulb
-      icon_pack: fas
-      name: Empower Innovation
-    - description: Optimize technology strategy and development for faster scaling
-        and accelerated growth.
+    - description: Coaching on people, process, and product to guide startups through 'Death Valley,' fostering innovation and setting the stage for venture success.
       icon: rocket
       icon_pack: fas
-      name: Accelerate Growth
-    title: Fractional CTO Expertise for Hard Tech Success
+      name: For Startups
+    - description: Drive corporate innovation with strategic tech expertise. Integrate emerging technologies to align business goals and accelerate growth.
+      icon: building
+      icon_pack: fas
+      name: For Corporates
+    - description: Specialized workshops that dive into innovation and emerging technologies, emphasizing stakeholder alignment for effective innovation initiatives.
+      icon: chalkboard-teacher
+      icon_pack: fas
+      name: Workshops
+
 - block: collection
   content:
+    title: Success Stories
     count: 3
     filters:
       author: ""
@@ -62,7 +62,9 @@ sections:
   design:
     columns: "1"
     view: showcase
+
 - block: companies
+
 - block: hero
   content:
     cta:
