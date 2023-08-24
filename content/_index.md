@@ -23,27 +23,27 @@ sections:
       - "0"
       - 300px
       - "0"
-
 - block: features
   content:
-    title: 'Solutions Tailored for You'
     items:
-    - description: Coaching on people, process, and product to guide startups through 'Death Valley,' fostering innovation and setting the stage for venture success.
+    - description: Coaching on people, process, and product to guide startups through
+        'Death Valley,' fostering innovation and setting the stage for venture success.
       icon: rocket
       icon_pack: fas
       name: For Startups
-    - description: Drive corporate innovation with strategic tech expertise. Integrate emerging technologies to align business goals and accelerate growth.
+    - description: Drive corporate innovation with strategic tech expertise. Integrate
+        emerging technologies to align business goals and accelerate growth.
       icon: building
       icon_pack: fas
       name: For Corporates
-    - description: Specialized workshops that dive into innovation and emerging technologies, emphasizing stakeholder alignment for effective innovation initiatives.
+    - description: Specialized workshops that dive into innovation and emerging technologies,
+        emphasizing stakeholder alignment for effective innovation initiatives.
       icon: chalkboard-teacher
       icon_pack: fas
       name: Workshops
-
+    title: Solutions Tailored for You
 - block: collection
   content:
-    title: Success Stories
     count: 3
     filters:
       author: ""
@@ -59,12 +59,11 @@ sections:
     offset: 0
     sort_ascending: false
     sort_by: Date
+    title: Success Stories
   design:
     columns: "1"
     view: showcase
-
 - block: companies
-
 - block: hero
   content:
     cta:

@@ -23,22 +23,21 @@ sections:
       - "0"
       - 200px
       - "0"
-
 - block: markdown
   content:
     text: |
       At Nadeau Innovations, we specialize in turning your tech aspirations into reality. Through tailored fractional CTO services, we offer strategic counsel to navigate complex challenges in tech innovation, all while focusing on the three crucial pillars: people, process, and product.
     title: Our Value Proposition
-
 - block: features
   content:
-    title: 'Our Methodology'
     items:
-    - description: Bring coherence among people, processes, and product for exceptional outcomes.
+    - description: Bring coherence among people, processes, and product for exceptional
+        outcomes.
       icon: users-cog
       icon_pack: fas
       name: Strategic Alignment
-    - description: Nurture a culture of innovation through expert mentorship, uplifting team capabilities.
+    - description: Nurture a culture of innovation through expert mentorship, uplifting
+        team capabilities.
       icon: lightbulb
       icon_pack: fas
       name: Innovation Empowerment
@@ -46,12 +45,12 @@ sections:
       icon: rocket
       icon_pack: fas
       name: Growth Acceleration
-
+    title: Our Methodology
 - block: features
   content:
-    title: 'Custom Packages'
     items:
-    - description: Opt for a flexible bank-of-hours retainer for specialized, on-demand support.
+    - description: Opt for a flexible bank-of-hours retainer for specialized, on-demand
+        support.
       icon: hourglass-half
       icon_pack: fas
       name: Flex Retainer
@@ -59,30 +58,32 @@ sections:
       icon: hands-helping
       icon_pack: fas
       name: Embedded Consultancy
-    - description: Sponsor and schedule workshops that equip your team with actionable insights into emerging technologies.
+    - description: Sponsor and schedule workshops that equip your team with actionable
+        insights into emerging technologies.
       icon: chalkboard-teacher
       icon_pack: fas
       name: Specialized Workshops
-
+    title: Custom Packages
 - block: features
   content:
-    title: 'Why Choose Us?'
     items:
-    - description: Spearheaded by [Nicholas Nadeau]({{< ref "/about" >}}), boasting rich experience in hardware and software innovations.
+    - description: Spearheaded by [Nicholas Nadeau]({{< ref "/about" >}}), boasting
+        rich experience in hardware and software innovations.
       icon: bolt
       icon_pack: fas
       name: Leading-Edge Expertise
-    - description: Wide-spanning expertise in disruptive technologies like AI and robotics.
+    - description: Wide-spanning expertise in disruptive technologies like AI and
+        robotics.
       icon: puzzle-piece
       icon_pack: fas
       name: Multidisciplinary Skills
-    - description: Trusted mentorship at renowned accelerators such as [Next AI](https://www.nextcanada.com/next-ai), [Techstars](https://www.techstars.com), and [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal).
+    - description: Trusted mentorship at renowned accelerators such as [Next AI](https://www.nextcanada.com/next-ai),
+        [Techstars](https://www.techstars.com), and [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal).
       icon: medal
       icon_pack: fas
       name: Accomplished Leadership
-
+    title: Why Choose Us?
 - block: companies
-
 - block: hero
   content:
     cta:

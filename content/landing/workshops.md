@@ -17,34 +17,32 @@ sections:
         position: center
         size: cover
       text_color_light: true
-
 - block: markdown
   content:
     text: '{{< youtube tH1h4uJ7SuY >}}'
     title: 'Example: Harnessing AI in Manufacturing – A Workshop by Dr. Nicholas Nadeau'
-
 - block: features
   content:
     items:
-    - description: Agendas aligned with achieving measurable outcomes for your team's specific challenges.
+    - description: Agendas aligned with achieving measurable outcomes for your team's
+        specific challenges.
       icon: bullseye
       icon_pack: fas
       name: Outcome-Focused Agendas
-    - description: Equip leaders to understand and apply emerging technologies in real-world scenarios.
+    - description: Equip leaders to understand and apply emerging technologies in
+        real-world scenarios.
       icon: chalkboard-teacher
       icon_pack: fas
       name: Educational Depth
-    - description: Gain a holistic understanding of how tech innovations can propel your initiatives.
+    - description: Gain a holistic understanding of how tech innovations can propel
+        your initiatives.
       icon: expand
       icon_pack: fas
       name: Holistic View
   title: What Makes Our Workshops Unique?
-
 - block: companies
-
 - block: collection
   content:
-    title: Recent Events
     count: 2
     filters:
       author: ""
@@ -60,10 +58,10 @@ sections:
     offset: 0
     sort_ascending: false
     sort_by: Date
+    title: Recent Events
   design:
     columns: "1"
     view: showcase
-
 - block: hero
   content:
     cta:
@@ -81,7 +79,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-
 title: Innovation Workshops
 type: landing
 ---
