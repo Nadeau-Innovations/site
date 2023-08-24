@@ -18,12 +18,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-    spacing:
-      padding:
-      - 100px
-      - "0"
-      - 100px
-      - "0"
 - block: collection
   content:
     count: 3
@@ -62,11 +56,5 @@ sections:
         position: center
         size: cover
       text_color_light: true
-    spacing:
-      padding:
-      - 100px
-      - "0"
-      - 100px
-      - "0"
 type: landing
 ---
