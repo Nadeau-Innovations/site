@@ -3,20 +3,26 @@ sections:
 - block: hero
   content:
     cta:
-      label: Explore Services
+      label: Explore Mobile Robotics Solutions
       url: /services
-    text: Amplify your tech innovation with personalized fractional CTO expertise
-    title: '**Unleash Your Tech Potential**'
+    text: Harness mobile robotics and dynamic sensing for enhanced data collection
+      and collaboration. Embrace Industry 4.0 with human-robot collaboration.
+    title: '**Empower Your Facilities with Mobile Robotics & Dynamic Sensing**'
   design:
     background:
       image:
-        filename: heroes/hands.jpg
+        filename: heroes/interius-spot.jpg
         filters:
           brightness: 0.6
         parallax: false
         position: center
         size: cover
       text_color_light: true
+- block: markdown
+  content:
+    text: '{{< youtube WbN6ZA3mPvw >}}'
+    title: 'Vertical Farming Innovation: Mobile Robotics in Action with Nadeau Innovations,
+      Osedea, and Interius Farms'
 - block: companies
 - block: hero
   content:
@@ -35,5 +41,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
+title: Mobile Robotics & Dynamic Sensing
 type: landing
 ---

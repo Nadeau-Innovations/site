@@ -18,12 +18,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-    spacing:
-      padding:
-      - 100px
-      - "0"
-      - 100px
-      - "0"
 - block: collection
   content:
     count: 3
@@ -48,11 +42,10 @@ sections:
 - block: hero
   content:
     cta:
-      label: Stay Informed
+      label: Subscribe Now
       url: https://engnadeau.substack.com/
-    text: "Stay informed on hard tech and innovation in startups and agile businesses.
-      Subscribe now. \U0001F680"
-    title: Stay Informed. Subscribe to Our Newsletter.
+    text: Get the latest on hard tech and innovation in startups and agile businesses.
+    title: '**Subscribe to Our Newsletter**'
   design:
     background:
       image:
@@ -63,11 +56,5 @@ sections:
         position: center
         size: cover
       text_color_light: true
-    spacing:
-      padding:
-      - 100px
-      - "0"
-      - 100px
-      - "0"
 type: landing
 ---

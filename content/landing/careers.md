@@ -2,11 +2,9 @@
 sections:
 - block: hero
   content:
-    cta:
-      label: Explore Services
-      url: /services
-    text: Amplify your tech innovation with personalized fractional CTO expertise
-    title: '**Unleash Your Tech Potential**'
+    text: Dive into a world of opportunities with hard tech. Explore exciting careers
+      with our clients and partners.
+    title: '**Explore Careers in Hard Tech**'
   design:
     background:
       image:
@@ -35,5 +33,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
+title: Careers
 type: landing
 ---

@@ -3,20 +3,26 @@ sections:
 - block: hero
   content:
     cta:
-      label: Explore Services
+      label: Explore Agtech Innovation
       url: /services
-    text: Amplify your tech innovation with personalized fractional CTO expertise
-    title: '**Unleash Your Tech Potential**'
+    text: Integrate robotics, AI, and emerging technologies into your agriculture
+      innovation through Industry 4.0.
+    title: '**Transform Agriculture with Industry 4.0**'
   design:
     background:
       image:
-        filename: heroes/hands.jpg
+        filename: heroes/leafy-greens.jpg
         filters:
           brightness: 0.6
         parallax: false
         position: center
         size: cover
       text_color_light: true
+- block: markdown
+  content:
+    text: '{{< youtube WbN6ZA3mPvw >}}'
+    title: 'Revolutionize Farming with AI and Robotics: Insights from Nadeau Innovations,
+      Osedea, and Interius Farms'
 - block: companies
 - block: hero
   content:
@@ -35,5 +41,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
+title: Agtech & Industry 4.0
 type: landing
 ---
