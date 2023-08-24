@@ -2,9 +2,8 @@
 sections:
 - block: hero
   content:
-    text: Discover how our experience in hard tech drives groundbreaking solutions
-      for startups and corporations
-    title: '**Meet the Expertise Behind the Innovations**'
+    text: Experience the driving force of innovation for both startups and corporations.
+    title: '**The Expertise Behind the Innovations**'
   design:
     background:
       image:
@@ -26,8 +25,8 @@ sections:
     username: admin
 - block: hero
   content:
-    text: Empower hard tech startups and corporate innovation by providing expert
-      guidance and strategic direction to accelerate their growth
+    text: Our mission is to offer expert guidance and strategic direction to accelerate
+      growth for hard tech startups and corporate innovations.
     title: Our Mission
   design:
     background:
@@ -42,29 +41,29 @@ sections:
 - block: features
   content:
     items:
-    - description: We enable access to cutting-edge innovation for businesses of all
-        sizes
-      icon: globe
+    - description: Making emerging tech accessible for businesses of all sizes. We
+        level the playing field for startups and established companies alike.
+      icon: thumbs-up
       icon_pack: fas
       name: Purpose
-    - description: We foster inventive solutions to real-world challenges in hard
-        tech
+    - description: Creative solutions for hard tech challenges. We offer hands-on
+        workshops focused on innovation and emerging technologies.
       icon: lightbulb
       icon_pack: fas
       name: Ingenuity
-    - description: We inspire confidence, ownership, and responsibility in our clients
-        and their teams
+    - description: Building confidence and strategy in our clients. Clear communication
+        and tailored plans focus on people, process, and product.
       icon: users
       icon_pack: fas
       name: Empowerment
-    title: Our Values
+  title: Our Values
 - block: companies
 - block: hero
   content:
     cta:
       label: Let's Talk
       url: /contact
-    title: Transform Your Hard Tech Vision Into Reality
+    title: Ready to Transform Your Hard Tech Vision Into Reality?
   design:
     background:
       image:

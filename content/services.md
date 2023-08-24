@@ -3,10 +3,10 @@ sections:
 - block: hero
   content:
     cta:
-      label: Get Started
+      label: Let's Begin
       url: /contact
-    text: Tailored fractional CTO services for startups and corporate innovation
-    title: '**Propel Your Tech Innovation**'
+    text: Customized fractional CTO solutions for both startups and corporate initiatives.
+    title: '**Fuel Your Tech Journey**'
   design:
     background:
       image:
@@ -26,74 +26,71 @@ sections:
 - block: markdown
   content:
     text: |
-      Nadeau Innovations empowers companies with tailored fractional CTO services to develop next-gen technologies and high-performance teams. Our strategic partnership offers expertise, flexibility, cost-effectiveness, and an independent perspective to drive innovation in startups and corporate ventures.
-    title: What We Do
+      At Nadeau Innovations, we specialize in turning your tech aspirations into reality. Through tailored fractional CTO services, we offer strategic counsel to navigate complex challenges in tech innovation, all while focusing on the three crucial pillars: people, process, and product.
+    title: Our Value Proposition
 - block: features
   content:
     items:
-    - description: Align technology, people, and processes to achieve outstanding
-        results.
+    - description: Bring coherence among people, processes, and product for exceptional
+        outcomes.
       icon: users-cog
       icon_pack: fas
-      name: Align for Success
-    - description: Expert guidance to drive innovation, boost morale, and share knowledge,
-        empowering your team.
+      name: Strategic Alignment
+    - description: Nurture a culture of innovation through expert mentorship, uplifting
+        team capabilities.
       icon: lightbulb
       icon_pack: fas
-      name: Empower Innovation
-    - description: Optimize technology strategy and development for faster scaling
-        and accelerated growth.
+      name: Innovation Empowerment
+    - description: Streamline tech strategy for expedited scaling and growth.
       icon: rocket
       icon_pack: fas
-      name: Accelerate Growth
-    title: Our Approach
+      name: Growth Acceleration
+    title: Our Methodology
 - block: features
   content:
     items:
-    - description: Boost your team with [expertise and strategic advice]({{< ref "/results"
-        >}}) through a bank-of-hours retainer, providing flexible support tailored
-        to your needs.
+    - description: Opt for a flexible bank-of-hours retainer for specialized, on-demand
+        support.
       icon: hourglass-half
       icon_pack: fas
-      name: Flexible Retainer
-    - description: |
-        [Drive agile projects and operations]({{< ref "/results" >}}), reaching milestones with integrated support through hourly rates and dedicated expertise.
+      name: Flex Retainer
+    - description: Obtain dedicated support and hands-on guidance through hourly rates.
       icon: hands-helping
       icon_pack: fas
-      name: Embedded Expertise
-    - description: Empower your team with [workshops, talks, and events]({{< ref "/events"
-        >}}) that equip them with strategies for navigating hard tech innovation.
-      icon: brain
+      name: Embedded Consultancy
+    - description: Sponsor and schedule workshops that equip your team with actionable
+        insights into emerging technologies.
+      icon: chalkboard-teacher
       icon_pack: fas
-      name: Targeted Workshops
-    title: Tailor-Made Packages
+      name: Specialized Workshops
+    title: Custom Packages
 - block: features
   content:
     items:
-    - description: Led by [Nicholas Nadeau]({{< ref "/about" >}}), Nadeau Innovations
-        has extensive experience in innovative hardware and software systems.
+    - description: Spearheaded by [Nicholas Nadeau]({{< ref "/about" >}}), boasting
+        rich experience in hardware and software innovations.
       icon: bolt
       icon_pack: fas
-      name: Cutting-Edge Expertise
-    - description: |
-        [Our expertise]({{< ref "/results" >}}) spans humanoid robotics, VR/AR/XR, AI/ML, robotics, computer vision, 3D printing and additive manufacturing, IIoT, and biomedical.
+      name: Leading-Edge Expertise
+    - description: Wide-spanning expertise in disruptive technologies like AI and
+        robotics.
       icon: puzzle-piece
       icon_pack: fas
-      name: Diverse Tech Domains
-    - description: |
-        [Nicholas Nadeau]({{< ref "/about" >}}), a professional engineer, holds a Ph.D. in robotics and AI/ML and actively mentors at renowned accelerators like [Next AI](https://www.nextcanada.com/next-ai), [Techstars](https://www.techstars.com), and [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal).
+      name: Multidisciplinary Skills
+    - description: Trusted mentorship at renowned accelerators such as [Next AI](https://www.nextcanada.com/next-ai),
+        [Techstars](https://www.techstars.com), and [Creative Destruction Lab](https://creativedestructionlab.com/locations/montreal).
       icon: medal
       icon_pack: fas
       name: Accomplished Leadership
-    title: Choose Success
+    title: Why Choose Us?
 - block: companies
 - block: hero
   content:
     cta:
-      label: Let's Talk
+      label: Discuss Your Project
       url: /contact
-    text: Get in touch for a tailored strategy to achieve your goals
-    title: Ready to Elevate Your Hard Tech Innovation?
+    text: Reach out for a custom strategy to meet your tech objectives.
+    title: Ready for the Next Step in Tech Innovation?
   design:
     background:
       image:
