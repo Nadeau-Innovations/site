@@ -17,12 +17,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-    spacing:
-      padding:
-      - 100px
-      - "0"
-      - 100px
-      - "0"
 - block: companies
 - block: hero
   content:
@@ -42,11 +36,5 @@ sections:
         position: center
         size: cover
       text_color_light: true
-    spacing:
-      padding:
-      - 100px
-      - "0"
-      - 100px
-      - "0"
 type: landing
 ---
