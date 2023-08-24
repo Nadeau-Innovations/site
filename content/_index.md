@@ -10,7 +10,7 @@ sections:
   design:
     background:
       image:
-        filename: heroes/robot-wine.jpg
+        filename: heroes/interius-spot.jpg
         filters:
           brightness: 0.6
         parallax: false
@@ -19,9 +19,9 @@ sections:
       text_color_light: true
     spacing:
       padding:
-      - 200px
+      - 300px
       - "0"
-      - 200px
+      - 300px
       - "0"
 - block: features
   content:
