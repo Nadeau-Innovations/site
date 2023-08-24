@@ -5,7 +5,8 @@ sections:
     cta:
       label: Explore Agtech Innovation
       url: /services
-    text: Integrate robotics, AI, and emerging technologies into your agriculture innovation through Industry 4.0.
+    text: Integrate robotics, AI, and emerging technologies into your agriculture
+      innovation through Industry 4.0.
     title: '**Transform Agriculture with Industry 4.0**'
   design:
     background:
@@ -17,14 +18,12 @@ sections:
         position: center
         size: cover
       text_color_light: true
-
 - block: markdown
   content:
-    text: "{{< youtube WbN6ZA3mPvw >}}"
-    title: "Revolutionize Farming with AI and Robotics: Insights from Nadeau Innovations, Osedea, and Interius Farms"
-
+    text: '{{< youtube WbN6ZA3mPvw >}}'
+    title: 'Revolutionize Farming with AI and Robotics: Insights from Nadeau Innovations,
+      Osedea, and Interius Farms'
 - block: companies
-
 - block: hero
   content:
     cta:
@@ -42,7 +41,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-
 title: Agtech & Industry 4.0
 type: landing
 ---
