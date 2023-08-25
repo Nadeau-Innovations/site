@@ -2,9 +2,12 @@
 sections:
 - block: hero
   content:
-    text: Let's discuss how our expert fractional CTO services can accelerate your
-      hard tech innovation
-    title: '**Get in Touch**'
+    cta:
+      label: Connect Now
+      url: 'contact#reach-out-form'
+    text: Partner with us for specialized fractional CTO services tailored to your
+      specific challenges.
+    title: '**Let''s Propel Your Tech Innovations Together**'
   design:
     background:
       image:
@@ -21,23 +24,28 @@ sections:
       - "0"
       - 200px
       - "0"
+- block: markdown
+  content:
+    text: We'll arrange a consultation session to understand your needs, challenges, and vision. Expect a tailored approach that focuses on aligning people, process, and product.
+    title: What to Expect
 - block: contact
+  id: reach-out-form
   content:
     form:
       netlify:
         captcha: true
       provider: netlify
-    title: Reach Out for Expert Guidance
+    title: '**Get Started on Your Custom Strategy**'
   design:
     columns: "1"
 - block: hero
   content:
     cta:
-      label: Explore Our Services
-      url: /contact
-    text: Explore how our expert fractional CTO services can transform your hard tech
-      innovation journey
-    title: Discover the Benefits
+      label: Explore Services
+      url: /services
+    text: Learn more about our specialized workshops, strategies, and methodologies
+      that can elevate your tech capabilities.
+    title: Still Unsure?
   design:
     background:
       image:
