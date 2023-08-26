@@ -4,7 +4,7 @@ sections:
   content:
     cta:
       label: Discover Startup Solutions
-      url: /startup-services
+      url: /services
     text: Overcome the "Death Valley" with specialized coaching that focuses on people,
       process, and product.
     title: '**Navigate the Startup "Death Valley"**'
@@ -59,6 +59,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Startup Solutions
+title: Navigate the Startup "Death Valley"
 type: landing
+image:
+  filename: landing/startups.jpg
 ---

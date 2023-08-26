@@ -7,7 +7,7 @@ sections:
       url: /services
     text: Elevate your corporate innovation strategies with our bespoke fractional
       CTO services and hard tech expertise.
-    title: '**Empower Your Corporate Innovation Journey**'
+    title: '**Empower Your Innovation Journey**'
   design:
     background:
       image:
@@ -58,6 +58,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Corporate Innovation Services
+title: Empower Your Corporate Innovation Journey
 type: landing
+image:
+  filename: landing/corporate-innovation.jpg
 ---

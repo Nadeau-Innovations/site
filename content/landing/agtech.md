@@ -7,7 +7,7 @@ sections:
       url: /services
     text: Integrate robotics, AI, and emerging technologies into your agriculture
       innovation through Industry 4.0.
-    title: '**Transform Agriculture with Industry 4.0**'
+    title: '**Drive Agtech Forward with Industry 4.0 Solutions**'
   design:
     background:
       image:
@@ -41,6 +41,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Agtech & Industry 4.0
+title: Drive Agtech Forward with Industry 4.0 Solutions
 type: landing
+image:
+  filename: landing/agtech.jpg
 ---
