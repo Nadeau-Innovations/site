@@ -2,11 +2,12 @@
 sections:
 - block: hero
   content:
+    title: "**You're Booked!**"
+    text: "Looking forward to our conversation. Let's get to the heart of your challenges and opportunities."
     cta:
-      label: Explore Services
-      url: /services
-    text: Amplify your tech innovation with personalized fractional CTO expertise
-    title: '**Unleash Your Tech Potential**'
+      label: "Explore Our Expertise"
+      url: "/about"
+
   design:
     background:
       image:
