@@ -4,7 +4,7 @@ sections:
   content:
     cta:
       label: Connect Now
-      url: 'contact#reach-out-form'
+      url: contact#reach-out-form
     text: Partner with us for specialized fractional CTO services tailored to your
       specific challenges.
     title: '**Let''s Propel Your Tech Innovations Together**'
@@ -26,10 +26,11 @@ sections:
       - "0"
 - block: markdown
   content:
-    text: We'll arrange a consultation session to understand your needs, challenges, and vision. Expect a tailored approach that focuses on aligning people, process, and product.
+    text: We'll arrange a consultation session to understand your needs, challenges,
+      and vision. Expect a tailored approach that focuses on aligning people, process,
+      and product.
     title: What to Expect
 - block: contact
-  id: reach-out-form
   content:
     form:
       netlify:
@@ -38,6 +39,7 @@ sections:
     title: '**Get Started on Your Custom Strategy**'
   design:
     columns: "1"
+  id: reach-out-form
 - block: hero
   content:
     cta:
