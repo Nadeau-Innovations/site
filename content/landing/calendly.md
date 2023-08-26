@@ -2,12 +2,12 @@
 sections:
 - block: hero
   content:
-    title: "**You're Booked!**"
-    text: "Looking forward to our conversation. Let's get to the heart of your challenges and opportunities."
     cta:
-      label: "Explore Our Expertise"
-      url: "/about"
-
+      label: Explore Our Expertise
+      url: /about
+    text: Looking forward to our conversation. Let's get to the heart of your challenges
+      and opportunities.
+    title: '**You''re Booked!**'
   design:
     background:
       image:
@@ -36,6 +36,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-type: landing
 title: You're Booked!
+type: landing
 ---
