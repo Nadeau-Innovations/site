@@ -37,4 +37,5 @@ sections:
         size: cover
       text_color_light: true
 type: landing
+title: You're Booked!
 ---
