@@ -41,6 +41,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Industry 4.0
+title: Unlock Your Industry 4.0 Potential
 type: landing
+image:
+  filename: landing/industry40.jpg
 ---

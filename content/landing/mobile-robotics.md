@@ -7,7 +7,7 @@ sections:
       url: /services
     text: Harness mobile robotics and dynamic sensing for enhanced data collection
       and collaboration. Embrace Industry 4.0 with human-robot collaboration.
-    title: '**Empower Your Facilities with Mobile Robotics & Dynamic Sensing**'
+    title: '**Empower Your Industry 4.0 with Mobile Robotics & Dynamic Sensing**'
   design:
     background:
       image:
@@ -41,6 +41,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Mobile Robotics & Dynamic Sensing
+title: Empower Your Industry 4.0 with Mobile Robotics & Dynamic Sensing
 type: landing
+image:
+  filename: landing/mobile-robotics.jpg
 ---

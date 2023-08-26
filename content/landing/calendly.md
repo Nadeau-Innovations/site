@@ -3,10 +3,11 @@ sections:
 - block: hero
   content:
     cta:
-      label: Explore Services
-      url: /services
-    text: Amplify your tech innovation with personalized fractional CTO expertise
-    title: '**Unleash Your Tech Potential**'
+      label: Explore Our Expertise
+      url: /about
+    text: Looking forward to our conversation. Let's get to the heart of your challenges
+      and opportunities.
+    title: '**You''re Booked!**'
   design:
     background:
       image:
@@ -35,5 +36,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
+title: You're Booked!
 type: landing
 ---

@@ -62,6 +62,20 @@ project:
 debug:
 	hugo env
 
+.PHONY: clipboard-content-primary
+clipboard-content-primary:
+	cat \
+		content/_index.md \
+		content/about.md \
+		content/services.md \
+		| xclip -selection clipboard
+
+.PHONY: clipboard-content-landing
+clipboard-content-landing:
+	cat \
+		content/landing/*.md \
+		| xclip -selection clipboard
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Python Targets
 

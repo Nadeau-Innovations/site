@@ -6,7 +6,7 @@ sections:
       label: Subscribe Now
       url: https://engnadeau.substack.com/
     text: Get the latest on hard tech and innovation in startups and agile businesses.
-    title: '**Subscribe to Our Newsletter**'
+    title: '**Your Weekly Dose of Hard Tech Innovation**'
   design:
     background:
       image:
@@ -35,6 +35,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Newsletter
+title: Your Weekly Dose of Hard Tech Innovation
 type: landing
+image:
+  filename: landing/newsletter.jpg
 ---

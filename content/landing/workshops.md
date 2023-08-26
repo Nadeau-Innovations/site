@@ -6,7 +6,7 @@ sections:
       label: Book a Workshop
       url: /contact
     text: Equip your team to understand and leverage emerging technologies effectively.
-    title: '**Unlock Innovative Thinking Through Workshops**'
+    title: '**Ignite, Innovate, Implement: It Starts with a Workshop!**'
   design:
     background:
       image:
@@ -79,6 +79,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Innovation Workshops
+title: "Ignite, Innovate, Implement: It Starts with a Workshop!"
 type: landing
+image:
+  filename: landing/workshops.jpg
 ---

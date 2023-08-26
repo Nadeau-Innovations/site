@@ -2,9 +2,12 @@
 sections:
 - block: hero
   content:
+    cta:
+      label: Let's Talk
+      url: /contact
     text: Dive into a world of opportunities with hard tech. Explore exciting careers
       with our clients and partners.
-    title: '**Explore Careers in Hard Tech**'
+    title: '**Find Your Dream Hard Tech Job**'
   design:
     background:
       image:
@@ -33,6 +36,8 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Careers
+title: Find Your Dream Hard Tech Job
 type: landing
+image:
+  filename: landing/careers.jpg
 ---
