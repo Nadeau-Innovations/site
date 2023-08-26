@@ -58,7 +58,7 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Empower Your Corporate Innovation Journey
+title: Empower Your Innovation Journey
 type: landing
 image:
   filename: landing/corporate-innovation.jpg
