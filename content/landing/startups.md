@@ -41,24 +41,17 @@ sections:
   content:
     text: '{{< youtube WbN6ZA3mPvw >}}'
     title: 'Success Stories: How Our Network and Expertise Elevate Startups'
-- block: hero
+- block: contact
   content:
-    cta:
-      label: Get Unstuck Now
-      url: /contact
-    text: Ready to elevate your startup to the next level? Your path to Series A+
+    form:
+      netlify:
+        captcha: true
+      provider: netlify
+    title: '**Get Unstuck Now**'
+    subtitle: Ready to elevate your startup to the next level? Your path to Series A+
       starts with a conversation.
-    title: '**Your Path to Series A+ Starts Here**'
   design:
-    background:
-      image:
-        filename: heroes/collaborating.jpg
-        filters:
-          brightness: 0.6
-        parallax: false
-        position: center
-        size: cover
-      text_color_light: true
+    columns: "1"
 title: Navigate the Startup "Death Valley"
 type: landing
 image:

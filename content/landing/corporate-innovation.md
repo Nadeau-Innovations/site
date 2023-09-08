@@ -42,22 +42,15 @@ sections:
     text: '{{< youtube tH1h4uJ7SuY >}}'
     title: 'Leverage AI in Manufacturing: Learn from Dr. Nicholas Nadeau''s Innovation
       Workshop'
-- block: hero
+- block: contact
   content:
-    cta:
-      label: Let's Talk
-      url: /contact
-    title: Transform Your Innovation Initiative Into Reality
+    form:
+      netlify:
+        captcha: true
+      provider: netlify
+    title: '**Transform Your Innovation Initiative Into Reality**'
   design:
-    background:
-      image:
-        filename: heroes/collaborating.jpg
-        filters:
-          brightness: 0.6
-        parallax: false
-        position: center
-        size: cover
-      text_color_light: true
+    columns: "1"
 title: Empower Your Innovation Journey
 type: landing
 image:
