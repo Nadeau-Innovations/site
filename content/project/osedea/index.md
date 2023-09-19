@@ -1,9 +1,9 @@
 ---
 date: "2022-10-01"
+featured: true
 profile: false
 show_date: false
-featured: true
-title: "Harnessing Robotics and AI: Nadeau Innovations and Osedea's Path to Innovation"
+title: 'Harnessing Robotics and AI: Nadeau Innovations and Osedea''s Path to Innovation'
 ---
 
 Partnering with the right experts can make all the difference. Nicholas Nadeau, the founder of Nadeau Innovations, is an example of an experienced leader who helps businesses unlock their potential through robotics, AI, and other cutting-edge technologies.

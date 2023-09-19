@@ -3,6 +3,7 @@ authors: []
 categories: []
 date: "2023-06-10T18:01:26-04:00"
 external_link: ""
+featured: true
 image:
   caption: ""
   focal_point: ""
@@ -16,7 +17,6 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-featured: true
 ---
 
 Driven by the vision to revolutionize women's healthcare, Nadeau Innovations is working with [FemTherapeutics](https://femtherapeutics.com/), a medical device company at the forefront of healthcare technology. Providing strategic direction and technical guidance, Nadeau Innovations supports FemTherapeutics in crafting innovative solutions to redefine traditional women's healthcare paradigms.

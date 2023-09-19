@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/startups.jpg
 sections:
 - block: hero
   content:
@@ -61,6 +63,4 @@ sections:
       text_color_light: true
 title: Navigate the Startup "Death Valley"
 type: landing
-image:
-  filename: landing/startups.jpg
 ---
