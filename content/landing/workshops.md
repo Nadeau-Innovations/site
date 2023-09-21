@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/workshops.jpg
 sections:
 - block: hero
   content:
@@ -74,6 +76,4 @@ sections:
     columns: "1"
 title: "Ignite, Innovate, Implement: It Starts with a Workshop!"
 type: landing
-image:
-  filename: landing/workshops.jpg
 ---

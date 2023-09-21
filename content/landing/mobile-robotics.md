@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/mobile-robotics.jpg
 sections:
 - block: hero
   content:
@@ -35,6 +37,4 @@ sections:
     columns: "1"
 title: Empower Your Industry 4.0 with Mobile Robotics & Dynamic Sensing
 type: landing
-image:
-  filename: landing/mobile-robotics.jpg
 ---

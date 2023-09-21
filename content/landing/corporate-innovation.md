@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/corporate-innovation.jpg
 sections:
 - block: hero
   content:
@@ -53,6 +55,4 @@ sections:
     columns: "1"
 title: Empower Your Innovation Journey
 type: landing
-image:
-  filename: landing/corporate-innovation.jpg
 ---
