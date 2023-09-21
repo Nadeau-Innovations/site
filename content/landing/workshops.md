@@ -64,23 +64,16 @@ sections:
   design:
     columns: "1"
     view: showcase
-- block: hero
+- block: contact
   content:
-    cta:
-      label: Subscribe Now
-      url: https://engnadeau.substack.com/
-    text: Get the latest on hard tech and innovation in startups and agile businesses.
-    title: '**Subscribe to Our Newsletter**'
+    form:
+      netlify:
+        captcha: true
+      provider: netlify
+    title: '**Book Your Workshop Today**'
+    subtitle: Unlock the power of emerging technologies with a tailored workshop.
   design:
-    background:
-      image:
-        filename: heroes/robot-coffee.jpg
-        filters:
-          brightness: 0.4
-        parallax: false
-        position: center
-        size: cover
-      text_color_light: true
-title: 'Ignite, Innovate, Implement: It Starts with a Workshop!'
+    columns: "1"
+title: "Ignite, Innovate, Implement: It Starts with a Workshop!"
 type: landing
 ---

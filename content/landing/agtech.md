@@ -5,7 +5,7 @@ sections:
 - block: hero
   content:
     cta:
-      label: Explore Agtech Innovation
+      label: Explore Solutions
       url: /services
     text: Integrate robotics, AI, and emerging technologies into your agriculture
       innovation through Industry 4.0.
@@ -26,23 +26,15 @@ sections:
     title: 'Revolutionize Farming with AI and Robotics: Insights from Nadeau Innovations,
       Osedea, and Interius Farms'
 - block: companies
-- block: hero
+- block: contact
   content:
-    cta:
-      label: Subscribe Now
-      url: https://engnadeau.substack.com/
-    text: Get the latest on hard tech and innovation in startups and agile businesses.
-    title: '**Subscribe to Our Newsletter**'
+    form:
+      netlify:
+        captcha: true
+      provider: netlify
+    title: '**Transform Your Innovation Initiative Into Reality**'
   design:
-    background:
-      image:
-        filename: heroes/robot-coffee.jpg
-        filters:
-          brightness: 0.4
-        parallax: false
-        position: center
-        size: cover
-      text_color_light: true
+    columns: "1"
 title: Drive Agtech Forward with Industry 4.0 Solutions
 type: landing
 ---

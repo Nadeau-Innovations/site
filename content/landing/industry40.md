@@ -26,23 +26,15 @@ sections:
     title: 'Leverage AI in Manufacturing: Learn from Dr. Nicholas Nadeau''s Industry
       4.0 Workshop'
 - block: companies
-- block: hero
+- block: contact
   content:
-    cta:
-      label: Subscribe Now
-      url: https://engnadeau.substack.com/
-    text: Get the latest on hard tech and innovation in startups and agile businesses.
-    title: '**Subscribe to Our Newsletter**'
+    form:
+      netlify:
+        captcha: true
+      provider: netlify
+    title: '**Transform Your Innovation Initiative Into Reality**'
   design:
-    background:
-      image:
-        filename: heroes/robot-coffee.jpg
-        filters:
-          brightness: 0.4
-        parallax: false
-        position: center
-        size: cover
-      text_color_light: true
+    columns: "1"
 title: Unlock Your Industry 4.0 Potential
 type: landing
 ---
