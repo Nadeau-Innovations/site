@@ -3,7 +3,7 @@ authors: []
 categories: []
 date: "2023-08-14T13:22:50-04:00"
 draft: false
-featured: false
+featured: true
 image:
   caption: ""
   focal_point: ""
@@ -13,7 +13,7 @@ projects: []
 subtitle: ""
 summary: ""
 tags: []
-title: 'Harnessing AI and Robotics: The New Era of Vertical Farming at Interius Farms'
+title: 'Redefining AgTech: AI and Robotics in Interius Farms'' Vertical Farming Operations'
 ---
 
 Interius Farms, a pioneer in AgTech innovation, collaborated with [Nadeau Innovations]({{< ref "/" >}}) and [Osedea](https://www.osedea.com/) to explore the potential of dynamic sensing and mobile robotics in vertical farming. This joint partnership aims to deliver efficiency, automation, and precision to growing leafy greens and herbs, all emphasizing environmental responsibility.

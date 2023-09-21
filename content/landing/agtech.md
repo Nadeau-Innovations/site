@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/agtech.jpg
 sections:
 - block: hero
   content:
@@ -43,6 +45,4 @@ sections:
       text_color_light: true
 title: Drive Agtech Forward with Industry 4.0 Solutions
 type: landing
-image:
-  filename: landing/agtech.jpg
 ---

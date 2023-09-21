@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/careers.jpg
 sections:
 - block: hero
   content:
@@ -38,6 +40,4 @@ sections:
       text_color_light: true
 title: Find Your Dream Hard Tech Job
 type: landing
-image:
-  filename: landing/careers.jpg
 ---

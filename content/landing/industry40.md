@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/industry40.jpg
 sections:
 - block: hero
   content:
@@ -43,6 +45,4 @@ sections:
       text_color_light: true
 title: Unlock Your Industry 4.0 Potential
 type: landing
-image:
-  filename: landing/industry40.jpg
 ---

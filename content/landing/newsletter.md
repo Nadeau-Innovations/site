@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/newsletter.jpg
 sections:
 - block: hero
   content:
@@ -37,6 +39,4 @@ sections:
       text_color_light: true
 title: Your Weekly Dose of Hard Tech Innovation
 type: landing
-image:
-  filename: landing/newsletter.jpg
 ---

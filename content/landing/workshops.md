@@ -1,4 +1,6 @@
 ---
+image:
+  filename: landing/workshops.jpg
 sections:
 - block: hero
   content:
@@ -79,8 +81,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: "Ignite, Innovate, Implement: It Starts with a Workshop!"
+title: 'Ignite, Innovate, Implement: It Starts with a Workshop!'
 type: landing
-image:
-  filename: landing/workshops.jpg
 ---

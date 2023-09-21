@@ -3,6 +3,7 @@ authors: []
 categories: []
 date: "2023-06-10T18:01:26-04:00"
 external_link: ""
+featured: true
 image:
   caption: ""
   focal_point: ""

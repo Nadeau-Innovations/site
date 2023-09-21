@@ -51,7 +51,7 @@ sections:
       exclude_featured: false
       exclude_future: false
       exclude_past: false
-      featured_only: false
+      featured_only: true
       folders:
       - project
       publication_type: ""
