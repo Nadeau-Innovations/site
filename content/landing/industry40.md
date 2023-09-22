@@ -26,6 +26,7 @@ sections:
     title: 'Leverage AI in Manufacturing: Learn from Dr. Nicholas Nadeau''s Industry
       4.0 Workshop'
 - block: companies
+- block: testimonial
 - block: contact
   content:
     form:

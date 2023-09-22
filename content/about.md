@@ -57,6 +57,7 @@ sections:
       icon_pack: fas
       name: Empowerment
   title: Our Values
+- block: testimonial
 - block: companies
 - block: hero
   content:

@@ -26,6 +26,7 @@ sections:
     title: 'Vertical Farming Innovation: Mobile Robotics in Action with Nadeau Innovations,
       Osedea, and Interius Farms'
 - block: companies
+- block: testimonial
 - block: contact
   content:
     form:
