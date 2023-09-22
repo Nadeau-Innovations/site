@@ -145,6 +145,12 @@ testimonials:
     image: tristan.jpg
     quote: "Working with Nick has been game-changing for our company's technology development. His expertise and strategic thinking have been instrumental in setting up our automation strategy. Nick has a unique ability to bridge the gap between technology and business goals. Nick is exceptionally well connected to the tech startup ecosystem in Montreal across academia, manufacturing, fabrication, etc. If he does not have an answer, he knows someone who does; he is always willing to make introductions to facilitate valuable partnerships."
     url: https://interiusfarms.com/
+  - name: Martin Coulombe
+    position: President
+    organization: Osedea
+    image: martin.jpg
+    quote: "We've collaborated with Nicholas in the past year, and our experience has been exceptional. His deep technical expertise in AI, robotics and software engineering really add value to our joint projects. In addition, his business acumen and industry knowledge have helped immensely. We highly recommend him and are looking forward to our future collaborations."
+    url: https://www.osedea.com/
   - name: Daniel Lirette
     position: Founder & CEO
     organization: GrowDoc
