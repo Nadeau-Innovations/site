@@ -3,6 +3,8 @@
 
 # Variables
 HUGO_FLAGS := --gc --minify
+BASE_URL := http://localhost:1313
+LANDING_PAGES := $(patsubst content/landing/%.md,%,$(wildcard content/landing/*.md))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # General Targets
@@ -75,6 +77,12 @@ clipboard-content-landing:
 	cat \
 		content/landing/*.md \
 		| xclip -selection clipboard
+
+.PHONY: open-landing-pages
+open-landing-pages:
+	@for page in $(LANDING_PAGES); do \
+		open "$(BASE_URL)/landing/$$page/"; \
+	done
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Python Targets
