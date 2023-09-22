@@ -81,6 +81,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Fractional CTO | Innovative Engineering
+title: Fractional CTO | Unlock Your Hard Tech Potential
 type: landing
 ---
