@@ -42,6 +42,7 @@ sections:
       icon_pack: fas
       name: Holistic View
   title: What Makes Our Workshops Unique?
+- block: testimonial
 - block: companies
 - block: collection
   content:

@@ -83,6 +83,7 @@ sections:
       icon_pack: fas
       name: Accomplished Leadership
     title: Why Choose Us?
+- block: testimonial
 - block: companies
 - block: hero
   content:

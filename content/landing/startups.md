@@ -39,10 +39,12 @@ sections:
       icon_pack: fas
       name: Product Understanding
     title: 'Coaching & Advising: The Three Pillars for Startup Success'
+- block: testimonial
 - block: markdown
   content:
     text: '{{< youtube WbN6ZA3mPvw >}}'
     title: 'Success Stories: How Our Network and Expertise Elevate Startups'
+- block: companies
 - block: contact
   content:
     form:

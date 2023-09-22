@@ -26,6 +26,7 @@ sections:
     title: 'Revolutionize Farming with AI and Robotics: Insights from Nadeau Innovations,
       Osedea, and Interius Farms'
 - block: companies
+- block: testimonial
 - block: contact
   content:
     form:

@@ -20,6 +20,7 @@ sections:
         size: cover
       text_color_light: true
 - block: companies
+- block: testimonial
 - block: hero
   content:
     cta:

@@ -39,11 +39,13 @@ sections:
       icon_pack: fas
       name: Industry 4.0
     title: Services Tailored for Corporates
+- block: testimonial
 - block: markdown
   content:
     text: '{{< youtube tH1h4uJ7SuY >}}'
     title: 'Leverage AI in Manufacturing: Learn from Dr. Nicholas Nadeau''s Innovation
       Workshop'
+- block: companies
 - block: contact
   content:
     form:

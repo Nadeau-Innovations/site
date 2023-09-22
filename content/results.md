@@ -41,6 +41,7 @@ sections:
   design:
     columns: "1"
     view: showcase
+- block: testimonial
 - block: companies
 - block: hero
   content:
