@@ -81,6 +81,6 @@ sections:
         position: center
         size: cover
       text_color_light: true
-title: Fractional CTO | Unlock Your Hard Tech Potential
+title: Fractional CTO | Unlock Your Tech Potential
 type: landing
 ---
