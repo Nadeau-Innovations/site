@@ -1,9 +1,5 @@
 {{ $page := .wcPage }} {{ $block := .wcBlock }}
 <div class="row featurette d-flex flex-wrap justify-content-center">
-  <div class="col-md-12 section-heading">
-    <h1>Success Stories</h1>
-  </div>
-
   <div
     id="testimonialCarousel"
     class="carousel slide col-12"
@@ -15,13 +11,7 @@
         <div class="d-flex justify-content-center">
           <div class="testimonial-content text-center">
             <!-- quote -->
-            <p
-              style="
-                font-size: 1.5em;
-                padding: 1em;
-                border-radius: 5px;
-              "
-            >
+            <p style="font-size: 1.5em; padding: 1em; border-radius: 5px">
               "{{ $testimonial.quote }}"
             </p>
             <!-- image -->
@@ -57,7 +47,7 @@
       href="#testimonialCarousel"
       role="button"
       data-slide="prev"
-      style="filter: brightness(0.3);"
+      style="filter: brightness(0.3)"
     >
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -67,7 +57,7 @@
       href="#testimonialCarousel"
       role="button"
       data-slide="next"
-      style="filter: brightness(0.3);"
+      style="filter: brightness(0.3)"
     >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>

@@ -60,6 +60,7 @@ sections:
     offset: 0
     sort_ascending: false
     sort_by: Date
+    title: Success Stories
   design:
     columns: "1"
     view: showcase
