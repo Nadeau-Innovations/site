@@ -42,6 +42,7 @@ sections:
       icon_pack: fas
       name: Workshops
     title: Solutions Tailored for You
+- block: testimonial
 - block: collection
   content:
     count: 3

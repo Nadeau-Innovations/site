@@ -131,3 +131,35 @@ companies:
     url: https://smartone.ai/
   - icon: xprlabs
     url: https://xprlabs.com/
+
+testimonials:
+  - name: Andrew Murtagh
+    position: CEO & Co-Founder
+    organization: Airbotics
+    image: andrew.jpg
+    quote: "Nick has been enormously helpful to us at Airbotics. He has unmatched expertise in all things robotics and AI at the highest levels, a very deep network in the field, and years of experience in the trenches of startups building and selling deep tech products. Not only that, but he's always your biggest fan and brings such energy and enthusiasm to whatever challenges you're facing. If you're building in the robotics space or want to learn about it - talk to Nick!"
+    url: https://airbotics.io/
+  - name: Daniel Lirette
+    position: Founder & CEO
+    organization: GrowDoc
+    image: daniel.jpg
+    quote: "Nicholas holds a wealth of knowledge regarding technology, AI, robotics, and more. He has guided us in anticipating and devising strategies for future challenges before they arise. He is always straight to the point and professional. I look forward to working with him again in the future!"
+    url: https://growdoc.ca/
+  - name: Tristan Zeman
+    position: President & Co-Founder
+    organization: Interius Farms
+    image: tristan.jpg
+    quote: "Working with Nick has been game-changing for our company's technology development. His expertise and strategic thinking have been instrumental in setting up our automation strategy. Nick has a unique ability to bridge the gap between technology and business goals. Nick is exceptionally well connected to the tech startup ecosystem in Montreal across academia, manufacturing, fabrication, etc. If he does not have an answer, he knows someone who does; he is always willing to make introductions to facilitate valuable partnerships."
+    url: https://interiusfarms.com/
+  - name: Mohamed Ashraf
+    position: Co-Founder & Product Lead
+    organization: Ohmic
+    image: mohamed.jpg
+    quote: "Nicholas was incredibly helpful and supportive to both us as founders and the entire team. Nicholas was an active, hands-on supporter and friend to Ohmic, who invested his time towards offering us feedback, inviting us to networking events, and even introducing us to our first external angel investor. We are lucky to have worked with Nicholas and are glad to have connected with him."
+    url: https://www.ohmictechnologies.com/
+  - name: Thierry Marcoux
+    position: Head of Business Development
+    organization: Osedea
+    image: thierry.jpg
+    quote: "Nicholas brings tremendous value to the company with his deep knowledge of robotics and AI. He conducts internal Lunch & Learns, facilitates crucial network connections, and contributes substantially to Osedea's key projects. Additionally, he's a pleasure to work with!"
+    url: https://www.osedea.com/

@@ -1,0 +1,74 @@
+{{ $page := .wcPage }} {{ $block := .wcBlock }}
+<div class="row featurette d-flex flex-wrap justify-content-center">
+  <div class="col-md-12 section-heading">
+    <h1>Client Success Stories</h1>
+  </div>
+
+  <div
+    id="testimonialCarousel"
+    class="carousel slide col-12"
+    data-ride="carousel"
+  >
+    <div class="carousel-inner">
+      {{ range $index, $testimonial := site.Params.testimonials }}
+      <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+        <div class="d-flex justify-content-center">
+          <div class="testimonial-content text-center">
+            <!-- quote -->
+            <p
+              style="
+                font-size: 1.5em;
+                padding: 1em;
+                border-radius: 5px;
+              "
+            >
+              "{{ $testimonial.quote }}"
+            </p>
+            <!-- image -->
+            {{- $image := resources.Get (printf "media/testimonials/%s"
+            $testimonial.image) -}}
+            <center>
+              <img
+                src="{{ $image.RelPermalink }}"
+                alt="{{ $testimonial.name }}"
+                class="img-fluid rounded-circle"
+                style="width: 8em; height: auto"
+                loading="lazy"
+              />
+            </center>
+            <!-- name -->
+            <div class="mt-2">
+              <strong>{{ $testimonial.name }}</strong>
+            </div>
+            <!-- role -->
+            <span
+              >{{ $testimonial.position }},
+              <a href="{{ $testimonial.url }}" target="_blank"
+                >{{ $testimonial.organization }}</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#testimonialCarousel"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#testimonialCarousel"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
