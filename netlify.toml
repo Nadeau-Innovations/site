@@ -91,3 +91,51 @@ from = "https://engnadeau.com"
 to = "https://www.nadeauinnovations.com"
 status = 301
 force = true
+
+[[redirects]]
+from = "https://techbattlecards.com"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.techbattlecards.com"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.pythonhardware.com"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://pythonhardware.com"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.hardtechinnovations.com"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://hardtechinnovations.com"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.hardtech.news"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://hardtech.news"
+to = "https://www.nadeauinnovations.com"
+status = 301
+force = true
