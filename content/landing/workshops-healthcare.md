@@ -1,6 +1,6 @@
 ---
 image:
-  filename: landing/healthcare.jpg
+  filename: landing/corporate-innovation.jpg
 sections:
 - block: hero
   content:

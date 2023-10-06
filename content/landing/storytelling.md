@@ -1,6 +1,6 @@
 ---
 image:
-  filename: heroes/interius-spot.jpg
+  filename: landing/corporate-innovation.jpg
 sections:
 - block: hero
   content:
