@@ -12,7 +12,7 @@ sections:
   design:
     background:
       image:
-        filename: landing/healthcare.jpg
+        filename: heroes/healthcare.jpg
         filters:
           brightness: 0.6
         parallax: false
