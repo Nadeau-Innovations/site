@@ -51,9 +51,9 @@ sections:
       netlify:
         captcha: true
       provider: netlify
+    subtitle: Ready to elevate your startup to the next level? Your path to Series
+      A+ starts with a conversation.
     title: '**Get Unstuck Now**'
-    subtitle: Ready to elevate your startup to the next level? Your path to Series A+
-      starts with a conversation.
   design:
     columns: "1"
 title: Navigate the Startup "Death Valley"
