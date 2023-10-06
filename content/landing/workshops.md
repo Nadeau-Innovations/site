@@ -71,10 +71,10 @@ sections:
       netlify:
         captcha: true
       provider: netlify
-    title: '**Book Your Workshop Today**'
     subtitle: Unlock the power of emerging technologies with a tailored workshop.
+    title: '**Book Your Workshop Today**'
   design:
     columns: "1"
-title: "Ignite, Innovate, Implement: It Starts with a Workshop!"
+title: 'Ignite, Innovate, Implement: It Starts with a Workshop!'
 type: landing
 ---
