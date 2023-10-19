@@ -63,6 +63,7 @@ project:
 .PHONY: debug
 debug:
 	hugo env
+	go version
 
 .PHONY: clipboard-content-primary
 clipboard-content-primary:
