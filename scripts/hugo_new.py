@@ -4,7 +4,6 @@ from pathlib import Path
 from string import ascii_lowercase, digits, whitespace
 
 import fire
-import nbformat as nbf
 
 
 def sanitize_fname(s: str):
@@ -36,10 +35,6 @@ def new(kind: str, notebook: bool = False, branch: bool = False):
     cmd = ["hugo", "new", hugo_path]
     logging.info(f"Hugo command: {' '.join(cmd)}")
     subprocess.run(cmd)
-
-    # create notebook if needed
-    if notebook:
-        create_notebook(path=index_path)
 
     # create branch if needed
     if branch:
@@ -76,20 +71,6 @@ def new(kind: str, notebook: bool = False, branch: bool = False):
     cmd = ["code", str(index_path.parent)]
     logging.info(f"VSCode command: {' '.join(cmd)}")
     subprocess.run(cmd)
-
-
-def create_notebook(path: Path):
-    # get metadata and text
-    with open(path) as f:
-        metadata = f.read()
-    text = "\n"
-
-    # write notebook content
-    nb = nbf.v4.new_notebook()
-    nb["cells"] = [nbf.v4.new_raw_cell(metadata), nbf.v4.new_markdown_cell(text)]
-    path = path.with_suffix(".ipynb")
-    logging.info(f"Writing notebook: {path}")
-    nbf.write(nb, path)
 
 
 if __name__ == "__main__":
