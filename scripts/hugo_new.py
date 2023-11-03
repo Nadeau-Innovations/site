@@ -7,68 +7,50 @@ import fire
 
 
 def sanitize_fname(s: str):
-    valid = ascii_lowercase + digits + whitespace
+    # lowercase, remove invalid chars, remove whitespace,
+    # replace whitespace with -
+    valid_chars = ascii_lowercase + digits + whitespace
     s = s.lower()
-    s = filter(lambda x: x in valid, s)
+    s = filter(lambda x: x in valid_chars, s)
     s = "".join(s)
     s = s.split()
     s = "-".join(s)
     return s
 
 
-def get_title():
-    title = input(">>> Note title: ")
-    logging.info(f"Title: {title}")
-    return title
-
-
 def new(kind: str):
     # get title
-    title = get_title()
+    title = input(">>> Note title: ")
+    logging.info(f"Title: {title}")
     slug = sanitize_fname(title)
+    logging.info(f"Slug: {slug}")
 
     # set path
     hugo_path = f"{kind}/{slug}"
     index_path = "content" / Path(hugo_path) / "index.md"
 
-    # create md document
-    cmd = ["hugo", "new", hugo_path]
-    logging.info(f"Hugo command: {' '.join(cmd)}")
-    subprocess.run(cmd)
+    # define commands
+    commands = [
+        # create md document
+        ["hugo", "new", hugo_path],
+        # checkout master
+        ["git", "checkout", "master"],
+        # create branch
+        ["git", "checkout", "-b", slug],
+        # push branch
+        ["git", "push", "-u", "origin", slug],
+        # commit document to branch
+        ["git", "add", str(index_path)],
+        ["git", "commit", "-m", f"feat: added {kind}"],
+        # use gh cli to open pr with title and empty body
+        ["gh", "pr", "create", "--title", f'"feat: {title}"', "--body", '""'],
+        # open document
+        ["code", str(index_path.parent)],
+    ]
 
-    # checkout master
-    cmd = ["git", "checkout", "master"]
-    logging.info(f"Git command: {' '.join(cmd)}")
-    subprocess.run(cmd)
-
-    # create branch
-    cmd = ["git", "checkout", "-b", slug]
-    logging.info(f"Git command: {' '.join(cmd)}")
-    subprocess.run(cmd)
-
-    # push branch
-    cmd = ["git", "push", "-u", "origin", slug]
-    logging.info(f"Git command: {' '.join(cmd)}")
-    subprocess.run(cmd)
-
-    # commit document to branch
-    cmd = ["git", "add", str(index_path)]
-    logging.info(f"Git command: {' '.join(cmd)}")
-    subprocess.run(cmd)
-
-    cmd = ["git", "commit", "-m", f"feat: added {kind}"]
-    logging.info(f"Git command: {' '.join(cmd)}")
-    subprocess.run(cmd)
-
-    # use gh cli to open pr with title and empty body
-    cmd = ["gh", "pr", "create", "--title", f'"feat: {title}"', "--body", '""']
-    logging.info(f"GitHub command: {' '.join(cmd)}")
-    subprocess.run(cmd)
-
-    # open document
-    cmd = ["code", str(index_path.parent)]
-    logging.info(f"VSCode command: {' '.join(cmd)}")
-    subprocess.run(cmd)
+    for cmd in commands:
+        logging.info(f"Running command: {' '.join(cmd)}")
+        subprocess.run(cmd)
 
 
 if __name__ == "__main__":
