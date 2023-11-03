@@ -18,7 +18,7 @@ def sanitize_fname(s: str):
     return s
 
 
-def new(kind: str):
+def new(kind: str, is_post_archetype: bool = False):
     # get title
     title = input(">>> Note title: ")
     logging.info(f"Title: {title}")
@@ -28,6 +28,9 @@ def new(kind: str):
     # set path
     hugo_path = f"{kind}/{slug}"
     index_path = "content" / Path(hugo_path) / "index.md"
+
+    if is_post_archetype:
+        hugo_path = f"{hugo_path} --kind post"
 
     # define commands
     commands = [

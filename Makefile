@@ -56,6 +56,10 @@ event:
 project:
 	poetry run python scripts/hugo_new.py project
 
+.PHONY: press-release
+press-release:
+	poetry run python scripts/hugo_new.py press-release --is_post_archetype
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Debug and Info
 
