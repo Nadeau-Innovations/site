@@ -29,13 +29,16 @@ def new(kind: str, is_post_archetype: bool = False):
     hugo_path = f"{kind}/{slug}"
     index_path = "content" / Path(hugo_path) / "index.md"
 
+    extra_args = []
     if is_post_archetype:
-        hugo_path = f"--kind post {hugo_path}"
+        logging.info("Using post archetype")
+        extra_args.extend(["--kind", "post"])
+    logging.info(f"Extra args: {extra_args}")
 
     # define commands
     commands = [
         # create md document
-        ["hugo", "new", hugo_path],
+        ["hugo", "new", hugo_path] + extra_args,
         # checkout master
         ["git", "checkout", "master"],
         # create branch
