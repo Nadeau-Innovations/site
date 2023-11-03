@@ -31,9 +31,10 @@ sections:
       exclude_future: false
       exclude_past: false
       featured_only: false
-      folders: ""
+      folders:
+      - press-release
       publication_type: ""
-      tag: press
+      tag: ""
     offset: 0
     sort_ascending: false
     sort_by: Date

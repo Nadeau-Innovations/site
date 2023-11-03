@@ -46,15 +46,19 @@ serve:
 
 .PHONY: post
 post:
-	poetry run python scripts/hugo_new.py post --branch
+	poetry run python scripts/hugo_new.py post
 
 .PHONY: event
 event:
-	poetry run python scripts/hugo_new.py event --branch
+	poetry run python scripts/hugo_new.py event
 
 .PHONY: project
 project:
-	poetry run python scripts/hugo_new.py project --branch
+	poetry run python scripts/hugo_new.py project
+
+.PHONY: press-release
+press-release:
+	poetry run python scripts/hugo_new.py press-release --is_post_archetype
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Debug and Info
