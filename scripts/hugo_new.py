@@ -30,7 +30,7 @@ def new(kind: str, is_post_archetype: bool = False):
     index_path = "content" / Path(hugo_path) / "index.md"
 
     if is_post_archetype:
-        hugo_path = f"{hugo_path} --kind post"
+        hugo_path = f"--kind post {hugo_path}"
 
     # define commands
     commands = [
