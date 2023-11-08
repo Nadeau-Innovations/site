@@ -1,70 +1,33 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "AI Revolution: Redefining Startup Success"
-event: "TiE Entrepreneurship Summit 2023"
-event_url: https://events.tie.org/TiEEntrepreneurshipSummit10Nov2023
-location:  Richcraft Hall
+abstract: null
 address:
-  street: 1125 Colonel By Drive
   city: Ottawa
-  region: Ontario
-  postcode: K1S 5B6
   country: Canada
-summary:
-abstract:
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-10-27T14:56:11-04:00
-date_end: 2023-10-27T14:56:11-04:00
+  postcode: K1S 5B6
+  region: Ontario
+  street: 1125 Colonel By Drive
 all_day: false
-
-# Schedule page publish date (NOT event date).
-publishDate: 2023-10-27T14:56:11-04:00
-
 authors: []
-tags: []
-
-# Is this a featured event? (true/false)
+date: "2023-10-27T14:56:11-04:00"
+date_end: "2023-10-27T14:56:11-04:00"
+event: TiE Entrepreneurship Summit 2023
+event_url: https://events.tie.org/TiEEntrepreneurshipSummit10Nov2023
 featured: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-# Optional filename of your slides within your event's folder or a URL.
-url_slides:
-
-url_code:
-url_pdf:
-url_video:
-
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+location: Richcraft Hall
 projects: []
+publishDate: "2023-10-27T14:56:11-04:00"
+slides: ""
+summary: null
+tags: []
+title: 'AI Revolution: Redefining Startup Success'
+url_code: null
+url_pdf: null
+url_slides: null
+url_video: null
 ---
 
 Get ready to dive into the AI revolution and discover how it's reshaping the entrepreneurial landscape at TiE Entrepreneurship Summit 2023, taking place on Friday, November 10, 2023. This is your chance to explore the dynamic world of AI, filled with groundbreaking technologies and innovative solutions that are defining the future. Join us to hear insights from top leaders, experts, and entrepreneurs, while connecting with a diverse community of professionals who share the passion for AI.
