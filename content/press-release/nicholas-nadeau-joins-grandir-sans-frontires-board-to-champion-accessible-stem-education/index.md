@@ -1,4 +1,6 @@
 ---
+aliases:
+- /post/2023/03/nicholas-nadeau-joins-grandir-sans-frontieres-board-to-champion-accessible-stem-education/
 authors: []
 categories: []
 date: "2023-03-22T17:00:04-04:00"
