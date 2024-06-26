@@ -1,0 +1,24 @@
+<div
+  style="
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  "
+>
+  <a
+    href="https://smartone.ai/blog/smartone-acquires-nadeau-innovations-nicholas-nadeau-new-cto/"
+    style="text-decoration: none; color: #333; display: block"
+  >
+    {{- $logo := resources.Get "media/smartone-logo.png" -}}
+    <img
+      src="{{ $logo.RelPermalink }}"
+      alt="SmartOne Logo"
+      style="height: 50px; display: block; margin: 0 auto 10px auto"
+    />
+    <div style="font-size: 16px">
+      <strong>Nadeau Innovations</strong> has been acquired by
+      <strong>SmartOne.ai</strong>. <br />Click here to learn more.
+    </div>
+  </a>
+</div>
